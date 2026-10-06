@@ -190,7 +190,7 @@ function render(brief,{sample=false}={}) {
   const when=brief.cachedAt ?? brief.generatedAt;
   fill('brief-meta',
     h('span',{},`Written by ${brief.engine}`),
-    h('span',{},`${Object.keys(brief.ledger).length} cited Qloo results`),
+    h('span',{},`${Object.keys(brief.ledger).length} Qloo results in the evidence ledger`),
     when?h('span',{},`${sample?'Saved example from':'Generated'} ${new Date(when).toLocaleString()}`):null,
     b.dropped?.length?h('span',{},`${b.dropped.length} uncited action${b.dropped.length>1?'s':''} removed`):null
   );
