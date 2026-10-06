@@ -1,0 +1,5872 @@
+{
+ "input": {
+  "city": "Hoi An",
+  "market": "Sydney",
+  "country": "Australia",
+  "business": "Homestay / hotel",
+  "ideas": [
+   "cooking class",
+   "bicycle tours",
+   "rooftop bar",
+   "yoga mornings"
+  ],
+  "ownPlace": null
+ },
+ "places": [
+  {
+   "id": "946876CA-5AFA-4C6C-ACB0-401D6DC39B5F",
+   "name": "IVY VILLA",
+   "kind": "place",
+   "address": "168 Nguyễn Duy Hiệu Cẩm Châu Hội An Quảng Nam 560000, Vietnam",
+   "neighborhood": "Cẩm Châu",
+   "priceLevel": null,
+   "rating": 4.800000190734863,
+   "summary": "Casual town-center hotel in Hoi An offering an outdoor pool, free breakfast, complimentary bikes, and family-friendly rooms.",
+   "popularity": 0.40317116631211086,
+   "affinity": 0.9937481082637599,
+   "tags": [
+    {
+     "id": "urn:tag:decor:qloo:casual",
+     "name": "Casual",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:photography",
+     "name": "Photography",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:city_center",
+     "name": "City center",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:boutique_villa",
+     "name": "Boutique villa",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:town_villa",
+     "name": "Town villa",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:tailoring",
+     "name": "Tailoring",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_dining",
+     "name": "Local dining",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:cozy",
+     "name": "Cozy",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:clean",
+     "name": "Clean",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_tourism",
+     "name": "Cultural tourism",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:boutique",
+     "name": "Boutique",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:homey",
+     "name": "Homey",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:simple",
+     "name": "Simple",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:family_friendly",
+     "name": "Family friendly",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Kettle",
+    "Air conditioned",
+    "Quiet",
+    "Cycling",
+    "Free parking",
+    "Casual",
+    "Photography",
+    "Concierge",
+    "City center",
+    "Nature outdoors",
+    "Balcony",
+    "Residential",
+    "Superior",
+    "Two star",
+    "Deluxe",
+    "Hotel",
+    "Welcoming",
+    "Front desk 247",
+    "Outdoor pool",
+    "All day",
+    "Destination",
+    "Hoi an ancient town",
+    "Airport shuttle",
+    "Laundry service",
+    "Daily housekeeping",
+    "Free breakfast",
+    "Place",
+    "Telephone",
+    "Boutique villa",
+    "Housekeeping",
+    "Restaurant",
+    "Walkable",
+    "Support local community",
+    "Town villa",
+    "Modern",
+    "Private bathroom",
+    "Towels",
+    "Tailoring",
+    "Local dining",
+    "Authentic",
+    "Free wi fi",
+    "Wi fi",
+    "Desk",
+    "Bathrobe",
+    "Cozy",
+    "Lounge",
+    "Safe",
+    "Comfortable",
+    "Clean",
+    "Pool view",
+    "Parking",
+    "Dining drinking",
+    "Local character",
+    "Cultural tourism",
+    "Hair dryer",
+    "Tours",
+    "Air conditioning",
+    "Boutique",
+    "Sightseeing",
+    "Tailor services",
+    "Homey",
+    "Suite",
+    "Bike rental",
+    "Central",
+    "Hot tub",
+    "Hoi an night market",
+    "Room service",
+    "Mini fridge",
+    "Family room",
+    "Simple",
+    "Kid friendly",
+    "Cua dai beach",
+    "Family friendly",
+    "Residential street view",
+    "Relaxing",
+    "Breakfast available"
+   ],
+   "rank": 1,
+   "cityRank": null,
+   "lift": null,
+   "ref": "P1"
+  },
+  {
+   "id": "21505A17-9170-426E-A56A-12E7661A7EC7",
+   "name": "Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa",
+   "kind": "place",
+   "address": "39 Đào Duy Từ Street Hội An Đà Nẵng 560000, Vietnam",
+   "neighborhood": "Cẩm Phô",
+   "priceLevel": null,
+   "rating": 4.699999809265137,
+   "summary": "Colonial-style hotel overlooking Thu Bồn River with chic rooms, rooftop pool and bar, near Old Town and An Bang Beach.",
+   "popularity": 0.9843653711357784,
+   "affinity": 0.9933243942061627,
+   "tags": [
+    {
+     "id": "urn:tag:interests:qloo:gastronomy",
+     "name": "Gastronomy",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:french",
+     "name": "French",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:decor:qloo:historic",
+     "name": "Historic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:photography",
+     "name": "Photography",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:french_colonial",
+     "name": "French colonial",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:decor:qloo:classic",
+     "name": "Classic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:elegant",
+     "name": "Elegant",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:stylish",
+     "name": "Stylish",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:wellness",
+     "name": "Wellness",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:colonial_style",
+     "name": "Colonial style",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:old_world_charm",
+     "name": "Old world charm",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:boutique",
+     "name": "Boutique",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:luxurious",
+     "name": "Luxurious",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:riverfront",
+     "name": "Riverfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:bicycling",
+     "name": "Bicycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_tourism",
+     "name": "Cultural tourism",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:sophisticated",
+     "name": "Sophisticated",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Scenic",
+    "Kid friendly",
+    "Gastronomy",
+    "Airport shuttle",
+    "Room service",
+    "Romantic",
+    "Balcony",
+    "Hotel",
+    "French",
+    "Historic",
+    "Photography",
+    "Authentic",
+    "Special occasion",
+    "Proximity to old town",
+    "Accessible",
+    "Air conditioning",
+    "Buffet",
+    "Wi fi",
+    "Night market",
+    "Destination",
+    "Free parking",
+    "Relaxing",
+    "French colonial",
+    "Morning",
+    "Bar",
+    "Classic",
+    "Five star",
+    "Restaurant",
+    "River view",
+    "Outdoor pool",
+    "Business center",
+    "Cycling",
+    "Bike rental",
+    "Paid breakfast",
+    "Place",
+    "Dining drinking",
+    "Comfortable",
+    "Thu bon river",
+    "Elegant",
+    "Stylish",
+    "Afternoon",
+    "Wellness",
+    "Shuttle service",
+    "Colonial style",
+    "Evening",
+    "Old world charm",
+    "Water refill stations",
+    "Breakfast available",
+    "Rooftop bar",
+    "Sightseeing",
+    "Central",
+    "Tours",
+    "Parking",
+    "Lounge",
+    "Boutique",
+    "Housekeeping",
+    "Luxurious",
+    "Free wi fi",
+    "Culture arts",
+    "Daily housekeeping",
+    "City view",
+    "Fitness center",
+    "Nature outdoors",
+    "Walkable",
+    "Riverfront",
+    "Laundry service",
+    "An bang beach",
+    "Smoke free",
+    "Bicycling",
+    "Sunset view",
+    "Deluxe",
+    "Cultural tourism",
+    "Sophisticated",
+    "Welcoming",
+    "Hoi an old town",
+    "Charming",
+    "Pool view",
+    "4 poster bed",
+    "Air conditioned",
+    "Concierge",
+    "Bathtub"
+   ],
+   "rank": 2,
+   "cityRank": 7,
+   "lift": 5,
+   "ref": "P2"
+  },
+  {
+   "id": "AC0E6601-8CFE-4AA1-A4FB-9D72E1034B53",
+   "name": "Resort Hội An",
+   "kind": "place",
+   "address": "Âu Cơ Hội An Đông Đà Nẵng Vietnam",
+   "neighborhood": "Cửa Đại",
+   "priceLevel": null,
+   "rating": 4.300000190734863,
+   "summary": "Luxury beachfront resort in Hoi An with upscale rooms, villas, multiple pools, spa, restaurants, and family-friendly facilities including a kids' club and shuttle.",
+   "popularity": 0.9957765329012545,
+   "affinity": 0.989691242262166,
+   "tags": [
+    {
+     "id": "urn:tag:setting:qloo:waterfront",
+     "name": "Waterfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:wellness_retreats",
+     "name": "Wellness retreats",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:coastal",
+     "name": "Coastal",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:beach_relaxation",
+     "name": "Beach relaxation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:fine_dining",
+     "name": "Fine dining",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:beachfront",
+     "name": "Beachfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:upscale",
+     "name": "Upscale",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:contemporary",
+     "name": "Contemporary",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:tailoring_and_fashion",
+     "name": "Tailoring and fashion",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:elegant",
+     "name": "Elegant",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:stylish",
+     "name": "Stylish",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:luxurious",
+     "name": "Luxurious",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_tourism",
+     "name": "Cultural tourism",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:minimalist",
+     "name": "Minimalist",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:family_friendly",
+     "name": "Family friendly",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Waterfront",
+    "Dining drinking",
+    "Buffet",
+    "Five star",
+    "Airport shuttle",
+    "Place",
+    "Beach activities",
+    "Laundry service",
+    "Pool view",
+    "Villa",
+    "Wellness retreats",
+    "Cua dai beach",
+    "Ocean view",
+    "Free parking",
+    "Air conditioning",
+    "Resort hotel",
+    "Air conditioned",
+    "Balcony",
+    "Resort area",
+    "Evening",
+    "All day",
+    "Room service",
+    "Spa",
+    "Multiple restaurants",
+    "Coastal",
+    "Beach relaxation",
+    "Wellness",
+    "Destination",
+    "Smoke free",
+    "Tours",
+    "Minibar",
+    "Dinner service",
+    "Fine dining",
+    "Beachfront",
+    "Free breakfast",
+    "Resort",
+    "Pool",
+    "Pillow menu",
+    "Upscale",
+    "Beach access",
+    "Contemporary",
+    "Heated pool",
+    "Welcoming",
+    "Free wi fi",
+    "Afternoon",
+    "Modern",
+    "Breakfast available",
+    "Special occasion",
+    "Shuttle service",
+    "Complimentary breakfast",
+    "Wi fi",
+    "Tailoring and fashion",
+    "Scenic",
+    "Restaurant",
+    "Elegant",
+    "Fitness center",
+    "Stylish",
+    "Accessible",
+    "Hotel",
+    "Luxurious",
+    "Midday",
+    "Comfortable",
+    "Deluxe",
+    "Cultural tourism",
+    "Bar",
+    "Kid friendly",
+    "Lunch service",
+    "Fitness",
+    "Poolside dining",
+    "Nature outdoors",
+    "Minimalist",
+    "Swimming",
+    "Hoi an ancient town",
+    "Kids club",
+    "Morning",
+    "Late night",
+    "Quiet",
+    "Coastal view",
+    "Outdoor pool",
+    "Relaxing",
+    "Family friendly",
+    "Parking"
+   ],
+   "rank": 3,
+   "cityRank": 1,
+   "lift": -2,
+   "ref": "P3"
+  },
+  {
+   "id": "F6277B38-2A87-4B4E-9C82-8B38DE0857DE",
+   "name": "Riverside Impression Villa",
+   "kind": "place",
+   "address": "134 Nguyễn Tri Phương Cẩm Nam Hội An Quảng Nam 51312, Vietnam",
+   "neighborhood": "Cẩm Nam",
+   "priceLevel": null,
+   "rating": 4.699999809265137,
+   "summary": "Laid-back hotel with river views, outdoor pool, and free breakfast near Hoi An's center in a quiet natural setting.",
+   "popularity": 0.4718745693419378,
+   "affinity": 0.989691242262166,
+   "tags": [
+    {
+     "id": "urn:tag:decor:qloo:casual",
+     "name": "Casual",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_cuisine",
+     "name": "Local cuisine",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:rural",
+     "name": "Rural",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:bonsai_cultivation",
+     "name": "Bonsai cultivation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:nature_focused",
+     "name": "Nature focused",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:nature",
+     "name": "Nature",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:homestay_style",
+     "name": "Homestay style",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_immersion",
+     "name": "Cultural immersion",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:riverfront",
+     "name": "Riverfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:intimate",
+     "name": "Intimate",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:cozy",
+     "name": "Cozy",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:botanical_gardens",
+     "name": "Botanical gardens",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:farm",
+     "name": "Farm",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:family_friendly",
+     "name": "Family friendly",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:authentic",
+     "name": "Authentic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:traditional",
+     "name": "Traditional",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:serene",
+     "name": "Serene",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Casual",
+    "Three star",
+    "Local cuisine",
+    "Laundry service",
+    "Sightseeing",
+    "Wi fi",
+    "Rural",
+    "Destination",
+    "Hoi an ancient town",
+    "Cycling",
+    "Bike rental",
+    "Parking",
+    "Use of local seasonal products",
+    "Quiet",
+    "Relaxation",
+    "Bonsai cultivation",
+    "Idyllic",
+    "River view",
+    "Balcony",
+    "Walkable",
+    "Nature focused",
+    "Breakfast available",
+    "Nature",
+    "Homestay style",
+    "Rural fringe",
+    "Family friendly",
+    "Cultural immersion",
+    "Twin",
+    "Nature outdoors",
+    "Kid friendly",
+    "Airport shuttle",
+    "Double",
+    "Riverfront",
+    "Garden",
+    "Relaxing",
+    "Intimate",
+    "Family room",
+    "Afternoon",
+    "Executive suite",
+    "Complimentary breakfast",
+    "Free wi fi",
+    "Outdoor pool",
+    "Deluxe",
+    "Restaurant",
+    "Day trip",
+    "Cozy",
+    "Free parking",
+    "Air conditioned",
+    "Botanical gardens",
+    "Morning",
+    "Garden view",
+    "Natural",
+    "Comfortable",
+    "Resort hotel",
+    "Farm",
+    "Evening",
+    "Hoi an market",
+    "Welcoming",
+    "Free breakfast",
+    "Air conditioning",
+    "Scenic",
+    "Dining drinking",
+    "Terrace",
+    "Place",
+    "Authentic",
+    "Charming",
+    "Farm view",
+    "Traditional",
+    "Hotel",
+    "Serene"
+   ],
+   "rank": 4,
+   "cityRank": null,
+   "lift": null,
+   "ref": "P4"
+  },
+  {
+   "id": "A8696F64-16DC-45B2-B28A-D14F3C98DBCF",
+   "name": "Sol An Bang Beach Resort & Spa",
+   "kind": "place",
+   "address": "72 Nguyễn Phan Vinh street, Cam Hội An Quảng Nam 560000, Vietnam",
+   "neighborhood": "Cẩm An",
+   "priceLevel": null,
+   "rating": 4.400000095367432,
+   "summary": "Beachfront resort with multiple pools, private beach access, and friendly staff offering a tranquil and relaxing stay near An Bang Beach.",
+   "popularity": 0.8186964382094134,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:setting:qloo:beachfront",
+     "name": "Beachfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:waterfront",
+     "name": "Waterfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:pine_forest",
+     "name": "Pine forest",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:casual",
+     "name": "Casual",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:scandinavian",
+     "name": "Scandinavian",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:airy",
+     "name": "Airy",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:spa_treatments",
+     "name": "Spa treatments",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:beachcombing",
+     "name": "Beachcombing",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:minimalist",
+     "name": "Minimalist",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:boutique",
+     "name": "Boutique",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:sunrise_photography",
+     "name": "Sunrise photography",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:swimming",
+     "name": "Swimming",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Place",
+    "Dining drinking",
+    "Resort hotel",
+    "Free parking",
+    "Housekeeping",
+    "Marble mountains",
+    "Restaurant",
+    "Apartment",
+    "Three star",
+    "Natural",
+    "My son sanctuary",
+    "Free wi fi",
+    "Spa",
+    "Tea and coffee maker",
+    "An bang beach",
+    "Balcony",
+    "Air conditioned",
+    "Afternoon",
+    "Beach view",
+    "Beach access",
+    "Outdoor pool",
+    "Airport shuttle",
+    "Towels",
+    "Suite",
+    "Breakfast available",
+    "Beachfront",
+    "Cham islands",
+    "Beach bar",
+    "Hair dryer",
+    "Ocean view",
+    "Waterfront",
+    "Wellness",
+    "Pool",
+    "Pine forest",
+    "Hoi an ancient town",
+    "Fitness center",
+    "Laundry service",
+    "Lunch service",
+    "Casual",
+    "Destination",
+    "Forest view",
+    "Relaxing",
+    "Scandinavian",
+    "Luggage storage",
+    "Cycling",
+    "Safe",
+    "Desk",
+    "Morning",
+    "Airy",
+    "Private beach",
+    "Garden view",
+    "Bar",
+    "Quiet",
+    "Secluded",
+    "Terrace",
+    "Evening",
+    "Beach relaxation",
+    "Hotel",
+    "Dinner service",
+    "Minibar",
+    "Concierge",
+    "Charming",
+    "Romantic",
+    "Nature outdoors",
+    "Pool view",
+    "Poolside dining",
+    "Sports recreation",
+    "Lounge",
+    "Spa treatments",
+    "Beachcombing",
+    "Private bathroom",
+    "Coastal",
+    "Minimalist",
+    "Deluxe",
+    "Standard",
+    "Bike rental",
+    "Support local community",
+    "Comfortable",
+    "Wi fi",
+    "Modern",
+    "Resort",
+    "Boutique",
+    "Scenic",
+    "Sunrise photography",
+    "Swimming",
+    "Daily housekeeping",
+    "Parking",
+    "Kid friendly",
+    "Air conditioning",
+    "Early morning",
+    "Free breakfast",
+    "Outdoor dining"
+   ],
+   "rank": 5,
+   "cityRank": null,
+   "lift": null,
+   "ref": "P5"
+  },
+  {
+   "id": "AE16CE1E-6BF4-44D7-A8B5-6A7B188B8956",
+   "name": "Anantara Hoi An Resort",
+   "kind": "place",
+   "address": "1 Đường Phạm Hồng Thái Hội An Đà Nẵng Vietnam",
+   "neighborhood": "Sơn Phong",
+   "priceLevel": null,
+   "rating": 4.699999809265137,
+   "summary": "Upscale riverside resort in French colonial-style buildings offering spa, outdoor pool, dining, and river cruises near Hoi An's old town.",
+   "popularity": 0.9832918601493777,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:historic",
+     "name": "Historic",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:culinary_arts",
+     "name": "Culinary arts",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:french_colonial",
+     "name": "French colonial",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:decor:qloo:colonial",
+     "name": "Colonial",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:stylish",
+     "name": "Stylish",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:intimate",
+     "name": "Intimate",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:attentive",
+     "name": "Attentive",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:holistic_wellness",
+     "name": "Holistic wellness",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:historic_preservation",
+     "name": "Historic preservation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:sophisticated",
+     "name": "Sophisticated",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:elegant",
+     "name": "Elegant",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:tropical_garden",
+     "name": "Tropical garden",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:riverside",
+     "name": "Riverside",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:river_cruises",
+     "name": "River cruises",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:serene",
+     "name": "Serene",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:riverfront",
+     "name": "Riverfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:traditional",
+     "name": "Traditional",
+     "family": "decor"
+    }
+   ],
+   "allTags": [
+    "Airport shuttle",
+    "Laundry service",
+    "Evening",
+    "Resort hotel",
+    "Morning",
+    "Romantic",
+    "Historic",
+    "Fitness center",
+    "Bathtub",
+    "Free wi fi",
+    "Dinner service",
+    "Central",
+    "Cooking classes",
+    "Massage spa",
+    "Hotel class",
+    "Destination",
+    "River view",
+    "Concierge",
+    "Outdoor pool",
+    "Place",
+    "Culinary arts",
+    "Suite",
+    "Bike rental",
+    "Dining drinking",
+    "Wellness",
+    "Quiet",
+    "Cycling",
+    "French colonial",
+    "Personal care",
+    "Walkable",
+    "Restaurant",
+    "Hoi an night market",
+    "Colonial",
+    "Room service",
+    "Hotel",
+    "Five star",
+    "Afternoon",
+    "Stylish",
+    "Local produce",
+    "Bar",
+    "Intimate",
+    "Accessible",
+    "Towels",
+    "Locally sourced ingredients",
+    "Air conditioned",
+    "Garden view",
+    "Housekeeping",
+    "Sightseeing",
+    "Charming",
+    "Attentive",
+    "Relaxing",
+    "Tours",
+    "Holistic wellness",
+    "Historic preservation",
+    "Courtyard view",
+    "Spa",
+    "Sophisticated",
+    "Spa treatments",
+    "Free breakfast",
+    "Elegant",
+    "Nature outdoors",
+    "Special occasion",
+    "Riverside location",
+    "Tropical garden",
+    "River cruises",
+    "Air conditioning",
+    "Midday",
+    "Riverside",
+    "Daily housekeeping",
+    "Kid friendly",
+    "Hoi an ancient town",
+    "Lgbtq+ friendly",
+    "Thu bon river",
+    "Welcoming",
+    "Buffet",
+    "Scenic",
+    "Resort",
+    "Garden",
+    "Serene",
+    "Free parking",
+    "Parking",
+    "Complimentary breakfast",
+    "Riverfront",
+    "Traditional",
+    "Breakfast available"
+   ],
+   "rank": 6,
+   "cityRank": 9,
+   "lift": 3,
+   "ref": "P6"
+  },
+  {
+   "id": "FC7E8FA3-216A-4183-9F33-2D63C275A480",
+   "name": "Boutique Hoi An Resort",
+   "kind": "place",
+   "address": "34 Lạc Long Quân Cẩm An Hội An Quảng Nam, Vietnam",
+   "neighborhood": "Cẩm An",
+   "priceLevel": null,
+   "rating": 4.400000095367432,
+   "summary": "Seafront colonial-style resort with tropical gardens, beach access, spa, and private villas near Hoi An.",
+   "popularity": 0.9878325516018901,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:ambience:qloo:clean",
+     "name": "Clean",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:waterfront",
+     "name": "Waterfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:elegant",
+     "name": "Elegant",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:tropical_gardens",
+     "name": "Tropical gardens",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:wellness_and_spa",
+     "name": "Wellness and spa",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:tropical",
+     "name": "Tropical",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:authentic",
+     "name": "Authentic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:culinary_exploration",
+     "name": "Culinary exploration",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:traditional",
+     "name": "Traditional",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:resort_like",
+     "name": "Resort like",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:swimming",
+     "name": "Swimming",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:beach_recreation",
+     "name": "Beach recreation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:heritage_tourism",
+     "name": "Heritage tourism",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:beachfront",
+     "name": "Beachfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:colonial_style",
+     "name": "Colonial style",
+     "family": "decor"
+    }
+   ],
+   "allTags": [
+    "Place",
+    "Air conditioning",
+    "Clean",
+    "Laundry service",
+    "Waterfront",
+    "Resort hotel",
+    "Relaxing",
+    "Elegant",
+    "Villa",
+    "All day",
+    "Outdoor pool",
+    "Welcoming",
+    "Airport shuttle",
+    "Room service",
+    "Quiet",
+    "Dining drinking",
+    "Beach access",
+    "Beach bar",
+    "Fitness center",
+    "Business center",
+    "Spa treatments",
+    "Sports recreation",
+    "Walkable",
+    "Resort",
+    "Delivery",
+    "Tropical gardens",
+    "In store pickup",
+    "Wellness and spa",
+    "Buffet",
+    "Spa",
+    "Same day delivery",
+    "Restaurant",
+    "Pool view",
+    "Scenic",
+    "Tropical",
+    "Authentic",
+    "Tours",
+    "Kid friendly",
+    "Breakfast available",
+    "Serviced accommodation",
+    "Beach relaxation",
+    "Air conditioned",
+    "Shuttle service",
+    "Personal care",
+    "Four star",
+    "Near ancient town",
+    "Free parking",
+    "Thu bon river",
+    "Culinary exploration",
+    "Bar",
+    "Ocean view",
+    "Poolside bar",
+    "Wellness",
+    "Traditional",
+    "Parking",
+    "Resort like",
+    "Terrace",
+    "Swimming",
+    "Free breakfast",
+    "Free wi fi",
+    "Romantic",
+    "Seafront view",
+    "Hotel",
+    "In store shopping",
+    "Wi fi fee",
+    "Destination",
+    "Pool",
+    "Beach recreation",
+    "Charming",
+    "Heritage tourism",
+    "Beachfront",
+    "Kitchens in some rooms",
+    "Coastal",
+    "Hoi an ancient town",
+    "Nature outdoors",
+    "Special occasion",
+    "Complimentary breakfast",
+    "Colonial style",
+    "Infinity pool",
+    "Garden view"
+   ],
+   "rank": 7,
+   "cityRank": 5,
+   "lift": -2,
+   "ref": "P7"
+  },
+  {
+   "id": "58F5D364-DAAF-4992-96EE-91A7E46B2F44",
+   "name": "Hoi An Coco River Resort & Spa",
+   "kind": "place",
+   "address": "999 Trần Nhân Tông street, Cam Hội An Đông Đà Nẵng 560000, Vietnam",
+   "neighborhood": "Cẩm Thanh",
+   "priceLevel": null,
+   "rating": 4.800000190734863,
+   "summary": "Laid-back riverside resort with spacious rooms, outdoor pool, spa, and shuttle service near Hội An Ancient Town.",
+   "popularity": 0.9270736870570606,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:interests:qloo:relaxation",
+     "name": "Relaxation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:rustic",
+     "name": "Rustic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:tropical_garden",
+     "name": "Tropical garden",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:tropical",
+     "name": "Tropical",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:nature",
+     "name": "Nature",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:family_friendly",
+     "name": "Family friendly",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:culinary_exploration",
+     "name": "Culinary exploration",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:traditional",
+     "name": "Traditional",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:riverfront",
+     "name": "Riverfront",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:wellness_and_spa",
+     "name": "Wellness and spa",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:nature_focused",
+     "name": "Nature focused",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:serene",
+     "name": "Serene",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:laid_back",
+     "name": "Laid back",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_cultural_immersion",
+     "name": "Local cultural immersion",
+     "family": "interests"
+    }
+   ],
+   "allTags": [
+    "Complimentary breakfast",
+    "Dining drinking",
+    "Massage spa",
+    "Spa",
+    "Relaxation",
+    "Garden view",
+    "Fitness center",
+    "Airport shuttle",
+    "Rustic",
+    "Riverside",
+    "City view",
+    "Room service",
+    "Scenic",
+    "Bar",
+    "Terrace",
+    "Resort hotel",
+    "Tropical garden",
+    "Pool view",
+    "Quiet",
+    "Charming",
+    "Telephone",
+    "Nature outdoors",
+    "Tropical",
+    "Bicycle riding",
+    "Hotel",
+    "Authentic",
+    "Welcoming",
+    "Water conservation",
+    "Outdoor pool",
+    "Wellness",
+    "Resort",
+    "Family room",
+    "Personal care",
+    "Nature",
+    "Balcony",
+    "Free parking",
+    "Tours",
+    "Laundry service",
+    "Family friendly",
+    "Air conditioned",
+    "Kid friendly",
+    "Natural",
+    "Towels",
+    "Buffet",
+    "Daily housekeeping",
+    "Support local community",
+    "Garden",
+    "River view",
+    "Shuttle service",
+    "Place",
+    "Front desk 247",
+    "Culinary exploration",
+    "Wi fi",
+    "Traditional",
+    "Cam thanh coconut forest",
+    "Vegetarian vegan options",
+    "Riverfront",
+    "Special occasion",
+    "Wellness and spa",
+    "Spa treatments",
+    "Free wi fi",
+    "Modern",
+    "Nature focused",
+    "Bike rental",
+    "Swimming",
+    "Four star",
+    "Air conditioning",
+    "Hoi an ancient town",
+    "Restaurant",
+    "Breakfast available",
+    "Romantic",
+    "Cycling",
+    "Parking",
+    "Relaxing",
+    "Hot tub",
+    "Jacuzzi",
+    "Luggage storage",
+    "Housekeeping",
+    "Pool",
+    "All day",
+    "Serene",
+    "Laid back",
+    "Safe",
+    "Breakfast",
+    "Bathtub",
+    "Semi rural",
+    "Flat screen tv",
+    "An bang beach",
+    "Locally sourced ingredients",
+    "In room dining",
+    "Destination",
+    "Local cultural immersion",
+    "Standard"
+   ],
+   "rank": 8,
+   "cityRank": 26,
+   "lift": 18,
+   "ref": "P8"
+  },
+  {
+   "id": "7E07C13B-64DA-4CE8-B5EE-86A819D8A08B",
+   "name": "White Lotus Hotel Hoian",
+   "kind": "place",
+   "address": "188 Lý Thái Tổ Cẩm Sơn Hội An Quảng Nam 563800, Vietnam",
+   "neighborhood": "Cẩm Châu",
+   "priceLevel": null,
+   "rating": 4.5,
+   "summary": "Modern hotel offering spacious rooms, a pool, spa, and free bike rentals, located between Hoi An Old Town and An Bang Beach.",
+   "popularity": 0.792385575429748,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:near_beach",
+     "name": "Near beach",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:simple",
+     "name": "Simple",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_culinary_exploration",
+     "name": "Local culinary exploration",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:minimalist",
+     "name": "Minimalist",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:stylish",
+     "name": "Stylish",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:cozy",
+     "name": "Cozy",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:clean",
+     "name": "Clean",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:relaxation",
+     "name": "Relaxation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:beach_leisure",
+     "name": "Beach leisure",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:city_center",
+     "name": "City center",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:warm",
+     "name": "Warm",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:near_historic_district",
+     "name": "Near historic district",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:contemporary",
+     "name": "Contemporary",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:urban",
+     "name": "Urban",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:unassuming",
+     "name": "Unassuming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_tourism",
+     "name": "Cultural tourism",
+     "family": "interests"
+    }
+   ],
+   "allTags": [
+    "Standard",
+    "Housekeeping",
+    "Room service",
+    "Wi fi fee",
+    "Garden view",
+    "Free wi fi",
+    "Laundry service",
+    "An bang beach",
+    "Desk",
+    "Cycling",
+    "Place",
+    "Sightseeing",
+    "Near beach",
+    "Support local community",
+    "Family room",
+    "Simple",
+    "Comfortable",
+    "Parking",
+    "Destination",
+    "Local culinary exploration",
+    "Authentic",
+    "Minimalist",
+    "Relaxing",
+    "Spa",
+    "Quiet",
+    "Kid friendly",
+    "Bike rental",
+    "Tours",
+    "Walkable",
+    "Four star",
+    "Concierge",
+    "Welcoming",
+    "Air conditioning",
+    "Bar",
+    "Safe",
+    "Wellness",
+    "Airport shuttle",
+    "Pool view",
+    "Balcony",
+    "Hotel class",
+    "Swimming",
+    "Restaurant",
+    "Hotel",
+    "Stylish",
+    "Dining drinking",
+    "Towels",
+    "Cozy",
+    "Free parking",
+    "Modern",
+    "Luggage storage",
+    "Resort",
+    "Evening",
+    "City view",
+    "Deluxe",
+    "Mix of residential and commercial",
+    "Flat screen tv",
+    "Outdoor pool",
+    "Breakfast available",
+    "Night market",
+    "Air conditioned",
+    "Da nang",
+    "Clean",
+    "Central",
+    "Hot tub",
+    "Garden",
+    "Junior suite",
+    "Relaxation",
+    "Afternoon",
+    "Hoi an ancient town",
+    "Beach leisure",
+    "City center",
+    "Rice field views",
+    "Wi fi",
+    "Warm",
+    "Near historic district",
+    "Contemporary",
+    "Terrace",
+    "Scenic",
+    "Free breakfast",
+    "Tan an market",
+    "Bathtub",
+    "Shuttle service",
+    "Fitness center",
+    "Accessible",
+    "Hair dryer",
+    "Urban",
+    "Morning",
+    "Lgbtq+ friendly",
+    "Unassuming",
+    "Cultural tourism",
+    "Day trip",
+    "Nature outdoors"
+   ],
+   "rank": 9,
+   "cityRank": null,
+   "lift": null,
+   "ref": "P9"
+  },
+  {
+   "id": "9E10C4AA-BF12-4CC8-B71D-0B07DEC37D04",
+   "name": "Allamanda Estate",
+   "kind": "place",
+   "address": "Cẩm Hà Hội An Quảng Nam Vietnam",
+   "neighborhood": "Cẩm Hà",
+   "priceLevel": null,
+   "rating": 4.599999904632568,
+   "summary": "Posh villa resort overlooking rice fields with vaulted ceilings, outdoor tubs, three outdoor pools, spa, restaurant and complimentary breakfast and Wi‑Fi.",
+   "popularity": 0.6884190080535612,
+   "affinity": 0.9829174717713467,
+   "tags": [
+    {
+     "id": "urn:tag:interests:qloo:cycling",
+     "name": "Cycling",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:culinary_experiences",
+     "name": "Culinary experiences",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:interests:qloo:nature_appreciation",
+     "name": "Nature appreciation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:tropical",
+     "name": "Tropical",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:quiet",
+     "name": "Quiet",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:rustic",
+     "name": "Rustic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:rice_fields",
+     "name": "Rice fields",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:romantic",
+     "name": "Romantic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:wellness_and_relaxation",
+     "name": "Wellness and relaxation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:rural_exploration",
+     "name": "Rural exploration",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:peaceful",
+     "name": "Peaceful",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:boutique",
+     "name": "Boutique",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:nature",
+     "name": "Nature",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:nature_focused",
+     "name": "Nature focused",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:resort",
+     "name": "Resort",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:asian_inspired",
+     "name": "Asian inspired",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:setting:qloo:countryside",
+     "name": "Countryside",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:setting:qloo:lotus_pond",
+     "name": "Lotus pond",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:idyllic",
+     "name": "Idyllic",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Garden",
+    "Cycling",
+    "Relaxing",
+    "Culinary experiences",
+    "Nature appreciation",
+    "Towels",
+    "Outdoor pool",
+    "Tra que vegetable village",
+    "Tropical",
+    "Bar",
+    "Sunset view",
+    "Quiet",
+    "Secluded",
+    "Dining drinking",
+    "Room service",
+    "Rustic",
+    "Restaurant",
+    "Nature outdoors",
+    "Hotel",
+    "Charming",
+    "Support local community",
+    "Parking",
+    "Bluetooth speaker",
+    "Authentic",
+    "Four star",
+    "Eco friendly design",
+    "Lake view",
+    "Air conditioned",
+    "Spa",
+    "Rice fields",
+    "All day",
+    "Scenic",
+    "Air conditioning",
+    "Shuttle service",
+    "Billiards",
+    "Romantic",
+    "Free wi fi",
+    "Airport shuttle",
+    "Kid friendly",
+    "Breakfast available",
+    "Garden view",
+    "Bike rental",
+    "Cooking classes",
+    "Free parking",
+    "Pool view",
+    "Bathtub",
+    "Minibar",
+    "Hoi an ancient town",
+    "Wellness and relaxation",
+    "Hot tub",
+    "Modern",
+    "Rural exploration",
+    "Peaceful",
+    "Place",
+    "Floor to ceiling windows",
+    "Wi fi",
+    "Laundry service",
+    "An bang beach",
+    "Spa treatments",
+    "Tours",
+    "Private bathroom",
+    "Boutique",
+    "Nature",
+    "Nature focused",
+    "Villa",
+    "Resort",
+    "Asian inspired",
+    "Countryside",
+    "Heated pool",
+    "Lotus pond",
+    "Free breakfast",
+    "Housekeeping",
+    "Complimentary breakfast",
+    "Rural",
+    "Wellness",
+    "Idyllic",
+    "Natural",
+    "Concierge",
+    "Lotus pond view",
+    "Rice field view",
+    "Destination"
+   ],
+   "rank": 10,
+   "cityRank": null,
+   "lift": null,
+   "ref": "P10"
+  }
+ ],
+ "poolSizes": {
+  "market": 10,
+  "city": 50
+ },
+ "scope": "business",
+ "profile": [
+  {
+   "id": "urn:tag:interests:qloo:cycling",
+   "name": "Cycling",
+   "family": "interests",
+   "marketCount": 7,
+   "marketTotal": 10,
+   "baselineCount": 16,
+   "baselineTotal": 50,
+   "gap": 0.37999999999999995,
+   "places": [
+    "P1",
+    "P4",
+    "P5",
+    "P6",
+    "P8",
+    "P9",
+    "P10"
+   ],
+   "derived": true,
+   "ref": "T1"
+  },
+  {
+   "id": "urn:tag:ambience:qloo:romantic",
+   "name": "Romantic",
+   "family": "ambience",
+   "marketCount": 6,
+   "marketTotal": 10,
+   "baselineCount": 17,
+   "baselineTotal": 50,
+   "gap": 0.25999999999999995,
+   "places": [
+    "P2",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P10"
+   ],
+   "derived": true,
+   "ref": "T2"
+  },
+  {
+   "id": "urn:tag:decor:qloo:minimalist",
+   "name": "Minimalist",
+   "family": "decor",
+   "marketCount": 3,
+   "marketTotal": 10,
+   "baselineCount": 5,
+   "baselineTotal": 50,
+   "gap": 0.19999999999999998,
+   "places": [
+    "P3",
+    "P5",
+    "P9"
+   ],
+   "derived": true,
+   "ref": "T3"
+  },
+  {
+   "id": "urn:tag:decor:qloo:modern",
+   "name": "Modern",
+   "family": "decor",
+   "marketCount": 6,
+   "marketTotal": 10,
+   "baselineCount": 20,
+   "baselineTotal": 50,
+   "gap": 0.19999999999999996,
+   "places": [
+    "P1",
+    "P3",
+    "P5",
+    "P8",
+    "P9",
+    "P10"
+   ],
+   "derived": true,
+   "ref": "T4"
+  },
+  {
+   "id": "urn:tag:ambience:qloo:relaxing",
+   "name": "Relaxing",
+   "family": "ambience",
+   "marketCount": 10,
+   "marketTotal": 10,
+   "baselineCount": 42,
+   "baselineTotal": 50,
+   "gap": 0.16000000000000003,
+   "places": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9",
+    "P10"
+   ],
+   "derived": true,
+   "ref": "T5"
+  },
+  {
+   "id": "urn:tag:setting:qloo:waterfront",
+   "name": "Waterfront",
+   "family": "setting",
+   "marketCount": 3,
+   "marketTotal": 10,
+   "baselineCount": 7,
+   "baselineTotal": 50,
+   "gap": 0.15999999999999998,
+   "places": [
+    "P3",
+    "P5",
+    "P7"
+   ],
+   "derived": true,
+   "ref": "T6"
+  },
+  {
+   "id": "urn:tag:setting:qloo:beachfront",
+   "name": "Beachfront",
+   "family": "setting",
+   "marketCount": 3,
+   "marketTotal": 10,
+   "baselineCount": 7,
+   "baselineTotal": 50,
+   "gap": 0.15999999999999998,
+   "places": [
+    "P3",
+    "P5",
+    "P7"
+   ],
+   "derived": true,
+   "ref": "T7"
+  },
+  {
+   "id": "urn:tag:ambience:qloo:serene",
+   "name": "Serene",
+   "family": "ambience",
+   "marketCount": 3,
+   "marketTotal": 10,
+   "baselineCount": 7,
+   "baselineTotal": 50,
+   "gap": 0.15999999999999998,
+   "places": [
+    "P4",
+    "P6",
+    "P8"
+   ],
+   "derived": true,
+   "ref": "T8"
+  }
+ ],
+ "music": {
+  "bridge": [
+   {
+    "id": "FBF8DED9-679A-4623-8A59-91200E11A962",
+    "name": "Context",
+    "kind": "artist",
+    "disambiguation": "Context",
+    "popularity": 0.7475964846745178,
+    "affinity": 1,
+    "rank": 1,
+    "localRank": 1,
+    "ref": "C8"
+   },
+   {
+    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
+    "name": "Nicole Richie",
+    "kind": "artist",
+    "disambiguation": "Nicole Richie",
+    "popularity": 0.8038685619540071,
+    "affinity": 0.9999855342781788,
+    "rank": 3,
+    "localRank": 18,
+    "ref": "C9"
+   },
+   {
+    "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+    "name": "Taylor Swift",
+    "kind": "artist",
+    "disambiguation": "Taylor Swift",
+    "popularity": 0.9997870095485257,
+    "affinity": 0.9999634097934227,
+    "rank": 6,
+    "localRank": 48,
+    "ref": "C10"
+   },
+   {
+    "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
+    "name": "Beyoncé",
+    "kind": "artist",
+    "disambiguation": "Beyoncé",
+    "popularity": 0.999882036057645,
+    "affinity": 0.9999489434967217,
+    "rank": 8,
+    "localRank": 4,
+    "ref": "C11"
+   },
+   {
+    "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
+    "name": "Rihanna",
+    "kind": "artist",
+    "disambiguation": "Rihanna",
+    "popularity": 0.999937741252646,
+    "affinity": 0.9999195847253799,
+    "rank": 11,
+    "localRank": 6,
+    "ref": "C12"
+   },
+   {
+    "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
+    "name": "Adele",
+    "kind": "artist",
+    "disambiguation": "Adele",
+    "popularity": 0.9997739024438197,
+    "affinity": 0.9999051177401851,
+    "rank": 13,
+    "localRank": 12,
+    "ref": "C13"
+   }
+  ],
+  "distinct": [
+   {
+    "id": "723A91E1-2CEF-4F5C-AD50-2AA2F1F60C67",
+    "name": "Raumskaya",
+    "kind": "artist",
+    "disambiguation": "Raumskaya",
+    "popularity": 0.6865501445058294,
+    "affinity": 0.9999927671674997,
+    "rank": 2,
+    "localRank": null,
+    "ref": "C14"
+   },
+   {
+    "id": "742BAD50-D6B3-43C6-96AD-701AE2FFC420",
+    "name": "Kylie Minogue",
+    "kind": "artist",
+    "disambiguation": "Kylie Minogue",
+    "popularity": 0.9991382078655735,
+    "affinity": 0.9999783013320378,
+    "rank": 4,
+    "localRank": null,
+    "ref": "C15"
+   },
+   {
+    "id": "2B3E306B-DE41-415C-B746-C7059A38C16C",
+    "name": "Delta Goodrem",
+    "kind": "artist",
+    "disambiguation": "Delta Goodrem",
+    "popularity": 0.9894913788018795,
+    "affinity": 0.9999706428565451,
+    "rank": 5,
+    "localRank": null,
+    "ref": "C16"
+   },
+   {
+    "id": "5DC07B43-055F-4A42-9789-0AEAC6669294",
+    "name": "Jessica Mauboy",
+    "kind": "artist",
+    "disambiguation": "Jessica Mauboy",
+    "popularity": 0.9657740728361809,
+    "affinity": 0.9999561766734817,
+    "rank": 7,
+    "localRank": null,
+    "ref": "C17"
+   },
+   {
+    "id": "8BC227FB-D211-42A6-8D1C-118F9563DAEB",
+    "name": "Ricki-Lee",
+    "kind": "artist",
+    "disambiguation": "Ricki-Lee",
+    "popularity": 0.9284352083046615,
+    "affinity": 0.9999417102631438,
+    "rank": 9,
+    "localRank": null,
+    "ref": "C18"
+   },
+   {
+    "id": "B19CE60F-033A-4F24-AA51-A8F695A853A9",
+    "name": "Guy Sebastian",
+    "kind": "artist",
+    "disambiguation": "Guy Sebastian",
+    "popularity": 0.9727929274063006,
+    "affinity": 0.999934476972748,
+    "rank": 10,
+    "localRank": null,
+    "ref": "C19"
+   }
+  ]
+ },
+ "screen": {
+  "bridge": [
+   {
+    "id": "6A55B4D8-DE20-422A-938E-C9E4A36B1581",
+    "name": "Emily in Paris",
+    "kind": "tv_show",
+    "disambiguation": "2020,2026",
+    "popularity": 0.9723422644770959,
+    "affinity": 0.9969758294290977,
+    "rank": 23,
+    "localRank": 49,
+    "ref": "C1"
+   }
+  ],
+  "distinct": [
+   {
+    "id": "65CE4D00-4780-429B-8DED-B50D12EAB82F",
+    "name": "Superwog",
+    "kind": "tv_show",
+    "disambiguation": "2017,2022",
+    "popularity": 0.4891297121202048,
+    "affinity": 0.9998202667117043,
+    "rank": 1,
+    "localRank": null,
+    "ref": "C2"
+   },
+   {
+    "id": "5B416B07-0208-446D-8D07-9882DAA6A406",
+    "name": "Lego Masters Australia",
+    "kind": "tv_show",
+    "disambiguation": "2019",
+    "popularity": 0.13316933714513662,
+    "affinity": 0.9997843158448846,
+    "rank": 2,
+    "localRank": null,
+    "ref": "C3"
+   },
+   {
+    "id": "DA07A37C-404F-42EE-A4E7-D13B21FE76B2",
+    "name": "Grand Designs Australia",
+    "kind": "tv_show",
+    "disambiguation": "2010,2025",
+    "popularity": null,
+    "affinity": 0.999748363575119,
+    "rank": 3,
+    "localRank": null,
+    "ref": "C4"
+   },
+   {
+    "id": "F6013EAC-8F32-4080-B1ED-2BFABB9C706E",
+    "name": "Bluey",
+    "kind": "tv_show",
+    "disambiguation": "2018",
+    "popularity": 0.9196197061365601,
+    "affinity": 0.9993168269249805,
+    "rank": 4,
+    "localRank": null,
+    "ref": "C5"
+   },
+   {
+    "id": "B712DC35-F4ED-4798-97E5-A4B68CC00CF9",
+    "name": "Bluey Minisodes",
+    "kind": "tv_show",
+    "disambiguation": "2024",
+    "popularity": null,
+    "affinity": 0.9992808564211263,
+    "rank": 5,
+    "localRank": null,
+    "ref": "C6"
+   },
+   {
+    "id": "03E46795-60F7-4781-A4EE-E1E67B10A8FA",
+    "name": "Bondi Rescue",
+    "kind": "tv_show",
+    "disambiguation": "2006,2024",
+    "popularity": 0.18855129313210559,
+    "affinity": 0.9992448845149741,
+    "rank": 6,
+    "localRank": null,
+    "ref": "C7"
+   }
+  ]
+ },
+ "own": null,
+ "ideas": [
+  {
+   "idea": "cooking class",
+   "status": "ranked",
+   "ref": "I1",
+   "via": {
+    "kind": "tag",
+    "id": "urn:tag:category:place:cooking_class",
+    "name": "Cooking class"
+   },
+   "rank": 2,
+   "of": 4,
+   "verdict": "untested",
+   "marketCount": 0,
+   "marketTotal": 10,
+   "cityCount": 0,
+   "cityTotal": 50,
+   "examples": []
+  },
+  {
+   "idea": "bicycle tours",
+   "status": "ranked",
+   "ref": "I2",
+   "via": {
+    "kind": "tag",
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours"
+   },
+   "rank": 3,
+   "of": 4,
+   "verdict": "untested",
+   "marketCount": 0,
+   "marketTotal": 10,
+   "cityCount": 0,
+   "cityTotal": 50,
+   "examples": []
+  },
+  {
+   "idea": "rooftop bar",
+   "status": "ranked",
+   "ref": "I3",
+   "via": {
+    "kind": "tag",
+    "id": "urn:tag:amenity:place:rooftop_bar",
+    "name": "Rooftop Bar"
+   },
+   "rank": 1,
+   "of": 4,
+   "verdict": "common",
+   "marketCount": 1,
+   "marketTotal": 10,
+   "cityCount": 1,
+   "cityTotal": 50,
+   "examples": [
+    "P2"
+   ]
+  },
+  {
+   "idea": "yoga mornings",
+   "status": "ranked",
+   "ref": "I4",
+   "via": {
+    "kind": "tag",
+    "id": "urn:tag:amenity:qloo:yoga",
+    "name": "Yoga"
+   },
+   "rank": 4,
+   "of": 4,
+   "verdict": "absent-from-favourites",
+   "marketCount": 0,
+   "marketTotal": 10,
+   "cityCount": 3,
+   "cityTotal": 50,
+   "examples": []
+  }
+ ],
+ "brief": {
+  "headline": "Sydney visitors favor relaxing, cycling-friendly stays near water in Hoi An",
+  "summary": "Sydney‑based travellers most often choose places that are casual, welcoming and photography‑friendly, with a strong leaning toward relaxing atmospheres. Cycling, romantic vibes and waterfront settings appear more often among these favourites than across the broader Hoi An offer. The data shows no clear signal for cooking classes, bicycle tours or yoga mornings among this visitor group.",
+  "actions": [
+   {
+    "title": "Highlight relaxing atmosphere",
+    "detail": "Emphasise calm interiors, quiet zones and soothing colour schemes in your marketing and room design, as every Sydney‑favoured listing tags the property as relaxing.",
+    "refs": [
+     "T5"
+    ]
+   },
+   {
+    "title": "Offer cycling facilities",
+    "detail": "Provide bike rentals, maps of local routes and guided rides, since cycling appears in seven of the ten Sydney‑favoured places.",
+    "refs": [
+     "T1"
+    ]
+   },
+   {
+    "title": "Promote waterfront and beachfront access",
+    "detail": "Showcase rooms with river views or easy beach access and mention nearby Thu Bon River and An Bang beach, reflecting the over‑represented waterfront and beachfront tags.",
+    "refs": [
+     "T6",
+     "T7"
+    ]
+   },
+   {
+    "title": "Assess a rooftop bar",
+    "detail": "Explore adding a rooftop bar, noting that one Sydney‑favoured property already features this amenity.",
+    "refs": [
+     "I3"
+    ]
+   }
+  ],
+  "partners": [
+   {
+    "ref": "P1",
+    "why": "IVY VILLA – market‑ranked favourite praised for its casual, welcoming boutique feel and central location good for photography."
+   },
+   {
+    "ref": "P2",
+    "why": "Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa – favoured for its gastronomic, romantic French‑historic vibe and photography appeal."
+   },
+   {
+    "ref": "P3",
+    "why": "Resort Hội An – top‑ranked choice noted for waterfront, wellness retreats, fine dining and beachfront setting."
+   },
+   {
+    "ref": "P6",
+    "why": "Anantara Hoi An Resort – liked for its romantic, historic colonial character, culinary arts focus and cycling options."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C8",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   },
+   {
+    "ref": "C9",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   },
+   {
+    "ref": "C10",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   },
+   {
+    "ref": "C11",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   },
+   {
+    "ref": "C12",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   },
+   {
+    "ref": "C13",
+    "why": "Loved in both Sydney and Hoi An listeners."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Do not lead with cooking class; the data shows no Sydney‑favoured place offers it and no city‑wide place does either, leaving the idea untested."
+   },
+   {
+    "ref": "I2",
+    "note": "Do not lead with bicycle tours; similarly untested with zero favourites and zero city‑wide offerings."
+   },
+   {
+    "ref": "I3",
+    "note": "Consider a rooftop bar as a modest differentiator; one Sydney‑favoured place already has it, making the idea common rather than a strong unique sell."
+   },
+   {
+    "ref": "I4",
+    "note": "Deprioritise yoga mornings; none of the Sydney‑favoured listings offer it while a minority of city‑wide places do, marking the idea as absent from favourites."
+   }
+  ],
+  "caveats": [
+   "The data does not reveal actual booking rates or price sensitivity of Sydney travellers to these attributes.",
+   "It does not establish how the tagged preferences translate into on‑site satisfaction or repeat visits.",
+   "No information is provided about seasonal variations or length of stay for this visitor segment."
+  ],
+  "dropped": []
+ },
+ "baseline": {
+  "places": [
+   {
+    "name": "Almanity Hoi An Resort & Spa",
+    "why": "",
+    "qlooRank": null,
+    "cityRank": null
+   },
+   {
+    "name": "Little Riverside Hoi An",
+    "why": "",
+    "qlooRank": null,
+    "cityRank": null
+   },
+   {
+    "name": "Hoi An Historic Hotel",
+    "why": "",
+    "qlooRank": null,
+    "cityRank": 6
+   },
+   {
+    "name": "The Nam Hai",
+    "why": "",
+    "qlooRank": null,
+    "cityRank": null
+   },
+   {
+    "name": "Anantara Hoi An Resort",
+    "why": "",
+    "qlooRank": 6,
+    "cityRank": 9
+   }
+  ],
+  "artists": [
+   {
+    "name": "Tame Impala",
+    "why": "",
+    "qlooRank": null
+   },
+   {
+    "name": "Flume",
+    "why": "",
+    "qlooRank": 12
+   },
+   {
+    "name": "Vance Joy",
+    "why": "",
+    "qlooRank": null
+   },
+   {
+    "name": "Sia",
+    "why": "",
+    "qlooRank": null
+   },
+   {
+    "name": "King Gizzard & the Lizard Wizard",
+    "why": "",
+    "qlooRank": null
+   }
+  ],
+  "advice": "To attract more Sydney travelers, highlight your property’s proximity to both the historic town and the beach in Australian‑focused travel blogs and social media ads. Offer familiar comforts such as English‑speaking staff, complimentary tea/coffee stations, and optional surf‑board rentals. Partner with Australian tour operators to create packages that include day trips to My Son or cooking classes. Finally, encourage guest reviews on platforms like TripAdvisor and Google, emphasizing the authentic Vietnamese experience paired with relaxed, Aussie‑friendly hospitality.",
+  "poolSizes": {
+   "places": 10,
+   "city": 50,
+   "artists": 50
+  }
+ },
+ "ledger": {
+  "P1": {
+   "ref": "P1",
+   "kind": "place",
+   "item": {
+    "id": "946876CA-5AFA-4C6C-ACB0-401D6DC39B5F",
+    "name": "IVY VILLA",
+    "kind": "place",
+    "address": "168 Nguyễn Duy Hiệu Cẩm Châu Hội An Quảng Nam 560000, Vietnam",
+    "neighborhood": "Cẩm Châu",
+    "priceLevel": null,
+    "rating": 4.800000190734863,
+    "summary": "Casual town-center hotel in Hoi An offering an outdoor pool, free breakfast, complimentary bikes, and family-friendly rooms.",
+    "popularity": 0.40317116631211086,
+    "affinity": 0.9937481082637599,
+    "tags": [
+     {
+      "id": "urn:tag:decor:qloo:casual",
+      "name": "Casual",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:photography",
+      "name": "Photography",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:boutique_villa",
+      "name": "Boutique villa",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:town_villa",
+      "name": "Town villa",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:tailoring",
+      "name": "Tailoring",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_dining",
+      "name": "Local dining",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:cozy",
+      "name": "Cozy",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:clean",
+      "name": "Clean",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_tourism",
+      "name": "Cultural tourism",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:boutique",
+      "name": "Boutique",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:homey",
+      "name": "Homey",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:simple",
+      "name": "Simple",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:family_friendly",
+      "name": "Family friendly",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Kettle",
+     "Air conditioned",
+     "Quiet",
+     "Cycling",
+     "Free parking",
+     "Casual",
+     "Photography",
+     "Concierge",
+     "City center",
+     "Nature outdoors",
+     "Balcony",
+     "Residential",
+     "Superior",
+     "Two star",
+     "Deluxe",
+     "Hotel",
+     "Welcoming",
+     "Front desk 247",
+     "Outdoor pool",
+     "All day",
+     "Destination",
+     "Hoi an ancient town",
+     "Airport shuttle",
+     "Laundry service",
+     "Daily housekeeping",
+     "Free breakfast",
+     "Place",
+     "Telephone",
+     "Boutique villa",
+     "Housekeeping",
+     "Restaurant",
+     "Walkable",
+     "Support local community",
+     "Town villa",
+     "Modern",
+     "Private bathroom",
+     "Towels",
+     "Tailoring",
+     "Local dining",
+     "Authentic",
+     "Free wi fi",
+     "Wi fi",
+     "Desk",
+     "Bathrobe",
+     "Cozy",
+     "Lounge",
+     "Safe",
+     "Comfortable",
+     "Clean",
+     "Pool view",
+     "Parking",
+     "Dining drinking",
+     "Local character",
+     "Cultural tourism",
+     "Hair dryer",
+     "Tours",
+     "Air conditioning",
+     "Boutique",
+     "Sightseeing",
+     "Tailor services",
+     "Homey",
+     "Suite",
+     "Bike rental",
+     "Central",
+     "Hot tub",
+     "Hoi an night market",
+     "Room service",
+     "Mini fridge",
+     "Family room",
+     "Simple",
+     "Kid friendly",
+     "Cua dai beach",
+     "Family friendly",
+     "Residential street view",
+     "Relaxing",
+     "Breakfast available"
+    ],
+    "rank": 1,
+    "cityRank": null,
+    "lift": null,
+    "ref": "P1"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P2": {
+   "ref": "P2",
+   "kind": "place",
+   "item": {
+    "id": "21505A17-9170-426E-A56A-12E7661A7EC7",
+    "name": "Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa",
+    "kind": "place",
+    "address": "39 Đào Duy Từ Street Hội An Đà Nẵng 560000, Vietnam",
+    "neighborhood": "Cẩm Phô",
+    "priceLevel": null,
+    "rating": 4.699999809265137,
+    "summary": "Colonial-style hotel overlooking Thu Bồn River with chic rooms, rooftop pool and bar, near Old Town and An Bang Beach.",
+    "popularity": 0.9843653711357784,
+    "affinity": 0.9933243942061627,
+    "tags": [
+     {
+      "id": "urn:tag:interests:qloo:gastronomy",
+      "name": "Gastronomy",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:french",
+      "name": "French",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:historic",
+      "name": "Historic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:photography",
+      "name": "Photography",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:french_colonial",
+      "name": "French colonial",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:classic",
+      "name": "Classic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:elegant",
+      "name": "Elegant",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:stylish",
+      "name": "Stylish",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:wellness",
+      "name": "Wellness",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:colonial_style",
+      "name": "Colonial style",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:old_world_charm",
+      "name": "Old world charm",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:boutique",
+      "name": "Boutique",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:luxurious",
+      "name": "Luxurious",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:riverfront",
+      "name": "Riverfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:bicycling",
+      "name": "Bicycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_tourism",
+      "name": "Cultural tourism",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:sophisticated",
+      "name": "Sophisticated",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Scenic",
+     "Kid friendly",
+     "Gastronomy",
+     "Airport shuttle",
+     "Room service",
+     "Romantic",
+     "Balcony",
+     "Hotel",
+     "French",
+     "Historic",
+     "Photography",
+     "Authentic",
+     "Special occasion",
+     "Proximity to old town",
+     "Accessible",
+     "Air conditioning",
+     "Buffet",
+     "Wi fi",
+     "Night market",
+     "Destination",
+     "Free parking",
+     "Relaxing",
+     "French colonial",
+     "Morning",
+     "Bar",
+     "Classic",
+     "Five star",
+     "Restaurant",
+     "River view",
+     "Outdoor pool",
+     "Business center",
+     "Cycling",
+     "Bike rental",
+     "Paid breakfast",
+     "Place",
+     "Dining drinking",
+     "Comfortable",
+     "Thu bon river",
+     "Elegant",
+     "Stylish",
+     "Afternoon",
+     "Wellness",
+     "Shuttle service",
+     "Colonial style",
+     "Evening",
+     "Old world charm",
+     "Water refill stations",
+     "Breakfast available",
+     "Rooftop bar",
+     "Sightseeing",
+     "Central",
+     "Tours",
+     "Parking",
+     "Lounge",
+     "Boutique",
+     "Housekeeping",
+     "Luxurious",
+     "Free wi fi",
+     "Culture arts",
+     "Daily housekeeping",
+     "City view",
+     "Fitness center",
+     "Nature outdoors",
+     "Walkable",
+     "Riverfront",
+     "Laundry service",
+     "An bang beach",
+     "Smoke free",
+     "Bicycling",
+     "Sunset view",
+     "Deluxe",
+     "Cultural tourism",
+     "Sophisticated",
+     "Welcoming",
+     "Hoi an old town",
+     "Charming",
+     "Pool view",
+     "4 poster bed",
+     "Air conditioned",
+     "Concierge",
+     "Bathtub"
+    ],
+    "rank": 2,
+    "cityRank": 7,
+    "lift": 5,
+    "ref": "P2"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P3": {
+   "ref": "P3",
+   "kind": "place",
+   "item": {
+    "id": "AC0E6601-8CFE-4AA1-A4FB-9D72E1034B53",
+    "name": "Resort Hội An",
+    "kind": "place",
+    "address": "Âu Cơ Hội An Đông Đà Nẵng Vietnam",
+    "neighborhood": "Cửa Đại",
+    "priceLevel": null,
+    "rating": 4.300000190734863,
+    "summary": "Luxury beachfront resort in Hoi An with upscale rooms, villas, multiple pools, spa, restaurants, and family-friendly facilities including a kids' club and shuttle.",
+    "popularity": 0.9957765329012545,
+    "affinity": 0.989691242262166,
+    "tags": [
+     {
+      "id": "urn:tag:setting:qloo:waterfront",
+      "name": "Waterfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:wellness_retreats",
+      "name": "Wellness retreats",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:coastal",
+      "name": "Coastal",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:beach_relaxation",
+      "name": "Beach relaxation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:fine_dining",
+      "name": "Fine dining",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:beachfront",
+      "name": "Beachfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:upscale",
+      "name": "Upscale",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:contemporary",
+      "name": "Contemporary",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:tailoring_and_fashion",
+      "name": "Tailoring and fashion",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:elegant",
+      "name": "Elegant",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:stylish",
+      "name": "Stylish",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:luxurious",
+      "name": "Luxurious",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_tourism",
+      "name": "Cultural tourism",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:minimalist",
+      "name": "Minimalist",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:family_friendly",
+      "name": "Family friendly",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Waterfront",
+     "Dining drinking",
+     "Buffet",
+     "Five star",
+     "Airport shuttle",
+     "Place",
+     "Beach activities",
+     "Laundry service",
+     "Pool view",
+     "Villa",
+     "Wellness retreats",
+     "Cua dai beach",
+     "Ocean view",
+     "Free parking",
+     "Air conditioning",
+     "Resort hotel",
+     "Air conditioned",
+     "Balcony",
+     "Resort area",
+     "Evening",
+     "All day",
+     "Room service",
+     "Spa",
+     "Multiple restaurants",
+     "Coastal",
+     "Beach relaxation",
+     "Wellness",
+     "Destination",
+     "Smoke free",
+     "Tours",
+     "Minibar",
+     "Dinner service",
+     "Fine dining",
+     "Beachfront",
+     "Free breakfast",
+     "Resort",
+     "Pool",
+     "Pillow menu",
+     "Upscale",
+     "Beach access",
+     "Contemporary",
+     "Heated pool",
+     "Welcoming",
+     "Free wi fi",
+     "Afternoon",
+     "Modern",
+     "Breakfast available",
+     "Special occasion",
+     "Shuttle service",
+     "Complimentary breakfast",
+     "Wi fi",
+     "Tailoring and fashion",
+     "Scenic",
+     "Restaurant",
+     "Elegant",
+     "Fitness center",
+     "Stylish",
+     "Accessible",
+     "Hotel",
+     "Luxurious",
+     "Midday",
+     "Comfortable",
+     "Deluxe",
+     "Cultural tourism",
+     "Bar",
+     "Kid friendly",
+     "Lunch service",
+     "Fitness",
+     "Poolside dining",
+     "Nature outdoors",
+     "Minimalist",
+     "Swimming",
+     "Hoi an ancient town",
+     "Kids club",
+     "Morning",
+     "Late night",
+     "Quiet",
+     "Coastal view",
+     "Outdoor pool",
+     "Relaxing",
+     "Family friendly",
+     "Parking"
+    ],
+    "rank": 3,
+    "cityRank": 1,
+    "lift": -2,
+    "ref": "P3"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P4": {
+   "ref": "P4",
+   "kind": "place",
+   "item": {
+    "id": "F6277B38-2A87-4B4E-9C82-8B38DE0857DE",
+    "name": "Riverside Impression Villa",
+    "kind": "place",
+    "address": "134 Nguyễn Tri Phương Cẩm Nam Hội An Quảng Nam 51312, Vietnam",
+    "neighborhood": "Cẩm Nam",
+    "priceLevel": null,
+    "rating": 4.699999809265137,
+    "summary": "Laid-back hotel with river views, outdoor pool, and free breakfast near Hoi An's center in a quiet natural setting.",
+    "popularity": 0.4718745693419378,
+    "affinity": 0.989691242262166,
+    "tags": [
+     {
+      "id": "urn:tag:decor:qloo:casual",
+      "name": "Casual",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_cuisine",
+      "name": "Local cuisine",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:rural",
+      "name": "Rural",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:bonsai_cultivation",
+      "name": "Bonsai cultivation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:nature_focused",
+      "name": "Nature focused",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:nature",
+      "name": "Nature",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:homestay_style",
+      "name": "Homestay style",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_immersion",
+      "name": "Cultural immersion",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:riverfront",
+      "name": "Riverfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:intimate",
+      "name": "Intimate",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:cozy",
+      "name": "Cozy",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:botanical_gardens",
+      "name": "Botanical gardens",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:farm",
+      "name": "Farm",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:family_friendly",
+      "name": "Family friendly",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:authentic",
+      "name": "Authentic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:serene",
+      "name": "Serene",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Casual",
+     "Three star",
+     "Local cuisine",
+     "Laundry service",
+     "Sightseeing",
+     "Wi fi",
+     "Rural",
+     "Destination",
+     "Hoi an ancient town",
+     "Cycling",
+     "Bike rental",
+     "Parking",
+     "Use of local seasonal products",
+     "Quiet",
+     "Relaxation",
+     "Bonsai cultivation",
+     "Idyllic",
+     "River view",
+     "Balcony",
+     "Walkable",
+     "Nature focused",
+     "Breakfast available",
+     "Nature",
+     "Homestay style",
+     "Rural fringe",
+     "Family friendly",
+     "Cultural immersion",
+     "Twin",
+     "Nature outdoors",
+     "Kid friendly",
+     "Airport shuttle",
+     "Double",
+     "Riverfront",
+     "Garden",
+     "Relaxing",
+     "Intimate",
+     "Family room",
+     "Afternoon",
+     "Executive suite",
+     "Complimentary breakfast",
+     "Free wi fi",
+     "Outdoor pool",
+     "Deluxe",
+     "Restaurant",
+     "Day trip",
+     "Cozy",
+     "Free parking",
+     "Air conditioned",
+     "Botanical gardens",
+     "Morning",
+     "Garden view",
+     "Natural",
+     "Comfortable",
+     "Resort hotel",
+     "Farm",
+     "Evening",
+     "Hoi an market",
+     "Welcoming",
+     "Free breakfast",
+     "Air conditioning",
+     "Scenic",
+     "Dining drinking",
+     "Terrace",
+     "Place",
+     "Authentic",
+     "Charming",
+     "Farm view",
+     "Traditional",
+     "Hotel",
+     "Serene"
+    ],
+    "rank": 4,
+    "cityRank": null,
+    "lift": null,
+    "ref": "P4"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P5": {
+   "ref": "P5",
+   "kind": "place",
+   "item": {
+    "id": "A8696F64-16DC-45B2-B28A-D14F3C98DBCF",
+    "name": "Sol An Bang Beach Resort & Spa",
+    "kind": "place",
+    "address": "72 Nguyễn Phan Vinh street, Cam Hội An Quảng Nam 560000, Vietnam",
+    "neighborhood": "Cẩm An",
+    "priceLevel": null,
+    "rating": 4.400000095367432,
+    "summary": "Beachfront resort with multiple pools, private beach access, and friendly staff offering a tranquil and relaxing stay near An Bang Beach.",
+    "popularity": 0.8186964382094134,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:setting:qloo:beachfront",
+      "name": "Beachfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:waterfront",
+      "name": "Waterfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:pine_forest",
+      "name": "Pine forest",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:casual",
+      "name": "Casual",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:scandinavian",
+      "name": "Scandinavian",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:airy",
+      "name": "Airy",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:spa_treatments",
+      "name": "Spa treatments",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:beachcombing",
+      "name": "Beachcombing",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:minimalist",
+      "name": "Minimalist",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:boutique",
+      "name": "Boutique",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:sunrise_photography",
+      "name": "Sunrise photography",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:swimming",
+      "name": "Swimming",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Place",
+     "Dining drinking",
+     "Resort hotel",
+     "Free parking",
+     "Housekeeping",
+     "Marble mountains",
+     "Restaurant",
+     "Apartment",
+     "Three star",
+     "Natural",
+     "My son sanctuary",
+     "Free wi fi",
+     "Spa",
+     "Tea and coffee maker",
+     "An bang beach",
+     "Balcony",
+     "Air conditioned",
+     "Afternoon",
+     "Beach view",
+     "Beach access",
+     "Outdoor pool",
+     "Airport shuttle",
+     "Towels",
+     "Suite",
+     "Breakfast available",
+     "Beachfront",
+     "Cham islands",
+     "Beach bar",
+     "Hair dryer",
+     "Ocean view",
+     "Waterfront",
+     "Wellness",
+     "Pool",
+     "Pine forest",
+     "Hoi an ancient town",
+     "Fitness center",
+     "Laundry service",
+     "Lunch service",
+     "Casual",
+     "Destination",
+     "Forest view",
+     "Relaxing",
+     "Scandinavian",
+     "Luggage storage",
+     "Cycling",
+     "Safe",
+     "Desk",
+     "Morning",
+     "Airy",
+     "Private beach",
+     "Garden view",
+     "Bar",
+     "Quiet",
+     "Secluded",
+     "Terrace",
+     "Evening",
+     "Beach relaxation",
+     "Hotel",
+     "Dinner service",
+     "Minibar",
+     "Concierge",
+     "Charming",
+     "Romantic",
+     "Nature outdoors",
+     "Pool view",
+     "Poolside dining",
+     "Sports recreation",
+     "Lounge",
+     "Spa treatments",
+     "Beachcombing",
+     "Private bathroom",
+     "Coastal",
+     "Minimalist",
+     "Deluxe",
+     "Standard",
+     "Bike rental",
+     "Support local community",
+     "Comfortable",
+     "Wi fi",
+     "Modern",
+     "Resort",
+     "Boutique",
+     "Scenic",
+     "Sunrise photography",
+     "Swimming",
+     "Daily housekeeping",
+     "Parking",
+     "Kid friendly",
+     "Air conditioning",
+     "Early morning",
+     "Free breakfast",
+     "Outdoor dining"
+    ],
+    "rank": 5,
+    "cityRank": null,
+    "lift": null,
+    "ref": "P5"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P6": {
+   "ref": "P6",
+   "kind": "place",
+   "item": {
+    "id": "AE16CE1E-6BF4-44D7-A8B5-6A7B188B8956",
+    "name": "Anantara Hoi An Resort",
+    "kind": "place",
+    "address": "1 Đường Phạm Hồng Thái Hội An Đà Nẵng Vietnam",
+    "neighborhood": "Sơn Phong",
+    "priceLevel": null,
+    "rating": 4.699999809265137,
+    "summary": "Upscale riverside resort in French colonial-style buildings offering spa, outdoor pool, dining, and river cruises near Hoi An's old town.",
+    "popularity": 0.9832918601493777,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:historic",
+      "name": "Historic",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_arts",
+      "name": "Culinary arts",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:french_colonial",
+      "name": "French colonial",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:colonial",
+      "name": "Colonial",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:stylish",
+      "name": "Stylish",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:intimate",
+      "name": "Intimate",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:attentive",
+      "name": "Attentive",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:holistic_wellness",
+      "name": "Holistic wellness",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:historic_preservation",
+      "name": "Historic preservation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:sophisticated",
+      "name": "Sophisticated",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:elegant",
+      "name": "Elegant",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:tropical_garden",
+      "name": "Tropical garden",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:riverside",
+      "name": "Riverside",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:river_cruises",
+      "name": "River cruises",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:serene",
+      "name": "Serene",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:riverfront",
+      "name": "Riverfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     }
+    ],
+    "allTags": [
+     "Airport shuttle",
+     "Laundry service",
+     "Evening",
+     "Resort hotel",
+     "Morning",
+     "Romantic",
+     "Historic",
+     "Fitness center",
+     "Bathtub",
+     "Free wi fi",
+     "Dinner service",
+     "Central",
+     "Cooking classes",
+     "Massage spa",
+     "Hotel class",
+     "Destination",
+     "River view",
+     "Concierge",
+     "Outdoor pool",
+     "Place",
+     "Culinary arts",
+     "Suite",
+     "Bike rental",
+     "Dining drinking",
+     "Wellness",
+     "Quiet",
+     "Cycling",
+     "French colonial",
+     "Personal care",
+     "Walkable",
+     "Restaurant",
+     "Hoi an night market",
+     "Colonial",
+     "Room service",
+     "Hotel",
+     "Five star",
+     "Afternoon",
+     "Stylish",
+     "Local produce",
+     "Bar",
+     "Intimate",
+     "Accessible",
+     "Towels",
+     "Locally sourced ingredients",
+     "Air conditioned",
+     "Garden view",
+     "Housekeeping",
+     "Sightseeing",
+     "Charming",
+     "Attentive",
+     "Relaxing",
+     "Tours",
+     "Holistic wellness",
+     "Historic preservation",
+     "Courtyard view",
+     "Spa",
+     "Sophisticated",
+     "Spa treatments",
+     "Free breakfast",
+     "Elegant",
+     "Nature outdoors",
+     "Special occasion",
+     "Riverside location",
+     "Tropical garden",
+     "River cruises",
+     "Air conditioning",
+     "Midday",
+     "Riverside",
+     "Daily housekeeping",
+     "Kid friendly",
+     "Hoi an ancient town",
+     "Lgbtq+ friendly",
+     "Thu bon river",
+     "Welcoming",
+     "Buffet",
+     "Scenic",
+     "Resort",
+     "Garden",
+     "Serene",
+     "Free parking",
+     "Parking",
+     "Complimentary breakfast",
+     "Riverfront",
+     "Traditional",
+     "Breakfast available"
+    ],
+    "rank": 6,
+    "cityRank": 9,
+    "lift": 3,
+    "ref": "P6"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P7": {
+   "ref": "P7",
+   "kind": "place",
+   "item": {
+    "id": "FC7E8FA3-216A-4183-9F33-2D63C275A480",
+    "name": "Boutique Hoi An Resort",
+    "kind": "place",
+    "address": "34 Lạc Long Quân Cẩm An Hội An Quảng Nam, Vietnam",
+    "neighborhood": "Cẩm An",
+    "priceLevel": null,
+    "rating": 4.400000095367432,
+    "summary": "Seafront colonial-style resort with tropical gardens, beach access, spa, and private villas near Hoi An.",
+    "popularity": 0.9878325516018901,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:ambience:qloo:clean",
+      "name": "Clean",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:waterfront",
+      "name": "Waterfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:elegant",
+      "name": "Elegant",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:tropical_gardens",
+      "name": "Tropical gardens",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:wellness_and_spa",
+      "name": "Wellness and spa",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:tropical",
+      "name": "Tropical",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:authentic",
+      "name": "Authentic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_exploration",
+      "name": "Culinary exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:resort_like",
+      "name": "Resort like",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:swimming",
+      "name": "Swimming",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:beach_recreation",
+      "name": "Beach recreation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:heritage_tourism",
+      "name": "Heritage tourism",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:beachfront",
+      "name": "Beachfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:colonial_style",
+      "name": "Colonial style",
+      "family": "decor"
+     }
+    ],
+    "allTags": [
+     "Place",
+     "Air conditioning",
+     "Clean",
+     "Laundry service",
+     "Waterfront",
+     "Resort hotel",
+     "Relaxing",
+     "Elegant",
+     "Villa",
+     "All day",
+     "Outdoor pool",
+     "Welcoming",
+     "Airport shuttle",
+     "Room service",
+     "Quiet",
+     "Dining drinking",
+     "Beach access",
+     "Beach bar",
+     "Fitness center",
+     "Business center",
+     "Spa treatments",
+     "Sports recreation",
+     "Walkable",
+     "Resort",
+     "Delivery",
+     "Tropical gardens",
+     "In store pickup",
+     "Wellness and spa",
+     "Buffet",
+     "Spa",
+     "Same day delivery",
+     "Restaurant",
+     "Pool view",
+     "Scenic",
+     "Tropical",
+     "Authentic",
+     "Tours",
+     "Kid friendly",
+     "Breakfast available",
+     "Serviced accommodation",
+     "Beach relaxation",
+     "Air conditioned",
+     "Shuttle service",
+     "Personal care",
+     "Four star",
+     "Near ancient town",
+     "Free parking",
+     "Thu bon river",
+     "Culinary exploration",
+     "Bar",
+     "Ocean view",
+     "Poolside bar",
+     "Wellness",
+     "Traditional",
+     "Parking",
+     "Resort like",
+     "Terrace",
+     "Swimming",
+     "Free breakfast",
+     "Free wi fi",
+     "Romantic",
+     "Seafront view",
+     "Hotel",
+     "In store shopping",
+     "Wi fi fee",
+     "Destination",
+     "Pool",
+     "Beach recreation",
+     "Charming",
+     "Heritage tourism",
+     "Beachfront",
+     "Kitchens in some rooms",
+     "Coastal",
+     "Hoi an ancient town",
+     "Nature outdoors",
+     "Special occasion",
+     "Complimentary breakfast",
+     "Colonial style",
+     "Infinity pool",
+     "Garden view"
+    ],
+    "rank": 7,
+    "cityRank": 5,
+    "lift": -2,
+    "ref": "P7"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P8": {
+   "ref": "P8",
+   "kind": "place",
+   "item": {
+    "id": "58F5D364-DAAF-4992-96EE-91A7E46B2F44",
+    "name": "Hoi An Coco River Resort & Spa",
+    "kind": "place",
+    "address": "999 Trần Nhân Tông street, Cam Hội An Đông Đà Nẵng 560000, Vietnam",
+    "neighborhood": "Cẩm Thanh",
+    "priceLevel": null,
+    "rating": 4.800000190734863,
+    "summary": "Laid-back riverside resort with spacious rooms, outdoor pool, spa, and shuttle service near Hội An Ancient Town.",
+    "popularity": 0.9270736870570606,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:interests:qloo:relaxation",
+      "name": "Relaxation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:rustic",
+      "name": "Rustic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:tropical_garden",
+      "name": "Tropical garden",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:tropical",
+      "name": "Tropical",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:nature",
+      "name": "Nature",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:family_friendly",
+      "name": "Family friendly",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_exploration",
+      "name": "Culinary exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:riverfront",
+      "name": "Riverfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:wellness_and_spa",
+      "name": "Wellness and spa",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:nature_focused",
+      "name": "Nature focused",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:serene",
+      "name": "Serene",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:laid_back",
+      "name": "Laid back",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_cultural_immersion",
+      "name": "Local cultural immersion",
+      "family": "interests"
+     }
+    ],
+    "allTags": [
+     "Complimentary breakfast",
+     "Dining drinking",
+     "Massage spa",
+     "Spa",
+     "Relaxation",
+     "Garden view",
+     "Fitness center",
+     "Airport shuttle",
+     "Rustic",
+     "Riverside",
+     "City view",
+     "Room service",
+     "Scenic",
+     "Bar",
+     "Terrace",
+     "Resort hotel",
+     "Tropical garden",
+     "Pool view",
+     "Quiet",
+     "Charming",
+     "Telephone",
+     "Nature outdoors",
+     "Tropical",
+     "Bicycle riding",
+     "Hotel",
+     "Authentic",
+     "Welcoming",
+     "Water conservation",
+     "Outdoor pool",
+     "Wellness",
+     "Resort",
+     "Family room",
+     "Personal care",
+     "Nature",
+     "Balcony",
+     "Free parking",
+     "Tours",
+     "Laundry service",
+     "Family friendly",
+     "Air conditioned",
+     "Kid friendly",
+     "Natural",
+     "Towels",
+     "Buffet",
+     "Daily housekeeping",
+     "Support local community",
+     "Garden",
+     "River view",
+     "Shuttle service",
+     "Place",
+     "Front desk 247",
+     "Culinary exploration",
+     "Wi fi",
+     "Traditional",
+     "Cam thanh coconut forest",
+     "Vegetarian vegan options",
+     "Riverfront",
+     "Special occasion",
+     "Wellness and spa",
+     "Spa treatments",
+     "Free wi fi",
+     "Modern",
+     "Nature focused",
+     "Bike rental",
+     "Swimming",
+     "Four star",
+     "Air conditioning",
+     "Hoi an ancient town",
+     "Restaurant",
+     "Breakfast available",
+     "Romantic",
+     "Cycling",
+     "Parking",
+     "Relaxing",
+     "Hot tub",
+     "Jacuzzi",
+     "Luggage storage",
+     "Housekeeping",
+     "Pool",
+     "All day",
+     "Serene",
+     "Laid back",
+     "Safe",
+     "Breakfast",
+     "Bathtub",
+     "Semi rural",
+     "Flat screen tv",
+     "An bang beach",
+     "Locally sourced ingredients",
+     "In room dining",
+     "Destination",
+     "Local cultural immersion",
+     "Standard"
+    ],
+    "rank": 8,
+    "cityRank": 26,
+    "lift": 18,
+    "ref": "P8"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P9": {
+   "ref": "P9",
+   "kind": "place",
+   "item": {
+    "id": "7E07C13B-64DA-4CE8-B5EE-86A819D8A08B",
+    "name": "White Lotus Hotel Hoian",
+    "kind": "place",
+    "address": "188 Lý Thái Tổ Cẩm Sơn Hội An Quảng Nam 563800, Vietnam",
+    "neighborhood": "Cẩm Châu",
+    "priceLevel": null,
+    "rating": 4.5,
+    "summary": "Modern hotel offering spacious rooms, a pool, spa, and free bike rentals, located between Hoi An Old Town and An Bang Beach.",
+    "popularity": 0.792385575429748,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:near_beach",
+      "name": "Near beach",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:simple",
+      "name": "Simple",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_culinary_exploration",
+      "name": "Local culinary exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:minimalist",
+      "name": "Minimalist",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:stylish",
+      "name": "Stylish",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:cozy",
+      "name": "Cozy",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:clean",
+      "name": "Clean",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:relaxation",
+      "name": "Relaxation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:beach_leisure",
+      "name": "Beach leisure",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:warm",
+      "name": "Warm",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:near_historic_district",
+      "name": "Near historic district",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:contemporary",
+      "name": "Contemporary",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:unassuming",
+      "name": "Unassuming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_tourism",
+      "name": "Cultural tourism",
+      "family": "interests"
+     }
+    ],
+    "allTags": [
+     "Standard",
+     "Housekeeping",
+     "Room service",
+     "Wi fi fee",
+     "Garden view",
+     "Free wi fi",
+     "Laundry service",
+     "An bang beach",
+     "Desk",
+     "Cycling",
+     "Place",
+     "Sightseeing",
+     "Near beach",
+     "Support local community",
+     "Family room",
+     "Simple",
+     "Comfortable",
+     "Parking",
+     "Destination",
+     "Local culinary exploration",
+     "Authentic",
+     "Minimalist",
+     "Relaxing",
+     "Spa",
+     "Quiet",
+     "Kid friendly",
+     "Bike rental",
+     "Tours",
+     "Walkable",
+     "Four star",
+     "Concierge",
+     "Welcoming",
+     "Air conditioning",
+     "Bar",
+     "Safe",
+     "Wellness",
+     "Airport shuttle",
+     "Pool view",
+     "Balcony",
+     "Hotel class",
+     "Swimming",
+     "Restaurant",
+     "Hotel",
+     "Stylish",
+     "Dining drinking",
+     "Towels",
+     "Cozy",
+     "Free parking",
+     "Modern",
+     "Luggage storage",
+     "Resort",
+     "Evening",
+     "City view",
+     "Deluxe",
+     "Mix of residential and commercial",
+     "Flat screen tv",
+     "Outdoor pool",
+     "Breakfast available",
+     "Night market",
+     "Air conditioned",
+     "Da nang",
+     "Clean",
+     "Central",
+     "Hot tub",
+     "Garden",
+     "Junior suite",
+     "Relaxation",
+     "Afternoon",
+     "Hoi an ancient town",
+     "Beach leisure",
+     "City center",
+     "Rice field views",
+     "Wi fi",
+     "Warm",
+     "Near historic district",
+     "Contemporary",
+     "Terrace",
+     "Scenic",
+     "Free breakfast",
+     "Tan an market",
+     "Bathtub",
+     "Shuttle service",
+     "Fitness center",
+     "Accessible",
+     "Hair dryer",
+     "Urban",
+     "Morning",
+     "Lgbtq+ friendly",
+     "Unassuming",
+     "Cultural tourism",
+     "Day trip",
+     "Nature outdoors"
+    ],
+    "rank": 9,
+    "cityRank": null,
+    "lift": null,
+    "ref": "P9"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "P10": {
+   "ref": "P10",
+   "kind": "place",
+   "item": {
+    "id": "9E10C4AA-BF12-4CC8-B71D-0B07DEC37D04",
+    "name": "Allamanda Estate",
+    "kind": "place",
+    "address": "Cẩm Hà Hội An Quảng Nam Vietnam",
+    "neighborhood": "Cẩm Hà",
+    "priceLevel": null,
+    "rating": 4.599999904632568,
+    "summary": "Posh villa resort overlooking rice fields with vaulted ceilings, outdoor tubs, three outdoor pools, spa, restaurant and complimentary breakfast and Wi‑Fi.",
+    "popularity": 0.6884190080535612,
+    "affinity": 0.9829174717713467,
+    "tags": [
+     {
+      "id": "urn:tag:interests:qloo:cycling",
+      "name": "Cycling",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_experiences",
+      "name": "Culinary experiences",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:nature_appreciation",
+      "name": "Nature appreciation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:tropical",
+      "name": "Tropical",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:rustic",
+      "name": "Rustic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:rice_fields",
+      "name": "Rice fields",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:romantic",
+      "name": "Romantic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:wellness_and_relaxation",
+      "name": "Wellness and relaxation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:rural_exploration",
+      "name": "Rural exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:peaceful",
+      "name": "Peaceful",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:boutique",
+      "name": "Boutique",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:nature",
+      "name": "Nature",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:nature_focused",
+      "name": "Nature focused",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:resort",
+      "name": "Resort",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:asian_inspired",
+      "name": "Asian inspired",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:countryside",
+      "name": "Countryside",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:lotus_pond",
+      "name": "Lotus pond",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:idyllic",
+      "name": "Idyllic",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Garden",
+     "Cycling",
+     "Relaxing",
+     "Culinary experiences",
+     "Nature appreciation",
+     "Towels",
+     "Outdoor pool",
+     "Tra que vegetable village",
+     "Tropical",
+     "Bar",
+     "Sunset view",
+     "Quiet",
+     "Secluded",
+     "Dining drinking",
+     "Room service",
+     "Rustic",
+     "Restaurant",
+     "Nature outdoors",
+     "Hotel",
+     "Charming",
+     "Support local community",
+     "Parking",
+     "Bluetooth speaker",
+     "Authentic",
+     "Four star",
+     "Eco friendly design",
+     "Lake view",
+     "Air conditioned",
+     "Spa",
+     "Rice fields",
+     "All day",
+     "Scenic",
+     "Air conditioning",
+     "Shuttle service",
+     "Billiards",
+     "Romantic",
+     "Free wi fi",
+     "Airport shuttle",
+     "Kid friendly",
+     "Breakfast available",
+     "Garden view",
+     "Bike rental",
+     "Cooking classes",
+     "Free parking",
+     "Pool view",
+     "Bathtub",
+     "Minibar",
+     "Hoi an ancient town",
+     "Wellness and relaxation",
+     "Hot tub",
+     "Modern",
+     "Rural exploration",
+     "Peaceful",
+     "Place",
+     "Floor to ceiling windows",
+     "Wi fi",
+     "Laundry service",
+     "An bang beach",
+     "Spa treatments",
+     "Tours",
+     "Private bathroom",
+     "Boutique",
+     "Nature",
+     "Nature focused",
+     "Villa",
+     "Resort",
+     "Asian inspired",
+     "Countryside",
+     "Heated pool",
+     "Lotus pond",
+     "Free breakfast",
+     "Housekeeping",
+     "Complimentary breakfast",
+     "Rural",
+     "Wellness",
+     "Idyllic",
+     "Natural",
+     "Concierge",
+     "Lotus pond view",
+     "Rice field view",
+     "Destination"
+    ],
+    "rank": 10,
+    "cityRank": null,
+    "lift": null,
+    "ref": "P10"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hoi An",
+     "filter.tags": [
+      "urn:tag:genre:place:hotel",
+      "urn:tag:genre:place:hotel:hostel"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Sydney"
+    },
+    "cached": false
+   }
+  },
+  "C1": {
+   "ref": "C1",
+   "kind": "tv_show",
+   "item": {
+    "id": "6A55B4D8-DE20-422A-938E-C9E4A36B1581",
+    "name": "Emily in Paris",
+    "kind": "tv_show",
+    "disambiguation": "2020,2026",
+    "popularity": 0.9723422644770959,
+    "affinity": 0.9969758294290977,
+    "rank": 23,
+    "localRank": 49
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "kind": "tv_show",
+   "item": {
+    "id": "65CE4D00-4780-429B-8DED-B50D12EAB82F",
+    "name": "Superwog",
+    "kind": "tv_show",
+    "disambiguation": "2017,2022",
+    "popularity": 0.4891297121202048,
+    "affinity": 0.9998202667117043,
+    "rank": 1,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "kind": "tv_show",
+   "item": {
+    "id": "5B416B07-0208-446D-8D07-9882DAA6A406",
+    "name": "Lego Masters Australia",
+    "kind": "tv_show",
+    "disambiguation": "2019",
+    "popularity": 0.13316933714513662,
+    "affinity": 0.9997843158448846,
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "kind": "tv_show",
+   "item": {
+    "id": "DA07A37C-404F-42EE-A4E7-D13B21FE76B2",
+    "name": "Grand Designs Australia",
+    "kind": "tv_show",
+    "disambiguation": "2010,2025",
+    "popularity": null,
+    "affinity": 0.999748363575119,
+    "rank": 3,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "kind": "tv_show",
+   "item": {
+    "id": "F6013EAC-8F32-4080-B1ED-2BFABB9C706E",
+    "name": "Bluey",
+    "kind": "tv_show",
+    "disambiguation": "2018",
+    "popularity": 0.9196197061365601,
+    "affinity": 0.9993168269249805,
+    "rank": 4,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "tv_show",
+   "item": {
+    "id": "B712DC35-F4ED-4798-97E5-A4B68CC00CF9",
+    "name": "Bluey Minisodes",
+    "kind": "tv_show",
+    "disambiguation": "2024",
+    "popularity": null,
+    "affinity": 0.9992808564211263,
+    "rank": 5,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C7": {
+   "ref": "C7",
+   "kind": "tv_show",
+   "item": {
+    "id": "03E46795-60F7-4781-A4EE-E1E67B10A8FA",
+    "name": "Bondi Rescue",
+    "kind": "tv_show",
+    "disambiguation": "2006,2024",
+    "popularity": 0.18855129313210559,
+    "affinity": 0.9992448845149741,
+    "rank": 6,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:tv_show",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C8": {
+   "ref": "C8",
+   "kind": "artist",
+   "item": {
+    "id": "FBF8DED9-679A-4623-8A59-91200E11A962",
+    "name": "Context",
+    "kind": "artist",
+    "disambiguation": "Context",
+    "popularity": 0.7475964846745178,
+    "affinity": 1,
+    "rank": 1,
+    "localRank": 1
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C9": {
+   "ref": "C9",
+   "kind": "artist",
+   "item": {
+    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
+    "name": "Nicole Richie",
+    "kind": "artist",
+    "disambiguation": "Nicole Richie",
+    "popularity": 0.8038685619540071,
+    "affinity": 0.9999855342781788,
+    "rank": 3,
+    "localRank": 18
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C10": {
+   "ref": "C10",
+   "kind": "artist",
+   "item": {
+    "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+    "name": "Taylor Swift",
+    "kind": "artist",
+    "disambiguation": "Taylor Swift",
+    "popularity": 0.9997870095485257,
+    "affinity": 0.9999634097934227,
+    "rank": 6,
+    "localRank": 48
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C11": {
+   "ref": "C11",
+   "kind": "artist",
+   "item": {
+    "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
+    "name": "Beyoncé",
+    "kind": "artist",
+    "disambiguation": "Beyoncé",
+    "popularity": 0.999882036057645,
+    "affinity": 0.9999489434967217,
+    "rank": 8,
+    "localRank": 4
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C12": {
+   "ref": "C12",
+   "kind": "artist",
+   "item": {
+    "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
+    "name": "Rihanna",
+    "kind": "artist",
+    "disambiguation": "Rihanna",
+    "popularity": 0.999937741252646,
+    "affinity": 0.9999195847253799,
+    "rank": 11,
+    "localRank": 6
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C13": {
+   "ref": "C13",
+   "kind": "artist",
+   "item": {
+    "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
+    "name": "Adele",
+    "kind": "artist",
+    "disambiguation": "Adele",
+    "popularity": 0.9997739024438197,
+    "affinity": 0.9999051177401851,
+    "rank": 13,
+    "localRank": 12
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C14": {
+   "ref": "C14",
+   "kind": "artist",
+   "item": {
+    "id": "723A91E1-2CEF-4F5C-AD50-2AA2F1F60C67",
+    "name": "Raumskaya",
+    "kind": "artist",
+    "disambiguation": "Raumskaya",
+    "popularity": 0.6865501445058294,
+    "affinity": 0.9999927671674997,
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C15": {
+   "ref": "C15",
+   "kind": "artist",
+   "item": {
+    "id": "742BAD50-D6B3-43C6-96AD-701AE2FFC420",
+    "name": "Kylie Minogue",
+    "kind": "artist",
+    "disambiguation": "Kylie Minogue",
+    "popularity": 0.9991382078655735,
+    "affinity": 0.9999783013320378,
+    "rank": 4,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C16": {
+   "ref": "C16",
+   "kind": "artist",
+   "item": {
+    "id": "2B3E306B-DE41-415C-B746-C7059A38C16C",
+    "name": "Delta Goodrem",
+    "kind": "artist",
+    "disambiguation": "Delta Goodrem",
+    "popularity": 0.9894913788018795,
+    "affinity": 0.9999706428565451,
+    "rank": 5,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C17": {
+   "ref": "C17",
+   "kind": "artist",
+   "item": {
+    "id": "5DC07B43-055F-4A42-9789-0AEAC6669294",
+    "name": "Jessica Mauboy",
+    "kind": "artist",
+    "disambiguation": "Jessica Mauboy",
+    "popularity": 0.9657740728361809,
+    "affinity": 0.9999561766734817,
+    "rank": 7,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C18": {
+   "ref": "C18",
+   "kind": "artist",
+   "item": {
+    "id": "8BC227FB-D211-42A6-8D1C-118F9563DAEB",
+    "name": "Ricki-Lee",
+    "kind": "artist",
+    "disambiguation": "Ricki-Lee",
+    "popularity": 0.9284352083046615,
+    "affinity": 0.9999417102631438,
+    "rank": 9,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C19": {
+   "ref": "C19",
+   "kind": "artist",
+   "item": {
+    "id": "B19CE60F-033A-4F24-AA51-A8F695A853A9",
+    "name": "Guy Sebastian",
+    "kind": "artist",
+    "disambiguation": "Guy Sebastian",
+    "popularity": 0.9727929274063006,
+    "affinity": 0.999934476972748,
+    "rank": 10,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "T1": {
+   "ref": "T1",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:interests:qloo:cycling",
+    "name": "Cycling",
+    "family": "interests",
+    "marketCount": 7,
+    "marketTotal": 10,
+    "baselineCount": 16,
+    "baselineTotal": 50,
+    "gap": 0.37999999999999995,
+    "places": [
+     "P1",
+     "P4",
+     "P5",
+     "P6",
+     "P8",
+     "P9",
+     "P10"
+    ],
+    "derived": true,
+    "ref": "T1"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T2": {
+   "ref": "T2",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:ambience:qloo:romantic",
+    "name": "Romantic",
+    "family": "ambience",
+    "marketCount": 6,
+    "marketTotal": 10,
+    "baselineCount": 17,
+    "baselineTotal": 50,
+    "gap": 0.25999999999999995,
+    "places": [
+     "P2",
+     "P5",
+     "P6",
+     "P7",
+     "P8",
+     "P10"
+    ],
+    "derived": true,
+    "ref": "T2"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T3": {
+   "ref": "T3",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:decor:qloo:minimalist",
+    "name": "Minimalist",
+    "family": "decor",
+    "marketCount": 3,
+    "marketTotal": 10,
+    "baselineCount": 5,
+    "baselineTotal": 50,
+    "gap": 0.19999999999999998,
+    "places": [
+     "P3",
+     "P5",
+     "P9"
+    ],
+    "derived": true,
+    "ref": "T3"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T4": {
+   "ref": "T4",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:decor:qloo:modern",
+    "name": "Modern",
+    "family": "decor",
+    "marketCount": 6,
+    "marketTotal": 10,
+    "baselineCount": 20,
+    "baselineTotal": 50,
+    "gap": 0.19999999999999996,
+    "places": [
+     "P1",
+     "P3",
+     "P5",
+     "P8",
+     "P9",
+     "P10"
+    ],
+    "derived": true,
+    "ref": "T4"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T5": {
+   "ref": "T5",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:ambience:qloo:relaxing",
+    "name": "Relaxing",
+    "family": "ambience",
+    "marketCount": 10,
+    "marketTotal": 10,
+    "baselineCount": 42,
+    "baselineTotal": 50,
+    "gap": 0.16000000000000003,
+    "places": [
+     "P1",
+     "P2",
+     "P3",
+     "P4",
+     "P5",
+     "P6",
+     "P7",
+     "P8",
+     "P9",
+     "P10"
+    ],
+    "derived": true,
+    "ref": "T5"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T6": {
+   "ref": "T6",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:setting:qloo:waterfront",
+    "name": "Waterfront",
+    "family": "setting",
+    "marketCount": 3,
+    "marketTotal": 10,
+    "baselineCount": 7,
+    "baselineTotal": 50,
+    "gap": 0.15999999999999998,
+    "places": [
+     "P3",
+     "P5",
+     "P7"
+    ],
+    "derived": true,
+    "ref": "T6"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T7": {
+   "ref": "T7",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:setting:qloo:beachfront",
+    "name": "Beachfront",
+    "family": "setting",
+    "marketCount": 3,
+    "marketTotal": 10,
+    "baselineCount": 7,
+    "baselineTotal": 50,
+    "gap": 0.15999999999999998,
+    "places": [
+     "P3",
+     "P5",
+     "P7"
+    ],
+    "derived": true,
+    "ref": "T7"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "T8": {
+   "ref": "T8",
+   "kind": "tag",
+   "item": {
+    "id": "urn:tag:ambience:qloo:serene",
+    "name": "Serene",
+    "family": "ambience",
+    "marketCount": 3,
+    "marketTotal": 10,
+    "baselineCount": 7,
+    "baselineTotal": 50,
+    "gap": 0.15999999999999998,
+    "places": [
+     "P4",
+     "P6",
+     "P8"
+    ],
+    "derived": true,
+    "ref": "T8"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "tag share among market favourites minus share among the city overall"
+   }
+  },
+  "I1": {
+   "ref": "I1",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:category:place:cooking_class",
+    "name": "Cooking class",
+    "idea": "cooking class",
+    "marketCount": 0,
+    "marketTotal": 10,
+    "cityCount": 0,
+    "cityTotal": 50,
+    "gap": 0,
+    "verdict": "untested",
+    "examples": [],
+    "ref": "I1"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "share of market favourites carrying the tag vs share of the city overall"
+   }
+  },
+  "I2": {
+   "ref": "I2",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours",
+    "idea": "bicycle tours",
+    "marketCount": 0,
+    "marketTotal": 10,
+    "cityCount": 0,
+    "cityTotal": 50,
+    "gap": 0,
+    "verdict": "untested",
+    "examples": [],
+    "ref": "I2"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "share of market favourites carrying the tag vs share of the city overall"
+   }
+  },
+  "I3": {
+   "ref": "I3",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:amenity:place:rooftop_bar",
+    "name": "Rooftop Bar",
+    "idea": "rooftop bar",
+    "marketCount": 1,
+    "marketTotal": 10,
+    "cityCount": 1,
+    "cityTotal": 50,
+    "gap": 0.08,
+    "verdict": "common",
+    "examples": [
+     "P2"
+    ],
+    "ref": "I3"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "share of market favourites carrying the tag vs share of the city overall"
+   }
+  },
+  "I4": {
+   "ref": "I4",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:amenity:qloo:yoga",
+    "name": "Yoga",
+    "idea": "yoga mornings",
+    "marketCount": 0,
+    "marketTotal": 10,
+    "cityCount": 3,
+    "cityTotal": 50,
+    "gap": -0.06,
+    "verdict": "absent-from-favourites",
+    "examples": [],
+    "ref": "I4"
+   },
+   "source": {
+    "derivedFrom": "marketPlaces",
+    "rule": "share of market favourites carrying the tag vs share of the city overall"
+   }
+  }
+ },
+ "trace": [
+  {
+   "ms": 0,
+   "phase": "qloo",
+   "label": "Rank homestay / hotels in Hoi An by the taste of people in Sydney, and without it",
+   "detail": null
+  },
+  {
+   "ms": 0,
+   "phase": "qloo",
+   "label": "Music and TV loved in Sydney, checked against Hoi An",
+   "detail": null
+  },
+  {
+   "ms": 3315,
+   "phase": "qloo",
+   "label": "10 market favourites, 8 over-represented tags, 6 bridge artists",
+   "detail": null
+  },
+  {
+   "ms": 3315,
+   "phase": "agent",
+   "label": "Map 4 owner ideas to Qloo tags and rank them for Sydney",
+   "detail": null
+  },
+  {
+   "ms": 4675,
+   "phase": "agent",
+   "label": "find_tags({\"query\":\"cooking class\"})",
+   "detail": "2 tags: Cooking class, Cooking Classes"
+  },
+  {
+   "ms": 5664,
+   "phase": "agent",
+   "label": "find_tags({\"query\":\"bicycle tour\"})",
+   "detail": "6 tags: Bicycle tours, Bicycle Tours Stop, Bicycle rental, Bicycle Shop"
+  },
+  {
+   "ms": 6898,
+   "phase": "agent",
+   "label": "find_tags({\"query\":\"rooftop bar\"})",
+   "detail": "2 tags: Rooftop Bar, Rooftop Bar Style"
+  },
+  {
+   "ms": 8228,
+   "phase": "agent",
+   "label": "find_tags({\"query\":\"yoga\"})",
+   "detail": "5 tags: Yoga, Yoga studio, Yoga instructor, Yoga classes"
+  },
+  {
+   "ms": 9678,
+   "phase": "agent",
+   "label": "rank_ideas_by_tags({\"mappings\":[{\"idea\":\"cooking class\",\"tag_id\":\"urn:tag:category:place:cooking_class\"},{\"idea\":\"bicycle tours\",\"tag_id\":\"urn:tag:amenity:plac)",
+   "detail": "rooftop bar → Rooftop Bar: 1/10 favourites vs 1/50 city (common); cooking class → Cooking class: 0/10 favourites vs 0/50 city (untested); bicycle tours → Bicycle tours: 0/10 favourites vs 0/50 city (untested); yoga mornings → Yoga: 0/10 favourites vs 3/50 city (absent-from-favourites)"
+  },
+  {
+   "ms": 11183,
+   "phase": "model",
+   "label": "Write the brief from the fact sheet, and ask the model the same question with no data",
+   "detail": null
+  },
+  {
+   "ms": 28581,
+   "phase": "done",
+   "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
+   "detail": null
+  }
+ ],
+ "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
+ "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: Sydney, Australia.\n\nPlaces in Hoi An (homestay / hotel genre) ranked by the taste of people in Sydney; \"city rank\" is the same list without the market signal:\nP1 IVY VILLA — market rank 1, city rank not in top 50 — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An — market rank 3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa — market rank 4, city rank not in top 50 — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa — market rank 5, city rank not in top 50 — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort — market rank 6, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort — market rank 7, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa — market rank 8, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian — market rank 9, city rank not in top 50 — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate — market rank 10, city rank not in top 50 — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nTags over-represented among Sydney favourites vs the city overall:\nT1 \"Cycling\" (interests) — 7/10 market favourites vs 16/50 city-wide — e.g. P1, P4, P5, P6\nT2 \"Romantic\" (ambience) — 6/10 market favourites vs 17/50 city-wide — e.g. P2, P5, P6, P7\nT3 \"Minimalist\" (decor) — 3/10 market favourites vs 5/50 city-wide — e.g. P3, P5, P9\nT4 \"Modern\" (decor) — 6/10 market favourites vs 20/50 city-wide — e.g. P1, P3, P5, P8\nT5 \"Relaxing\" (ambience) — 10/10 market favourites vs 42/50 city-wide — e.g. P1, P2, P3, P4\nT6 \"Waterfront\" (setting) — 3/10 market favourites vs 7/50 city-wide — e.g. P3, P5, P7\nT7 \"Beachfront\" (setting) — 3/10 market favourites vs 7/50 city-wide — e.g. P3, P5, P7\nT8 \"Serene\" (ambience) — 3/10 market favourites vs 7/50 city-wide — e.g. P4, P6, P8\n\nMusic loved in Sydney that Hoi An also loves (bridge):\nC8 Context — Sydney rank 1, Hoi An rank 1\nC9 Nicole Richie — Sydney rank 3, Hoi An rank 18\nC10 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC11 Beyoncé — Sydney rank 8, Hoi An rank 4\nC12 Rihanna — Sydney rank 11, Hoi An rank 6\nC13 Adele — Sydney rank 13, Hoi An rank 12\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC14 Raumskaya — Sydney rank 2\nC15 Kylie Minogue — Sydney rank 4\nC16 Delta Goodrem — Sydney rank 5\nC17 Jessica Mauboy — Sydney rank 7\nC18 Ricki-Lee — Sydney rank 9\nC19 Guy Sebastian — Sydney rank 10\n\nTV loved in Sydney that Hoi An also loves (bridge):\nC1 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC2 Superwog — Sydney rank 1\nC3 Lego Masters Australia — Sydney rank 2\nC4 Grand Designs Australia — Sydney rank 3\nC5 Bluey — Sydney rank 4\nC6 Bluey Minisodes — Sydney rank 5\nC7 Bondi Rescue — Sydney rank 6\n\nOwner ideas, scored against the same pools (verdicts: over-represented = clearly more common among market favourites than city-wide, a real signal; common = offered by market favourites about as often as city-wide or less, so not a differentiator; untested = no place in either pool offers it, no evidence either way; absent-from-favourites = offered in the city but by none of the market favourites):\nI1 \"cooking class\" → tag \"Cooking class\": carried by 0/10 Sydney favourites vs 0/50 Hoi An places overall — verdict untested — idea rank 2 of 4\nI2 \"bicycle tours\" → tag \"Bicycle tours\": carried by 0/10 Sydney favourites vs 0/50 Hoi An places overall — verdict untested — idea rank 3 of 4\nI3 \"rooftop bar\" → tag \"Rooftop Bar\": carried by 1/10 Sydney favourites vs 1/50 Hoi An places overall — verdict common — idea rank 1 of 4 — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\": carried by 0/10 Sydney favourites vs 3/50 Hoi An places overall — verdict absent-from-favourites — idea rank 4 of 4",
+ "generatedAt": "2026-10-06T10:21:31.593Z"
+}

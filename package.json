@@ -1,0 +1,19 @@
+{
+  "name": "qloo-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Taste brief agent for small Vietnamese hospitality businesses: reads a visitor market's taste from Qloo and plans offers with cited evidence.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.1.0",
+    "@modelcontextprotocol/server": "^2.2.0",
+    "express": "^5.2.1",
+    "zod": "^4.6.5"
+  }
+}
