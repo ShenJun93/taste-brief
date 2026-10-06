@@ -4,8 +4,6 @@
 
 Built for the [Qloo Agentic Hackathon](https://qloo.devpost.com). Data: Qloo Taste AI™ (hackathon API). Agent: NVIDIA Nemotron 3 Super on Nebius Token Factory. Also served as an MCP server.
 
-> Working title. The project name is chosen by its author and will replace "Taste Brief".
-
 ## The problem
 
 Vietnam's small cafés, homestays and tour operators depend on foreign visitors, and most of them market to "tourists" in general. An owner who wants more guests from Seoul has two sources today: a guess, or a chatbot that answers from general knowledge. Both tend to name the same famous places and the same global stars.

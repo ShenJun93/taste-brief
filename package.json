@@ -1,11 +1,13 @@
 {
-  "name": "qloo-agent",
+  "name": "taste-brief",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "description": "Taste brief agent for small Vietnamese hospitality businesses: reads a visitor market's taste from Qloo and plans offers with cited evidence.",
   "license": "MIT",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node --env-file-if-exists=.env server.js",
     "test": "node --test"
