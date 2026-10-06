@@ -4,68 +4,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Taste Brief</title>
-  <meta name="description" content="A taste brief for small Vietnamese hospitality businesses: what visitors from Seoul, Tokyo or Sydney favour in your city, from Qloo's taste graph, with every claim cited.">
+  <meta name="description" content="What visitors from Seoul, Tokyo or Sydney favour in your Vietnamese city, from Qloo's taste graph, with every claim cited.">
+  <meta property="og:title" content="Taste Brief">
+  <meta property="og:description" content="What visitors from Seoul, Tokyo or Sydney favour in your Vietnamese city, from Qloo's taste graph, with every claim cited.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://taste-brief.vercel.app">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23b4532a%22/%3E%3Cpath d=%22M16 2a14 14 0 0 1 0 28z%22 fill=%22%23f7f3ec%22/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ccircle cx=%2216%22 cy=%2216%22 r=%2214%22 fill=%22%23b4532a%22/%3E%3Cpath d=%22M16 2a14 14 0 0 1 0 28z%22 fill=%22%23f7f3ec%22/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha384-c6Rcwz4e4CITMbu/NBmnNS8yN2sC3cUElMEMfP3vqqKFp7GOYaaBBCqmaWBjmkjb" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="top">
+  <header class="top no-print">
     <div class="wrap top-inner">
-      <div class="brand"><span class="mark" aria-hidden="true">◐</span> <span id="app-name">Taste Brief</span></div>
+      <a class="brand" href="/"><span class="mark" aria-hidden="true">◐</span> Taste Brief</a>
       <nav class="top-links">
-        <a href="#how">How it works</a>
-        <a href="https://github.com/ShenJun93/taste-brief" rel="noopener">Code</a>
+        <a href="#how" data-i18n="nav.how">How it works</a>
+        <a href="https://github.com/ShenJun93/taste-brief" rel="noopener" data-i18n="nav.code">Code</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button><button type="button" data-lang="vi">VI</button>
+        </div>
       </nav>
     </div>
   </header>
 
   <main class="wrap">
-    <section class="intro">
-      <h1>Know what your visitors love before they walk in.</h1>
-      <p class="lede">For cafés, homestays and tours in Vietnam. Pick the visitors you want — people from Seoul, Tokyo, Sydney — and get a one-page plan built from <strong>Qloo's taste graph</strong>: where they already go in your city, what those places have in common, music both sides know, and how your own ideas measure up. Every claim links to the Qloo result behind it.</p>
-    </section>
-
-    <section class="card form-card" aria-labelledby="form-title">
-      <h2 id="form-title" class="sr-only">Your business</h2>
-      <form id="brief-form">
-        <fieldset class="field">
-          <legend>I run a</legend>
-          <div class="chips" id="business"></div>
-        </fieldset>
-        <div class="row">
-          <label class="field">in
-            <select id="city" name="city"></select>
-          </label>
-          <label class="field">and want more guests from
-            <select id="market" name="market"></select>
-          </label>
-        </div>
-        <label class="field">My place's name <span class="opt">optional — we look it up in Qloo</span>
-          <input id="own" name="ownPlace" maxlength="80" placeholder="e.g. Xofa Cafe" autocomplete="off">
-        </label>
-        <label class="field">Ideas I'm considering <span class="opt">optional, one per line, up to 6</span>
-          <textarea id="ideas" name="ideas" rows="4" maxlength="700" placeholder="egg coffee workshop&#10;live music on Fridays&#10;vegan cakes"></textarea>
-        </label>
-        <div class="actions-row">
-          <button type="submit" id="go" class="primary">Build my brief</button>
-          <span class="hint" id="go-hint">Takes about 30–60 seconds; you can watch the agent work.</span>
-        </div>
-      </form>
-      <div class="samples">
-        <span class="samples-label">Or open a finished example:</span>
-        <div class="chips" id="samples"></div>
+    <section class="intro no-print">
+      <h1 data-i18n="hero.title">Know what your visitors love before they walk in.</h1>
+      <p class="lede" data-i18n-html="hero.lede">For cafés, homestays and tours in Vietnam. Pick the visitors you want — people from Seoul, Tokyo, Sydney — and get a one-page plan built from <strong>Qloo's taste graph</strong>: where they already go in your city, what those places have in common, music both sides know, and how your own ideas measure up. Every claim links to the Qloo result behind it.</p>
+      <div class="hero-actions">
+        <button type="button" class="primary" id="hero-example" data-i18n="hero.example">See an example: Hanoi café, guests from Seoul</button>
+        <a class="ghost" href="#form-card" data-i18n="hero.build">Build one for your place ↓</a>
       </div>
     </section>
 
-    <section id="progress" class="card progress" hidden aria-live="polite">
-      <h2>Agent at work</h2>
+    <section id="error" class="card error" hidden role="alert"></section>
+
+    <section id="progress" class="card progress no-print" hidden aria-live="polite">
+      <h2 data-i18n="progress.title">Agent at work</h2>
       <ol id="steps" class="steps"></ol>
     </section>
-
-    <section id="error" class="card error" hidden role="alert"></section>
 
     <section id="result" hidden>
       <div class="card brief-head">
@@ -73,85 +54,138 @@
         <h2 id="headline"></h2>
         <p id="summary" class="summary"></p>
         <div class="meta" id="brief-meta"></div>
+        <div class="tools no-print">
+          <button type="button" class="ghost small" id="copy-brief" data-i18n="tools.copy">Copy plan</button>
+          <button type="button" class="ghost small" id="share-brief" data-i18n="tools.share">Copy share link</button>
+          <button type="button" class="ghost small" id="print-brief" data-i18n="tools.print">Print</button>
+          <span id="tool-note" class="hint" aria-live="polite"></span>
+        </div>
       </div>
 
       <div class="card">
-        <h3>Do this next</h3>
+        <h3 data-i18n="actions.title">Do this next</h3>
         <ol id="actions" class="actions"></ol>
+        <details id="dropped-box" hidden><summary id="dropped-title"></summary><ul id="dropped" class="caveats"></ul></details>
+      </div>
+
+      <div class="card">
+        <h3 id="map-title"></h3>
+        <p class="note" id="map-note"></p>
+        <div id="map" class="map" role="img"></div>
       </div>
 
       <div class="grid2">
         <div class="card">
-          <h3 id="places-title">Where they already go</h3>
-          <p class="note" id="places-note"></p>
-          <ol id="places" class="places"></ol>
+          <h3 id="peers-title"></h3>
+          <p class="note" id="peers-note"></p>
+          <ol id="peers" class="places"></ol>
         </div>
         <div class="card">
-          <h3>What their favourites have in common</h3>
+          <h3 id="all-title"></h3>
+          <p class="note" id="all-note"></p>
+          <ol id="all-places" class="places compact"></ol>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3 data-i18n="profile.title">What their favourites have in common</h3>
           <p class="note" id="profile-note"></p>
           <ul id="profile" class="profile"></ul>
+          <div id="audience" class="audience"></div>
         </div>
-      </div>
-
-      <div class="grid2">
         <div class="card" id="ideas-card">
-          <h3>Your ideas, measured</h3>
+          <h3 data-i18n="ideas.title">Your ideas, measured</h3>
+          <p class="note" id="ideas-note"></p>
           <ul id="idea-list" class="idea-list"></ul>
           <div id="own-place" class="own"></div>
         </div>
-        <div class="card">
-          <h3>Music both sides know</h3>
-          <p class="note" id="music-note"></p>
-          <ul id="bridge" class="culture"></ul>
-          <h4 id="distinct-title"></h4>
-          <ul id="distinct" class="culture subtle"></ul>
-          <div id="tv"></div>
-        </div>
-      </div>
-
-      <div class="card contrast">
-        <h3>Same question, no Qloo</h3>
-        <p class="note">We asked the same model the same question with no data. Its answers are checked against what Qloo returned for this market.</p>
-        <div class="grid2 tight">
-          <div><h4>Places it suggested</h4><ul id="llm-places" class="checks"></ul></div>
-          <div><h4>Artists it suggested</h4><ul id="llm-artists" class="checks"></ul></div>
-        </div>
-        <details><summary>Its advice</summary><p id="llm-advice" class="note"></p></details>
       </div>
 
       <div class="card">
-        <h3>What this does not tell you</h3>
+        <h3 data-i18n="music.title">Music both sides know</h3>
+        <p class="note" id="music-note"></p>
+        <ul id="playlist" class="culture"></ul>
+        <h4 id="distinct-title"></h4>
+        <ul id="distinct" class="culture subtle"></ul>
+        <div id="tv"></div>
+      </div>
+
+      <div class="card contrast">
+        <h3 data-i18n="contrast.title">Same question, no Qloo</h3>
+        <p class="note" data-i18n="contrast.note">We asked the same model the same question with no data, then looked each of its picks up in Qloo.</p>
+        <div class="grid2 tight">
+          <div><h4 data-i18n="contrast.places">Places it suggested</h4><ul id="llm-places" class="checks"></ul></div>
+          <div><h4 data-i18n="contrast.artists">Artists it suggested</h4><ul id="llm-artists" class="checks"></ul></div>
+        </div>
+        <details><summary data-i18n="contrast.advice">Its advice</summary><p id="llm-advice" class="note"></p></details>
+      </div>
+
+      <div class="card">
+        <h3 data-i18n="caveats.title">What this does not tell you</h3>
         <ul id="caveats" class="caveats"></ul>
-        <details class="ledger">
-          <summary>Evidence ledger — every cited result and the Qloo request behind it</summary>
+        <details class="ledger no-print">
+          <summary data-i18n="ledger.title">Evidence ledger — every cited fact and the Qloo request behind it</summary>
           <div id="ledger"></div>
         </details>
-        <details class="ledger">
-          <summary>Agent trace</summary>
+        <details class="ledger no-print">
+          <summary data-i18n="trace.title">Agent trace</summary>
           <ol id="trace" class="steps small"></ol>
         </details>
       </div>
     </section>
 
+    <section class="card form-card no-print" id="form-card" aria-labelledby="form-title">
+      <h2 id="form-title" data-i18n="form.title">Build a brief for your place</h2>
+      <form id="brief-form">
+        <fieldset class="field">
+          <legend data-i18n="form.business">I run a</legend>
+          <div class="chips" id="business"></div>
+        </fieldset>
+        <div class="row">
+          <label class="field"><span data-i18n="form.city">in</span>
+            <select id="city" name="city"></select>
+          </label>
+          <label class="field"><span data-i18n="form.market">and want more guests from</span>
+            <select id="market" name="market"></select>
+          </label>
+        </div>
+        <label class="field"><span><span data-i18n="form.own">My place's name</span> <span class="opt" data-i18n="form.ownHint">optional — we look it up in Qloo</span></span>
+          <input id="own" name="ownPlace" maxlength="80" placeholder="e.g. Xofa Cafe" autocomplete="off">
+        </label>
+        <label class="field"><span><span data-i18n="form.ideas">Ideas I'm considering</span> <span class="opt" data-i18n="form.ideasHint">one per line, up to 6</span></span>
+          <textarea id="ideas" name="ideas" rows="4" maxlength="700"></textarea>
+        </label>
+        <div class="actions-row">
+          <button type="submit" id="go" class="primary" data-i18n="form.go">Build my brief</button>
+          <span class="hint" data-i18n="form.goHint">Takes about 30–60 seconds; you can watch the agent work.</span>
+        </div>
+      </form>
+      <div class="samples">
+        <span class="samples-label" data-i18n="form.samples">Or open a finished example:</span>
+        <div class="chips" id="samples"></div>
+      </div>
+    </section>
+
     <section id="how" class="card how">
-      <h2>How it works</h2>
+      <h2 data-i18n="how.title">How it works</h2>
       <ol>
-        <li><strong>Qloo first.</strong> The server asks Qloo for places of your kind in your city ranked by the taste of people living in the visitor city, and the same list without that signal. The difference is what the market adds.</li>
-        <li><strong>What sets their favourites apart.</strong> Tags (ambience, setting, offerings) that appear more often among the market's favourites than city-wide.</li>
-        <li><strong>An agent maps your ideas.</strong> NVIDIA Nemotron calls Qloo tools to find the tag for each idea, then scores it against the same two lists. It can only use tag ids Qloo returned.</li>
-        <li><strong>A plan that cites its evidence.</strong> The model writes from a fact sheet; any action without a valid citation is dropped. Names and numbers on this page come from Qloo results, not from the model.</li>
-        <li><strong>Also an MCP server.</strong> The same tools are served at <code>/mcp</code> for any agent to call.</li>
+        <li data-i18n-html="how.1"><strong>Qloo first.</strong> The server asks Qloo for places in your city ranked by the taste of people living in the visitor city, and the same lists without that signal. The difference is what that market adds.</li>
+        <li data-i18n-html="how.2"><strong>What sets their favourites apart.</strong> Tags (ambience, setting, offerings) clearly more common among the market's favourites than among the city's top places.</li>
+        <li data-i18n-html="how.3"><strong>An agent maps your ideas.</strong> NVIDIA Nemotron calls Qloo tools to find the tag for each idea, then scores it against the same lists — places, music or TV. It can only use tag ids Qloo returned.</li>
+        <li data-i18n-html="how.4"><strong>A plan that cites its evidence.</strong> The model writes from a fact sheet; actions without a valid citation, actions that push an idea the data does not support, and names that are not in the data are removed. Names and numbers on the page come from Qloo results.</li>
+        <li data-i18n-html="how.5"><strong>Also an MCP server.</strong> The same tools are served at <code>/mcp</code> for any agent to call.</li>
       </ol>
-      <p class="note">Qloo results describe the aggregate taste of people in a city. They say nothing about any individual guest, and no personal data is sent to Qloo.</p>
+      <p class="note" data-i18n="how.note">Qloo results describe the aggregate taste of people in a city. They say nothing about any individual guest, and no personal data is sent to Qloo.</p>
     </section>
   </main>
 
   <footer class="wrap foot">
-    <span>Data: Qloo Taste AI™ · Model: NVIDIA Nemotron on Nebius · Built for the Qloo Agentic Hackathon</span>
+    <span data-i18n="foot">Data: Qloo Taste AI™ · Model: NVIDIA Nemotron on Nebius · Map: © OpenStreetMap contributors · Built for the Qloo Agentic Hackathon</span>
   </footer>
 
-  <template id="ref-tpl"><button type="button" class="ref"></button></template>
-  <div id="pop" class="pop" role="dialog" hidden></div>
+  <div id="pop" class="pop" role="dialog" aria-modal="false" hidden tabindex="-1"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha384-NElt3Op+9NBMCYaef5HxeJmU4Xeard/Lku8ek6hoPTvYkQPh3zLIrJP7KiRocsxO" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script type="module" src="app.js"></script>
 </body>
 </html>

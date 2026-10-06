@@ -1,4 +1,4 @@
-// Keeps a public deployment from spending the owner's Nebius and Tavily credits without bound.
+// Keeps a public deployment from spending the owner's Qloo and Nebius quotas without bound.
 // Limits are per server instance (serverless instances do not share memory), which is enough
 // to stop a casual loop; the hard stop is the provider account's own trial limit.
 

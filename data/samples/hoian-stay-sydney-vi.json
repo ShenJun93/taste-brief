@@ -15,7 +15,7 @@
    "yoga mornings"
   ],
   "ownPlace": null,
-  "lang": "en"
+  "lang": "vi"
  },
  "peers": [
   {
@@ -6091,7 +6091,7 @@
     ],
     "rank": 1,
     "localRank": 1,
-    "ref": "C8"
+    "ref": "C1"
    },
    {
     "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
@@ -6125,7 +6125,7 @@
     ],
     "rank": 3,
     "localRank": 18,
-    "ref": "C9"
+    "ref": "C2"
    },
    {
     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
@@ -6219,7 +6219,7 @@
     ],
     "rank": 6,
     "localRank": 48,
-    "ref": "C10"
+    "ref": "C3"
    },
    {
     "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
@@ -6315,7 +6315,7 @@
     ],
     "rank": 8,
     "localRank": 4,
-    "ref": "C11"
+    "ref": "C4"
    },
    {
     "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
@@ -6406,7 +6406,7 @@
     ],
     "rank": 11,
     "localRank": 6,
-    "ref": "C12"
+    "ref": "C5"
    },
    {
     "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
@@ -6498,7 +6498,7 @@
     ],
     "rank": 13,
     "localRank": 12,
-    "ref": "C13"
+    "ref": "C6"
    }
   ],
   "distinct": [
@@ -6543,7 +6543,7 @@
     ],
     "rank": 2,
     "localRank": null,
-    "ref": "C14"
+    "ref": "C7"
    },
    {
     "id": "742BAD50-D6B3-43C6-96AD-701AE2FFC420",
@@ -6630,7 +6630,7 @@
     ],
     "rank": 4,
     "localRank": null,
-    "ref": "C15"
+    "ref": "C8"
    },
    {
     "id": "2B3E306B-DE41-415C-B746-C7059A38C16C",
@@ -6685,7 +6685,7 @@
     ],
     "rank": 5,
     "localRank": null,
-    "ref": "C16"
+    "ref": "C9"
    },
    {
     "id": "5DC07B43-055F-4A42-9789-0AEAC6669294",
@@ -6737,7 +6737,7 @@
     ],
     "rank": 7,
     "localRank": null,
-    "ref": "C17"
+    "ref": "C10"
    },
    {
     "id": "8BC227FB-D211-42A6-8D1C-118F9563DAEB",
@@ -6810,7 +6810,7 @@
     ],
     "rank": 9,
     "localRank": null,
-    "ref": "C18"
+    "ref": "C11"
    },
    {
     "id": "B19CE60F-033A-4F24-AA51-A8F695A853A9",
@@ -6867,7 +6867,7 @@
     ],
     "rank": 10,
     "localRank": null,
-    "ref": "C19"
+    "ref": "C12"
    }
   ]
  },
@@ -6974,7 +6974,7 @@
     ],
     "rank": 23,
     "localRank": 49,
-    "ref": "C1"
+    "ref": "C13"
    }
   ],
   "distinct": [
@@ -7134,7 +7134,7 @@
     ],
     "rank": 4,
     "localRank": null,
-    "ref": "C2"
+    "ref": "C14"
    },
    {
     "id": "E73FD3EB-E55D-4DFA-988C-19410202F985",
@@ -7238,7 +7238,7 @@
     ],
     "rank": 9,
     "localRank": null,
-    "ref": "C3"
+    "ref": "C15"
    },
    {
     "id": "1BE9CDDC-238D-40BA-AC95-25BAA87F1C06",
@@ -7325,7 +7325,7 @@
     ],
     "rank": 11,
     "localRank": null,
-    "ref": "C4"
+    "ref": "C16"
    },
    {
     "id": "C1185047-FD54-41AE-9A81-0EBD0DEA73F2",
@@ -7416,7 +7416,7 @@
     ],
     "rank": 12,
     "localRank": null,
-    "ref": "C5"
+    "ref": "C17"
    },
    {
     "id": "04F70A86-7FA2-44E7-B105-47E44C79DE36",
@@ -7508,7 +7508,7 @@
     ],
     "rank": 14,
     "localRank": null,
-    "ref": "C6"
+    "ref": "C18"
    },
    {
     "id": "EF790F3D-3C83-40D0-9859-594A15F0919C",
@@ -7636,7 +7636,7 @@
     ],
     "rank": 16,
     "localRank": null,
-    "ref": "C7"
+    "ref": "C19"
    }
   ]
  },
@@ -7652,7 +7652,7 @@
     "name": "Cooking Classes"
    },
    "domain": "places",
-   "rank": 2,
+   "rank": 1,
    "of": 4,
    "verdict": "common",
    "ratio": 0.9920634920634921,
@@ -7673,24 +7673,19 @@
    "ref": "I2",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:genre:media:cycling",
-    "name": "Cycling"
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours"
    },
    "domain": "places",
-   "rank": 1,
+   "rank": 3,
    "of": 4,
-   "verdict": "common",
-   "ratio": 1.1904761904761905,
-   "marketCount": 8,
+   "verdict": "too-few",
+   "ratio": 0,
+   "marketCount": 0,
    "marketTotal": 28,
-   "cityCount": 12,
+   "cityCount": 1,
    "cityTotal": 50,
-   "examples": [
-    "P1",
-    "P2",
-    "P4",
-    "P10"
-   ]
+   "examples": []
   },
   {
    "idea": "rooftop bar",
@@ -7702,7 +7697,7 @@
     "name": "Rooftop Bar"
    },
    "domain": "places",
-   "rank": 3,
+   "rank": 2,
    "of": 4,
    "verdict": "too-few",
    "ratio": 1.7857142857142856,
@@ -7736,117 +7731,124 @@
   }
  ],
  "brief": {
-  "headline": "Sydney residents prefer Hoi An stays offering local cuisine, cycling, waterfront, lively vibe, and old‑town charm.",
-  "summary": "The top‑ranked places favoured by people in Sydney include Ivy Villa, Hotel Royal Hoi An Danang, and Resort Hội An, all scoring high on local cuisine, cycling, waterfront, lively and old‑town tags. The audience skews 55+ and female, and music bridges show shared tastes for artists like Context, Nicole Richie, Taylor Swift, Beyoncé, Rihanna and Adele. These signals point to concrete amenity and experience focus for a homestay/hotel targeting Sydney visitors.",
+  "headline": "Khách Sydney yêu ẩm thực địa phương và xe đạp ở Hội An",
+  "summary": "Người sinh sống ở Sydney thường chọn những chỗ ở ở Hội An có ẩm thực địa phương, cơ hội xe đạp và không gian nước, sân chơi sống động. Họ cũng thích âm nhạc như Context, Nicole Richie và Taylor Swift, được yêu thích cả ở Sydney và Hội An. Đối tượng này chủ yếu là người 55+ và xu hướng nữ.",
   "actions": [
    {
-    "title": "Highlight local cuisine in rooms and dining",
-    "detail": "Feature dishes and ingredients tagged as local cuisine, referencing the strong preference shown by Sydney guests (Local cuisine) and exemplified by Miss Ly restaurant (Miss Ly).",
+    "title": "Nhấn mạnh ẩm thực địa phương trong mô tả và menu",
+    "detail": "People in Sydney show strong preference for local cuisine (Local cuisine).",
     "refs": [
-     "T1",
-     "P13"
+     "T1"
     ]
    },
    {
-    "title": "Offer guided cycling tours and bike rentals",
-    "detail": "Provide bicycles and route guides, aligning with the cycling interest that is 2.5× more common among Sydney‑favoured places (Cycling) and present at Ivy Villa (IVY VILLA) and Allamanda Estate (Allamanda Estate).",
+    "title": "Đề xuất hoạt động xe đạp và tour đường phố",
+    "detail": "Cycling interest appears 2.5× more among Sydney favourites (Cycling).",
     "refs": [
-     "T5",
-     "P1",
-     "P10"
+     "T5"
     ]
    },
    {
-    "title": "Showcase waterfront settings and views",
-    "detail": "Emphasise rooms or areas with waterfront access, matching the waterfront tag that appears twice as often among Sydney favourites (Waterfront) and is central to Resort Hội An (Resort Hội An) and Boutique Hoi An Resort (Boutique Hoi An Resort).",
+    "title": "Tạo không gian thoáng đãng, mở cửa và sống động",
+    "detail": "Open air decor and lively ambience are over‑represented among favourites (Open air, Lively).",
     "refs": [
-     "T8",
-     "P3",
-     "P7"
+     "T2",
+     "T3"
     ]
    },
    {
-    "title": "Create lively, old‑town atmosphere experiences",
-    "detail": "Arrange evening walks, street‑food tastings, or live music in the old town, leveraging the lively ambience (Lively) and old‑town setting (Old town) that are notably over‑represented in Sydney‑favoured spots such as Morning Glory Signature (Morning Glory Signature) and Miss Ly (Miss Ly).",
+    "title": "Phát triển playlist âm nhạc橋接 Sydney‑Hội An",
+    "detail": "Bridge artists such as Context, Nicole Richie and Taylor Swift are loved in both markets (Context‑Adele).",
     "refs": [
-     "T3",
-     "T4",
-     "P12",
-     "P13"
+     "C1",
+     "C2",
+     "C3",
+     "C4",
+     "C5",
+     "C6"
     ]
    }
   ],
   "partners": [
    {
     "ref": "P1",
-    "why": "Market‑rank 1 favourite with casual, photography‑friendly, welcoming boutique villa vibe that matches Sydney’s preference for local cuisine and cycling."
+    "why": "IVY VILLA có thị trường hạng 1 và được mô tả là Casual, Welcoming, phù hợp với khách thích nhiếp ảnh và trung tâm thành phố."
    },
    {
     "ref": "P2",
-    "why": "Market‑rank 2 hotel noted for gastronomy, romantic French historic feel and photography, aligning with Sydney’s love for lively, old‑town and local cuisine experiences."
+    "why": "Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa xếp hạng thị trường 2, nổi bật về Gastronomy, Historic và Photography, thu hút khách yêu cầu ẩm thực và lịch sử."
    },
    {
     "ref": "P3",
-    "why": "Market‑rank 3 resort with waterfront, wellness, beachfront and fine‑dining tags, directly reflecting Sydney’s strong waterfront and local cuisine signals."
+    "why": "Resort Hội An có thị trường hạng 3 và xếp hạng thành phố 1, đặc điểm Waterfront, Wellness retreats và Beachfront phù hợp với sở thích về không gian nước và thư giãn."
    },
    {
-    "ref": "P4",
-    "why": "Market‑rank 3 villa offering local cuisine, rural cycling and bonsai cultivation, catering to the cycling and local‑cuisine interests highlighted by Sydney guests."
+    "ref": "P11",
+    "why": "Mango Mango là món ăn fusión Ásia xếp hạng thị trường 1, đáp ứng xu hướng ẩm thực Ásia mà khách Sydney thích."
    }
   ],
   "playlist": [
    {
-    "ref": "C8",
-    "why": "Bridge artist Context tops both Sydney and Hoi An charts, showing shared taste."
+    "ref": "C1",
+    "why": "Context là bài hát được yêu thích cả ở Sydney (hạng 1) và Hội An (hạng 1)."
    },
    {
-    "ref": "C9",
-    "why": "Nicole Richie ranks 3rd in Sydney and 18th in Hoi An, indicating cross‑market appeal."
+    "ref": "C2",
+    "why": "Nicole Richie được xếp hạng 3 ở Sydney và 18 ở Hội An, thể hiện sự chung chung trong sở thích."
    },
    {
-    "ref": "C10",
-    "why": "Taylor Swift is 6th in Sydney and 48th in Hoi An, still a recognizable bridge."
+    "ref": "C3",
+    "why": "Taylor Swift ở Sydney hạng 6, Hội An hạng 48, vẫn nằm trong danh sách bridge."
    },
    {
-    "ref": "C11",
-    "why": "Beyoncé ranks 8th in Sydney and 4th in Hoi An, a strong mutual favourite."
+    "ref": "C4",
+    "why": "Beyoncé ở Sydney hạng 8, Hội An hạng 4, được yêu thích mạnh ở cả hai thị trường."
    },
    {
-    "ref": "C12",
-    "why": "Rihanna sits 11th in Sydney and 6th in Hoi An, confirming overlapping popularity."
+    "ref": "C5",
+    "why": "Rihanna ở Sydney hạng 11, Hội An hạng 6, là một trong những nghệ sĩ bridge phổ biến."
    },
    {
-    "ref": "C13",
-    "why": "Adele is 13th in Sydney and 12th in Hoi An, another shared favorite."
+    "ref": "C6",
+    "why": "Adele ở Sydney hạng 13, Hội An hạng 12, cho thấy sự đồng bộ trong sở thích ballad."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Cooking class is common (5/28 vs 9/50); do not lead with it as a differentiating feature."
+    "note": "Ý tưởng lớp học nấu ăn là phổ biến như ở thành phố, không tạo điểm khác biệt."
    },
    {
     "ref": "I2",
-    "note": "Bicycle tours are common (8/28 vs 12/50); avoid leading with them as a unique selling point."
+    "note": "Ý tưởng tour xe đạp có quá ít dữ liệu để xác định; nếu muốn thử, nên chạy thử chi phí thấp."
    },
    {
     "ref": "I3",
-    "note": "Rooftop bar is too‑few (1/28 vs 1/50); consider at most a cheap trial if desired."
+    "note": "Ý tưởng bar trên máu cũng thiếu dữ liệu; cân nhắc thử nghiệm nhỏ."
    },
    {
     "ref": "I4",
-    "note": "Yoga mornings are too‑few (0/28 vs 2/50); consider at most a cheap trial if desired."
+    "note": "Ý tưởng buổi yoga sáng cũng thiếu dữ liệu; chỉ nên thử khi có nguồn lực."
    }
   ],
   "caveats": [
-   "The data shows preference correlations but does not prove that these features drive booking decisions for Sydney travelers.",
-   "Rankings are based on existing favourites and may shift with seasonal changes or new offerings.",
-   "Audience demographics (55+, female) are overall place averages, not guaranteed for every Sydney guest."
+   "Dữ liệu không cho thấy mối quan hệ nhân quả giữa sở thích và quyết định đặt phòng.",
+   "Phân tích chỉ cho xu hướng tổng thể của người Sydney, không phân biệt theo faixa tuổi cụ thể ngoài sự lệch 55+. ",
+   "Không có thông tin về biến đổi theo mùa hoặc thời gian mà có thể ảnh hưởng đến sở thích."
   ],
   "dropped": []
  },
  "baseline": {
   "places": [
+   {
+    "name": "Anantara Hoi An Resort",
+    "qlooName": "Anantara Hoi An Resort",
+    "inQloo": true,
+    "marketSignal": true,
+    "ref": "P6",
+    "peerRank": 5,
+    "allRank": 24
+   },
    {
     "name": "Almanity Hoi An Wellness Resort",
     "qlooName": "Almanity Hoi An Wellness Resort",
@@ -7857,7 +7859,7 @@
     "allRank": null
    },
    {
-    "name": "Little Riverside Hoi An Hotel & Spa",
+    "name": "The Nam Hai",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7875,22 +7877,13 @@
     "allRank": null
    },
    {
-    "name": "The Nam Hai",
-    "qlooName": null,
-    "inQloo": false,
+    "name": "Little Riverside Hoi An",
+    "qlooName": "Little Riverside Hoi An - Little Luxury Hotel & Spa",
+    "inQloo": true,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
     "allRank": null
-   },
-   {
-    "name": "Anantara Hoi An Resort",
-    "qlooName": "Anantara Hoi An Resort",
-    "inQloo": true,
-    "marketSignal": true,
-    "ref": "P6",
-    "peerRank": 5,
-    "allRank": 24
    }
   ],
   "artists": [
@@ -7905,22 +7898,22 @@
     "localRank": null
    },
    {
-    "name": "Vance Joy",
+    "name": "RÜFÜS DU SOL",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Sia",
+    "name": "Pond",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Courtney Barnett",
+    "name": "King Gizzard & the Lizard Wizard",
     "qlooRank": null,
     "localRank": null
    }
   ],
-  "advice": "To attract more Sydney travelers, showcase your property on Australian travel sites like WebJet and TripAdvisor Australia, and highlight any Aussie‑friendly amenities such as English‑speaking staff, vegan breakfast options, and free Wi‑Fi. Offer limited‑time packages that include a sunset boat tour on the Thu Bồn River or a cooking class featuring fresh seafood, and promote these deals through Australian social media influencers who specialize in Southeast Asia travel. Collect and display guest reviews from previous Australian visitors to build trust and encourage word‑of‑mouth referrals. Finally, consider running targeted Facebook and Instagram ads aimed at users aged 25‑45 living in Sydney who have shown interest in Vietnam or cultural holidays.",
+  "advice": "Highlight your property’s blend of Vietnamese charm and modern comforts in your marketing, using vivid photos of the ancient town and nearby beaches. Offer special packages that include a complimentary surf‑lesson voucher or a guided bike tour to the Marble Mountains, experiences Sydney travelers often seek. Provide clear information about easy airport transfers from Da Nang and free Wi‑Fi, and encourage guests to leave reviews on platforms popular with Australians like TripAdvisor and Google.",
   "poolSizes": {
    "peers": 10,
    "all": 28,
@@ -8145,7 +8138,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P2": {
@@ -8380,7 +8373,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P3": {
@@ -8606,7 +8599,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P4": {
@@ -8835,7 +8828,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P5": {
@@ -9071,7 +9064,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P6": {
@@ -9320,7 +9313,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P7": {
@@ -9544,7 +9537,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P8": {
@@ -9791,7 +9784,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P9": {
@@ -10042,7 +10035,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P10": {
@@ -10277,7 +10270,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P11": {
@@ -10674,7 +10667,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P12": {
@@ -11093,7 +11086,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P13": {
@@ -11476,7 +11469,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P14": {
@@ -11959,7 +11952,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P15": {
@@ -12322,7 +12315,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P16": {
@@ -12653,7 +12646,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P17": {
@@ -12860,7 +12853,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P18": {
@@ -13235,11 +13228,946 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "C1": {
    "ref": "C1",
+   "kind": "artist",
+   "item": {
+    "id": "FBF8DED9-679A-4623-8A59-91200E11A962",
+    "name": "Context",
+    "kind": "artist",
+    "disambiguation": "Context",
+    "popularity": 0.7475964846745178,
+    "affinity": 1,
+    "allTags": [
+     "Industrial",
+     "Funk",
+     "Electronic",
+     "House"
+    ],
+    "rank": 1,
+    "localRank": 1
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "kind": "artist",
+   "item": {
+    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
+    "name": "Nicole Richie",
+    "kind": "artist",
+    "disambiguation": "Nicole Richie",
+    "popularity": 0.8038685619540071,
+    "affinity": 0.9999855342781788,
+    "allTags": [
+     "Pop Culture Enthusiasts",
+     "Paris Hilton",
+     "Trendy",
+     "3",
+     "Fashionable",
+     "Influential",
+     "Engaging",
+     "None",
+     "R & B",
+     "Reality TV Personality",
+     "Reality TV Music",
+     "Rhythm & Blues",
+     "Stylish",
+     "Fashion",
+     "Entertaining",
+     "Pop",
+     "Charismatic",
+     "Fashion Influencer Culture",
+     "Creative",
+     "Reality TV",
+     "R&B"
+    ],
+    "rank": 3,
+    "localRank": 18
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "kind": "artist",
+   "item": {
+    "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
+    "name": "Taylor Swift",
+    "kind": "artist",
+    "disambiguation": "Taylor Swift",
+    "popularity": 0.9997870095485257,
+    "affinity": 0.9999634097934227,
+    "allTags": [
+     "Melodic",
+     "Synthpop",
+     "Pop",
+     "Alternative Rock",
+     "Country Pop",
+     "Self Discovery",
+     "Country",
+     "Indie Pop",
+     "Love",
+     "Dynamic",
+     "Innovative",
+     "Energetic",
+     "Passionate",
+     "Dolly Parton",
+     "Singer & Songwriter",
+     "Acoustic",
+     "Emotional",
+     "Guitar",
+     "Versatile",
+     "Catchy",
+     "Indie Folk",
+     "Dedicated",
+     "Joni Mitchell",
+     "1",
+     "Electropop",
+     "Engaged",
+     "Expressive",
+     "Engaging",
+     "Empowerment",
+     "Heartbreak",
+     "Shania Twain",
+     "Fame",
+     "Loyal",
+     "Charismatic",
+     "Narrative",
+     "Stevie Nicks",
+     "Piano",
+     "Contemporary Pop",
+     "Mezzo-Soprano",
+     "Devoted",
+     "Organized",
+     "Protective",
+     "Hook-Driven",
+     "Polished",
+     "Accessible",
+     "Cinematic",
+     "Intimate",
+     "Theatrical",
+     "Large-Scale",
+     "Confessional",
+     "Prolific",
+     "Strategic",
+     "Ambitious",
+     "Industrious",
+     "6",
+     "Narrative Country-Pop",
+     "Confessional Piano-Balladic",
+     "Hook-Driven Synth-Pop",
+     "Indie-Folk Intimate",
+     "Stadium-Pop Anthemic",
+     "Country-Pop",
+     "Alternative Pop",
+     "Singer-Songwriter",
+     "Dixie Chicks",
+     "Carole King",
+     "Paul McCartney",
+     "Acoustic Guitar",
+     "Electric Guitar",
+     "Ukulele",
+     "Banjo",
+     "Coming Of Age",
+     "Memory",
+     "Self-Reflection",
+     "Nostalgia",
+     "Revenge",
+     "Personal Growth",
+     "Female Experience",
+     "0",
+     "Synth-Pop",
+     "Folk",
+     "Pop Rock"
+    ],
+    "rank": 6,
+    "localRank": 48
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "kind": "artist",
+   "item": {
+    "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
+    "name": "Beyoncé",
+    "kind": "artist",
+    "disambiguation": "Beyoncé",
+    "popularity": 0.999882036057645,
+    "affinity": 0.9999489434967217,
+    "allTags": [
+     "Energetic",
+     "Funk",
+     "Pop",
+     "Pop Soul",
+     "Polished",
+     "Hip Hop Soul",
+     "Emotional",
+     "Michael Jackson",
+     "Soul",
+     "Dynamic",
+     "Female Empowerment",
+     "1",
+     "Prince",
+     "Hip Hop",
+     "Hip - Hop",
+     "Rhythm & Blues",
+     "Love",
+     "Loyal",
+     "Empowered",
+     "Vocals",
+     "Contemporary R&B",
+     "Dance",
+     "Whitney Houston",
+     "Aretha Franklin",
+     "R & B",
+     "Powerful",
+     "Tina Turner",
+     "Rhythmic",
+     "Charismatic",
+     "Neo Soul",
+     "Social Justice",
+     "Diverse",
+     "Piano",
+     "Resilience",
+     "Mezzo-Soprano",
+     "Theatrical",
+     "Dance Pop",
+     "Innovative",
+     "Passionate",
+     "Soulful",
+     "Versatile",
+     "Identity",
+     "Devoted",
+     "Vocal",
+     "Stylish",
+     "Anthemic",
+     "Genre-Blending",
+     "Cinematic",
+     "Experimental",
+     "Emotive",
+     "Precise",
+     "Choreographed",
+     "Commanding",
+     "Spectacular",
+     "Ambitious",
+     "Influential",
+     "Iconic",
+     "Meticulous",
+     "7",
+     "Funk-Infused R&B",
+     "Anthemic Pop-Soul",
+     "Visual-Album Cinematic R&B",
+     "Experimental Dance-Pop",
+     "Roots-Infused Country-Soul",
+     "Alternative R&B",
+     "Dance-Pop",
+     "Country-Pop",
+     "Diana Ross",
+     "Chaka Khan",
+     "Lauryn Hill",
+     "Empowerment",
+     "Relationships",
+     "Feminism",
+     "Black Pride",
+     "Sexuality",
+     "Heartbreak",
+     "Self-Discovery",
+     "Social Commentary",
+     "0",
+     "R&B",
+     "Disco",
+     "Electronic",
+     "Country"
+    ],
+    "rank": 8,
+    "localRank": 4
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "kind": "artist",
+   "item": {
+    "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
+    "name": "Rihanna",
+    "kind": "artist",
+    "disambiguation": "Rihanna",
+    "popularity": 0.999937741252646,
+    "affinity": 0.9999195847253799,
+    "allTags": [
+     "Urban Pop",
+     "Confident",
+     "Electropop",
+     "Fashion-Forward",
+     "Hip Hop",
+     "Janet Jackson",
+     "1",
+     "Innovative",
+     "Danceable",
+     "Hip - Hop",
+     "Dancehall",
+     "Diverse",
+     "Catchy",
+     "Resilience",
+     "Freedom",
+     "R & B",
+     "Rhythm & Blues",
+     "Passionate",
+     "Contemporary R&B",
+     "Heartbreak",
+     "Vocals",
+     "Party",
+     "Dance Pop",
+     "Mariah Carey",
+     "Pop",
+     "Charismatic",
+     "Reggae",
+     "Eclectic",
+     "Influential",
+     "Bob Marley",
+     "Versatile",
+     "Dancehall-Infused Pop",
+     "Bold",
+     "Caribbean-Influenced",
+     "Loyal",
+     "Dance",
+     "Energetic",
+     "Love",
+     "Empowerment",
+     "Mezzo-Soprano",
+     "Madonna",
+     "Dynamic",
+     "Devoted",
+     "Global",
+     "Melodic",
+     "Genre-Blending",
+     "Radio-Friendly",
+     "Emotive",
+     "Rhythmic",
+     "Hook-Driven",
+     "Polished",
+     "Commanding",
+     "Stylized",
+     "Theatrical",
+     "High-Energy",
+     "Iconic",
+     "Trendsetting",
+     "Entrepreneurial",
+     "Resilient",
+     "4",
+     "Dark Electro-R&B",
+     "Synth-Driven Dance-Pop",
+     "Reggae-Inflected R&B",
+     "Trap-Pop",
+     "Dance-Pop",
+     "Reggae Fusion",
+     "Whitney Houston",
+     "Destiny's Child",
+     "Piano (occasional)",
+     "Sexuality",
+     "Fame",
+     "Desire",
+     "Vulnerability",
+     "Independence",
+     "0",
+     "R&B",
+     "EDM",
+     "Soul"
+    ],
+    "rank": 11,
+    "localRank": 6
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "artist",
+   "item": {
+    "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
+    "name": "Adele",
+    "kind": "artist",
+    "disambiguation": "Adele",
+    "popularity": 0.9997739024438197,
+    "affinity": 0.9999051177401851,
+    "allTags": [
+     "1",
+     "Passionate",
+     "Adult Contemporary",
+     "Melancholic",
+     "Loss",
+     "Diverse",
+     "Soulful Balladry",
+     "Singer & Songwriter",
+     "Mariah Carey",
+     "Etta James",
+     "Empowerment",
+     "Mezzo-Soprano",
+     "Blue Eyed Soul",
+     "Soulful",
+     "Emotional",
+     "Powerful",
+     "Expressive",
+     "Loyal",
+     "Pop",
+     "The Beatles",
+     "Guitar",
+     "Love",
+     "Jazz",
+     "Adult Contemporary Pop",
+     "Soul",
+     "Vocals",
+     "British",
+     "Emotive",
+     "Authentic",
+     "Blues",
+     "Intimate",
+     "Heartbreak",
+     "Aretha Franklin",
+     "R&B",
+     "Self Reflection",
+     "Dedicated",
+     "Ella Fitzgerald",
+     "Indie",
+     "Contemporary Pop",
+     "Emotive Pop",
+     "Melancholic Soul",
+     "Piano",
+     "Devoted",
+     "Cross-Generational",
+     "Emotionally Invested",
+     "Vocal-Appreciative",
+     "Orchestral",
+     "Piano-Driven",
+     "Vocal-Centric",
+     "Timeless",
+     "Sincere",
+     "Minimalist",
+     "Dynamic",
+     "Melodic",
+     "Dramatic",
+     "4",
+     "Piano-Driven Soul Balladry",
+     "Torch-Style Pop Soul",
+     "Adult-Contemporary Piano Ballad",
+     "Vocal-Centric Orchestral Pop",
+     "Retro-Soul Revival",
+     "Pop Soul",
+     "Singer-Songwriter Balladry",
+     "Mainstream Torch Pop",
+     "Dusty Springfield",
+     "Lauryn Hill",
+     "Regret",
+     "Maturity",
+     "Nostalgia",
+     "Self-Reflection",
+     "Healing",
+     "Motherhood",
+     "0",
+     "Singer-Songwriter",
+     "Ballad",
+     "Blue-Eyed Soul",
+     "Contemporary R&B",
+     "Torch Song",
+     "Piano Ballad"
+    ],
+    "rank": 13,
+    "localRank": 12
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C7": {
+   "ref": "C7",
+   "kind": "artist",
+   "item": {
+    "id": "723A91E1-2CEF-4F5C-AD50-2AA2F1F60C67",
+    "name": "Raumskaya",
+    "kind": "artist",
+    "disambiguation": "Raumskaya",
+    "popularity": 0.6865501445058294,
+    "affinity": 0.9999927671674997,
+    "allTags": [
+     "Russian",
+     "Dance Pop",
+     "Beats",
+     "Upbeat",
+     "6",
+     "Dynamic",
+     "Vibrant",
+     "Electronic",
+     "Pop",
+     "Dreams",
+     "Club",
+     "Russian Pop",
+     "Dance",
+     "ABBA",
+     "Vocals",
+     "Electropop",
+     "Catchy",
+     "Energetic",
+     "Danceable",
+     "Eurodance",
+     "Ace Of Base",
+     "Love",
+     "Madonna",
+     "Youthful",
+     "Dance-Loving",
+     "Electronic Dance Music",
+     "Synthpop",
+     "Nightlife",
+     "Dance-Pop",
+     "Ace of Base"
+    ],
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C8": {
+   "ref": "C8",
+   "kind": "artist",
+   "item": {
+    "id": "742BAD50-D6B3-43C6-96AD-701AE2FFC420",
+    "name": "Kylie Minogue",
+    "kind": "artist",
+    "disambiguation": "Kylie Minogue",
+    "popularity": 0.9991382078655735,
+    "affinity": 0.9999783013320378,
+    "allTags": [
+     "Glamorous",
+     "Dynamic",
+     "Dance Pop",
+     "Australian",
+     "Engaging",
+     "Disco",
+     "Dance",
+     "Passionate",
+     "Eurodance",
+     "Polished",
+     "Danceable",
+     "Romance",
+     "Love",
+     "Synthpop",
+     "Madonna",
+     "Electropop",
+     "Olivia Newton-John",
+     "Empowerment",
+     "Resilient",
+     "Electronic",
+     "Upbeat",
+     "House",
+     "Charismatic",
+     "Catchy",
+     "Versatile",
+     "Celebration",
+     "Vocals",
+     "Loyal",
+     "Soprano",
+     "Keyboards",
+     "Disco-Infused",
+     "Pop",
+     "2",
+     "ABBA",
+     "Energetic",
+     "Donna Summer",
+     "Dedicated",
+     "Diverse",
+     "Devoted",
+     "Fashion-Conscious",
+     "Celebratory",
+     "Synth-Driven",
+     "Melodic",
+     "Retro-Infused",
+     "Theatrical",
+     "Choreographed",
+     "Spectacular",
+     "Iconic",
+     "Dance-Driven",
+     "Timeless",
+     "Chic",
+     "Reinventive",
+     "5",
+     "Synth-Driven Dance-Pop",
+     "Disco-Infused Electro-Pop",
+     "Nu-Disco Glam-Pop",
+     "Chamber-Pop Balladry",
+     "Hi-NRG Pop",
+     "Dance-Pop",
+     "Nu-Disco",
+     "Europop",
+     "Contemporary Pop",
+     "Dusty Springfield",
+     "David Bowie",
+     "Guitar",
+     "Tambourine",
+     "Desire",
+     "Dancing",
+     "Escapism",
+     "Heartbreak",
+     "Glamour",
+     "Nostalgia",
+     "1",
+     "Adult Contemporary"
+    ],
+    "rank": 4,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C9": {
+   "ref": "C9",
+   "kind": "artist",
+   "item": {
+    "id": "2B3E306B-DE41-415C-B746-C7059A38C16C",
+    "name": "Delta Goodrem",
+    "kind": "artist",
+    "disambiguation": "Delta Goodrem",
+    "popularity": 0.9894913788018795,
+    "affinity": 0.9999706428565451,
+    "allTags": [
+     "Melodic Soft Rock",
+     "Pop",
+     "Heartbreak",
+     "Expressive",
+     "Devoted",
+     "Engaging",
+     "Adult Contemporary",
+     "Piano",
+     "Vocals",
+     "Powerful",
+     "Piano-Driven",
+     "Barbra Streisand",
+     "Intimate",
+     "Piano-Driven Pop",
+     "Loyal",
+     "Ballad",
+     "Adult Contemporary Ballad",
+     "Self Discovery",
+     "Supportive",
+     "Love",
+     "Singer & Songwriter",
+     "Melodic",
+     "Passionate",
+     "Soft Rock",
+     "Emotive",
+     "Stevie Wonder",
+     "Celine Dion",
+     "Soprano",
+     "Australian",
+     "Heartfelt Singer-Songwriter",
+     "Pop Rock",
+     "2",
+     "Emotive Pop Rock",
+     "Dynamic",
+     "Hope",
+     "Versatile",
+     "Resilience",
+     "Piano-driven",
+     "Heartfelt",
+     "Accessible",
+     "Piano-driven Pop",
+     "Self-discovery"
+    ],
+    "rank": 5,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C10": {
+   "ref": "C10",
+   "kind": "artist",
+   "item": {
+    "id": "5DC07B43-055F-4A42-9789-0AEAC6669294",
+    "name": "Jessica Mauboy",
+    "kind": "artist",
+    "disambiguation": "Jessica Mauboy",
+    "popularity": 0.9657740728361809,
+    "affinity": 0.9999561766734817,
+    "allTags": [
+     "Melodic",
+     "Charismatic",
+     "Contemporary",
+     "Celebration",
+     "Urban Pop",
+     "Australian Pop",
+     "Powerful",
+     "Diverse",
+     "R & B",
+     "Soulful",
+     "Catchy",
+     "Contemporary R&B",
+     "Pop",
+     "Australian",
+     "Whitney Houston",
+     "Dance Pop",
+     "Soul",
+     "Heartbreak",
+     "Soulful Pop",
+     "Vocals",
+     "Versatile",
+     "Mariah Carey",
+     "Dynamic",
+     "Loyal",
+     "Supportive",
+     "Self Discovery",
+     "Empowerment",
+     "Expressive",
+     "Passionate",
+     "Energetic",
+     "Love",
+     "Engaging",
+     "Beyonce",
+     "2",
+     "Rhythm & Blues",
+     "Dance-pop",
+     "Beyoncé",
+     "Self-discovery",
+     "R&B"
+    ],
+    "rank": 7,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C11": {
+   "ref": "C11",
+   "kind": "artist",
+   "item": {
+    "id": "8BC227FB-D211-42A6-8D1C-118F9563DAEB",
+    "name": "Ricki-Lee",
+    "kind": "artist",
+    "disambiguation": "Ricki-Lee",
+    "popularity": 0.9284352083046615,
+    "affinity": 0.9999417102631438,
+    "allTags": [
+     "Upbeat",
+     "Empowerment",
+     "Dance Pop",
+     "Energetic",
+     "Charismatic",
+     "Heartbreak",
+     "Whitney Houston",
+     "Vocals",
+     "Powerful",
+     "Passionate",
+     "Danceable",
+     "Upbeat Pop",
+     "Catchy",
+     "Mariah Carey",
+     "R & B",
+     "Love",
+     "Pop",
+     "Beyonce",
+     "Electropop",
+     "Dynamic",
+     "Confident",
+     "Engaging",
+     "Soulful Pop",
+     "Contemporary R&B",
+     "Australian Pop",
+     "3",
+     "Versatile",
+     "Supportive",
+     "Self Confidence",
+     "Soul",
+     "Loyal",
+     "Fashionable",
+     "Party-Loving",
+     "Engaged",
+     "Polished",
+     "Synth-Driven",
+     "Club-Ready",
+     "High-Energy",
+     "Choreographed",
+     "Glamorous",
+     "Radio-Friendly",
+     "Dance-Oriented",
+     "Aussie Dance-Pop",
+     "Synth-Driven Electro-Pop",
+     "Club-Ready House-Pop",
+     "Radio-Friendly Power-Pop",
+     "Contemporary R&B-Infused Pop",
+     "Dance-Pop",
+     "Club-Pop",
+     "Madonna",
+     "Kylie Minogue",
+     "Beyoncé",
+     "Janet Jackson",
+     "Christina Aguilera",
+     "Self-Confidence",
+     "Partying",
+     "Romantic Relationships",
+     "Resilience",
+     "House-Pop",
+     "Club"
+    ],
+    "rank": 9,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C12": {
+   "ref": "C12",
+   "kind": "artist",
+   "item": {
+    "id": "B19CE60F-033A-4F24-AA51-A8F695A853A9",
+    "name": "Guy Sebastian",
+    "kind": "artist",
+    "disambiguation": "Guy Sebastian",
+    "popularity": 0.9727929274063006,
+    "affinity": 0.999934476972748,
+    "allTags": [
+     "Marvin Gaye",
+     "Dynamic",
+     "Perseverance",
+     "Australian",
+     "Funk-Influenced",
+     "Charismatic",
+     "Rhythm & Blues",
+     "Soulful Pop",
+     "Pop",
+     "Michael Jackson",
+     "Supportive",
+     "Adult Contemporary",
+     "Hope",
+     "Diverse",
+     "Melodic",
+     "Piano",
+     "Soulful",
+     "Soul",
+     "Eurovision",
+     "Catchy",
+     "Australian Pop",
+     "Heartbreak",
+     "Funk",
+     "Gospel",
+     "Gospel Infused",
+     "Contemporary R&B",
+     "Versatile",
+     "Whitney Houston",
+     "Stevie Wonder",
+     "Expressive",
+     "Engaging",
+     "Vocals",
+     "Energetic",
+     "Love",
+     "Passionate",
+     "2",
+     "Loyal",
+     "Faith",
+     "R & B",
+     "Guitar",
+     "Emotive",
+     "Polished",
+     "Gospel-Infused",
+     "R&B"
+    ],
+    "rank": 10,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C13": {
+   "ref": "C13",
    "kind": "tv_show",
    "item": {
     "id": "6A55B4D8-DE20-422A-938E-C9E4A36B1581",
@@ -13350,11 +14278,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C2": {
-   "ref": "C2",
+  "C14": {
+   "ref": "C14",
    "kind": "tv_show",
    "item": {
     "id": "F6013EAC-8F32-4080-B1ED-2BFABB9C706E",
@@ -13520,11 +14448,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C3": {
-   "ref": "C3",
+  "C15": {
+   "ref": "C15",
    "kind": "tv_show",
    "item": {
     "id": "E73FD3EB-E55D-4DFA-988C-19410202F985",
@@ -13636,11 +14564,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C4": {
-   "ref": "C4",
+  "C16": {
+   "ref": "C16",
    "kind": "tv_show",
    "item": {
     "id": "1BE9CDDC-238D-40BA-AC95-25BAA87F1C06",
@@ -13735,11 +14663,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C5": {
-   "ref": "C5",
+  "C17": {
+   "ref": "C17",
    "kind": "tv_show",
    "item": {
     "id": "C1185047-FD54-41AE-9A81-0EBD0DEA73F2",
@@ -13838,11 +14766,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C6": {
-   "ref": "C6",
+  "C18": {
+   "ref": "C18",
    "kind": "tv_show",
    "item": {
     "id": "04F70A86-7FA2-44E7-B105-47E44C79DE36",
@@ -13942,11 +14870,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
-  "C7": {
-   "ref": "C7",
+  "C19": {
+   "ref": "C19",
    "kind": "tv_show",
    "item": {
     "id": "EF790F3D-3C83-40D0-9859-594A15F0919C",
@@ -14082,942 +15010,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": false
-   }
-  },
-  "C8": {
-   "ref": "C8",
-   "kind": "artist",
-   "item": {
-    "id": "FBF8DED9-679A-4623-8A59-91200E11A962",
-    "name": "Context",
-    "kind": "artist",
-    "disambiguation": "Context",
-    "popularity": 0.7475964846745178,
-    "affinity": 1,
-    "allTags": [
-     "Industrial",
-     "Funk",
-     "Electronic",
-     "House"
-    ],
-    "rank": 1,
-    "localRank": 1
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C9": {
-   "ref": "C9",
-   "kind": "artist",
-   "item": {
-    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
-    "name": "Nicole Richie",
-    "kind": "artist",
-    "disambiguation": "Nicole Richie",
-    "popularity": 0.8038685619540071,
-    "affinity": 0.9999855342781788,
-    "allTags": [
-     "Pop Culture Enthusiasts",
-     "Paris Hilton",
-     "Trendy",
-     "3",
-     "Fashionable",
-     "Influential",
-     "Engaging",
-     "None",
-     "R & B",
-     "Reality TV Personality",
-     "Reality TV Music",
-     "Rhythm & Blues",
-     "Stylish",
-     "Fashion",
-     "Entertaining",
-     "Pop",
-     "Charismatic",
-     "Fashion Influencer Culture",
-     "Creative",
-     "Reality TV",
-     "R&B"
-    ],
-    "rank": 3,
-    "localRank": 18
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C10": {
-   "ref": "C10",
-   "kind": "artist",
-   "item": {
-    "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
-    "name": "Taylor Swift",
-    "kind": "artist",
-    "disambiguation": "Taylor Swift",
-    "popularity": 0.9997870095485257,
-    "affinity": 0.9999634097934227,
-    "allTags": [
-     "Melodic",
-     "Synthpop",
-     "Pop",
-     "Alternative Rock",
-     "Country Pop",
-     "Self Discovery",
-     "Country",
-     "Indie Pop",
-     "Love",
-     "Dynamic",
-     "Innovative",
-     "Energetic",
-     "Passionate",
-     "Dolly Parton",
-     "Singer & Songwriter",
-     "Acoustic",
-     "Emotional",
-     "Guitar",
-     "Versatile",
-     "Catchy",
-     "Indie Folk",
-     "Dedicated",
-     "Joni Mitchell",
-     "1",
-     "Electropop",
-     "Engaged",
-     "Expressive",
-     "Engaging",
-     "Empowerment",
-     "Heartbreak",
-     "Shania Twain",
-     "Fame",
-     "Loyal",
-     "Charismatic",
-     "Narrative",
-     "Stevie Nicks",
-     "Piano",
-     "Contemporary Pop",
-     "Mezzo-Soprano",
-     "Devoted",
-     "Organized",
-     "Protective",
-     "Hook-Driven",
-     "Polished",
-     "Accessible",
-     "Cinematic",
-     "Intimate",
-     "Theatrical",
-     "Large-Scale",
-     "Confessional",
-     "Prolific",
-     "Strategic",
-     "Ambitious",
-     "Industrious",
-     "6",
-     "Narrative Country-Pop",
-     "Confessional Piano-Balladic",
-     "Hook-Driven Synth-Pop",
-     "Indie-Folk Intimate",
-     "Stadium-Pop Anthemic",
-     "Country-Pop",
-     "Alternative Pop",
-     "Singer-Songwriter",
-     "Dixie Chicks",
-     "Carole King",
-     "Paul McCartney",
-     "Acoustic Guitar",
-     "Electric Guitar",
-     "Ukulele",
-     "Banjo",
-     "Coming Of Age",
-     "Memory",
-     "Self-Reflection",
-     "Nostalgia",
-     "Revenge",
-     "Personal Growth",
-     "Female Experience",
-     "0",
-     "Synth-Pop",
-     "Folk",
-     "Pop Rock"
-    ],
-    "rank": 6,
-    "localRank": 48
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C11": {
-   "ref": "C11",
-   "kind": "artist",
-   "item": {
-    "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
-    "name": "Beyoncé",
-    "kind": "artist",
-    "disambiguation": "Beyoncé",
-    "popularity": 0.999882036057645,
-    "affinity": 0.9999489434967217,
-    "allTags": [
-     "Energetic",
-     "Funk",
-     "Pop",
-     "Pop Soul",
-     "Polished",
-     "Hip Hop Soul",
-     "Emotional",
-     "Michael Jackson",
-     "Soul",
-     "Dynamic",
-     "Female Empowerment",
-     "1",
-     "Prince",
-     "Hip Hop",
-     "Hip - Hop",
-     "Rhythm & Blues",
-     "Love",
-     "Loyal",
-     "Empowered",
-     "Vocals",
-     "Contemporary R&B",
-     "Dance",
-     "Whitney Houston",
-     "Aretha Franklin",
-     "R & B",
-     "Powerful",
-     "Tina Turner",
-     "Rhythmic",
-     "Charismatic",
-     "Neo Soul",
-     "Social Justice",
-     "Diverse",
-     "Piano",
-     "Resilience",
-     "Mezzo-Soprano",
-     "Theatrical",
-     "Dance Pop",
-     "Innovative",
-     "Passionate",
-     "Soulful",
-     "Versatile",
-     "Identity",
-     "Devoted",
-     "Vocal",
-     "Stylish",
-     "Anthemic",
-     "Genre-Blending",
-     "Cinematic",
-     "Experimental",
-     "Emotive",
-     "Precise",
-     "Choreographed",
-     "Commanding",
-     "Spectacular",
-     "Ambitious",
-     "Influential",
-     "Iconic",
-     "Meticulous",
-     "7",
-     "Funk-Infused R&B",
-     "Anthemic Pop-Soul",
-     "Visual-Album Cinematic R&B",
-     "Experimental Dance-Pop",
-     "Roots-Infused Country-Soul",
-     "Alternative R&B",
-     "Dance-Pop",
-     "Country-Pop",
-     "Diana Ross",
-     "Chaka Khan",
-     "Lauryn Hill",
-     "Empowerment",
-     "Relationships",
-     "Feminism",
-     "Black Pride",
-     "Sexuality",
-     "Heartbreak",
-     "Self-Discovery",
-     "Social Commentary",
-     "0",
-     "R&B",
-     "Disco",
-     "Electronic",
-     "Country"
-    ],
-    "rank": 8,
-    "localRank": 4
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C12": {
-   "ref": "C12",
-   "kind": "artist",
-   "item": {
-    "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
-    "name": "Rihanna",
-    "kind": "artist",
-    "disambiguation": "Rihanna",
-    "popularity": 0.999937741252646,
-    "affinity": 0.9999195847253799,
-    "allTags": [
-     "Urban Pop",
-     "Confident",
-     "Electropop",
-     "Fashion-Forward",
-     "Hip Hop",
-     "Janet Jackson",
-     "1",
-     "Innovative",
-     "Danceable",
-     "Hip - Hop",
-     "Dancehall",
-     "Diverse",
-     "Catchy",
-     "Resilience",
-     "Freedom",
-     "R & B",
-     "Rhythm & Blues",
-     "Passionate",
-     "Contemporary R&B",
-     "Heartbreak",
-     "Vocals",
-     "Party",
-     "Dance Pop",
-     "Mariah Carey",
-     "Pop",
-     "Charismatic",
-     "Reggae",
-     "Eclectic",
-     "Influential",
-     "Bob Marley",
-     "Versatile",
-     "Dancehall-Infused Pop",
-     "Bold",
-     "Caribbean-Influenced",
-     "Loyal",
-     "Dance",
-     "Energetic",
-     "Love",
-     "Empowerment",
-     "Mezzo-Soprano",
-     "Madonna",
-     "Dynamic",
-     "Devoted",
-     "Global",
-     "Melodic",
-     "Genre-Blending",
-     "Radio-Friendly",
-     "Emotive",
-     "Rhythmic",
-     "Hook-Driven",
-     "Polished",
-     "Commanding",
-     "Stylized",
-     "Theatrical",
-     "High-Energy",
-     "Iconic",
-     "Trendsetting",
-     "Entrepreneurial",
-     "Resilient",
-     "4",
-     "Dark Electro-R&B",
-     "Synth-Driven Dance-Pop",
-     "Reggae-Inflected R&B",
-     "Trap-Pop",
-     "Dance-Pop",
-     "Reggae Fusion",
-     "Whitney Houston",
-     "Destiny's Child",
-     "Piano (occasional)",
-     "Sexuality",
-     "Fame",
-     "Desire",
-     "Vulnerability",
-     "Independence",
-     "0",
-     "R&B",
-     "EDM",
-     "Soul"
-    ],
-    "rank": 11,
-    "localRank": 6
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C13": {
-   "ref": "C13",
-   "kind": "artist",
-   "item": {
-    "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
-    "name": "Adele",
-    "kind": "artist",
-    "disambiguation": "Adele",
-    "popularity": 0.9997739024438197,
-    "affinity": 0.9999051177401851,
-    "allTags": [
-     "1",
-     "Passionate",
-     "Adult Contemporary",
-     "Melancholic",
-     "Loss",
-     "Diverse",
-     "Soulful Balladry",
-     "Singer & Songwriter",
-     "Mariah Carey",
-     "Etta James",
-     "Empowerment",
-     "Mezzo-Soprano",
-     "Blue Eyed Soul",
-     "Soulful",
-     "Emotional",
-     "Powerful",
-     "Expressive",
-     "Loyal",
-     "Pop",
-     "The Beatles",
-     "Guitar",
-     "Love",
-     "Jazz",
-     "Adult Contemporary Pop",
-     "Soul",
-     "Vocals",
-     "British",
-     "Emotive",
-     "Authentic",
-     "Blues",
-     "Intimate",
-     "Heartbreak",
-     "Aretha Franklin",
-     "R&B",
-     "Self Reflection",
-     "Dedicated",
-     "Ella Fitzgerald",
-     "Indie",
-     "Contemporary Pop",
-     "Emotive Pop",
-     "Melancholic Soul",
-     "Piano",
-     "Devoted",
-     "Cross-Generational",
-     "Emotionally Invested",
-     "Vocal-Appreciative",
-     "Orchestral",
-     "Piano-Driven",
-     "Vocal-Centric",
-     "Timeless",
-     "Sincere",
-     "Minimalist",
-     "Dynamic",
-     "Melodic",
-     "Dramatic",
-     "4",
-     "Piano-Driven Soul Balladry",
-     "Torch-Style Pop Soul",
-     "Adult-Contemporary Piano Ballad",
-     "Vocal-Centric Orchestral Pop",
-     "Retro-Soul Revival",
-     "Pop Soul",
-     "Singer-Songwriter Balladry",
-     "Mainstream Torch Pop",
-     "Dusty Springfield",
-     "Lauryn Hill",
-     "Regret",
-     "Maturity",
-     "Nostalgia",
-     "Self-Reflection",
-     "Healing",
-     "Motherhood",
-     "0",
-     "Singer-Songwriter",
-     "Ballad",
-     "Blue-Eyed Soul",
-     "Contemporary R&B",
-     "Torch Song",
-     "Piano Ballad"
-    ],
-    "rank": 13,
-    "localRank": 12
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C14": {
-   "ref": "C14",
-   "kind": "artist",
-   "item": {
-    "id": "723A91E1-2CEF-4F5C-AD50-2AA2F1F60C67",
-    "name": "Raumskaya",
-    "kind": "artist",
-    "disambiguation": "Raumskaya",
-    "popularity": 0.6865501445058294,
-    "affinity": 0.9999927671674997,
-    "allTags": [
-     "Russian",
-     "Dance Pop",
-     "Beats",
-     "Upbeat",
-     "6",
-     "Dynamic",
-     "Vibrant",
-     "Electronic",
-     "Pop",
-     "Dreams",
-     "Club",
-     "Russian Pop",
-     "Dance",
-     "ABBA",
-     "Vocals",
-     "Electropop",
-     "Catchy",
-     "Energetic",
-     "Danceable",
-     "Eurodance",
-     "Ace Of Base",
-     "Love",
-     "Madonna",
-     "Youthful",
-     "Dance-Loving",
-     "Electronic Dance Music",
-     "Synthpop",
-     "Nightlife",
-     "Dance-Pop",
-     "Ace of Base"
-    ],
-    "rank": 2,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C15": {
-   "ref": "C15",
-   "kind": "artist",
-   "item": {
-    "id": "742BAD50-D6B3-43C6-96AD-701AE2FFC420",
-    "name": "Kylie Minogue",
-    "kind": "artist",
-    "disambiguation": "Kylie Minogue",
-    "popularity": 0.9991382078655735,
-    "affinity": 0.9999783013320378,
-    "allTags": [
-     "Glamorous",
-     "Dynamic",
-     "Dance Pop",
-     "Australian",
-     "Engaging",
-     "Disco",
-     "Dance",
-     "Passionate",
-     "Eurodance",
-     "Polished",
-     "Danceable",
-     "Romance",
-     "Love",
-     "Synthpop",
-     "Madonna",
-     "Electropop",
-     "Olivia Newton-John",
-     "Empowerment",
-     "Resilient",
-     "Electronic",
-     "Upbeat",
-     "House",
-     "Charismatic",
-     "Catchy",
-     "Versatile",
-     "Celebration",
-     "Vocals",
-     "Loyal",
-     "Soprano",
-     "Keyboards",
-     "Disco-Infused",
-     "Pop",
-     "2",
-     "ABBA",
-     "Energetic",
-     "Donna Summer",
-     "Dedicated",
-     "Diverse",
-     "Devoted",
-     "Fashion-Conscious",
-     "Celebratory",
-     "Synth-Driven",
-     "Melodic",
-     "Retro-Infused",
-     "Theatrical",
-     "Choreographed",
-     "Spectacular",
-     "Iconic",
-     "Dance-Driven",
-     "Timeless",
-     "Chic",
-     "Reinventive",
-     "5",
-     "Synth-Driven Dance-Pop",
-     "Disco-Infused Electro-Pop",
-     "Nu-Disco Glam-Pop",
-     "Chamber-Pop Balladry",
-     "Hi-NRG Pop",
-     "Dance-Pop",
-     "Nu-Disco",
-     "Europop",
-     "Contemporary Pop",
-     "Dusty Springfield",
-     "David Bowie",
-     "Guitar",
-     "Tambourine",
-     "Desire",
-     "Dancing",
-     "Escapism",
-     "Heartbreak",
-     "Glamour",
-     "Nostalgia",
-     "1",
-     "Adult Contemporary"
-    ],
-    "rank": 4,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C16": {
-   "ref": "C16",
-   "kind": "artist",
-   "item": {
-    "id": "2B3E306B-DE41-415C-B746-C7059A38C16C",
-    "name": "Delta Goodrem",
-    "kind": "artist",
-    "disambiguation": "Delta Goodrem",
-    "popularity": 0.9894913788018795,
-    "affinity": 0.9999706428565451,
-    "allTags": [
-     "Melodic Soft Rock",
-     "Pop",
-     "Heartbreak",
-     "Expressive",
-     "Devoted",
-     "Engaging",
-     "Adult Contemporary",
-     "Piano",
-     "Vocals",
-     "Powerful",
-     "Piano-Driven",
-     "Barbra Streisand",
-     "Intimate",
-     "Piano-Driven Pop",
-     "Loyal",
-     "Ballad",
-     "Adult Contemporary Ballad",
-     "Self Discovery",
-     "Supportive",
-     "Love",
-     "Singer & Songwriter",
-     "Melodic",
-     "Passionate",
-     "Soft Rock",
-     "Emotive",
-     "Stevie Wonder",
-     "Celine Dion",
-     "Soprano",
-     "Australian",
-     "Heartfelt Singer-Songwriter",
-     "Pop Rock",
-     "2",
-     "Emotive Pop Rock",
-     "Dynamic",
-     "Hope",
-     "Versatile",
-     "Resilience",
-     "Piano-driven",
-     "Heartfelt",
-     "Accessible",
-     "Piano-driven Pop",
-     "Self-discovery"
-    ],
-    "rank": 5,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C17": {
-   "ref": "C17",
-   "kind": "artist",
-   "item": {
-    "id": "5DC07B43-055F-4A42-9789-0AEAC6669294",
-    "name": "Jessica Mauboy",
-    "kind": "artist",
-    "disambiguation": "Jessica Mauboy",
-    "popularity": 0.9657740728361809,
-    "affinity": 0.9999561766734817,
-    "allTags": [
-     "Melodic",
-     "Charismatic",
-     "Contemporary",
-     "Celebration",
-     "Urban Pop",
-     "Australian Pop",
-     "Powerful",
-     "Diverse",
-     "R & B",
-     "Soulful",
-     "Catchy",
-     "Contemporary R&B",
-     "Pop",
-     "Australian",
-     "Whitney Houston",
-     "Dance Pop",
-     "Soul",
-     "Heartbreak",
-     "Soulful Pop",
-     "Vocals",
-     "Versatile",
-     "Mariah Carey",
-     "Dynamic",
-     "Loyal",
-     "Supportive",
-     "Self Discovery",
-     "Empowerment",
-     "Expressive",
-     "Passionate",
-     "Energetic",
-     "Love",
-     "Engaging",
-     "Beyonce",
-     "2",
-     "Rhythm & Blues",
-     "Dance-pop",
-     "Beyoncé",
-     "Self-discovery",
-     "R&B"
-    ],
-    "rank": 7,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C18": {
-   "ref": "C18",
-   "kind": "artist",
-   "item": {
-    "id": "8BC227FB-D211-42A6-8D1C-118F9563DAEB",
-    "name": "Ricki-Lee",
-    "kind": "artist",
-    "disambiguation": "Ricki-Lee",
-    "popularity": 0.9284352083046615,
-    "affinity": 0.9999417102631438,
-    "allTags": [
-     "Upbeat",
-     "Empowerment",
-     "Dance Pop",
-     "Energetic",
-     "Charismatic",
-     "Heartbreak",
-     "Whitney Houston",
-     "Vocals",
-     "Powerful",
-     "Passionate",
-     "Danceable",
-     "Upbeat Pop",
-     "Catchy",
-     "Mariah Carey",
-     "R & B",
-     "Love",
-     "Pop",
-     "Beyonce",
-     "Electropop",
-     "Dynamic",
-     "Confident",
-     "Engaging",
-     "Soulful Pop",
-     "Contemporary R&B",
-     "Australian Pop",
-     "3",
-     "Versatile",
-     "Supportive",
-     "Self Confidence",
-     "Soul",
-     "Loyal",
-     "Fashionable",
-     "Party-Loving",
-     "Engaged",
-     "Polished",
-     "Synth-Driven",
-     "Club-Ready",
-     "High-Energy",
-     "Choreographed",
-     "Glamorous",
-     "Radio-Friendly",
-     "Dance-Oriented",
-     "Aussie Dance-Pop",
-     "Synth-Driven Electro-Pop",
-     "Club-Ready House-Pop",
-     "Radio-Friendly Power-Pop",
-     "Contemporary R&B-Infused Pop",
-     "Dance-Pop",
-     "Club-Pop",
-     "Madonna",
-     "Kylie Minogue",
-     "Beyoncé",
-     "Janet Jackson",
-     "Christina Aguilera",
-     "Self-Confidence",
-     "Partying",
-     "Romantic Relationships",
-     "Resilience",
-     "House-Pop",
-     "Club"
-    ],
-    "rank": 9,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C19": {
-   "ref": "C19",
-   "kind": "artist",
-   "item": {
-    "id": "B19CE60F-033A-4F24-AA51-A8F695A853A9",
-    "name": "Guy Sebastian",
-    "kind": "artist",
-    "disambiguation": "Guy Sebastian",
-    "popularity": 0.9727929274063006,
-    "affinity": 0.999934476972748,
-    "allTags": [
-     "Marvin Gaye",
-     "Dynamic",
-     "Perseverance",
-     "Australian",
-     "Funk-Influenced",
-     "Charismatic",
-     "Rhythm & Blues",
-     "Soulful Pop",
-     "Pop",
-     "Michael Jackson",
-     "Supportive",
-     "Adult Contemporary",
-     "Hope",
-     "Diverse",
-     "Melodic",
-     "Piano",
-     "Soulful",
-     "Soul",
-     "Eurovision",
-     "Catchy",
-     "Australian Pop",
-     "Heartbreak",
-     "Funk",
-     "Gospel",
-     "Gospel Infused",
-     "Contemporary R&B",
-     "Versatile",
-     "Whitney Houston",
-     "Stevie Wonder",
-     "Expressive",
-     "Engaging",
-     "Vocals",
-     "Energetic",
-     "Love",
-     "Passionate",
-     "2",
-     "Loyal",
-     "Faith",
-     "R & B",
-     "Guitar",
-     "Emotive",
-     "Polished",
-     "Gospel-Infused",
-     "R&B"
-    ],
-    "rank": 10,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": false
+    "cached": true
    }
   },
   "P19": {
@@ -15266,7 +15259,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P20": {
@@ -15587,7 +15580,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "T1": {
@@ -15898,7 +15891,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P22": {
@@ -16182,7 +16175,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": false
+    "cached": true
    }
   },
   "T2": {
@@ -16404,22 +16397,17 @@
    "ref": "I2",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:genre:media:cycling",
-    "name": "Cycling",
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours",
     "idea": "bicycle tours",
     "domain": "places",
-    "marketCount": 8,
+    "marketCount": 0,
     "marketTotal": 28,
-    "cityCount": 12,
+    "cityCount": 1,
     "cityTotal": 50,
-    "ratio": 1.1904761904761905,
-    "verdict": "common",
-    "examples": [
-     "P1",
-     "P2",
-     "P4",
-     "P10"
-    ],
+    "ratio": 0,
+    "verdict": "too-few",
+    "examples": [],
     "ref": "I2"
    },
    "source": {
@@ -16488,73 +16476,73 @@
    "detail": null
   },
   {
-   "ms": 4538,
+   "ms": 49,
    "phase": "qloo",
    "label": "10 places to stay and 28 places with a Sydney signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 4923,
+   "ms": 49,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 55+, leans female"
   },
   {
-   "ms": 4923,
+   "ms": 49,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 6710,
+   "ms": 1102,
    "phase": "agent",
    "label": "Look up Qloo tags for “cooking class”",
    "detail": "Cooking class, Cooking Classes, Cooking Class Dishes"
   },
   {
-   "ms": 8523,
+   "ms": 3519,
    "phase": "agent",
-   "label": "Look up Qloo tags for “cycling”",
-   "detail": "Cycling, Cycling lanes, Cycling park, Cycling Groups"
+   "label": "Look up Qloo tags for “bicycle tour”",
+   "detail": "Bicycle tours, Bicycle Tours Stop, Bicycle rental, Bicycle Shop"
   },
   {
-   "ms": 10478,
+   "ms": 4818,
    "phase": "agent",
    "label": "Look up Qloo tags for “rooftop bar”",
    "detail": "Rooftop Bar, Rooftop Bar Style, Rooftop Bar View, Rooftop Bar Decor"
   },
   {
-   "ms": 11498,
+   "ms": 5685,
    "phase": "agent",
    "label": "Look up Qloo tags for “yoga”",
    "detail": "Yoga, Yoga studio, Yoga instructor, Yoga classes"
   },
   {
-   "ms": 13688,
+   "ms": 7848,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
-   "detail": "bicycle tours → Cycling: 8/28 vs 12/50 (common); cooking class → Cooking Classes: 5/28 vs 9/50 (common); rooftop bar → Rooftop Bar: 1/28 vs 1/50 (too-few); yoga mornings → Yoga: 0/28 vs 2/50 (too-few)"
+   "detail": "cooking class → Cooking Classes: 5/28 vs 9/50 (common); rooftop bar → Rooftop Bar: 1/28 vs 1/50 (too-few); bicycle tours → Bicycle tours: 0/28 vs 1/50 (too-few); yoga mornings → Yoga: 0/28 vs 2/50 (too-few)"
   },
   {
-   "ms": 15032,
+   "ms": 8867,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 15032,
+   "ms": 8867,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 26713,
+   "ms": 23343,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among the places people in Sydney favour in Hoi An than among the city's top places:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC8 Context — Sydney rank 1, Hoi An rank 1\nC9 Nicole Richie — Sydney rank 3, Hoi An rank 18\nC10 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC11 Beyoncé — Sydney rank 8, Hoi An rank 4\nC12 Rihanna — Sydney rank 11, Hoi An rank 6\nC13 Adele — Sydney rank 13, Hoi An rank 12\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC14 Raumskaya — Sydney rank 2\nC15 Kylie Minogue — Sydney rank 4\nC16 Delta Goodrem — Sydney rank 5\nC17 Jessica Mauboy — Sydney rank 7\nC18 Ricki-Lee — Sydney rank 9\nC19 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC2 Bluey — Sydney rank 4\nC3 Suits — Sydney rank 9\nC4 Younger — Sydney rank 11\nC5 Wentworth — Sydney rank 12\nC6 RuPaul's Drag Race UK — Sydney rank 14\nC7 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking Classes\" (places): 5/28 of their favourites vs 9/50 city-wide — verdict common — e.g. P14, P15, P10, P22\nI2 \"bicycle tours\" → tag \"Cycling\" (places): 8/28 of their favourites vs 12/50 city-wide — verdict common — e.g. P1, P2, P4, P10\nI3 \"rooftop bar\" → tag \"Rooftop Bar\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\" (places): 0/28 of their favourites vs 2/50 city-wide — verdict too-few",
- "generatedAt": "2026-10-06T11:21:02.345Z"
+ "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among the places people in Sydney favour in Hoi An than among the city's top places:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Context — Sydney rank 1, Hoi An rank 1\nC2 Nicole Richie — Sydney rank 3, Hoi An rank 18\nC3 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC4 Beyoncé — Sydney rank 8, Hoi An rank 4\nC5 Rihanna — Sydney rank 11, Hoi An rank 6\nC6 Adele — Sydney rank 13, Hoi An rank 12\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC7 Raumskaya — Sydney rank 2\nC8 Kylie Minogue — Sydney rank 4\nC9 Delta Goodrem — Sydney rank 5\nC10 Jessica Mauboy — Sydney rank 7\nC11 Ricki-Lee — Sydney rank 9\nC12 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC13 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC14 Bluey — Sydney rank 4\nC15 Suits — Sydney rank 9\nC16 Younger — Sydney rank 11\nC17 Wentworth — Sydney rank 12\nC18 RuPaul's Drag Race UK — Sydney rank 14\nC19 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking Classes\" (places): 5/28 of their favourites vs 9/50 city-wide — verdict common — e.g. P14, P15, P10, P22\nI2 \"bicycle tours\" → tag \"Bicycle tours\" (places): 0/28 of their favourites vs 1/50 city-wide — verdict too-few\nI3 \"rooftop bar\" → tag \"Rooftop Bar\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\" (places): 0/28 of their favourites vs 2/50 city-wide — verdict too-few",
+ "generatedAt": "2026-10-06T11:21:25.722Z"
 }

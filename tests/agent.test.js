@@ -1,31 +1,38 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {Ledger, marketPlaces, rankIdeaScores, scoreIdeaInPools, tasteProfile, bridgeCulture} from '../src/analysis.js';
+import {Ledger, marketPlaces, rankIdeaScores, scoreIdea, tasteProfile, bridgeCulture, verdictFor, ideaDomains} from '../src/analysis.js';
 import {cityOf, marketOf, businessOf} from '../src/catalog.js';
-import {buildBrief, readInput, sameName, validateBrief} from '../src/agent.js';
-import {qlooFromEnv, compactPlace} from '../src/qloo.js';
+import {buildBrief, readInput, sameName, unknownNames, validateBrief} from '../src/agent.js';
+import {qlooFromEnv, compactPlace, tiedRanks} from '../src/qloo.js';
 import {buildMcpServer} from '../src/mcp.js';
 
-const place=(id,name,tags=[])=>({entity_id:id,name,subtype:'urn:entity:place',properties:{address:`${name} St, Hà Nội, Vietnam`},tags:tags.map((t)=>({id:`urn:tag:ambience:qloo:${t.toLowerCase()}`,name:t,type:'urn:tag:ambience:qloo'}))});
-const artist=(id,name)=>({entity_id:id,name,subtype:'urn:entity:artist'});
+const place=(id,name,tags=[],genre='restaurant:coffee_shop',affinity)=>({
+  entity_id:id,name,subtype:'urn:entity:place',
+  properties:{address:`${name} St, Hà Nội, Vietnam`,primary_genre:{id:`urn:tag:genre:place:${genre}`}},
+  query:affinity===undefined?undefined:{affinity},
+  tags:tags.map((t)=>({id:`urn:tag:ambience:qloo:${t.toLowerCase()}`,name:t,type:'urn:tag:ambience:qloo'}))
+});
+const artist=(id,name,tags=[],popularity=0.9)=>({entity_id:id,name,subtype:'urn:entity:artist',popularity,tags:tags.map((t)=>({id:`urn:tag:genre:music:${t.toLowerCase()}`,name:t}))});
 
 // A stand-in for the Qloo client: answers by request shape, records every call.
-function fakeQloo({market=[],city=[],wideMarket=[],wideCity=[],artistsAbroad=[],artistsLocal=[]}={}) {
+function fakeQloo({peerMarket=[],peerCity=[],allMarket=[],allCity=[],artistsAbroad=[],artistsLocal=[]}={}) {
   const calls=[];
   return {
     calls,
     name:'qloo',
+    meta:{monthRemaining:()=>null},
     async insights(params) {
       calls.push(params);
       const type=params['filter.type'];
       let entities=[];
       if (type==='urn:entity:place') {
-        const wide=!params['filter.tags'];
-        entities=params['signal.location.query']?(wide?wideMarket:market):(wide?wideCity:city);
+        const peer=Boolean(params['filter.tags']);
+        const signal=Boolean(params['signal.location.query']);
+        entities=peer?(signal?peerMarket:peerCity):(signal?allMarket:allCity);
       } else if (type==='urn:entity:artist') {
         entities=params['signal.location.query']==='Seoul'?artistsAbroad:artistsLocal;
       }
-      return {path:'/v2/insights',params,cached:false,entities,tags:[]};
+      return {path:'/v2/insights',params,cached:false,entities,tags:[],body:{results:{}}};
     },
     async tags() { return {tags:[]}; },
     async search() { return {entities:[]}; }
@@ -36,116 +43,129 @@ const hanoi=cityOf('hanoi');
 const seoul=marketOf('seoul');
 const cafe=businessOf('cafe');
 
-test('readInput validates choices and trims ideas', ()=>{
-  const input=readInput({city:'hanoi',market:'seoul',business:'cafe',ideas:'a\n\n b \nc\nd\ne\nf\ng',ownPlace:'  '});
+test('readInput validates choices, trims ideas and picks a language', ()=>{
+  const input=readInput({city:'hanoi',market:'seoul',business:'cafe',ideas:'a\n\n b \nc\nd\ne\nf\ng',ownPlace:'  ',lang:'vi'});
   assert.deepEqual(input.ideas,['a','b','c','d','e','f']);
   assert.equal(input.ownPlace,null);
+  assert.equal(input.lang,'vi');
+  assert.equal(readInput({city:'hanoi',market:'seoul',business:'cafe',lang:'fr'}).lang,'en');
   assert.throws(()=>readInput({city:'atlantis',market:'seoul',business:'cafe'}),/unknown city/);
 });
 
-test('sameName ignores Vietnamese diacritics and case', ()=>{
+test('sameName ignores diacritics, case and word order', ()=>{
   assert.ok(sameName('Phở Quỳnh','pho quynh'));
-  assert.ok(sameName('Bún Chả Hương Liên','Bun Cha Huong Lien - Obama'));
+  assert.ok(sameName('Cafe Giang','Café Giảng'));
+  assert.ok(sameName('Giang Cafe','Café Giảng'));
   assert.ok(!sameName('BTS','BLACKPINK'));
 });
 
-test('marketPlaces compares the market ranking with the city ranking', async ()=>{
-  const qloo=fakeQloo({
-    market:[place('b','Beta'),place('a','Alpha'),place('n','New'),place('c','Gamma'),place('d','Delta')],
-    city:[place('a','Alpha'),place('c','Gamma'),place('d','Delta'),place('b','Beta')]
-  });
-  const ledger=new Ledger();
-  const out=await marketPlaces({qloo,ledger},{city:hanoi,market:seoul,business:cafe});
-  assert.equal(out.scope,'business');
-  assert.deepEqual(out.places.map((p)=>[p.name,p.rank,p.cityRank,p.lift]),[['Beta',1,4,3],['Alpha',2,1,-1],['New',3,null,null],['Gamma',4,2,-2],['Delta',5,3,-2]]);
-  assert.equal(out.places[0].ref,'P1');
-  assert.equal(ledger.get('P1').item.name,'Beta');
-  assert.equal(qloo.calls[0]['signal.location.query'],'Seoul');
-  assert.equal(qloo.calls[0]['operator.filter.tags'],'union');
+test('tiedRanks gives equal scores the same rank', ()=>{
+  assert.deepEqual(tiedRanks([{affinity:0.9},{affinity:0.8},{affinity:0.8},{affinity:0.7}]).map((r)=>[r.rank,r.tied]),[[1,false],[2,true],[2,true],[4,false]]);
 });
 
-test('marketPlaces widens to all places when the market signal is too thin', async ()=>{
+test('peers are confirmed by primary genre, so a pho shop is not a café', async ()=>{
   const qloo=fakeQloo({
-    market:[place('a','Alpha')],
-    city:[place('a','Alpha')],
-    wideMarket:[1,2,3,4,5,6].map((i)=>place(`w${i}`,`Wide ${i}`)),
-    wideCity:[place('w1','Wide 1')]
+    peerMarket:[place('pho','Pho Quynh',[],'restaurant:pho',0.99),place('a','Alpha Cafe',[],'restaurant:coffee_shop',0.98)],
+    peerCity:[place('b','Beta Cafe'),place('a','Alpha Cafe')],
+    allMarket:[place('h','Hotel',[],'hotel',0.97),place('c','Gamma Cafe',[],'restaurant:cafe',0.96)],
+    allCity:[place('h','Hotel',[],'hotel')]
   });
   const out=await marketPlaces({qloo,ledger:new Ledger()},{city:hanoi,market:seoul,business:cafe});
-  assert.equal(out.scope,'all-places');
-  assert.equal(out.places.length,6);
+  assert.deepEqual(out.peers.map((p)=>[p.name,p.rank,p.cityRank]),[['Alpha Cafe',1,2],['Gamma Cafe',2,null]]);
+  assert.equal(out.peerCount,2);
+  assert.deepEqual(out.allPlaces.map((p)=>p.name),['Hotel','Gamma Cafe']);
+  assert.ok(qloo.calls.some((c)=>c['signal.location.query']==='Seoul' && !c['filter.tags']),'all-places pool requested');
+  assert.ok(!cafe.tags.includes('urn:tag:offerings:place:coffee'),'no offerings tag in the café filter');
 });
 
-test('tasteProfile finds tags over-represented among market favourites', async ()=>{
-  const market=Array.from({length:10},(_,i)=>place(`m${i}`,`M${i}`,i<6?['Boutique','Cozy']:['Cozy']));
-  const city=Array.from({length:20},(_,i)=>place(`c${i}`,`C${i}`,i<2?['Boutique','Cozy']:['Cozy']));
+test('tasteProfile keeps only tags clearly more common among the favourites', async ()=>{
+  const allMarket=Array.from({length:10},(_,i)=>place(`m${i}`,`M${i}`,[...(i<6?['Boutique']:[]),'Cozy',...(i<5?['Busy']:[])],'restaurant',1-i/100));
+  const allCity=Array.from({length:20},(_,i)=>place(`c${i}`,`C${i}`,[...(i<2?['Boutique']:[]),'Cozy',...(i<8?['Busy']:[])],'restaurant'));
   const ledger=new Ledger();
-  const pools=await marketPlaces({qloo:fakeQloo({market,city}),ledger},{city:hanoi,market:seoul,business:cafe});
+  const pools=await marketPlaces({qloo:fakeQloo({allMarket,allCity}),ledger},{city:hanoi,market:seoul,business:cafe});
   const profile=tasteProfile({ledger},pools);
-  assert.equal(profile.length,1,'Cozy is everywhere, only Boutique stands out');
-  assert.deepEqual([profile[0].name,profile[0].marketCount,profile[0].marketTotal,profile[0].baselineCount,profile[0].baselineTotal],['Boutique',6,10,2,20]);
-  assert.match(profile[0].ref,/^T\d+$/);
+  assert.deepEqual(profile.map((t)=>t.name),['Boutique'],'Cozy is everywhere; Busy is only 1.25× as common');
+  assert.ok(Math.abs(profile[0].ratio-6)<1e-9);
   assert.ok(profile[0].places.every((r)=>ledger.get(r).kind==='place'));
 });
 
-test('tasteProfile refuses to profile a tiny pool', async ()=>{
-  const ledger=new Ledger();
-  const pools=await marketPlaces({qloo:fakeQloo({market:[place('a','A',['X']),place('b','B',['X']),place('c','C',['X']),place('d','D',['X']),place('e','E',['X'])],city:[place('z','Z')]}),ledger},{city:hanoi,market:seoul,business:cafe});
-  assert.deepEqual(tasteProfile({ledger},pools),[]);
+test('verdicts separate a real signal from noise', ()=>{
+  assert.equal(verdictFor(6,20,2,50),'over-represented');
+  assert.equal(verdictFor(4,45,4,50),'common');
+  assert.equal(verdictFor(1,45,1,50),'too-few');
+  assert.equal(verdictFor(0,45,8,50),'absent-from-favourites');
+  assert.equal(verdictFor(0,45,1,50),'too-few');
+  assert.equal(verdictFor(0,45,0,50),'untested');
+  assert.equal(verdictFor(3,50,12,50),'under-represented');
+  assert.equal(verdictFor(3,50,5,50),'common');
 });
 
-test('idea verdicts separate a real signal from a common or untested idea', ()=>{
+test('a music idea is scored against artists, a place idea against places', ()=>{
   const ledger=new Ledger();
-  const mk=(n,tags)=>Array.from({length:n},(_,i)=>compactPlace(place(`${tags.join()}${i}`,`P${i}`,tags)));
-  const pools={
-    marketList:[...mk(4,['Egg Coffee']),...mk(6,['Coffee'])],
-    baselineList:[...mk(2,['Egg Coffee']),...mk(18,['Coffee']),...mk(1,['Live Music'])],
-    places:[]
-  };
-  const score=(name,idea)=>scoreIdeaInPools({ledger},pools,{tag:{id:`urn:tag:x:${name}`,name},idea});
-  const ranked=rankIdeaScores([score('Coffee','coffee'),score('Live Music','live music'),score('Vegan Cake','vegan cake'),score('Egg Coffee','egg coffee')]);
-  assert.deepEqual(ranked.map((r)=>[r.idea,r.verdict]),[
-    ['egg coffee','over-represented'],
-    ['coffee','common'],
-    ['vegan cake','untested'],
-    ['live music','absent-from-favourites']
-  ]);
+  const places=Array.from({length:10},(_,i)=>compactPlace(place(`p${i}`,`P${i}`,i<1?['Live Music']:[])));
+  const kpop=(n,offset)=>Array.from({length:n},(_,i)=>({id:`a${i+offset}`,name:`A${i+offset}`,allTags:i<n/2?['K Pop']:['Rock']}));
+  const domains=[
+    {label:'places',kind:'place',market:places,city:places},
+    {label:'music',kind:'artist',market:kpop(20,0),city:kpop(6,100).map((a)=>({...a,allTags:['Rock']}))}
+  ];
+  const music=scoreIdea({ledger},domains,{tag:{id:'urn:tag:genre:music:k_pop',name:'K Pop'},idea:'K-pop playlist'});
+  assert.equal(music.domain,'music');
+  assert.equal(music.verdict,'over-represented');
+  const live=scoreIdea({ledger},domains,{tag:{id:'urn:tag:good_for:qloo:live_music',name:'Live Music'},idea:'live music'});
+  assert.equal(live.domain,'places');
+  assert.deepEqual(rankIdeaScores([live,music]).map((r)=>r.idea),['K-pop playlist','live music']);
 });
 
-test('bridgeCulture splits shared and distinctive taste', async ()=>{
-  const qloo=fakeQloo({artistsAbroad:[artist('1','IU'),artist('2','BTS'),artist('3','Jennie')],artistsLocal:[artist('3','Jennie'),artist('9','Sơn Tùng M-TP')]});
+test('bridgeCulture splits shared and distinctive taste and hides low-popularity entries', async ()=>{
+  const qloo=fakeQloo({artistsAbroad:[artist('0','An Actor',[],0.1),artist('1','IU'),artist('2','BTS'),artist('3','Jennie')],artistsLocal:[artist('3','Jennie'),artist('9','Sơn Tùng M-TP')]});
   const out=await bridgeCulture({qloo,ledger:new Ledger()},{city:hanoi,market:seoul,kind:'artist'});
-  assert.deepEqual(out.bridge.map((a)=>[a.name,a.rank,a.localRank]),[['Jennie',3,1]]);
+  assert.deepEqual(out.bridge.map((a)=>[a.name,a.rank,a.localRank]),[['Jennie',4,1]]);
   assert.deepEqual(out.distinct.map((a)=>a.name),['IU','BTS']);
+  assert.equal(out.marketItems.length,4,'all entries stay available for scoring');
 });
 
-test('validateBrief drops uncited actions and refs of the wrong kind', async ()=>{
+test('unknownNames flags names absent from the facts and tolerates a one-letter slip', ()=>{
+  const facts='Taylor Swift, Nicole Richie, Xofa Cafe, Hoi An';
+  assert.deepEqual(unknownNames('Mention nearby Thu Bon River and An Bang beach.',facts),['Thu Bon River','An Bang']);
+  assert.deepEqual(unknownNames('Play Nicole Ritchie, Taylor Swift in Hoi An.',facts),[]);
+});
+
+test('validateBrief drops uncited, weak-idea and invented actions', async ()=>{
   const ledger=new Ledger();
-  await marketPlaces({qloo:fakeQloo({market:[place('a','Alpha')],city:[place('a','Alpha')]}),ledger},{city:hanoi,market:seoul,business:cafe});
+  await marketPlaces({qloo:fakeQloo({allMarket:[place('a','Alpha',[],'restaurant',0.9)],allCity:[place('a','Alpha')]}),ledger},{city:hanoi,market:seoul,business:cafe});
+  const weak=ledger.add('idea',{id:'t',name:'Egg Coffee',idea:'egg coffee workshop',verdict:'common'},{});
+  const facts='P1 Alpha';
   const out=validateBrief({
     headline:'h',summary:'s',
-    actions:[{title:'cited',detail:'Partner with P1 now',refs:['P1','P99']},{title:'invented',detail:'d',refs:['P42']}],
+    actions:[
+      {title:'cited',detail:'Partner with P1 now',refs:['P1','P99']},
+      {title:'invented',detail:'d',refs:['P42']},
+      {title:'Add an egg coffee workshop',detail:'Do it.',refs:[weak]},
+      {title:'Skip the egg coffee workshop',detail:'It is common.',refs:[weak]},
+      {title:'Promote views',detail:'Mention the Thu Bon River nearby.',refs:['P1']}
+    ],
     partners:[{ref:'P1',why:'w'},{ref:'C1',why:'w'}],
     playlist:[{ref:'P1',why:'not music'}],
     ideas:[],caveats:['c']
-  },ledger);
-  assert.deepEqual(out.actions.map((a)=>[a.title,a.refs]),[['cited',['P1']]]);
-  assert.deepEqual(out.dropped,['invented']);
+  },ledger,facts);
+  assert.deepEqual(out.actions.map((a)=>a.title),['cited','Skip the egg coffee workshop']);
   assert.equal(out.actions[0].detail,'Partner with Alpha now');
+  assert.deepEqual(out.dropped.map((d)=>d.title),['invented','Add an egg coffee workshop','Promote views']);
   assert.deepEqual(out.partners.map((p)=>p.ref),['P1']);
   assert.deepEqual(out.playlist,[]);
 });
 
 test('buildBrief without a model still returns a cited rule brief', async ()=>{
-  const market=Array.from({length:10},(_,i)=>place(`m${i}`,`M${i}`,i<6?['Boutique']:[]));
-  const city=Array.from({length:20},(_,i)=>place(`c${i}`,`C${i}`,i<1?['Boutique']:[]));
-  const qloo=fakeQloo({market,city,artistsAbroad:[artist('3','Jennie')],artistsLocal:[artist('3','Jennie')]});
+  const allMarket=Array.from({length:10},(_,i)=>place(`m${i}`,`M${i}`,i<6?['Boutique']:[],'restaurant:cafe',1-i/100));
+  const allCity=Array.from({length:20},(_,i)=>place(`c${i}`,`C${i}`,i<1?['Boutique']:[],'restaurant:cafe'));
+  const qloo=fakeQloo({allMarket,allCity,artistsAbroad:[artist('3','Jennie')],artistsLocal:[artist('3','Jennie')]});
   const events=[];
   const out=await buildBrief({city:'hanoi',market:'seoul',business:'cafe',ideas:['egg coffee']},{qloo,llm:null,onEvent:(e)=>events.push(e)});
   assert.equal(out.engine,'rules');
   assert.ok(out.brief.actions.length>=2);
   for (const a of out.brief.actions) for (const r of a.refs) assert.ok(out.ledger[r],`${r} is in the ledger`);
   assert.equal(out.ideas[0].status,'not-evaluated');
+  assert.equal(out.peers.length,10);
   assert.equal(events.at(-1).phase,'done');
 });
 
@@ -163,7 +183,7 @@ test('Qloo client sends the key as a header, caches, and surfaces errors', async
   assert.equal(b.cached,true,'parameter order does not defeat the cache');
   assert.equal(seen.length,1);
   assert.equal(seen[0].key,'k');
-  assert.ok(!seen[0].url.includes('k&') && !seen[0].url.includes('api_key'));
+  assert.ok(!seen[0].url.includes('api_key'));
   await assert.rejects(qloo.insights({'filter.type':'bad'}),/400: bad param/);
   assert.equal(qlooFromEnv({}),null);
 });
@@ -171,7 +191,7 @@ test('Qloo client sends the key as a header, caches, and surfaces errors', async
 test('Qloo client paces requests and records the monthly quota', async ()=>{
   let clock=0;
   const sent=[];
-  const fetchImpl=async (url)=>{
+  const fetchImpl=async ()=>{
     sent.push(clock);
     return new Response(JSON.stringify({results:{entities:[]}}),{status:200,headers:{'x-month-ratelimit-remaining':'812'}});
   };
@@ -199,4 +219,10 @@ test('MCP server lists the taste tools', async ()=>{
   const server=buildMcpServer({qloo:null,llm:null});
   const names=Object.keys(server._registeredTools ?? {});
   for (const t of ['market_favourites','shared_culture','find_tags','score_ideas','taste_brief']) assert.ok(names.includes(t),`${t} registered`);
+});
+
+test('ideaDomains always includes places and adds culture when present', ()=>{
+  const places={marketList:[],baselineList:[],allSource:{}};
+  assert.deepEqual(ideaDomains(places).map((d)=>d.label),['places']);
+  assert.deepEqual(ideaDomains(places,{marketItems:[],localItems:[]},null).map((d)=>d.label),['places','music']);
 });

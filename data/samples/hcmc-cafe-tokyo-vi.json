@@ -15,7 +15,7 @@
    "pour-over coffee"
   ],
   "ownPlace": null,
-  "lang": "en"
+  "lang": "vi"
  },
  "peers": [
   {
@@ -7968,7 +7968,7 @@
     "name": "Matcha Latte"
    },
    "domain": "places",
-   "rank": 3,
+   "rank": 1,
    "of": 4,
    "verdict": "too-few",
    "ratio": null,
@@ -7986,23 +7986,20 @@
    "ref": "I2",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:service_options:place:outdoor_seating",
-    "name": "Outdoor seating"
+    "id": "urn:tag:amenity:place:rooftop_terrace",
+    "name": "Rooftop Terrace"
    },
    "domain": "places",
-   "rank": 1,
+   "rank": 3,
    "of": 4,
-   "verdict": "over-represented",
-   "ratio": 4.5,
-   "marketCount": 36,
+   "verdict": "too-few",
+   "ratio": 0.33333333333333337,
+   "marketCount": 1,
    "marketTotal": 50,
-   "cityCount": 8,
+   "cityCount": 3,
    "cityTotal": 50,
    "examples": [
-    "P1",
-    "P2",
-    "P13",
-    "P14"
+    "P24"
    ]
   },
   {
@@ -8011,24 +8008,19 @@
    "ref": "I3",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:genre:music:jazz",
-    "name": "Jazz"
+    "id": "urn:tag:decor:qloo:vinyl_record_themed",
+    "name": "Vinyl Record Themed"
    },
-   "domain": "music",
-   "rank": 2,
+   "domain": "places",
+   "rank": 4,
    "of": 4,
-   "verdict": "over-represented",
-   "ratio": 4,
-   "marketCount": 4,
+   "verdict": "untested",
+   "ratio": null,
+   "marketCount": 0,
    "marketTotal": 50,
-   "cityCount": 1,
+   "cityCount": 0,
    "cityTotal": 50,
-   "examples": [
-    "C13",
-    "C14",
-    "C15",
-    "C16"
-   ]
+   "examples": []
   },
   {
    "idea": "pour-over coffee",
@@ -8040,7 +8032,7 @@
     "name": "Pour Over Coffee"
    },
    "domain": "places",
-   "rank": 4,
+   "rank": 2,
    "of": 4,
    "verdict": "too-few",
    "ratio": 2,
@@ -8055,77 +8047,106 @@
   }
  ],
  "brief": {
-  "headline": "People in Tokyo prefer cozy, simple, large‑group Asian cafés offering spirits.",
-  "summary": "Tokyo residents favour Ho Chi Minh City venues that are cozy, simply decorated, suited for large groups, and serve spirits. These traits appear far more often among their favoured spots than in the city’s overall top cafés.",
+  "headline": "Tokyo residents prefer simple, cozy, no‑frills Vietnamese cafés that serve spirits and accommodate groups.",
+  "summary": "The places most favoured by people living in Tokyo in Ho Chi Minh City are characterised by no‑frills, cozy, simple décor, a strong spirits offering, Asian/Vietnamese cuisine and suitability for large groups. The audience of these favourites skews to 25‑29 years old with balanced gender. Music and TV preferences of Tokyo residents do not overlap with the current top HCMC lists.",
   "actions": [
    {
-    "title": "Highlight cozy interior design",
-    "detail": "Emphasize a cozy ambience, as it appears in 11/50 of Tokyo‑favoured venues versus none city‑wide.",
+    "title": "Adopt a no‑frills, simple, cozy décor",
+    "detail": "Focus on minimal furnishings, neutral colours and a relaxed atmosphere to match the dominant ambience preferences.",
     "refs": [
-     "T2"
+     "T1",
+     "T2",
+     "T3"
     ]
    },
    {
-    "title": "Expand spirits selection",
-    "detail": "Increase the range of spirits, since they are 11× more common among Tokyo favourites (22/50 vs 2/50).",
+    "title": "Feature Vietnamese spirits and craft cocktails prominently",
+    "detail": "Highlight local rice wines, infused spirits and cocktail options on the menu to capture the strong spirits signal.",
     "refs": [
      "T4"
     ]
    },
    {
-    "title": "Provide large‑group seating",
-    "detail": "Arrange seating for large groups, which occurs in 31/50 of favourites compared with 8/50 city‑wide.",
+    "title": "Design layout for large groups with shared tables",
+    "detail": "Provide communal seating or flexible table arrangements that can accommodate parties of four or more.",
     "refs": [
      "T7"
     ]
    },
    {
-    "title": "Add rooftop or outdoor seating",
-    "detail": "Create outdoor or rooftop space, present in 36/50 of favourites versus 8/50 city‑wide.",
+    "title": "Maintain a street‑level presence to attract passersby",
+    "detail": "Ensure the café is visible from the sidewalk with clear signage and an inviting entrance.",
     "refs": [
-     "I2"
+     "T5"
     ]
    }
   ],
   "partners": [
    {
     "ref": "P1",
-    "why": "Top‑ranked favourite (market rank 1) known for its no‑frills, lively street‑corner vibe."
+    "why": "Bánh Mì Như Lan ranks second among Tokyo‑favoured spots and offers quick, tasty bites that complement a café menu."
    },
    {
     "ref": "P2",
-    "why": "Second‑ranked favourite (market rank 2) offering industrial setting, Vietnamese iced coffee and late‑night food."
+    "why": "Saigon Coffee Roastery is fourth in the Tokyo favourites and shares a coffee focus, enabling cross‑promotion or bean sourcing."
    },
    {
     "ref": "P3",
-    "why": "Third‑ranked favourite (market rank 3) providing vegetarian banh mi, avocado smoothie and sustainable dining."
+    "why": "Charm Bakery Vietnam ranks third and provides bakery items that can expand the café’s pastry selection."
    },
    {
     "ref": "P4",
-    "why": "Fourth‑ranked favourite (market rank 4) featuring a lively, American‑style atmosphere suited for large groups and happy hour."
+    "why": "Dalaland Coffee is fourth and known for a lively, casual vibe suitable for joint events or happy‑hour collaborations."
    }
   ],
-  "playlist": [],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "小嶋陽菜 is a top‑ranked J‑pop idol in Tokyo, appealing to the core 25‑29 demographic."
+   },
+   {
+    "ref": "C2",
+    "why": "Utada (宇多田ヒカル) ranks highly in Tokyo and has broad recognition across age groups."
+   },
+   {
+    "ref": "C3",
+    "why": "宇多田ヒカル (same artist, different spelling) reinforces the strong Tokyo preference for her music."
+   },
+   {
+    "ref": "C4",
+    "why": "深田恭子 is a popular actress whose music ties into Tokyo’s entertainment scene."
+   },
+   {
+    "ref": "C5",
+    "why": "香取慎吾 ranks seventh and brings a familiar variety‑show entertainer appeal."
+   },
+   {
+    "ref": "C6",
+    "why": "佐々木希 ranks eighth and adds a fresh, contemporary J‑pop flavour."
+   }
+  ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Only one Tokyo‑favoured venue offers a matcha latte; treat as a low‑cost trial before wider rollout."
+    "note": "Matcha latte appears in only 1/50 of Tokyo‑favoured places (too‑few); consider a low‑cost trial if interested."
    },
    {
     "ref": "I2",
-    "note": "Outdoor seating is strongly favoured (36/50 vs 8/50); prioritize adding rooftop or terrace area."
+    "note": "Rooftop seating appears in only 1/50 of favourites (too‑few); not a primary focus, but a cheap pilot could test interest."
    },
    {
     "ref": "I3",
-    "note": "Jazz/vinyl presence is higher among Tokyo favourites (4/50 vs 1/50); consider a modest vinyl collection or occasional jazz nights."
+    "note": "Vinyl record theming has zero favourites and zero city‑wide presence (untested); avoid leading with this concept."
    },
    {
     "ref": "I4",
-    "note": "Pour‑over coffee appears in just two favourites; run a small‑scale test before committing resources."
+    "note": "Pour‑over coffee appears in 2/50 favourites (too‑few); a modest trial may be warranted before wider rollout."
    }
   ],
   "caveats": [
-   "The data shows correlation, not causation, between these traits and Tokyo residents’ choice of venue."
+   "The data shows correlation, not causation, between décor/tags and preference.",
+   "It does not reveal price sensitivity or willingness to pay for the featured attributes.",
+   "It does not indicate actual visit frequency or seasonal variation in tastes."
   ],
   "dropped": []
  },
@@ -8136,7 +8157,7 @@
     "qlooName": "The Workshop Coffee",
     "inQloo": true,
     "marketSignal": true,
-    "ref": "P24",
+    "ref": "P25",
     "peerRank": null,
     "allRank": null
    },
@@ -8159,7 +8180,7 @@
     "allRank": null
    },
    {
-    "name": "The Bean & Leaf",
+    "name": "The Little Owl Cafe",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8168,7 +8189,7 @@
     "allRank": null
    },
    {
-    "name": "Cong Caphe",
+    "name": "Cafe Giảng",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8179,7 +8200,12 @@
   ],
   "artists": [
    {
-    "name": "YOASOBI",
+    "name": "Hikaru Utada",
+    "qlooRank": 3,
+    "localRank": null
+   },
+   {
+    "name": "RADWIMPS",
     "qlooRank": null,
     "localRank": null
    },
@@ -8189,22 +8215,17 @@
     "localRank": null
    },
    {
-    "name": "Kenshi Yonezu",
+    "name": "YUI",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Aimyon",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "RADWIMPS",
+    "name": "Tatsuro Yamashita",
     "qlooRank": null,
     "localRank": null
    }
   ],
-  "advice": "To attract more guests from Tokyo, consider adding a small selection of Japanese‑style pastries and matcha drinks alongside your Vietnamese coffee menu. Host occasional language‑exchange evenings or pop‑up events featuring Japanese music and culture, promoted through Instagram and LINE accounts popular in Japan. Ensure your staff can greet guests in basic Japanese and provide free, high‑speed Wi‑Fi for travelers who want to stay connected. Finally, partner with local travel agencies and hotel concierges that cater to Japanese tourists to get your café listed in their recommendation guides.",
+  "advice": "To attract more visitors from Tokyo, create a welcoming atmosphere that feels familiar yet distinctively Vietnamese—offer a bilingual menu with clear Japanese translations, incorporate minimalist Japanese design elements, and play a curated playlist of contemporary J‑pop and city‑pop hits. Partner with local travel agencies and promote your cafe on platforms popular in Japan such as LINE and Instagram, highlighting any special events like matcha tastings or latte art workshops. Consistently delivering high‑quality coffee and attentive service will encourage word‑of‑mouth recommendations among the Japanese expat and tourist community.",
   "poolSizes": {
    "peers": 16,
    "all": 50,
@@ -8212,384 +8233,6 @@
   }
  },
  "ledger": {
-  "C1": {
-   "ref": "C1",
-   "kind": "artist",
-   "item": {
-    "id": "8E6AF5C9-1520-455C-A7C3-F5C638CE60E6",
-    "name": "小嶋陽菜",
-    "kind": "artist",
-    "disambiguation": "小嶋陽菜",
-    "popularity": 0.6147133803878392,
-    "affinity": 0.9999936180919192,
-    "allTags": [
-     "Upbeat",
-     "Popular",
-     "Idol Pop",
-     "J -pop",
-     "Dedicated",
-     "Dreams",
-     "Vocals",
-     "Idol",
-     "Engaging",
-     "Dance Pop",
-     "Perseverance",
-     "Loyal",
-     "Youth",
-     "Pop",
-     "Versatile",
-     "Energetic",
-     "Charming",
-     "Youthful",
-     "Electropop",
-     "J-Pop",
-     "Charismatic",
-     "Catchy",
-     "Japanese",
-     "Morning Musume",
-     "Ayumi Hamasaki",
-     "Friendship",
-     "Bubblegum Pop",
-     "J-POP",
-     "Love",
-     "3",
-     "Polished",
-     "Bright",
-     "Dance-Pop"
-    ],
-    "rank": 2,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C2": {
-   "ref": "C2",
-   "kind": "artist",
-   "item": {
-    "id": "695EE5C5-38C0-4EA0-A125-841B2125402C",
-    "name": "Utada",
-    "kind": "artist",
-    "disambiguation": "Utada",
-    "popularity": 0.9781340725740387,
-    "affinity": 0.9999804286750361,
-    "allTags": [
-     "Emotive",
-     "Loyal",
-     "Mezzo-Soprano",
-     "Versatile",
-     "Janet Jackson",
-     "Pop",
-     "Self Reflection",
-     "Dance",
-     "Growth",
-     "Electronic Pop",
-     "Dedicated",
-     "Smooth",
-     "Melodic",
-     "Dynamic",
-     "Expressive",
-     "Stevie Wonder",
-     "J-Pop",
-     "Synth-Driven",
-     "J-POP",
-     "Vocals",
-     "Mariah Carey",
-     "2",
-     "Keyboard",
-     "Contemporary R&B",
-     "Heartbreak",
-     "Michael Jackson",
-     "R & B",
-     "Diverse",
-     "Introspective",
-     "Intimate",
-     "Electronic",
-     "Identity",
-     "Soulful Balladry",
-     "Love",
-     "Sophisticated",
-     "Innovative",
-     "Soul",
-     "Passionate",
-     "Piano",
-     "Self-Reflection",
-     "R&B"
-    ],
-    "rank": 3,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C3": {
-   "ref": "C3",
-   "kind": "artist",
-   "item": {
-    "id": "AC3BC2C6-402D-439D-86EB-FCECCF649CD9",
-    "name": "宇多田ヒカル",
-    "kind": "artist",
-    "disambiguation": "宇多田ヒカル",
-    "popularity": 0.9965167869243523,
-    "affinity": 0.9999804286750361,
-    "allTags": [
-     "J-Pop",
-     "Vocals",
-     "Melodic",
-     "Electropop",
-     "Stevie Wonder",
-     "Alto",
-     "Dance",
-     "Urban Pop",
-     "Soulful",
-     "R & B",
-     "Love",
-     "Electronic",
-     "Contemporary R&B",
-     "Mariah Carey",
-     "Identity",
-     "Smooth",
-     "Passionate",
-     "Expressive",
-     "Loyal",
-     "Pop",
-     "Catchy",
-     "Versatile",
-     "Keyboard",
-     "Michael Jackson",
-     "Emotive",
-     "Intimate",
-     "Growth",
-     "Jpop",
-     "Dynamic",
-     "J-POP",
-     "Dedicated",
-     "J -pop",
-     "Innovative",
-     "Heartbreak",
-     "Self Reflection",
-     "Soul",
-     "Diverse",
-     "Japanese",
-     "Influential",
-     "Piano",
-     "Japanese Electronic",
-     "Janet Jackson",
-     "2",
-     "Self-Reflection",
-     "R&B"
-    ],
-    "rank": 4,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C4": {
-   "ref": "C4",
-   "kind": "artist",
-   "item": {
-    "id": "E451D8AE-769F-4859-B200-7740A6E3319B",
-    "name": "深田恭子",
-    "kind": "artist",
-    "disambiguation": "深田恭子",
-    "popularity": 0.8067422946608209,
-    "affinity": 0.9999672390692125,
-    "allTags": [
-     "Expressive",
-     "Engaging",
-     "J-Pop Idol",
-     "Seiko Matsuda",
-     "Japanese Ballad",
-     "Japanese Idol Music",
-     "Vocals",
-     "Dedicated",
-     "Heartbreak",
-     "Energetic",
-     "Popular",
-     "Light Pop",
-     "Melodic Pop",
-     "Versatile",
-     "Catchy",
-     "Supportive",
-     "Youthful Pop",
-     "Pop",
-     "3",
-     "Charming",
-     "J-Pop",
-     "Actress",
-     "Japanese Pop",
-     "Youthful",
-     "Melodic",
-     "Idol Pop",
-     "J-POP",
-     "Youth",
-     "Dreams",
-     "J -pop",
-     "Love",
-     "Talented",
-     "Japanese",
-     "Akina Nakamori",
-     "Light",
-     "Accessible"
-    ],
-    "rank": 6,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C5": {
-   "ref": "C5",
-   "kind": "artist",
-   "item": {
-    "id": "2A99382A-7E18-4833-8B70-945FB81884FA",
-    "name": "香取慎吾",
-    "kind": "artist",
-    "disambiguation": "香取慎吾",
-    "popularity": 0.5663514407984849,
-    "affinity": 0.9999604314567987,
-    "allTags": [
-     "Pop Rock",
-     "J-Pop",
-     "Passionate",
-     "Melodic",
-     "Energetic",
-     "Dance Pop",
-     "Friendship",
-     "J-POP",
-     "Charismatic",
-     "Versatile",
-     "Vocals",
-     "2",
-     "Pop",
-     "Loyal",
-     "Expressive",
-     "Rock",
-     "Dance",
-     "Life",
-     "Dedicated",
-     "Japanese",
-     "Dynamic",
-     "Japanese Pop Icons",
-     "Supportive",
-     "J -pop",
-     "Hope",
-     "Love",
-     "Michael Jackson",
-     "Japanese Idol Music",
-     "Catchy",
-     "Madonna",
-     "Contemporary Pop",
-     "Engaging",
-     "Creative",
-     "Idol Pop",
-     "Pop-oriented",
-     "Accessible",
-     "Dance-Pop"
-    ],
-    "rank": 7,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C6": {
-   "ref": "C6",
-   "kind": "artist",
-   "item": {
-    "id": "64F73B70-9BB4-4769-8F24-25722508E83B",
-    "name": "佐々木希",
-    "kind": "artist",
-    "disambiguation": "佐々木希",
-    "popularity": 0.6218076008100191,
-    "affinity": 0.9999540492744502,
-    "allTags": [
-     "J-Pop",
-     "Love",
-     "Vocals",
-     "Elegant",
-     "Talented",
-     "Life",
-     "Dance Pop",
-     "Popular",
-     "Japanese Pop",
-     "Dedicated",
-     "Namie Amuro",
-     "Japanese",
-     "Passionate",
-     "Contemporary R&B",
-     "Charismatic",
-     "3",
-     "J-POP",
-     "Melodic",
-     "Upbeat",
-     "Graceful",
-     "Emotions",
-     "Pop",
-     "Ayumi Hamasaki",
-     "J -pop",
-     "Synthpop",
-     "Jpop",
-     "Engaging",
-     "Catchy",
-     "Energetic",
-     "Loyal",
-     "Electropop",
-     "Versatile",
-     "Actor",
-     "Emotional",
-     "Polished",
-     "Dance-Pop"
-    ],
-    "rank": 8,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
   "P1": {
    "ref": "P1",
    "kind": "place",
@@ -8783,7 +8426,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P2": {
@@ -9203,7 +8846,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P3": {
@@ -9510,7 +9153,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P4": {
@@ -9931,7 +9574,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P5": {
@@ -10259,7 +9902,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P6": {
@@ -10587,7 +10230,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P7": {
@@ -10811,7 +10454,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P8": {
@@ -11047,7 +10690,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P9": {
@@ -11297,7 +10940,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P10": {
@@ -11584,7 +11227,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P11": {
@@ -11924,7 +11567,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P12": {
@@ -12179,7 +11822,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P13": {
@@ -12657,7 +12300,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P14": {
@@ -12994,7 +12637,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P15": {
@@ -13261,7 +12904,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P16": {
@@ -13525,7 +13168,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P17": {
@@ -13897,7 +13540,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P18": {
@@ -14285,7 +13928,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P19": {
@@ -14628,7 +14271,385 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
+   }
+  },
+  "C1": {
+   "ref": "C1",
+   "kind": "artist",
+   "item": {
+    "id": "8E6AF5C9-1520-455C-A7C3-F5C638CE60E6",
+    "name": "小嶋陽菜",
+    "kind": "artist",
+    "disambiguation": "小嶋陽菜",
+    "popularity": 0.6147133803878392,
+    "affinity": 0.9999936180919192,
+    "allTags": [
+     "Upbeat",
+     "Popular",
+     "Idol Pop",
+     "J -pop",
+     "Dedicated",
+     "Dreams",
+     "Vocals",
+     "Idol",
+     "Engaging",
+     "Dance Pop",
+     "Perseverance",
+     "Loyal",
+     "Youth",
+     "Pop",
+     "Versatile",
+     "Energetic",
+     "Charming",
+     "Youthful",
+     "Electropop",
+     "J-Pop",
+     "Charismatic",
+     "Catchy",
+     "Japanese",
+     "Morning Musume",
+     "Ayumi Hamasaki",
+     "Friendship",
+     "Bubblegum Pop",
+     "J-POP",
+     "Love",
+     "3",
+     "Polished",
+     "Bright",
+     "Dance-Pop"
+    ],
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "kind": "artist",
+   "item": {
+    "id": "695EE5C5-38C0-4EA0-A125-841B2125402C",
+    "name": "Utada",
+    "kind": "artist",
+    "disambiguation": "Utada",
+    "popularity": 0.9781340725740387,
+    "affinity": 0.9999804286750361,
+    "allTags": [
+     "Emotive",
+     "Loyal",
+     "Mezzo-Soprano",
+     "Versatile",
+     "Janet Jackson",
+     "Pop",
+     "Self Reflection",
+     "Dance",
+     "Growth",
+     "Electronic Pop",
+     "Dedicated",
+     "Smooth",
+     "Melodic",
+     "Dynamic",
+     "Expressive",
+     "Stevie Wonder",
+     "J-Pop",
+     "Synth-Driven",
+     "J-POP",
+     "Vocals",
+     "Mariah Carey",
+     "2",
+     "Keyboard",
+     "Contemporary R&B",
+     "Heartbreak",
+     "Michael Jackson",
+     "R & B",
+     "Diverse",
+     "Introspective",
+     "Intimate",
+     "Electronic",
+     "Identity",
+     "Soulful Balladry",
+     "Love",
+     "Sophisticated",
+     "Innovative",
+     "Soul",
+     "Passionate",
+     "Piano",
+     "Self-Reflection",
+     "R&B"
+    ],
+    "rank": 3,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "kind": "artist",
+   "item": {
+    "id": "AC3BC2C6-402D-439D-86EB-FCECCF649CD9",
+    "name": "宇多田ヒカル",
+    "kind": "artist",
+    "disambiguation": "宇多田ヒカル",
+    "popularity": 0.9965167869243523,
+    "affinity": 0.9999804286750361,
+    "allTags": [
+     "J-Pop",
+     "Vocals",
+     "Melodic",
+     "Electropop",
+     "Stevie Wonder",
+     "Alto",
+     "Dance",
+     "Urban Pop",
+     "Soulful",
+     "R & B",
+     "Love",
+     "Electronic",
+     "Contemporary R&B",
+     "Mariah Carey",
+     "Identity",
+     "Smooth",
+     "Passionate",
+     "Expressive",
+     "Loyal",
+     "Pop",
+     "Catchy",
+     "Versatile",
+     "Keyboard",
+     "Michael Jackson",
+     "Emotive",
+     "Intimate",
+     "Growth",
+     "Jpop",
+     "Dynamic",
+     "J-POP",
+     "Dedicated",
+     "J -pop",
+     "Innovative",
+     "Heartbreak",
+     "Self Reflection",
+     "Soul",
+     "Diverse",
+     "Japanese",
+     "Influential",
+     "Piano",
+     "Japanese Electronic",
+     "Janet Jackson",
+     "2",
+     "Self-Reflection",
+     "R&B"
+    ],
+    "rank": 4,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "kind": "artist",
+   "item": {
+    "id": "E451D8AE-769F-4859-B200-7740A6E3319B",
+    "name": "深田恭子",
+    "kind": "artist",
+    "disambiguation": "深田恭子",
+    "popularity": 0.8067422946608209,
+    "affinity": 0.9999672390692125,
+    "allTags": [
+     "Expressive",
+     "Engaging",
+     "J-Pop Idol",
+     "Seiko Matsuda",
+     "Japanese Ballad",
+     "Japanese Idol Music",
+     "Vocals",
+     "Dedicated",
+     "Heartbreak",
+     "Energetic",
+     "Popular",
+     "Light Pop",
+     "Melodic Pop",
+     "Versatile",
+     "Catchy",
+     "Supportive",
+     "Youthful Pop",
+     "Pop",
+     "3",
+     "Charming",
+     "J-Pop",
+     "Actress",
+     "Japanese Pop",
+     "Youthful",
+     "Melodic",
+     "Idol Pop",
+     "J-POP",
+     "Youth",
+     "Dreams",
+     "J -pop",
+     "Love",
+     "Talented",
+     "Japanese",
+     "Akina Nakamori",
+     "Light",
+     "Accessible"
+    ],
+    "rank": 6,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "kind": "artist",
+   "item": {
+    "id": "2A99382A-7E18-4833-8B70-945FB81884FA",
+    "name": "香取慎吾",
+    "kind": "artist",
+    "disambiguation": "香取慎吾",
+    "popularity": 0.5663514407984849,
+    "affinity": 0.9999604314567987,
+    "allTags": [
+     "Pop Rock",
+     "J-Pop",
+     "Passionate",
+     "Melodic",
+     "Energetic",
+     "Dance Pop",
+     "Friendship",
+     "J-POP",
+     "Charismatic",
+     "Versatile",
+     "Vocals",
+     "2",
+     "Pop",
+     "Loyal",
+     "Expressive",
+     "Rock",
+     "Dance",
+     "Life",
+     "Dedicated",
+     "Japanese",
+     "Dynamic",
+     "Japanese Pop Icons",
+     "Supportive",
+     "J -pop",
+     "Hope",
+     "Love",
+     "Michael Jackson",
+     "Japanese Idol Music",
+     "Catchy",
+     "Madonna",
+     "Contemporary Pop",
+     "Engaging",
+     "Creative",
+     "Idol Pop",
+     "Pop-oriented",
+     "Accessible",
+     "Dance-Pop"
+    ],
+    "rank": 7,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "artist",
+   "item": {
+    "id": "64F73B70-9BB4-4769-8F24-25722508E83B",
+    "name": "佐々木希",
+    "kind": "artist",
+    "disambiguation": "佐々木希",
+    "popularity": 0.6218076008100191,
+    "affinity": 0.9999540492744502,
+    "allTags": [
+     "J-Pop",
+     "Love",
+     "Vocals",
+     "Elegant",
+     "Talented",
+     "Life",
+     "Dance Pop",
+     "Popular",
+     "Japanese Pop",
+     "Dedicated",
+     "Namie Amuro",
+     "Japanese",
+     "Passionate",
+     "Contemporary R&B",
+     "Charismatic",
+     "3",
+     "J-POP",
+     "Melodic",
+     "Upbeat",
+     "Graceful",
+     "Emotions",
+     "Pop",
+     "Ayumi Hamasaki",
+     "J -pop",
+     "Synthpop",
+     "Jpop",
+     "Engaging",
+     "Catchy",
+     "Energetic",
+     "Loyal",
+     "Electropop",
+     "Versatile",
+     "Actor",
+     "Emotional",
+     "Polished",
+     "Dance-Pop"
+    ],
+    "rank": 8,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": true
    }
   },
   "C7": {
@@ -14732,7 +14753,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C8": {
@@ -14828,7 +14849,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C9": {
@@ -14923,7 +14944,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C10": {
@@ -15013,7 +15034,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C11": {
@@ -15329,7 +15350,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C12": {
@@ -15528,7 +15549,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "T1": {
@@ -15897,7 +15918,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "P21": {
@@ -16299,7 +16320,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "T2": {
@@ -16635,7 +16656,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "T3": {
@@ -16930,7 +16951,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": false
+    "cached": true
    }
   },
   "T5": {
@@ -17065,25 +17086,210 @@
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
+  "P24": {
+   "ref": "P24",
+   "kind": "place",
+   "item": {
+    "id": "D6B795F8-F7D7-46A0-A4E3-148D9729DE53",
+    "name": "The Spring Hotel",
+    "kind": "place",
+    "genre": "hotel",
+    "address": "44-46 Lê Thánh Tôn Bến Nghé Quận 1 Hồ Chí Minh 700000, Vietnam",
+    "neighborhood": "Khu phố 2",
+    "priceLevel": null,
+    "rating": 3.799999952316284,
+    "summary": "Casual hotel in central Ho Chi Minh City with traditional decor, rooftop terrace, and city views near major landmarks.",
+    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGwXlplcrqAVH1qyw9ygtbutMnMfSVSJYCHjBHkI0zpRNo0Au3rizawi1e1D7S3DauEQMhJ9ST2zOQrjfa68kgKeYUrC7fvZPPRM1om_FDGN9eR0AYRBek6GC4Xbvi9_e3b5zmrbW2dGJetL093bf3La-Ml-6WOa8rD4vTRhTmWqi-KevfbXRnEYg=w1900-h1900-k-no",
+    "lat": 10.7789972,
+    "lon": 106.7030973,
+    "popularity": 0.7676738354170218,
+    "affinity": 0.982165113445143,
+    "tags": [
+     {
+      "id": "urn:tag:ambience:qloo:no_frills",
+      "name": "No frills",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:classic",
+      "name": "Classic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:budget_friendly",
+      "name": "Budget friendly",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:urban_sightseeing",
+      "name": "Urban sightseeing",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban_core",
+      "name": "Urban core",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:decor:qloo:dated",
+      "name": "Dated",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:street_food_exploration",
+      "name": "Street food exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:convenient",
+      "name": "Convenient",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:business_travel",
+      "name": "Business travel",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:interests:qloo:budget_travel",
+      "name": "Budget travel",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:functional",
+      "name": "Functional",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:casual",
+      "name": "Casual",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:historic",
+      "name": "Historic",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_culture",
+      "name": "Local culture",
+      "family": "interests"
+     }
+    ],
+    "allTags": [
+     "Air conditioned",
+     "Walkable",
+     "Dining drinking",
+     "Room service",
+     "Lgbtq+ friendly",
+     "No frills",
+     "Wi fi",
+     "Welcoming",
+     "Bathtub",
+     "Free wi fi",
+     "Classic",
+     "Breakfast available",
+     "Sightseeing",
+     "Ben thanh market",
+     "Parking",
+     "Lounge",
+     "Budget friendly",
+     "Urban sightseeing",
+     "Free parking",
+     "Central",
+     "Saigon central post office",
+     "High accessibility",
+     "Urban core",
+     "Nguyen hue boulevard",
+     "Dated",
+     "Convenience stop",
+     "Daily housekeeping",
+     "Notre dame cathedral",
+     "Street food exploration",
+     "Front desk 247",
+     "Saigon opera house",
+     "Three star",
+     "Bustling",
+     "Traditional",
+     "City view",
+     "Airport shuttle",
+     "Flat screen tv",
+     "City center",
+     "Commercial",
+     "Tours",
+     "Restaurant",
+     "Terrace",
+     "Hotel",
+     "Urban exploration",
+     "Convenient",
+     "Place",
+     "Shopping",
+     "All day",
+     "Hotel class",
+     "Historic",
+     "Mini fridge",
+     "Kid friendly",
+     "Business travel",
+     "Smoke free",
+     "Budget travel",
+     "Air conditioning",
+     "Towels",
+     "Standard",
+     "Free breakfast",
+     "Suite",
+     "Functional",
+     "Destination",
+     "Safe",
+     "Casual",
+     "Bar",
+     "Laundry service",
+     "Rooftop terrace",
+     "Local culture"
+    ],
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Ho Chi Minh City",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": true
+   }
+  },
   "I2": {
    "ref": "I2",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:service_options:place:outdoor_seating",
-    "name": "Outdoor seating",
+    "id": "urn:tag:amenity:place:rooftop_terrace",
+    "name": "Rooftop Terrace",
     "idea": "rooftop seating",
     "domain": "places",
-    "marketCount": 36,
+    "marketCount": 1,
     "marketTotal": 50,
-    "cityCount": 8,
+    "cityCount": 3,
     "cityTotal": 50,
-    "ratio": 4.5,
-    "verdict": "over-represented",
+    "ratio": 0.33333333333333337,
+    "verdict": "too-few",
     "examples": [
-     "P1",
-     "P2",
-     "P13",
-     "P14"
+     "P24"
     ],
     "ref": "I2"
    },
@@ -17092,272 +17298,25 @@
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
-  "C13": {
-   "ref": "C13",
-   "kind": "artist",
-   "item": {
-    "id": "8324A37E-6608-43EB-8CE0-54D9E508F20A",
-    "name": "坂本美雨",
-    "kind": "artist",
-    "disambiguation": "坂本美雨",
-    "popularity": 0.8693319964086533,
-    "affinity": 0.9998621409438916,
-    "allTags": [
-     "Jazz",
-     "Existentialism",
-     "Electroacoustic",
-     "Devoted",
-     "Ethereal Wave",
-     "Innovative",
-     "Expressive",
-     "Ambient Pop",
-     "Nature",
-     "Appreciative",
-     "Pop",
-     "Dreamy",
-     "Melodic",
-     "Ryuichi Sakamoto",
-     "Subtle",
-     "Akiko Yano",
-     "Experimental",
-     "Piano",
-     "Dream Pop",
-     "J -pop",
-     "Eclectic",
-     "Ambient",
-     "Japanese",
-     "Electronic",
-     "Dreams",
-     "Bjork",
-     "Intimate",
-     "4",
-     "Ethereal",
-     "Thoughtful",
-     "Atmospheric",
-     "Experimental Jazz",
-     "Emotions",
-     "Delicate",
-     "Vocals",
-     "Japanese Electronic"
-    ],
-    "rank": 22,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C14": {
-   "ref": "C14",
-   "kind": "artist",
-   "item": {
-    "id": "2F15C1BD-2BFF-4658-93B8-6EFF07079F19",
-    "name": "Ran",
-    "kind": "artist",
-    "disambiguation": "Ran",
-    "popularity": 0.948908505855599,
-    "affinity": 0.999757030824985,
-    "allTags": [
-     "Indie Electronica",
-     "Alternative",
-     "Synthpop",
-     "Introspective",
-     "Dreams",
-     "Vocals",
-     "Unique",
-     "Pop",
-     "Jazz",
-     "Atmospheric",
-     "Passionate",
-     "Emotions",
-     "Utada Hikaru",
-     "Electronic",
-     "Indie Pop",
-     "Ambient",
-     "Dedicated",
-     "Intimate",
-     "Soulful",
-     "Emotive",
-     "Guitar",
-     "Yoko Kanno",
-     "Indonesian",
-     "Expressive",
-     "Melodic",
-     "5",
-     "Nature",
-     "Lo-Fi Indie",
-     "Alternative Pop",
-     "Loyal",
-     "Keyboard",
-     "Self Reflection",
-     "Love",
-     "Trip - Hop",
-     "Dream Pop",
-     "Synth-Pop",
-     "Self-Reflection"
-    ],
-    "rank": 35,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C15": {
-   "ref": "C15",
-   "kind": "artist",
-   "item": {
-    "id": "5F1B6513-EC71-4637-BEB0-3497786B0044",
-    "name": "野宮真貴",
-    "kind": "artist",
-    "disambiguation": "野宮真貴",
-    "popularity": 0.8789722719199943,
-    "affinity": 0.9997438380197055,
-    "allTags": [
-     "Sophisti-Pop",
-     "Stylish",
-     "Eclectic",
-     "4",
-     "Yumi Arai",
-     "Electropop",
-     "Catchy",
-     "Charming",
-     "Fashion",
-     "Vocals",
-     "Shibuya Kei",
-     "Pop",
-     "Nostalgia",
-     "City Pop",
-     "Shibuya-Kei",
-     "Sophisticated",
-     "Energetic",
-     "Marvin Gaye",
-     "J -pop",
-     "Electronic",
-     "Japanese",
-     "Love",
-     "Urban Life",
-     "Jazz-Infused Pop",
-     "The Beatles",
-     "Trendy",
-     "J-Pop",
-     "Jazz",
-     "Chic",
-     "Playful",
-     "Shibuya-kei",
-     "Jazz-infused Pop",
-     "Electro-pop",
-     "Sophisti-pop"
-    ],
-    "rank": 40,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C16": {
-   "ref": "C16",
-   "kind": "artist",
-   "item": {
-    "id": "0AB318DD-FDFF-4FC6-ACDD-5BF0C60B11EE",
-    "name": "土岐麻子",
-    "kind": "artist",
-    "disambiguation": "土岐麻子",
-    "popularity": 0.946736003250562,
-    "affinity": 0.9997110679763722,
-    "allTags": [
-     "Love",
-     "Soprano",
-     "Anri",
-     "Jazz",
-     "Relaxed",
-     "Taeko Ohnuki",
-     "Romance",
-     "Japanese Jazz",
-     "City Pop",
-     "Smooth",
-     "Mellow",
-     "Nostalgia",
-     "Adult Contemporary",
-     "Sade",
-     "Pop",
-     "Stylish",
-     "Bossa Nova",
-     "Elegant",
-     "Personal Reflection",
-     "Mariya Takeuchi",
-     "Vocals",
-     "4",
-     "Intimate",
-     "Norah Jones",
-     "Sophisticated",
-     "J -pop",
-     "Bossa Nova Influenced",
-     "Japanese",
-     "Urban",
-     "Sophisticated Pop",
-     "Jazz-Loving",
-     "Soul",
-     "Funk",
-     "City Life",
-     "Bossa Nova-Influenced"
-    ],
-    "rank": 45,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
   "I3": {
    "ref": "I3",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:genre:music:jazz",
-    "name": "Jazz",
+    "id": "urn:tag:decor:qloo:vinyl_record_themed",
+    "name": "Vinyl Record Themed",
     "idea": "vinyl records",
-    "domain": "music",
-    "marketCount": 4,
+    "domain": "places",
+    "marketCount": 0,
     "marketTotal": 50,
-    "cityCount": 1,
+    "cityCount": 0,
     "cityTotal": 50,
-    "ratio": 4,
-    "verdict": "over-represented",
-    "examples": [
-     "C13",
-     "C14",
-     "C15",
-     "C16"
-    ],
+    "ratio": null,
+    "verdict": "untested",
+    "examples": [],
     "ref": "I3"
    },
    "source": {
-    "derivedFrom": "music",
+    "derivedFrom": "places",
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
@@ -17386,8 +17345,8 @@
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
-  "P24": {
-   "ref": "P24",
+  "P25": {
+   "ref": "P25",
    "kind": "place",
    "item": {
     "id": "0E9C0D71-C36F-4699-9330-4CAD9C6F5A96",
@@ -17810,115 +17769,121 @@
      "signal.location.query": "Tokyo",
      "take": 1
     },
-    "cached": false
+    "cached": true
    }
   }
  },
  "trace": [
   {
-   "ms": 1,
+   "ms": 0,
    "phase": "qloo",
    "label": "Rank places in Ho Chi Minh City by the taste of people in Tokyo, and without it",
    "detail": null
   },
   {
-   "ms": 1,
+   "ms": 0,
    "phase": "qloo",
    "label": "Music and TV loved in Tokyo, checked against Ho Chi Minh City",
    "detail": null
   },
   {
-   "ms": 4769,
+   "ms": 26,
    "phase": "qloo",
    "label": "16 cafés and 50 places with a Tokyo signal; 8 tags stand out; 0 shared artists",
    "detail": null
   },
   {
-   "ms": 5052,
+   "ms": 27,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 25–29, balanced by gender"
   },
   {
-   "ms": 5052,
+   "ms": 27,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 6782,
+   "ms": 1219,
    "phase": "agent",
    "label": "Look up Qloo tags for “matcha latte”",
    "detail": "Matcha Latte, Matcha Latte And Cheesecake, Matchalatte, Matcha Latte And Yuzu Ginger Mint Tea"
   },
   {
-   "ms": 9346,
+   "ms": 2332,
    "phase": "agent",
    "label": "Look up Qloo tags for “rooftop seating”",
    "detail": "Rooftop Seating, Wheelchair accessible seating, Seating, Outdoor seating"
   },
   {
-   "ms": 10930,
+   "ms": 3581,
    "phase": "agent",
    "label": "Look up Qloo tags for “vinyl records”",
    "detail": "Vinyl and LP Records Decor, Vinyl sign shop, Records storage facility, Office Of Vital Records"
   },
   {
-   "ms": 13590,
+   "ms": 6271,
    "phase": "agent",
-   "label": "Look up Qloo tags for “vinyl”",
-   "detail": "Vinyl sign shop, Vinyl Flooring, Vinyl Record Themed, Vinyl DJ Nights"
+   "label": "Look up Qloo tags for “pour-over coffee”",
+   "detail": "Pour Over Coffee, Pourover Coffee, Pour Over Coffee Of The Day, Pour Over Coffee Espresso Tea"
   },
   {
-   "ms": 15286,
+   "ms": 7898,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “rooftop”",
+   "detail": "Rooftop, Rooftop Terrace, Rooftop Pool, Rooftop Bar"
+  },
+  {
+   "ms": 12151,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “vinyl record”",
+   "detail": "Vinyl Record Themed, Vinyl Record Decor, Vinyl Record Events, Vinyl Record Menu Covers"
+  },
+  {
+   "ms": 14435,
    "phase": "agent",
    "label": "Look up Qloo tags for “record”",
    "detail": "Record, Recording studio, Record Producer, Records storage facility"
   },
   {
-   "ms": 17075,
+   "ms": 16649,
    "phase": "agent",
-   "label": "Look up Qloo tags for “jazz”",
-   "detail": "Jazz, Jazz Musician, Jazz Fusion, Jazz club"
+   "label": "Look up Qloo tags for “vinyl”",
+   "detail": "Vinyl sign shop, Vinyl Flooring, Vinyl Record Themed, Vinyl DJ Nights"
   },
   {
-   "ms": 19521,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “record store”",
-   "detail": "Record store, Record Stores, In-store shopping, In-store pickup"
-  },
-  {
-   "ms": 22118,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “pour over coffee”",
-   "detail": "Pour Over Coffee, Pourover Coffee, Pour Over Coffee Of The Day, Pour Over Coffee Espresso Tea"
-  },
-  {
-   "ms": 24684,
+   "ms": 20197,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
-   "detail": "rooftop seating → Outdoor seating: 36/50 vs 8/50 (over-represented); vinyl records → Jazz: 4/50 vs 1/50 (over-represented); matcha latte → Matcha Latte: 1/50 vs 0/50 (too-few); pour-over coffee → Pour Over Coffee: 2/50 vs 1/50 (too-few)"
+   "detail": "matcha latte → Matcha Latte: 1/50 vs 0/50 (too-few); pour-over coffee → Pour Over Coffee: 2/50 vs 1/50 (too-few); rooftop seating → Rooftop Terrace: 1/50 vs 3/50 (too-few); vinyl records → Vinyl Record Themed: 0/50 vs 0/50 (untested)"
   },
   {
-   "ms": 26123,
+   "ms": 23536,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “record player”",
+   "detail": "Recorder Player, Association Football Player, Basketball Player, American Football Player"
+  },
+  {
+   "ms": 23536,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 26123,
+   "ms": 23536,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 37635,
+   "ms": 36281,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Ho Chi Minh City, Vietnam. Visitor market: people living in Tokyo, Japan.\n\ncafés in Ho Chi Minh City with a measurable Tokyo signal (16 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Ho Chi Minh City's top cafés without that signal:\nP1 Bánh Mì Như Lan (Khu phố 7) — market rank 1, city rank not in the top list — tags: No frills, Prepared meal shopping, Utilitarian market style, Street corner, Lively, Commercial\nP2 Saigon Coffee Roastery (Vo Thi Sau Ward) — market rank 2, city rank not in the top list — tags: Industrial, Vietnamese iced coffee, Late night food, Historic, Quiet, Vietnamese cafe\nP3 Charm Bakery Vietnam (Khu phố 4) — market rank 3, city rank not in the top list — tags: Vegetarian banh mi, Culinary travel, Avocado smoothie, Roast pork banh mi, Casual, Sustainable dining\nP4 Dalaland Coffee (Thao Dien Ward) — market rank 4, city rank not in the top list — tags: Lively, American, Large group, Happy hour food, Casual socializing, Coffee\nP5 Highlands Coffee (An Loi Dong Ward) — market rank =5, city rank not in the top list — tags: Jogging, Welcoming, Late night food, Happy hour, Happy hour food, Modern\nP6 Lacàph Coffee Bar (Khu phố 5) — market rank =5, city rank not in the top list — tags: Wine, Unique, Cultural exploration, Relaxing, Craft cocktails, Happy hour food\nP7 ABOUT LIFE COFFEE BREWERS HCM (Vo Thi Sau Ward) — market rank =5, city rank 36 — tags: Cafe culture, Coffee and tea, Street level, Flat white, Minimalist, Food photography\nP8 Bơ by Butterman (Khu phố 1) — market rank =5, city rank not in the top list — tags: Bakery, Coffee, Cafe culture, Coffee and tea, Modern, Pastries\nP9 Caztus Ice Blended (Pham Ngu Lao Ward) — market rank =9, city rank 23 — tags: Cozy, Coffee culture, Vintage inspired, Beverage crafting, Casual, Coffee and tea\nP10 ITune Coffee (Ward 13) — market rank =9, city rank not in the top list — tags: Themed, Mindfulness, Classic, Productivity, Zen inspired, Buddhism\n\nAll kinds of places in Ho Chi Minh City favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP11 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 1, city rank 49\nP1 Bánh Mì Như Lan (bakery, Khu phố 7) — market rank 2, city rank not in top 50\nP12 Hủ Tiếu Nam Vang Quỳnh (noodle shop, Nguyen Cu Trinh Ward) — market rank 3, city rank not in top 50\nP2 Saigon Coffee Roastery (cafe, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP13 Phở Hòa Pasteur (pho, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP14 Cơm Niêu Sài Gòn (vietnamese, Vo Thi Sau Ward) — market rank =6, city rank not in top 50\nP15 Hoi An Sense - Vietnamese Restaurant (vietnamese, Da Kao Ward) — market rank =6, city rank not in top 50\nP3 Charm Bakery Vietnam (bakery, Khu phố 4) — market rank =6, city rank not in top 50\nP16 Hủ Tiếu Mì Cật (noodle shop, Khu phố 6) — market rank =6, city rank not in top 50\nP17 Bánh Xèo 46A (vietnamese, Tan Dinh Ward) — market rank =10, city rank not in top 50\nP18 Vietnam House Restaurant (vietnamese, Khu phố 5) — market rank =10, city rank not in top 50\nP19 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank =10, city rank not in top 50\n\nTags clearly more common among the places people in Tokyo favour in Ho Chi Minh City than among the city's top places:\nT1 \"No frills\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P13, P16, P19\nT2 \"Cozy\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P2, P3, P20, P21\nT3 \"Simple\" (decor) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P13, P3, P22\nT4 \"Spirits\" (beverage_offering) — 22/50 of their favourites vs 2/50 city-wide, 11.0× as common — e.g. P2, P13, P14, P15\nT5 \"Street level\" (setting) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P22, P7, P23\nT6 \"Asian\" (cuisine) — 16/50 of their favourites vs 2/50 city-wide, 8.0× as common — e.g. P12, P2, P14, P16\nT7 \"Large group\" (ambience) — 31/50 of their favourites vs 8/50 city-wide, 3.9× as common — e.g. P2, P13, P14, P17\nT8 \"Vietnamese\" (cuisine) — 27/50 of their favourites vs 6/50 city-wide, 4.5× as common — e.g. P12, P13, P14, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, balanced by gender\n\nMusic loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"matcha latte\" → tag \"Matcha Latte\" (places): 1/50 of their favourites vs 0/50 city-wide — verdict too-few — e.g. P4\nI2 \"rooftop seating\" → tag \"Outdoor seating\" (places): 36/50 of their favourites vs 8/50 city-wide — verdict over-represented — e.g. P1, P2, P13, P14\nI3 \"vinyl records\" → tag \"Jazz\" (music): 4/50 of their favourites vs 1/50 city-wide — verdict over-represented — e.g. C13, C14, C15, C16\nI4 \"pour-over coffee\" → tag \"Pour Over Coffee\" (places): 2/50 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2, P6",
- "generatedAt": "2026-10-06T11:24:14.674Z"
+ "facts": "Business: Cafe in Ho Chi Minh City, Vietnam. Visitor market: people living in Tokyo, Japan.\n\ncafés in Ho Chi Minh City with a measurable Tokyo signal (16 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Ho Chi Minh City's top cafés without that signal:\nP1 Bánh Mì Như Lan (Khu phố 7) — market rank 1, city rank not in the top list — tags: No frills, Prepared meal shopping, Utilitarian market style, Street corner, Lively, Commercial\nP2 Saigon Coffee Roastery (Vo Thi Sau Ward) — market rank 2, city rank not in the top list — tags: Industrial, Vietnamese iced coffee, Late night food, Historic, Quiet, Vietnamese cafe\nP3 Charm Bakery Vietnam (Khu phố 4) — market rank 3, city rank not in the top list — tags: Vegetarian banh mi, Culinary travel, Avocado smoothie, Roast pork banh mi, Casual, Sustainable dining\nP4 Dalaland Coffee (Thao Dien Ward) — market rank 4, city rank not in the top list — tags: Lively, American, Large group, Happy hour food, Casual socializing, Coffee\nP5 Highlands Coffee (An Loi Dong Ward) — market rank =5, city rank not in the top list — tags: Jogging, Welcoming, Late night food, Happy hour, Happy hour food, Modern\nP6 Lacàph Coffee Bar (Khu phố 5) — market rank =5, city rank not in the top list — tags: Wine, Unique, Cultural exploration, Relaxing, Craft cocktails, Happy hour food\nP7 ABOUT LIFE COFFEE BREWERS HCM (Vo Thi Sau Ward) — market rank =5, city rank 36 — tags: Cafe culture, Coffee and tea, Street level, Flat white, Minimalist, Food photography\nP8 Bơ by Butterman (Khu phố 1) — market rank =5, city rank not in the top list — tags: Bakery, Coffee, Cafe culture, Coffee and tea, Modern, Pastries\nP9 Caztus Ice Blended (Pham Ngu Lao Ward) — market rank =9, city rank 23 — tags: Cozy, Coffee culture, Vintage inspired, Beverage crafting, Casual, Coffee and tea\nP10 ITune Coffee (Ward 13) — market rank =9, city rank not in the top list — tags: Themed, Mindfulness, Classic, Productivity, Zen inspired, Buddhism\n\nAll kinds of places in Ho Chi Minh City favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP11 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 1, city rank 49\nP1 Bánh Mì Như Lan (bakery, Khu phố 7) — market rank 2, city rank not in top 50\nP12 Hủ Tiếu Nam Vang Quỳnh (noodle shop, Nguyen Cu Trinh Ward) — market rank 3, city rank not in top 50\nP2 Saigon Coffee Roastery (cafe, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP13 Phở Hòa Pasteur (pho, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP14 Cơm Niêu Sài Gòn (vietnamese, Vo Thi Sau Ward) — market rank =6, city rank not in top 50\nP15 Hoi An Sense - Vietnamese Restaurant (vietnamese, Da Kao Ward) — market rank =6, city rank not in top 50\nP3 Charm Bakery Vietnam (bakery, Khu phố 4) — market rank =6, city rank not in top 50\nP16 Hủ Tiếu Mì Cật (noodle shop, Khu phố 6) — market rank =6, city rank not in top 50\nP17 Bánh Xèo 46A (vietnamese, Tan Dinh Ward) — market rank =10, city rank not in top 50\nP18 Vietnam House Restaurant (vietnamese, Khu phố 5) — market rank =10, city rank not in top 50\nP19 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank =10, city rank not in top 50\n\nTags clearly more common among the places people in Tokyo favour in Ho Chi Minh City than among the city's top places:\nT1 \"No frills\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P13, P16, P19\nT2 \"Cozy\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P2, P3, P20, P21\nT3 \"Simple\" (decor) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P13, P3, P22\nT4 \"Spirits\" (beverage_offering) — 22/50 of their favourites vs 2/50 city-wide, 11.0× as common — e.g. P2, P13, P14, P15\nT5 \"Street level\" (setting) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P22, P7, P23\nT6 \"Asian\" (cuisine) — 16/50 of their favourites vs 2/50 city-wide, 8.0× as common — e.g. P12, P2, P14, P16\nT7 \"Large group\" (ambience) — 31/50 of their favourites vs 8/50 city-wide, 3.9× as common — e.g. P2, P13, P14, P17\nT8 \"Vietnamese\" (cuisine) — 27/50 of their favourites vs 6/50 city-wide, 4.5× as common — e.g. P12, P13, P14, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, balanced by gender\n\nMusic loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"matcha latte\" → tag \"Matcha Latte\" (places): 1/50 of their favourites vs 0/50 city-wide — verdict too-few — e.g. P4\nI2 \"rooftop seating\" → tag \"Rooftop Terrace\" (places): 1/50 of their favourites vs 3/50 city-wide — verdict too-few — e.g. P24\nI3 \"vinyl records\" → tag \"Vinyl Record Themed\" (places): 0/50 of their favourites vs 0/50 city-wide — verdict untested\nI4 \"pour-over coffee\" → tag \"Pour Over Coffee\" (places): 2/50 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2, P6",
+ "generatedAt": "2026-10-06T11:22:42.448Z"
 }

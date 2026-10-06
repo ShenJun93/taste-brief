@@ -3,7 +3,7 @@
 
 import {McpServer, createMcpHandler} from '@modelcontextprotocol/server';
 import * as z from 'zod/v4';
-import {Ledger, bridgeCulture, marketPlaces, rankIdeaScores, scoreIdeaInPools, tasteProfile} from './analysis.js';
+import {Ledger, bridgeCulture, ideaDomains, marketPlaces, rankIdeaScores, scoreIdea, tasteProfile} from './analysis.js';
 import {BUSINESSES, CITIES, MARKETS, businessOf, cityOf, marketOf} from './catalog.js';
 import {buildBrief} from './agent.js';
 
@@ -31,7 +31,7 @@ export function buildMcpServer(providers={}) {
   server.registerTool(
     'market_favourites',
     {
-      description:'Places of one kind in a Vietnamese city ranked by the taste of people in a visitor market, with each place\'s rank in the city overall, plus the tags over-represented among those favourites.',
+      description:'Places in a Vietnamese city ranked by the taste of people in a visitor market (peers of the given business type, and all kinds of places), each with its city-wide rank, plus the tags clearly over-represented among those favourites.',
       inputSchema:z.object({city,market,business})
     },
     async (args)=>{
@@ -39,7 +39,7 @@ export function buildMcpServer(providers={}) {
       const ledger=new Ledger();
       const pools=await marketPlaces({qloo,ledger},{city:cityOf(args.city),market:marketOf(args.market),business:businessOf(args.business)});
       const profile=tasteProfile({ledger},pools);
-      return result({places:pools.places,profile,poolSizes:{market:pools.marketList.length,city:pools.baselineList.length},sources:pools.sources});
+      return result({peers:pools.peers,allPlaces:pools.allPlaces,profile,poolSizes:{peers:pools.peerCount,market:pools.marketList.length,city:pools.baselineList.length},sources:pools.sources});
     }
   );
 
@@ -82,8 +82,8 @@ export function buildMcpServer(providers={}) {
       need();
       const ledger=new Ledger();
       const pools=await marketPlaces({qloo,ledger},{city:cityOf(args.city),market:marketOf(args.market),business:businessOf(args.business)});
-      const ranked=rankIdeaScores(args.ideas.map((i)=>scoreIdeaInPools({ledger},pools,{tag:{id:i.tag_id,name:i.tag_name},idea:i.idea})));
-      return result({ideas:ranked,places:pools.places});
+      const ranked=rankIdeaScores(args.ideas.map((i)=>scoreIdea({ledger},ideaDomains(pools),{tag:{id:i.tag_id,name:i.tag_name},idea:i.idea})));
+      return result({ideas:ranked});
     }
   );
 
@@ -94,6 +94,7 @@ export function buildMcpServer(providers={}) {
       inputSchema:z.object({
         city,market,business,
         ownPlace:z.string().max(80).optional().describe('Name of the owner\'s own place, to locate it in Qloo'),
+        lang:z.enum(['en','vi']).optional().describe('Language of the written brief'),
         ideas:z.array(z.string().min(1).max(120)).max(6).optional()
       })
     },

@@ -29,15 +29,28 @@ export const MARKETS=[
   {id:'losangeles',label:'Los Angeles',country:'United States',query:'Los Angeles'}
 ];
 
-// Each business type maps to the Qloo place tags its peers carry (any of them), so "where they
-// already go" compares like with like.
+// Each business type maps to the Qloo place tags its peers carry (any of them), and to the
+// primary genres that count as a peer. Tags alone are too loose (a resort carries "Bar", a pho
+// shop carries "Coffee"), so peers are confirmed by the place's primary genre.
 export const BUSINESSES=[
-  {id:'cafe',label:'Cafe',tags:['urn:tag:genre:place:restaurant:coffee_shop','urn:tag:genre:place:cafe','urn:tag:category:place:coffee_shop','urn:tag:offerings:place:coffee']},
-  {id:'restaurant',label:'Restaurant',tags:['urn:tag:genre:place:restaurant']},
-  {id:'bar',label:'Bar',tags:['urn:tag:genre:place:restaurant:bar','urn:tag:genre:place:bar','urn:tag:category:place:bar']},
-  {id:'stay',label:'Homestay / hotel',tags:['urn:tag:genre:place:hotel','urn:tag:genre:place:hotel:hostel']},
-  {id:'spa',label:'Spa',tags:['urn:tag:genre:place:spa','urn:tag:genre:place:spa_and_health_club']},
-  {id:'tour',label:'Tour / experience',tags:['urn:tag:genre:place:tourist_attraction','urn:tag:genre:place:tour_operator']}
+  {id:'cafe',label:'Cafe',plural:'cafés',
+    tags:['urn:tag:genre:place:restaurant:coffee_shop','urn:tag:genre:place:cafe','urn:tag:category:place:coffee_shop'],
+    genre:/^(restaurant:)?(coffee_shop|cafe|coffee_roasters|tea_house|tea_room|dessert_shop|pastry_shop|bakery|juice_shop|bubble_tea)/},
+  {id:'restaurant',label:'Restaurant',plural:'restaurants',
+    tags:['urn:tag:genre:place:restaurant'],
+    genre:/^restaurant(?!:(coffee_shop|cafe|bar|pub|live_music_bar|sports_bar|wine_bar|cocktail_bar|pastry_shop|bakery|dessert_shop))/},
+  {id:'bar',label:'Bar',plural:'bars',
+    tags:['urn:tag:genre:place:restaurant:bar','urn:tag:genre:place:bar','urn:tag:category:place:bar'],
+    genre:/^(night_club|bar|pub|lounge|brewpub|restaurant:(bar|pub|live_music_bar|sports_bar|wine_bar|cocktail_bar|beer_hall|brewpub|lounge))/},
+  {id:'stay',label:'Homestay / hotel',plural:'places to stay',
+    tags:['urn:tag:genre:place:hotel','urn:tag:genre:place:hotel:hostel'],
+    genre:/^(hotel|hostel|resort|guest_house|homestay|inn|motel|villa|lodging|bed_and_breakfast)/},
+  {id:'spa',label:'Spa',plural:'spas',
+    tags:['urn:tag:genre:place:spa','urn:tag:genre:place:spa_and_health_club'],
+    genre:/^(spa|massage|day_spa|wellness|hotel:spa)/},
+  {id:'tour',label:'Tour / experience',plural:'attractions and tours',
+    tags:['urn:tag:genre:place:tourist_attraction','urn:tag:genre:place:tour_operator'],
+    genre:/^(tourist_attraction|tour_operator|tour_agency|museum|park|landmark|historical|temple|pagoda|market|art_gallery|beach|garden)/}
 ];
 
 export const CULTURE_TYPES={

@@ -109,15 +109,20 @@ export function compactPlace(entity) {
     seen.add(tag.name);
     tags.push({id:tag.id,name:tag.name,family:tag.id.split(':')[2]});
   }
+  const image=(p.images ?? []).find((i)=>typeof i?.url==='string' && i.url.startsWith('https://'));
   return {
     id:entity.entity_id,
     name:entity.name,
     kind:'place',
+    genre:(p.primary_genre?.id ?? '').replace('urn:tag:genre:place:','') || null,
     address:p.address ?? null,
     neighborhood:p.neighborhood ?? null,
     priceLevel:p.price_level ?? null,
     rating:p.business_rating ?? null,
     summary:p.short_description ?? null,
+    image:image?.url ?? null,
+    lat:entity.location?.lat ?? null,
+    lon:entity.location?.lon ?? null,
     popularity:entity.popularity ?? null,
     affinity:entity.query?.affinity ?? null,
     tags,
@@ -132,6 +137,19 @@ export function compactEntity(entity) {
     kind:(entity.subtype ?? entity.type ?? '').replace('urn:entity:',''),
     disambiguation:entity.disambiguation ?? null,
     popularity:entity.popularity ?? null,
-    affinity:entity.query?.affinity ?? null
+    affinity:entity.query?.affinity ?? null,
+    allTags:[...new Set((entity.tags ?? []).map((t)=>t.name).filter(Boolean))]
   };
+}
+
+// Rank by affinity with ties: places Qloo scores identically share a rank ("=8") instead of being
+// ordered by an arbitrary tie-break.
+export function tiedRanks(items,score=(x)=>x.affinity) {
+  return items.map((item)=>{
+    const s=score(item);
+    if (typeof s!=='number') return {rank:items.indexOf(item)+1,tied:false};
+    const above=items.filter((o)=>typeof score(o)==='number' && score(o)>s).length;
+    const same=items.filter((o)=>score(o)===s).length;
+    return {rank:above+1,tied:same>1};
+  });
 }
