@@ -13,6 +13,7 @@ Every claim on the page links to the Qloo result behind it. The page and the pla
 Built for the [Qloo Agentic Hackathon](https://qloo.devpost.com):
 - **Data:** Qloo Taste AI™ (hackathon API).
 - **Agent:** NVIDIA Nemotron 3 Super on Nebius Token Factory.
+- **Vietnamese:** the checked English brief is translated by Qwen3-235B on Nebius.
 - **MCP:** the same tools are served at `/mcp`.
 
 ![A brief for a Hanoi café that wants guests from Seoul](docs/shot-brief.png)
@@ -29,7 +30,7 @@ A general chatbot cannot answer the sharper question: which places in Hanoi do p
 
 ## What it does
 
-Pick a business type, a Vietnamese city and a visitor market (a city such as Seoul, Tokyo, Sydney or Singapore).
+Pick a business type, a Vietnamese city and a visitor market (a city such as Seoul, Tokyo, Sydney or Singapore). The form shows how strong Qloo's signal is for each market in the chosen city (measured once for every pair, `data/coverage.json`) and will not run a brief that would come back empty.
 
 | Section | How it is computed |
 |---|---|
@@ -51,7 +52,7 @@ The numbers below come from `data/samples/hanoi-cafe-seoul.json`.
 - **Owner ideas:**
   - "K-pop playlist" is over-represented: the K-Pop tag is on 37 of the 50 artists people in Seoul favour, against 21 of Hanoi's 50.
   - "Egg coffee workshop" is common rather than distinctive (3/50 against 5/50).
-- **The model without data:** it names The Note Coffee, Cong Caphe and Hanoi Social Club. Qloo knows all three, but none has a measurable Seoul signal.
+- **The model without data:** it names Café Giảng, The Note Coffee and Cong Caphe. Qloo knows all three, but none has a measurable Seoul signal.
 
 ![Map and favourites](docs/shot-map.png)
 
@@ -98,6 +99,8 @@ Every Qloo result that can support a recommendation goes into a ledger with a sh
 
 The page lists what was removed and why. Names, ranks and counts on the page come from the ledger, not from model text. Without a model key, the brief is assembled by rule from the same ledger.
 
+A Vietnamese reader gets a translation of the checked English brief; only the prose is translated, so citations and numbers cannot change. The translation is rejected and retried if it is not Vietnamese, changes the number of items or leaves English words; after a second failure the English brief is shown with a note. Switching language on a live brief reuses the English analysis, so it costs one translation and no Qloo calls.
+
 ![Ideas and shared traits](docs/shot-ideas.png)
 
 ## Architecture
@@ -118,11 +121,13 @@ MCP clients ──/mcp (Streamable HTTP)──▶ market_favourites · shared_cu
 |---|---|
 | `src/qloo.js` | Qloo client: key in a header, paced to 4 requests a second, retries 429s, reads the monthly quota from response headers, 12-hour cache. |
 | `src/analysis.js` | Peer and all-place rankings with ties, taste profile, shared culture, idea verdicts, ledger. |
-| `src/agent.js` | The three phases, fact sheet, brief validation, Vietnamese output, LLM-only contrast. |
+| `src/agent.js` | The three phases, fact sheet, brief validation, checked Vietnamese translation, LLM-only contrast. |
+| `src/llm.js` | Nemotron (agent and writer) and Qwen (translation) on Nebius, with one retry on a dropped connection. |
 | `src/mcp.js` | The same tools over MCP. |
 | `server.js` | Web app, SSE, daily call caps, per-IP rate limit, monthly quota reserve, brief cache. |
 | `public/` | The page: English and Vietnamese, map (Leaflet and OpenStreetMap), evidence pop-ups, copy, share and print. |
 | `data/samples/` | Seven saved examples in both languages, opened by the example buttons. |
+| `data/coverage.json` | Qloo signal counts for every city and market (`scripts/coverage.mjs`). |
 
 ## Run it
 
@@ -132,7 +137,7 @@ Requires Node.js 22+.
 npm install
 cp .env.example .env   # add QLOO_API_KEY (and NEBIUS_API_KEY for the agent)
 npm start              # http://127.0.0.1:4320
-npm test               # 16 tests
+npm test               # 17 tests
 ```
 
 Regenerate the saved examples with `node --env-file=.env scripts/make-samples.mjs all`.

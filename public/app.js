@@ -217,6 +217,8 @@ function updateCoverage() {
   }
   const n=counts?.[$('market').value];
   const note=$('coverage-note');
+  // With no measured signal the brief would be empty, so the button waits for another choice.
+  $('go').disabled=n===0;
   if (n===undefined || n>=10) { note.hidden=true; return; }
   const best=Object.entries(counts).sort((x,y)=>y[1]-x[1])[0];
   const bestLabel=best && best[1]>n ? state.options.markets.find((x)=>x.id===best[0])?.label : null;
@@ -336,6 +338,7 @@ async function onSubmit(event) {
     showError(t('failed',error.message));
   } finally {
     $('go').disabled=false;
+    updateCoverage();
   }
 }
 
@@ -477,7 +480,7 @@ function render(brief,{sample=false,scroll=true}={}) {
   const when=brief.cachedAt ?? brief.generatedAt;
   const whenText=when?new Date(when).toLocaleString(lang==='vi'?'vi-VN':'en-GB',{dateStyle:'medium',timeStyle:'short'}):null;
   fill('brief-meta',
-    h('span',{},t('writtenBy',brief.engine)),
+    h('span',{},t('writtenBy',lang==='vi'?brief.engine.replace('; translated by ','; dịch bởi '):brief.engine)),
     h('span',{},t('facts',cited.size)),
     whenText?h('span',{},sample?t('saved',whenText):t('generated',whenText)):null
   );

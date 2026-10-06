@@ -6802,35 +6802,40 @@
   {
    "idea": "onsen-style bath",
    "status": "ranked",
-   "ref": "I4",
+   "ref": "I1",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:decor:qloo:japanese_onsen_style",
-    "name": "Japanese Onsen Style"
+    "id": "urn:tag:category:place:spa",
+    "name": "Spa"
    },
    "domain": "places",
-   "rank": 1,
-   "of": 1,
-   "verdict": "untested",
-   "ratio": null,
-   "marketCount": 0,
+   "rank": 3,
+   "of": 4,
+   "verdict": "common",
+   "ratio": 0.7936507936507936,
+   "marketCount": 7,
    "marketTotal": 49,
-   "cityCount": 0,
+   "cityCount": 9,
    "cityTotal": 50,
-   "examples": []
+   "examples": [
+    "P1",
+    "P2",
+    "P6",
+    "P7"
+   ]
   },
   {
    "idea": "old quarter walking tour",
    "status": "ranked",
-   "ref": "I1",
+   "ref": "I2",
    "via": {
     "kind": "tag",
     "id": "urn:tag:setting:qloo:old_quarter",
     "name": "Old Quarter"
    },
    "domain": "places",
-   "rank": 1,
-   "of": 3,
+   "rank": 2,
+   "of": 4,
    "verdict": "common",
    "ratio": 1.3450834879406308,
    "marketCount": 29,
@@ -6847,37 +6852,40 @@
   {
    "idea": "cooking class",
    "status": "ranked",
-   "ref": "I2",
+   "ref": "I3",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:category:place:cooking_class",
-    "name": "Cooking class"
+    "id": "urn:tag:amenity:qloo:cooking_classes",
+    "name": "Cooking Classes"
    },
    "domain": "places",
-   "rank": 2,
-   "of": 3,
-   "verdict": "too-few",
-   "ratio": null,
-   "marketCount": 1,
+   "rank": 1,
+   "of": 4,
+   "verdict": "over-represented",
+   "ratio": 4.081632653061224,
+   "marketCount": 4,
    "marketTotal": 49,
-   "cityCount": 0,
+   "cityCount": 1,
    "cityTotal": 50,
    "examples": [
+    "P2",
+    "P29",
+    "P30",
     "P27"
    ]
   },
   {
    "idea": "quiet rooms",
    "status": "ranked",
-   "ref": "I3",
+   "ref": "I4",
    "via": {
     "kind": "tag",
     "id": "urn:tag:ambience:qloo:quiet",
     "name": "Quiet"
    },
    "domain": "places",
-   "rank": 3,
-   "of": 3,
+   "rank": 4,
+   "of": 4,
    "verdict": "under-represented",
    "ratio": 0.5767524401064774,
    "marketCount": 13,
@@ -6888,119 +6896,262 @@
     "P18",
     "P20",
     "P2",
-    "P29"
+    "P31"
    ]
   }
  ],
  "brief": {
-  "headline": "Người Tokyo thích ẩm thực Việt và môi trường sạch sẽ.",
-  "summary": "Các lieu lưu trú ở Hanoi được người Tokyo ưa chuộng thường mang dấu hiệu ẩm thực đường phố, không cầu kỳ và sạch sẽ. Dù không phải luôn nằm trong danh sách top 50 của thành phố, chúng vẫn đạt thứ hạng cao trong sở thích của người Tokyo. Điều này cho thấy việc tập trung vào ẩm thực Việt Nam và giữ gien sạch sẽ có thể thu hút khách từ Tokyo.",
+  "headline": "Sự tập trung vào ẩm thực đường phố đích thực thu hút người dân Tokyo đến nghỉ tại Hà Nội",
+  "summary": "Người dân Tokyo luôn ưa chuộng những địa điểm phục vụ món ăn đường phố Việt Nam, đánh giá cao không gian sạch sẽ và thích các lựa chọn không chứa gluten khi đến Hà Nội. Sở thích của họ cũng cho thấy xu hướng mạnh mẽ đối với trải nghiệm lớp học nấu ăn, xuất hiện nhiều hơn đáng kể trong các địa điểm được ưa thích so với danh sách hàng đầu chung của thành phố. Đối tượng này chủ yếu là phụ nữ từ 25–29 tuổi, cho thấy nhóm nhân khẩu học coi trọng những trải nghiệm ẩm thực chân thật, giản dị.",
   "actions": [
    {
-    "title": "Nhấn mạnh ẩm thực đường phố Việt Nam",
-    "detail": "Nhiều người Tokyo thích ẩm thực Việt, đặc biệt là phở và các món đường phố, như thể hiện qua tỉ lệ cao trong sở thích (Vietnamese, Street food culture, Pho).",
+    "title": "Làm nổi bật các địa điểm ăn đường phố được đề xuất",
+    "detail": "Cung cấp cho khách danh sách các điểm ăn đường phố được người Tokyo ưa chuộng như Pho Quynh, Bún Chả Đắc Kim và Banh Mi 25, nêu rõ mức độ phổ biến của những nơi này trong cộng đồng người Tokyo.",
     "refs": [
      "T2",
+     "T1",
      "T4",
-     "T6"
+     "T6",
+     "P10",
+     "P11",
+     "P12",
+     "P14",
+     "P15"
     ]
    },
    {
-    "title": "Đảm bảo độ sạch sẽ và ambience hiện đại",
-    "detail": "Sạch sẽ là đặc điểm xuất hiện nhiều hơn 5.6 lần trong sở thích người Tokyo (Clean), và các khách sạn như Grandiose Hotel & Spa được đánh giá là sang trọng và hiện đại (Grandiose Hotel & Spa).",
+    "title": "Nhấn mạnh sự sạch sẽ ở phòng và khu vực chung",
+    "detail": "Duy trì tiêu chuẩn vệ sinh cao và đề cập đặc điểm này trong mô tả, vì yếu tố sạch sẽ xuất hiện nhiều hơn 5,6× ở các địa điểm được người Tokyo ưa thích so với toàn bộ Hà Nội.",
     "refs": [
-     "T5",
-     "P1"
+     "T5"
     ]
    },
    {
-    "title": "Tránh làm tour đi bộ khu phố cổ là điểm bán hàng chính",
-    "detail": "Tour khu phố cổ chỉ phổ biến như mức trung bình thành phố (Old Quarter), nên không tạo ra lợi thế cạnh tranh.",
+    "title": "Hợp tác với các đơn vị dạy nấu ăn địa phương",
+    "detail": "Tổ chức các buổi học nấu món Việt thực hành, vì thẻ 'lớp học nấu ăn' xuất hiện nhiều hơn ở các địa điểm được người Tokyo ưa chuộng (4/49 so với 1/50).",
     "refs": [
-     "I1"
+     "I3"
     ]
    },
    {
-    "title": "Thử nghiệm lớp học nấu ăn với chi phí thấp",
-    "detail": "Lớp học nấu ăn chỉ được ít người Tokyo thích (Cooking class), vì vậy nên thử nghiệm nhỏ trước khi mở rộng.",
+    "title": "Chia sẻ các lựa chọn ăn uống không chứa gluten",
+    "detail": "Thông báo cho khách về các nhà hàng gần đó có phục vụ món ăn không chứa gluten, phản ánh rõ ràng nhu cầu mạnh mẽ từ khách Tokyo.",
     "refs": [
-     "I2"
+     "T7"
+    ]
+   },
+   {
+    "title": "Không nên nhấn mạnh phòng yên tĩnh như điểm bán chính",
+    "detail": "Thay vào đó, hãy quảng bá không khí sôi động, giản dị, vì phòng yên tĩnh ít xuất hiện hơn trong các địa điểm được người Tokyo ưa chuộng.",
+    "refs": [
+     "I4",
+     "T3",
+     "T8"
     ]
    }
   ],
   "partners": [
    {
-    "ref": "P1",
-    "why": "Có thị hạng 1 trong sở thích của người Tokyo, cho thấy mức độ ưa chuộng cao nhất."
+    "ref": "P10",
+    "why": "Nhà hàng Việt Nam xếp hạng cao, được khách Tokyo ưa chuộng nhờ ẩm thực đường phố đích thực."
    },
    {
-    "ref": "P2",
-    "why": "Thị hạng 2 trong sở thích người Tokyo, với tags ẩm thực khám phá và cảm giác nhà."
+    "ref": "P11",
+    "why": "Tiệm bánh mì nổi tiếng, được người dân Tokyo xếp hạng cao nhờ đồ ăn nhanh ngon miệng."
    },
    {
-    "ref": "P3",
-    "why": "Thị hạng 3, kết hợp kinh doanh truyền thống và vị trí bên công viên."
+    "ref": "P12",
+    "why": "Quán phở được yêu thích, thường xuyên được khách Tokyo chọn để thưởng thức món bún kinh điển."
    },
    {
-    "ref": "P4",
-    "why": "Thị hạng 3, tập trung vào khám phá văn hóa và sự sang trọng trong trung tâm thành phố."
+    "ref": "P13",
+    "why": "Quán bistro kiểu Pháp được du khách Tokyo ghi nhận vì chất lượng và sức hút tại Hà Nội."
    }
   ],
   "playlist": [
    {
     "ref": "C1",
-    "why": "Được người Tokyo xếp hạng 2 trong danh sách âm nhạc yêu thích."
+    "why": "Nghệ sĩ xếp hạng cao tại Tokyo; phát nhạc J-pop quen thuộc tạo không khí dễ chịu cho khách."
    },
    {
     "ref": "C2",
-    "why": "Được người Tokyo xếp hạng 3."
+    "why": "Top 3 yêu thích tại Tokyo; giai điệu quen thuộc dễ chạm đến nhóm khách mục tiêu."
    },
    {
     "ref": "C3",
-    "why": "Được người Tokyo xếp hạng 4."
+    "why": "Xếp hạng cao tại Tokyo; nổi tiếng với dòng nhạc pop cảm xúc, thu hút phụ nữ 25–29 tuổi."
    },
    {
     "ref": "C4",
-    "why": "Được người Tokyo xếp hạng 6."
+    "why": "Nhân vật nổi tiếng tại Tokyo; âm nhạc của cô mang lại bầu không khí thư giãn, hiện đại."
    },
    {
     "ref": "C5",
-    "why": "Được người Tokyo xếp hạng 7."
+    "why": "Nghệ sĩ giải trí nổi tiếng tại Tokyo; các bản nhạc sôi động phù hợp không gian chung."
    },
    {
     "ref": "C6",
-    "why": "Được người Tokyo xếp hạng 8."
+    "why": "Thường được nghe tại Tokyo; nhạc pop nhẹ nhàng giúp khách cảm thấy như ở nhà."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Old quarter walking tour là ý tưởng phổ biến, không tạo ra điểm khác biệt so với trung bình thành phố."
+    "note": "Tắm kiểu onsen (spa) – phổ biến; việc cung cấp dịch vụ này phù hợp với mức trung bình chung của thành phố nhưng không tạo sự khác biệt cho cơ sở đối với khách Tokyo."
    },
    {
     "ref": "I2",
-    "note": "Cooking class chỉ có ít người Tokyo thích, nên nên thử nghiệm với chi phí thấp trước khi đầu tư lớn."
+    "note": "Tour đi bộ khu Phố Cổ – phổ biến; là hoạt động thông thường đã có sẵn cho nhiều du khách."
    },
    {
     "ref": "I3",
-    "note": "Quiet rooms ít được ưa chuộng hơn so với mức trung bình thành phố, vì vậy không nên ưu tiên làm điểm mạnh."
+    "note": "Lớp học nấu ăn – xuất hiện nhiều hơn mức trung bình; được khuyến nghị mạnh như trải nghiệm tạo điểm khác biệt cho khách Tokyo."
    },
    {
     "ref": "I4",
-    "note": "Onsen-style bath chưa có dữ liệu trong bất kỳ danh sách nào, nên chỉ nên cân nhắc thử nghiệm nhỏ nếu muốn khám phá."
+    "note": "Phòng yên tĩnh – xuất hiện ít hơn; không phải điểm bán ưu tiên; nên tập trung vào yếu tố khác."
    }
   ],
   "caveats": [
-   "Dữ liệu không cho biết mức độ ảnh hưởng của các sở thích này đến quyết định đặt phòng hoặc chi tiêu của khách Tokyo.",
-   "Không thể xác định xu hướng thay đổi theo thời gian hoặc mùa vụ từ thông tin đã cung cấp.",
-   "Các thẻ và xếp hạng chỉ phản ánh sở thích chung của người Tokyo, không thể áp dụng cho từng khách cá nhân."
+   "Dữ liệu không chứng minh rằng nhấn mạnh các đặc điểm này sẽ làm tăng tỷ lệ đặt phòng hay doanh thu.",
+   "Sở thích có thể thay đổi theo mùa hoặc do thay đổi trong các quy định du lịch; tín hiệu này phản ánh thị hiếu hiện tại của người dân Tokyo, không phải hành vi trong tương lai.",
+   "Phân tích không tính đến mức độ nhạy cảm về giá hay so sánh chi phí triển khai các tính năng này."
+  ],
+  "dropped": [],
+  "lang": "vi"
+ },
+ "briefEn": {
+  "headline": "Authentic street‑food focus draws Tokyo residents to Hanoi stays",
+  "summary": "People in Tokyo consistently favor venues that serve Vietnamese street food, value clean surroundings, and appreciate gluten‑free options when visiting Hanoi. Their preferences also show a strong signal for cooking‑class experiences, which appear far more often among their favored places than in the city’s overall top list. The audience skews toward women aged 25‑29, indicating a demographic that values authentic, informal culinary experiences.",
+  "actions": [
+   {
+    "title": "Highlight recommended street‑food venues",
+    "detail": "Provide guests with a curated list of Tokyo‑favored street‑food spots such as Pho Quynh, Bún Chả Đắc Kim and Banh Mi 25, noting their popularity among Tokyo residents.",
+    "refs": [
+     "T2",
+     "T1",
+     "T4",
+     "T6",
+     "P10",
+     "P11",
+     "P12",
+     "P14",
+     "P15"
+    ]
+   },
+   {
+    "title": "Emphasize cleanliness in rooms and common areas",
+    "detail": "Maintain high cleaning standards and mention this trait in listings, as clean ambience appears 5.6× more often among Tokyo‑favored places than across Hanoi overall.",
+    "refs": [
+     "T5"
+    ]
+   },
+   {
+    "title": "Partner with local cooking‑class providers",
+    "detail": "Offer hands‑on Vietnamese cooking sessions, since cooking‑class tags are over‑represented among Tokyo‑favored venues (4/49 vs 1/50).",
+    "refs": [
+     "I3"
+    ]
+   },
+   {
+    "title": "Share gluten‑free dining options",
+    "detail": "Inform guests about nearby eateries that provide gluten‑free meals, reflecting the strong Tokyo signal for gluten‑free offerings.",
+    "refs": [
+     "T7"
+    ]
+   },
+   {
+    "title": "Avoid leading with quiet rooms as a primary sell",
+    "detail": "Instead promote vibrant, unpretentious atmospheres, because quiet rooms are under‑represented among Tokyo‑favored places.",
+    "refs": [
+     "I4",
+     "T3",
+     "T8"
+    ]
+   }
+  ],
+  "partners": [
+   {
+    "ref": "P10",
+    "why": "Top‑ranked Vietnamese restaurant favored by Tokyo guests for authentic street food."
+   },
+   {
+    "ref": "P11",
+    "why": "Popular sandwich shop highly ranked by Tokyo residents for quick, tasty bites."
+   },
+   {
+    "ref": "P12",
+    "why": "Well‑liked pho venue that Tokyo guests frequently choose for a classic noodle experience."
+   },
+   {
+    "ref": "P13",
+    "why": "French bistro noted by Tokyo visitors for its quality and appeal in Hanoi."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "Tokyo‑ranked artist; playing familiar J‑pop creates a comforting atmosphere for guests."
+   },
+   {
+    "ref": "C2",
+    "why": "Top‑three Tokyo favorite; recognizable melodies resonate with the target demographic."
+   },
+   {
+    "ref": "C3",
+    "why": "Highly ranked in Tokyo; known for emotive pop that appeals to 25‑29‑year‑old women."
+   },
+   {
+    "ref": "C4",
+    "why": "Well‑known Tokyo personality; her music adds a relaxed, contemporary vibe."
+   },
+   {
+    "ref": "C5",
+    "why": "Popular Tokyo entertainer; upbeat tracks suit communal spaces."
+   },
+   {
+    "ref": "C6",
+    "why": "Frequently listened to in Tokyo; light pop helps guests feel at home."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Onsen‑style bath (spa) – common; offering it matches city‑wide baseline but does not differentiate the property for Tokyo guests."
+   },
+   {
+    "ref": "I2",
+    "note": "Old quarter walking tour – common; it is a typical activity already available to many visitors."
+   },
+   {
+    "ref": "I3",
+    "note": "Cooking class – over‑represented; strongly recommended as a differentiating experience for Tokyo guests."
+   },
+   {
+    "ref": "I4",
+    "note": "Quiet rooms – under‑represented; not a priority selling point; focus elsewhere."
+   }
+  ],
+  "caveats": [
+   "The data does not prove that emphasizing these traits will increase booking rates or revenue.",
+   "Preferences may shift seasonally or with changes in travel restrictions; the signal reflects current Tokyo resident tastes, not future behavior.",
+   "The analysis does not account for price sensitivity or how these features compare in cost to implement."
   ],
   "dropped": []
  },
  "baseline": {
   "places": [
    {
-    "name": "Hanoi La Siesta Hotel & Spa",
+    "name": "Hanoi La Siesta Hotel Trendy",
+    "qlooName": null,
+    "inQloo": false,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "The Ann Boutique Hotel",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7018,27 +7169,18 @@
     "allRank": null
    },
    {
-    "name": "The Oriental Jade Hotel",
-    "qlooName": "The Oriental Jade Hotel",
-    "inQloo": true,
-    "marketSignal": false,
-    "ref": null,
-    "peerRank": null,
-    "allRank": null
-   },
-   {
-    "name": "Apricot Hotel",
-    "qlooName": null,
-    "inQloo": false,
-    "marketSignal": false,
-    "ref": null,
-    "peerRank": null,
-    "allRank": null
-   },
-   {
     "name": "Little Hanoi Hostel",
     "qlooName": null,
     "inQloo": false,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "Mövenpick Hotel Hanoi",
+    "qlooName": "Mövenpick Hotel Hanoi Centre",
+    "inQloo": true,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
@@ -7047,22 +7189,17 @@
   ],
   "artists": [
    {
+    "name": "Utada Hikaru",
+    "qlooRank": 3,
+    "localRank": null
+   },
+   {
+    "name": "RADWIMPS",
+    "qlooRank": null,
+    "localRank": null
+   },
+   {
     "name": "YOASOBI",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "Official Hige Dandism",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "Kenshi Yonezu",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "Aimyon",
     "qlooRank": null,
     "localRank": null
    },
@@ -7070,14 +7207,20 @@
     "name": "King Gnu",
     "qlooRank": null,
     "localRank": null
+   },
+   {
+    "name": "Aimer",
+    "qlooRank": null,
+    "localRank": null
    }
   ],
-  "advice": "Highlight your property’s cleanliness, quiet environment, and any Japanese‑language amenities (signage, staff, TV channels) in your online listings and social media ads aimed at Tokyo travelers. Partner with Japanese travel influencers or agencies to showcase authentic guest experiences, especially featuring local cuisine and cultural tips. Offer a small welcome gesture—like green tea or a snack from Japan—to create an immediate feeling of familiarity and encourage positive reviews.",
+  "advice": "Khách du lịch Nhật Bản đánh giá cao việc giao tiếp rõ ràng bằng tiếng Nhật, vì vậy hãy cung cấp thông tin quan trọng — thủ tục nhận phòng, điểm tham quan địa phương và nội quy — bằng tiếng Nhật trên website và tài liệu trong phòng. Làm nổi bật các tiện nghi gợi nhớ đến quê nhà họ, như phục vụ trà xanh, lựa chọn giường kiểu futon hoặc một vài món ăn vặt Nhật Bản. Nhấn mạnh sự sạch sẽ, môi trường yên tĩnh và dịch vụ lịch sự, những yếu tố được khách từ Tokyo đánh giá cao. Cuối cùng, hợp tác với các công ty du lịch hoặc người có ảnh hưởng tại Nhật để quảng bá các trải nghiệm Hà Nội đích thực, đồng thời duy trì những tiện nghi quen thuộc mà họ mong đợi.",
   "poolSizes": {
    "peers": 9,
    "all": 49,
    "artists": 50
-  }
+  },
+  "adviceEn": "Japanese travelers appreciate clear communication in their language, so provide key information—check‑in procedures, local attractions, and house rules—in Japanese on your website and in‑room materials. Highlight amenities that remind them of home, such as green tea service, futon‑style bedding options, or a small selection of Japanese snacks. Emphasize cleanliness, quiet environments, and respectful service, which are highly valued by guests from Tokyo. Finally, partner with Japanese travel agencies or influencers to showcase authentic Hanoi experiences while maintaining the comforts they expect."
  },
  "ledger": {
   "P1": {
@@ -12713,7 +12856,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C2": {
@@ -12780,7 +12923,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C3": {
@@ -12851,7 +12994,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C4": {
@@ -12913,7 +13056,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C5": {
@@ -12976,7 +13119,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C6": {
@@ -13038,7 +13181,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C7": {
@@ -13143,7 +13286,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C8": {
@@ -13240,7 +13383,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C9": {
@@ -13336,7 +13479,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C10": {
@@ -13427,7 +13570,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C11": {
@@ -13744,7 +13887,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "C12": {
@@ -13944,7 +14087,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": false
+    "cached": true
    }
   },
   "P21": {
@@ -16735,6 +16878,33 @@
    "ref": "I1",
    "kind": "idea",
    "item": {
+    "id": "urn:tag:category:place:spa",
+    "name": "Spa",
+    "idea": "onsen-style bath",
+    "domain": "places",
+    "marketCount": 7,
+    "marketTotal": 49,
+    "cityCount": 9,
+    "cityTotal": 50,
+    "ratio": 0.7936507936507936,
+    "verdict": "common",
+    "examples": [
+     "P1",
+     "P2",
+     "P6",
+     "P7"
+    ],
+    "ref": "I1"
+   },
+   "source": {
+    "derivedFrom": "places",
+    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
+   }
+  },
+  "I2": {
+   "ref": "I2",
+   "kind": "idea",
+   "item": {
     "id": "urn:tag:setting:qloo:old_quarter",
     "name": "Old Quarter",
     "idea": "old quarter walking tour",
@@ -16751,30 +16921,6 @@
      "P15",
      "P16"
     ],
-    "ref": "I1"
-   },
-   "source": {
-    "derivedFrom": "places",
-    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
-   }
-  },
-  "I2": {
-   "ref": "I2",
-   "kind": "idea",
-   "item": {
-    "id": "urn:tag:category:place:cooking_class",
-    "name": "Cooking class",
-    "idea": "cooking class",
-    "domain": "places",
-    "marketCount": 1,
-    "marketTotal": 49,
-    "cityCount": 0,
-    "cityTotal": 50,
-    "ratio": null,
-    "verdict": "too-few",
-    "examples": [
-     "P27"
-    ],
     "ref": "I2"
    },
    "source": {
@@ -16784,6 +16930,783 @@
   },
   "P29": {
    "ref": "P29",
+   "kind": "place",
+   "item": {
+    "id": "8F3DD1FE-770F-4CB9-8F52-FC15FB300AE4",
+    "name": "The East",
+    "kind": "place",
+    "genre": "restaurant:vietnamese",
+    "address": "5B P. Tống Duy Tân Hoàn Kiếm Hà Nội 100000 Vietnam",
+    "neighborhood": "Hàng Bông",
+    "priceLevel": 3,
+    "rating": 4.599999904632568,
+    "summary": "Upscale Vietnamese restaurant in Hanoi's Old Quarter offering refined local cuisine with a calm, elegant ambiance and attentive English-speaking service.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlwobeRRiF2qfJglPb8S9MiCMy6DDGRUSi905h_FFEq7k3Usv_E5qrWLJdbh_iJLeXhgrhzWK_NAHtjT0T7p99VS6Z9BPmZV_9W2NfTJxUyYlTeYvxG3ycunl5H3EVxy4zHhHkVz2rhyFk=w1900-h1900-k-no",
+    "lat": 21.0295053,
+    "lon": 105.8439258,
+    "popularity": 0.5390862007034655,
+    "affinity": 0.9876724494690619,
+    "tags": [
+     {
+      "id": "urn:tag:menu_highlight:qloo:roasted_duck",
+      "name": "Roasted duck",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:historical_exploration",
+      "name": "Historical exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:wine",
+      "name": "Wine",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:clean",
+      "name": "Clean",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:fresh_springroll",
+      "name": "Fresh springroll",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:indochinese",
+      "name": "Indochinese",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:grandma_noodles",
+      "name": "Grandma noodles",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:rollitos_de_cangrejo",
+      "name": "Rollitos de cangrejo",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:stir_fried_morning_glory_with_garlic",
+      "name": "Stir fried morning glory with garlic",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:offerings:place:alcohol",
+      "name": "Alcohol",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:bun_chau",
+      "name": "Bun chau",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:elegant",
+      "name": "Elegant",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:stylish",
+      "name": "Stylish",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:bun_cha_ha_noi",
+      "name": "Bun cha ha noi",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:black_pepper_beef",
+      "name": "Black pepper beef",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:fine_dining",
+      "name": "Fine dining",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:old_quarter",
+      "name": "Old quarter",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:suon_que",
+      "name": "Suon que",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:offerings:place:healthy_options",
+      "name": "Healthy options",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:chicken_skewers",
+      "name": "Chicken skewers",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:gastronomy",
+      "name": "Gastronomy",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:offerings:place:small_plates",
+      "name": "Small plates",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese",
+      "name": "Vietnamese",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:indochine_feel",
+      "name": "Indochine feel",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:crab_spring_rolls",
+      "name": "Crab spring rolls",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_tourism",
+      "name": "Cultural tourism",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:fresh_juices",
+      "name": "Fresh juices",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:pomelo_salad_with_seafood",
+      "name": "Pomelo salad with seafood",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:crab_fried_rice",
+      "name": "Crab fried rice",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:lemongrass_tofu",
+      "name": "Lemongrass tofu",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:decor:qloo:classic",
+      "name": "Classic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese_fusion",
+      "name": "Vietnamese fusion",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:setting:qloo:historic",
+      "name": "Historic",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:beef_in_bamboo_tube",
+      "name": "Beef in bamboo tube",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:offerings:place:beer",
+      "name": "Beer",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:offerings:place:happy_hour_food",
+      "name": "Happy hour food",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:cashew_chicken",
+      "name": "Cashew chicken",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:roasted_aubergine",
+      "name": "Roasted aubergine",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:serene",
+      "name": "Serene",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:offerings:place:vegetarian_options",
+      "name": "Vegetarian meals",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:offerings:place:hot_tea",
+      "name": "Hot tea",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_arts",
+      "name": "Culinary arts",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:offerings:place:vegan_options",
+      "name": "Vegan meals",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:green_papaya_salad",
+      "name": "Green papaya salad",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:place:large_group",
+      "name": "Large group",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:offerings:place:happy_hour_drinks",
+      "name": "Happy hour drinks",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:decor:qloo:indochine",
+      "name": "Indochine",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:braised_duck",
+      "name": "Braised duck",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:grilled_fish_with_dill",
+      "name": "Grilled fish with dill",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:full_bar",
+      "name": "Full bar",
+      "family": "beverage_offering"
+     }
+    ],
+    "allTags": [
+     "Roasted duck",
+     "Nfc mobile payments",
+     "25 29",
+     "Historical exploration",
+     "Reservations required",
+     "High chairs",
+     "Seating",
+     "Wine",
+     "Clean",
+     "Fresh springroll",
+     "Welcoming",
+     "Indochinese",
+     "Grandma noodles",
+     "Dinner reservations recommended",
+     "Coffee and tea",
+     "Rollitos de cangrejo",
+     "Stir fried morning glory with garlic",
+     "Alcohol",
+     "Authentic",
+     "Primary chat",
+     "Bun chau",
+     "Midday",
+     "Elegant",
+     "Modern",
+     "English speaking staff",
+     "Stylish",
+     "Halal",
+     "Bun cha ha noi",
+     "Historic",
+     "Train street",
+     "Black pepper beef",
+     "Fine dining",
+     "Old quarter",
+     "Gender neutral restroom",
+     "Credit cards",
+     "China union pay",
+     "Relaxing",
+     "Private dining",
+     "Identifies as women owned",
+     "Locals",
+     "Good for kids",
+     "Traditional",
+     "Suon que",
+     "Healthy options",
+     "Vegan",
+     "Allergy friendly",
+     "Street view",
+     "Chicken skewers",
+     "Tourists",
+     "Gluten free",
+     "Gastronomy",
+     "Organic",
+     "Groups of friends",
+     "Cooking classes",
+     "Moderate",
+     "35 44",
+     "Small plates",
+     "Mastercard",
+     "Vietnamese",
+     "Touristic",
+     "Discover",
+     "Event catering",
+     "Coffee",
+     "₫200000 to ₫800000",
+     "Bustling",
+     "Dessert",
+     "Outdoor seating",
+     "Vegetarian",
+     "Indochine feel",
+     "City center",
+     "Restroom",
+     "Crab spring rolls",
+     "Reservations",
+     "30 34",
+     "Table service",
+     "Takeout",
+     "Foodies",
+     "Cultural tourism",
+     "Hoan kiem lake",
+     "Fresh juices",
+     "Pomelo salad with seafood",
+     "Restaurant",
+     "Destination",
+     "Central",
+     "Dining drinking",
+     "Wi fi",
+     "Crab fried rice",
+     "Lemongrass tofu",
+     "Dine in",
+     "Accepts reservations",
+     "Classic",
+     "Afternoon",
+     "Vietnamese fusion",
+     "Beef in bamboo tube",
+     "Beer",
+     "Lunch",
+     "Lgbtq+ friendly",
+     "Onsite services",
+     "Urban",
+     "Happy hour food",
+     "Casual",
+     "Lunch reservations recommended",
+     "Celebratory diners",
+     "American express",
+     "Order ahead",
+     "Anniversary",
+     "Cashew chicken",
+     "Debit cards",
+     "Vietnamese restaurant",
+     "Roasted aubergine",
+     "Dinner",
+     "Farm to table",
+     "Couples",
+     "Vibrant",
+     "Parking",
+     "Serene",
+     "Catering",
+     "Business professionals",
+     "Vegetarian meals",
+     "Private dining room",
+     "Hot tea",
+     "Hanoi old quarter",
+     "Culinary arts",
+     "Vegan meals",
+     "Jcb",
+     "Green papaya salad",
+     "Large group",
+     "Visa",
+     "Sightseeing",
+     "Solo diners",
+     "Walkable",
+     "Evening",
+     "Happy hour drinks",
+     "Diners club",
+     "Special occasion",
+     "Indochine",
+     "Gourmet",
+     "Place",
+     "Braised duck",
+     "Grilled fish with dill",
+     "Braille menu",
+     "Full bar"
+    ],
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hanoi",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": false
+   }
+  },
+  "P30": {
+   "ref": "P30",
+   "kind": "place",
+   "item": {
+    "id": "EA1E2C0A-A0B2-4DFB-A3FC-098444FE1133",
+    "name": "Maison Marou Flagship Hanoi",
+    "kind": "place",
+    "genre": "restaurant:chocolate_cafe",
+    "address": "91 P. Thợ Nhuộm Cửa Nam Hà Nội 100000 Vietnam",
+    "neighborhood": "Trần Hưng Đạo",
+    "priceLevel": null,
+    "rating": 4.599999904632568,
+    "summary": "Flagship bean-to-bar chocolate cafe and patisserie in Hanoi offering artisan chocolates, coffee, gift boxes, tastings, and pastry masterclasses.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSoDnAloDktxY0gjIGP19q1WtyDtpNxkTY6Si01TIhY3Tz0OcLM1FERJqqlAPKHegxNztv4jioq9VtTI77DQycP1rU6kJRvMuapxhVB2MfADCki_yJwzZhrK60iegJ2mqaUZ8E-Q=w1900-h1900-k-no",
+    "lat": 21.0220496,
+    "lon": 105.8497974,
+    "popularity": 0.9866708195569186,
+    "affinity": 0.9876724494690619,
+    "tags": [
+     {
+      "id": "urn:tag:interests:qloo:fine_chocolate",
+      "name": "Fine chocolate",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:chocolate",
+      "name": "Chocolate",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:patisserie",
+      "name": "Patisserie",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:decor:qloo:urban",
+      "name": "Urban",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:industrial_chic",
+      "name": "Industrial chic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:tropical_fruit_caramel_bar",
+      "name": "Tropical fruit caramel bar",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:chocolate_mousse",
+      "name": "Chocolate mousse",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:aromatic",
+      "name": "Aromatic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:minimalist",
+      "name": "Minimalist",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:stylish",
+      "name": "Stylish",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:chocolate_paris_brest",
+      "name": "Chocolate paris brest",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:artisanal_craft",
+      "name": "Artisanal craft",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:bright",
+      "name": "Bright",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:chic",
+      "name": "Chic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:muffin_chocolat",
+      "name": "Muffin chocolat",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:hot_chocolate",
+      "name": "Hot chocolate",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:gastronomic",
+      "name": "Gastronomic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:specialty_coffee",
+      "name": "Specialty coffee",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:interactive",
+      "name": "Interactive",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_education",
+      "name": "Culinary education",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:cashew_nut_ice_cream",
+      "name": "Cashew nut ice cream",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:single_origin_chocolate_bars",
+      "name": "Single origin chocolate bars",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:tiramisu",
+      "name": "Tiramisu",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:social",
+      "name": "Social",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:sophisticated",
+      "name": "Sophisticated",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:flagship_store",
+      "name": "Flagship store",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:coffee",
+      "name": "Coffee",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:desserts",
+      "name": "Desserts",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:lively",
+      "name": "Lively",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+      "name": "Specialty non alcoholic",
+      "family": "beverage_offering"
+     }
+    ],
+    "allTags": [
+     "Casual",
+     "Fine chocolate",
+     "City center",
+     "Chocolate",
+     "Restaurant",
+     "Patisserie",
+     "Urban",
+     "Industrial chic",
+     "Chocolate cafe",
+     "Chocolate shop",
+     "Tropical fruit caramel bar",
+     "Halal",
+     "Chocolate mousse",
+     "Foodies",
+     "Aromatic",
+     "Open kitchen",
+     "Pickup",
+     "Morning",
+     "Dessert enthusiasts",
+     "Destination",
+     "Minimalist",
+     "Stylish",
+     "25 29",
+     "Welcoming",
+     "Chocolate paris brest",
+     "Artisanal craft",
+     "Wi fi",
+     "Cooking classes",
+     "Central",
+     "Hoan kiem lake",
+     "Bright",
+     "Place",
+     "Artisanal",
+     "Chic",
+     "Modern",
+     "Muffin chocolat",
+     "Hot chocolate",
+     "Gastronomic",
+     "Specialty coffee",
+     "Groups of friends",
+     "Shopping",
+     "Interactive",
+     "Culinary education",
+     "Chocolate tasting station",
+     "Cashew nut ice cream",
+     "Moderate",
+     "Gourmet",
+     "Single origin chocolate bars",
+     "Coffee and tea",
+     "Dining drinking",
+     "Education learning",
+     "Chocolate artisan",
+     "Tiramisu",
+     "Dine in",
+     "Social",
+     "Sophisticated",
+     "Walkable",
+     "Midday",
+     "Cafe",
+     "Old quarter",
+     "30 34",
+     "Locals",
+     "Special occasion",
+     "Delivery",
+     "Cultural hub",
+     "Afternoon",
+     "Pastry masterclasses",
+     "Flagship store",
+     "Coffee",
+     "Desserts",
+     "Bustling",
+     "Gift shop",
+     "Tourists",
+     "Lively",
+     "Chocolate tasting",
+     "18 24",
+     "Evening",
+     "Couples",
+     "Trendy",
+     "Specialty non alcoholic",
+     "Takeout",
+     "Cafe seating",
+     "Kitchen view"
+    ],
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hanoi",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": false
+   }
+  },
+  "I3": {
+   "ref": "I3",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:amenity:qloo:cooking_classes",
+    "name": "Cooking Classes",
+    "idea": "cooking class",
+    "domain": "places",
+    "marketCount": 4,
+    "marketTotal": 49,
+    "cityCount": 1,
+    "cityTotal": 50,
+    "ratio": 4.081632653061224,
+    "verdict": "over-represented",
+    "examples": [
+     "P2",
+     "P29",
+     "P30",
+     "P27"
+    ],
+    "ref": "I3"
+   },
+   "source": {
+    "derivedFrom": "places",
+    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
+   }
+  },
+  "P31": {
+   "ref": "P31",
    "kind": "place",
    "item": {
     "id": "D389B53B-0683-4B04-BB8E-87552965C7C4",
@@ -17085,8 +18008,8 @@
     "cached": false
    }
   },
-  "I3": {
-   "ref": "I3",
+  "I4": {
+   "ref": "I4",
    "kind": "idea",
    "item": {
     "id": "urn:tag:ambience:qloo:quiet",
@@ -17103,30 +18026,8 @@
      "P18",
      "P20",
      "P2",
-     "P29"
+     "P31"
     ],
-    "ref": "I3"
-   },
-   "source": {
-    "derivedFrom": "places",
-    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
-   }
-  },
-  "I4": {
-   "ref": "I4",
-   "kind": "idea",
-   "item": {
-    "id": "urn:tag:decor:qloo:japanese_onsen_style",
-    "name": "Japanese Onsen Style",
-    "idea": "onsen-style bath",
-    "domain": "places",
-    "marketCount": 0,
-    "marketTotal": 49,
-    "cityCount": 0,
-    "cityTotal": 50,
-    "ratio": null,
-    "verdict": "untested",
-    "examples": [],
     "ref": "I4"
    },
    "source": {
@@ -17149,85 +18050,79 @@
    "detail": null
   },
   {
-   "ms": 4475,
+   "ms": 1190,
    "phase": "qloo",
    "label": "9 places to stay and 49 places with a Tokyo signal; 8 tags stand out; 0 shared artists",
    "detail": null
   },
   {
-   "ms": 4781,
+   "ms": 1222,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 25–29, leans female"
   },
   {
-   "ms": 4781,
+   "ms": 1222,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 6497,
+   "ms": 2026,
    "phase": "agent",
    "label": "Look up Qloo tags for “onsen-style bath”",
    "detail": "Japanese Onsen Style, Onsen Style"
   },
   {
-   "ms": 7716,
+   "ms": 2716,
    "phase": "agent",
    "label": "Look up Qloo tags for “spa”",
    "detail": "Spa"
   },
   {
-   "ms": 9031,
+   "ms": 3408,
    "phase": "agent",
    "label": "Look up Qloo tags for “old quarter”",
    "detail": "Old Quarter, Old Quarter Hanoi, Old Quarter View, Old Quarter Proximity"
   },
   {
-   "ms": 10730,
+   "ms": 4355,
    "phase": "agent",
    "label": "Look up Qloo tags for “cooking”",
    "detail": "Cooking, Cooking class, Cooking school, Cooking Classes"
   },
   {
-   "ms": 12369,
+   "ms": 5538,
    "phase": "agent",
    "label": "Look up Qloo tags for “quiet”",
    "detail": "Quiet, Quiet Dining, Quiet Storm, Quiet Street"
   },
   {
-   "ms": 14314,
+   "ms": 7602,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
-   "detail": "old quarter walking tour → Old Quarter: 29/49 vs 22/50 (common); cooking class → Cooking class: 1/49 vs 0/50 (too-few); quiet rooms → Quiet: 13/49 vs 23/50 (under-represented)"
+   "detail": "cooking class → Cooking Classes: 4/49 vs 1/50 (over-represented); old quarter walking tour → Old Quarter: 29/49 vs 22/50 (common); onsen-style bath → Spa: 7/49 vs 9/50 (common); quiet rooms → Quiet: 13/49 vs 23/50 (under-represented)"
   },
   {
-   "ms": 15681,
-   "phase": "agent",
-   "label": "Score 1 remaining idea with the closest tags found",
-   "detail": "onsen-style bath → Japanese Onsen Style: 0/49 vs 0/50 (untested)"
-  },
-  {
-   "ms": 15682,
+   "ms": 8357,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 15682,
+   "ms": 8357,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 35768,
+   "ms": 21556,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
- "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Homestay / hotel in Hanoi, Vietnam. Visitor market: people living in Tokyo, Japan.\n\nplaces to stay in Hanoi with a measurable Tokyo signal (9 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Hanoi's top places to stay without that signal:\nP1 Grandiose Hotel & Spa (Lieu Giai Ward) — market rank 1, city rank not in the top list — tags: Elegant, Modern, Commercial, Relaxation, Museum visiting, Convenient\nP2 Hanoi Marvellous Hotel & Spa (Old Quarter) — market rank 2, city rank not in the top list — tags: Culinary exploration, Traditional, Home like, Boutique, Clean, Attentive\nP3 Hotel du Parc HaNoi (Nguyễn Du) — market rank =3, city rank 33 — tags: Business networking, Traditional, Elegant, Sophisticated, Modern, Parkside\nP4 Peridot Grand Luxury Boutique Hotel (Old Quarter) — market rank =3, city rank not in the top list — tags: Cultural exploration, City center, Safe, Artistic, Urban chic, Luxurious\nP5 Atlanta Residences (Phạm Đình Hổ) — market rank =3, city rank not in the top list — tags: Cozy, Welcoming, Quiet, Sustainable travel, Comfortable, City center\nP6 1-2-3 Hotel Hanoi (Cửa Nam) — market rank =3, city rank not in the top list\nP7 Authentic Hanoi Hotel (Lý Thái Tổ) — market rank =3, city rank not in the top list — tags: Modern, Quiet, Culinary exploration, Traditional, Welcoming, City center\nP8 Peridot Gallery Classic Boutique Hotel (Hàng Bồ) — market rank =3, city rank not in the top list — tags: Stylish, Cultural tourism, City center, Welcoming, Sophisticated, Romantic\nP9 Nesta Hotel Hanoi (Nguyễn Du) — market rank =3, city rank not in the top list — tags: City center, Urban hub, Stylish, Modern, Elegant, Comfortable\n\nAll kinds of places in Hanoi favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP10 Cau Go Vietnamese Cuisine (vietnamese, Hàng Trống) — market rank 1, city rank not in top 50\nP11 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 2, city rank not in top 50\nP12 Pho Quynh (pho, Phú Đô) — market rank 3, city rank 29\nP13 Maison Vie (french, Phạm Đình Hổ) — market rank 4, city rank not in top 50\nP14 Bún Chả Đắc Kim (vietnamese, Old Quarter) — market rank =5, city rank not in top 50\nP15 Phở Thìn (pho, Phạm Đình Hổ) — market rank =5, city rank not in top 50\nP16 Kem Caramen Dương Hoa (ice cream shop, Truc Bach Ward) — market rank =5, city rank not in top 50\nP17 Bun Cha Dac Kim (vietnamese, Hàng Gai) — market rank 8, city rank not in top 50\nP18 Tầm vị (vietnamese, Dien Bien Ward) — market rank 9, city rank not in top 50\nP1 Grandiose Hotel & Spa (hotel, Lieu Giai Ward) — market rank =10, city rank not in top 50\nP19 Pho Ga 26 (pho, Hàng Đào) — market rank =10, city rank not in top 50\nP20 Hanoi Garden Restaurant (vietnamese, Hàng Gai) — market rank =10, city rank not in top 50\n\nTags clearly more common among the places people in Tokyo favour in Hanoi than among the city's top places:\nT1 \"Street food\" (cuisine) — 5/49 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P19, P21, P22, P23\nT2 \"Vietnamese\" (cuisine) — 26/49 of their favourites vs 6/50 city-wide, 4.4× as common — e.g. P10, P12, P14, P15\nT3 \"Unpretentious\" (ambience) — 7/49 of their favourites vs 1/50 city-wide, 7.1× as common — e.g. P14, P19, P24, P25\nT4 \"Street food culture\" (interests) — 11/49 of their favourites vs 2/50 city-wide, 5.6× as common — e.g. P12, P14, P15, P19\nT5 \"Clean\" (ambience) — 11/49 of their favourites vs 2/50 city-wide, 5.6× as common — e.g. P16, P1, P20, P24\nT6 \"Pho\" (cuisine) — 6/49 of their favourites vs 1/50 city-wide, 6.1× as common — e.g. P12, P15, P26, P23\nT7 \"Gluten free options\" (offerings) — 6/49 of their favourites vs 1/50 city-wide, 6.1× as common — e.g. P13, P15, P24, P27\nT8 \"No frills\" (ambience) — 9/49 of their favourites vs 2/50 city-wide, 4.6× as common — e.g. P14, P15, P17, P28\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, leans female\n\nMusic loved by people in Tokyo that people in Hanoi also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Hanoi's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Hanoi also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Hanoi's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI4 \"onsen-style bath\" → tag \"Japanese Onsen Style\" (places): 0/49 of their favourites vs 0/50 city-wide — verdict untested\nI1 \"old quarter walking tour\" → tag \"Old Quarter\" (places): 29/49 of their favourites vs 22/50 city-wide — verdict common — e.g. P10, P14, P15, P16\nI2 \"cooking class\" → tag \"Cooking class\" (places): 1/49 of their favourites vs 0/50 city-wide — verdict too-few — e.g. P27\nI3 \"quiet rooms\" → tag \"Quiet\" (places): 13/49 of their favourites vs 23/50 city-wide — verdict under-represented — e.g. P18, P20, P2, P29",
- "generatedAt": "2026-10-06T12:05:11.360Z"
+ "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b); translated by Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "facts": "Business: Homestay / hotel in Hanoi, Vietnam. Visitor market: people living in Tokyo, Japan.\n\nplaces to stay in Hanoi with a measurable Tokyo signal (9 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Hanoi's top places to stay without that signal:\nP1 Grandiose Hotel & Spa (Lieu Giai Ward) — market rank 1, city rank not in the top list — tags: Elegant, Modern, Commercial, Relaxation, Museum visiting, Convenient\nP2 Hanoi Marvellous Hotel & Spa (Old Quarter) — market rank 2, city rank not in the top list — tags: Culinary exploration, Traditional, Home like, Boutique, Clean, Attentive\nP3 Hotel du Parc HaNoi (Nguyễn Du) — market rank =3, city rank 33 — tags: Business networking, Traditional, Elegant, Sophisticated, Modern, Parkside\nP4 Peridot Grand Luxury Boutique Hotel (Old Quarter) — market rank =3, city rank not in the top list — tags: Cultural exploration, City center, Safe, Artistic, Urban chic, Luxurious\nP5 Atlanta Residences (Phạm Đình Hổ) — market rank =3, city rank not in the top list — tags: Cozy, Welcoming, Quiet, Sustainable travel, Comfortable, City center\nP6 1-2-3 Hotel Hanoi (Cửa Nam) — market rank =3, city rank not in the top list\nP7 Authentic Hanoi Hotel (Lý Thái Tổ) — market rank =3, city rank not in the top list — tags: Modern, Quiet, Culinary exploration, Traditional, Welcoming, City center\nP8 Peridot Gallery Classic Boutique Hotel (Hàng Bồ) — market rank =3, city rank not in the top list — tags: Stylish, Cultural tourism, City center, Welcoming, Sophisticated, Romantic\nP9 Nesta Hotel Hanoi (Nguyễn Du) — market rank =3, city rank not in the top list — tags: City center, Urban hub, Stylish, Modern, Elegant, Comfortable\n\nAll kinds of places in Hanoi favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP10 Cau Go Vietnamese Cuisine (vietnamese, Hàng Trống) — market rank 1, city rank not in top 50\nP11 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 2, city rank not in top 50\nP12 Pho Quynh (pho, Phú Đô) — market rank 3, city rank 29\nP13 Maison Vie (french, Phạm Đình Hổ) — market rank 4, city rank not in top 50\nP14 Bún Chả Đắc Kim (vietnamese, Old Quarter) — market rank =5, city rank not in top 50\nP15 Phở Thìn (pho, Phạm Đình Hổ) — market rank =5, city rank not in top 50\nP16 Kem Caramen Dương Hoa (ice cream shop, Truc Bach Ward) — market rank =5, city rank not in top 50\nP17 Bun Cha Dac Kim (vietnamese, Hàng Gai) — market rank 8, city rank not in top 50\nP18 Tầm vị (vietnamese, Dien Bien Ward) — market rank 9, city rank not in top 50\nP1 Grandiose Hotel & Spa (hotel, Lieu Giai Ward) — market rank =10, city rank not in top 50\nP19 Pho Ga 26 (pho, Hàng Đào) — market rank =10, city rank not in top 50\nP20 Hanoi Garden Restaurant (vietnamese, Hàng Gai) — market rank =10, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Tokyo favour in Hanoi (mostly restaurants, bars and hotels — not specifically places to stay) than among the city's top places. Do not write that people prefer places to stay with these traits; write that these traits are common in the places they favour:\nT1 \"Street food\" (cuisine) — 5/49 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P19, P21, P22, P23\nT2 \"Vietnamese\" (cuisine) — 26/49 of their favourites vs 6/50 city-wide, 4.4× as common — e.g. P10, P12, P14, P15\nT3 \"Unpretentious\" (ambience) — 7/49 of their favourites vs 1/50 city-wide, 7.1× as common — e.g. P14, P19, P24, P25\nT4 \"Street food culture\" (interests) — 11/49 of their favourites vs 2/50 city-wide, 5.6× as common — e.g. P12, P14, P15, P19\nT5 \"Clean\" (ambience) — 11/49 of their favourites vs 2/50 city-wide, 5.6× as common — e.g. P16, P1, P20, P24\nT6 \"Pho\" (cuisine) — 6/49 of their favourites vs 1/50 city-wide, 6.1× as common — e.g. P12, P15, P26, P23\nT7 \"Gluten free options\" (offerings) — 6/49 of their favourites vs 1/50 city-wide, 6.1× as common — e.g. P13, P15, P24, P27\nT8 \"No frills\" (ambience) — 9/49 of their favourites vs 2/50 city-wide, 4.6× as common — e.g. P14, P15, P17, P28\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, leans female\n\nMusic loved by people in Tokyo that people in Hanoi also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Hanoi's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Hanoi also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Hanoi's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"onsen-style bath\" → tag \"Spa\": carried by 7 of the 49 places people in Tokyo favour vs 9 of the 50 places people in Hanoi favour — verdict common — e.g. P1, P2, P6, P7\nI2 \"old quarter walking tour\" → tag \"Old Quarter\": carried by 29 of the 49 places people in Tokyo favour vs 22 of the 50 places people in Hanoi favour — verdict common — e.g. P10, P14, P15, P16\nI3 \"cooking class\" → tag \"Cooking Classes\": carried by 4 of the 49 places people in Tokyo favour vs 1 of the 50 places people in Hanoi favour — verdict over-represented — e.g. P2, P29, P30, P27\nI4 \"quiet rooms\" → tag \"Quiet\": carried by 13 of the 49 places people in Tokyo favour vs 23 of the 50 places people in Hanoi favour — verdict under-represented — e.g. P18, P20, P2, P31",
+ "generatedAt": "2026-10-06T22:29:11.213Z"
 }

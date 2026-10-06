@@ -7685,19 +7685,22 @@
    "ref": "I1",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:category:place:cooking_class",
-    "name": "Cooking class"
+    "id": "urn:tag:amenity:qloo:cooking_classes",
+    "name": "Cooking Classes"
    },
    "domain": "places",
-   "rank": 2,
+   "rank": 1,
    "of": 4,
-   "verdict": "too-few",
-   "ratio": 1.7857142857142856,
-   "marketCount": 1,
+   "verdict": "common",
+   "ratio": 0.9920634920634921,
+   "marketCount": 5,
    "marketTotal": 28,
-   "cityCount": 1,
+   "cityCount": 9,
    "cityTotal": 50,
    "examples": [
+    "P14",
+    "P15",
+    "P10",
     "P22"
    ]
   },
@@ -7707,24 +7710,19 @@
    "ref": "I2",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:genre:media:cycling",
-    "name": "Cycling"
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours"
    },
    "domain": "places",
-   "rank": 1,
+   "rank": 3,
    "of": 4,
-   "verdict": "common",
-   "ratio": 1.1904761904761905,
-   "marketCount": 8,
+   "verdict": "too-few",
+   "ratio": 0,
+   "marketCount": 0,
    "marketTotal": 28,
-   "cityCount": 12,
+   "cityCount": 1,
    "cityTotal": 50,
-   "examples": [
-    "P1",
-    "P2",
-    "P4",
-    "P10"
-   ]
+   "examples": []
   },
   {
    "idea": "rooftop bar",
@@ -7736,7 +7734,7 @@
     "name": "Rooftop Bar"
    },
    "domain": "places",
-   "rank": 3,
+   "rank": 2,
    "of": 4,
    "verdict": "too-few",
    "ratio": 1.7857142857142856,
@@ -7770,66 +7768,106 @@
   }
  ],
  "brief": {
-  "headline": "Sydney visitors favour Hoi An stays highlighting local cuisine and open‑air settings.",
-  "summary": "People living in Sydney who choose Hoi An accommodations show a clear preference for properties that highlight local cuisine and open‑air settings. Their overall audience skews older and female, and they share music tastes with Hoi An listeners, especially artists like Context and Taylor Swift. These signals can guide marketing and amenity decisions for a homestay/hotel targeting this market.",
+  "headline": "People in Sydney favour spots offering authentic local cuisine",
+  "summary": "People in Sydney strongly favour venues that serve authentic local cuisine, a trait absent from the city‑wide top places. They also prefer lively atmospheres, cycling opportunities and open‑air or waterfront settings, which appear significantly more often among their favoured spots.",
   "actions": [
    {
     "title": "Highlight local cuisine",
-    "detail": "Emphasize local dishes in menus and promotional material, noting the strong local‑cuisine signal among Sydney‑favoured places.",
+    "detail": "Emphasize authentic local dishes in meals and marketing, as local cuisine appears exclusively among Sydney‑favoured places.",
     "refs": [
-     "T1",
-     "P13"
+     "T1"
     ]
    },
    {
-    "title": "Promote open‑air spaces",
-    "detail": "Showcase gardens, terraces or nature‑focused areas in photos and descriptions, reflecting the exclusive open‑air preference.",
+    "title": "Create lively ambience",
+    "detail": "Use vibrant decor, music and social spaces to boost the lively atmosphere favoured by Sydney audiences.",
     "refs": [
-     "T2",
-     "P4"
+     "T3"
     ]
    },
    {
-    "title": "Emphasise lively ambience and old‑town proximity",
-    "detail": "Market the property’s vibrant atmosphere and convenient access to the historic old town, leveraging the higher likelihood of lively and old‑town tags.",
+    "title": "Offer cycling experiences",
+    "detail": "Provide bike rentals or guided rides, since cycling interest is 2.5× higher among Sydney‑favoured spots.",
     "refs": [
-     "T3",
-     "T4"
-    ]
-   },
-   {
-    "title": "Offer cycling facilities",
-    "detail": "Provide bicycles or guided cycle routes, as cycling interest is markedly stronger among Sydney‑favoured listings.",
-    "refs": [
-     "T5",
-     "P1"
-    ]
-   },
-   {
-    "title": "Feature beer selection and waterfront views",
-    "detail": "Stock a variety of beers and highlight any waterfront or beachfront aspects, matching the elevated beer and waterfront signals.",
-    "refs": [
-     "T7",
-     "T8",
-     "P3"
+     "T5"
     ]
    }
   ],
-  "partners": [],
-  "playlist": [],
-  "ideas": [],
+  "partners": [
+   {
+    "ref": "P1",
+    "why": "Its casual, welcoming vibe and photography focus align with the local‑cuisine and lively preferences of Sydney guests."
+   },
+   {
+    "ref": "P2",
+    "why": "Its gastronomy, romantic and historic tags complement the interest in local cuisine and waterfront settings."
+   },
+   {
+    "ref": "P3",
+    "why": "Its waterfront, wellness and fine‑dining offerings match the strong waterfront and local‑cuisine signals."
+   },
+   {
+    "ref": "P4",
+    "why": "Its nature‑focused, cycling and local cuisine tags directly support the cycling and cuisine interests."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "Top‑ranked in both Sydney and Hoi An, showing shared taste."
+   },
+   {
+    "ref": "C2",
+    "why": "High Sydney rank (6) and present in Hoi An top list (48), indicating crossover appeal."
+   },
+   {
+    "ref": "C3",
+    "why": "Strong Sydney rank (8) and high Hoi An rank (4) reveal broad appeal."
+   },
+   {
+    "ref": "C4",
+    "why": "Sydney rank (11) and Hoi An rank (6) show consistent popularity across markets."
+   },
+   {
+    "ref": "C5",
+    "why": "Sydney rank (13) and Hoi An rank (12) indicate mutual liking."
+   },
+   {
+    "ref": "C6",
+    "why": "Sydney rank (22) and Hoi An rank (34) suggest overlapping fan base."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Verdict: common – offered by a similar share of places city‑wide, so it’s a standard amenity rather than a differentiator."
+   },
+   {
+    "ref": "I2",
+    "note": "Verdict: too‑few – only 0 of Sydney‑favoured places offer it; consider a low‑cost trial to test interest."
+   },
+   {
+    "ref": "I3",
+    "note": "Verdict: too‑few – only 1 of Sydney‑favoured places has a rooftop bar; treat as experimental."
+   },
+   {
+    "ref": "I4",
+    "note": "Verdict: too‑few – none of Sydney‑favoured places provide yoga mornings; pilot a modest offering if desired."
+   }
+  ],
   "caveats": [
-   "The data does not prove that promoting these features will directly increase bookings from Sydney residents.",
-   "Audience figures reflect overall place visitors, not specifically the behaviour of Sydney‑based travellers.",
-   "Seasonal variations, length of stay or price sensitivity are not captured in the supplied signals."
+   "The data shows correlation, not causation, between traits and Sydney preference.",
+   "It does not reveal price sensitivity or willingness to pay for these features.",
+   "Preferences are aggregated for Sydney residents; individual guest tastes may vary."
   ],
   "dropped": []
  },
+ "briefEn": null,
  "baseline": {
   "places": [
    {
-    "name": "Almanity Hoi An Wellness Resort",
-    "qlooName": "Almanity Hoi An Wellness Resort",
+    "name": "Allegro Hoi An'}",
+    "qlooName": "Allegro Hoi An",
     "inQloo": true,
     "marketSignal": false,
     "ref": null,
@@ -7837,7 +7875,16 @@
     "allRank": null
    },
    {
-    "name": "Anantara Hoi An Resort",
+    "name": "Little Riverside Hoi An'",
+    "qlooName": "Little Riverside Hoi An - Little Luxury Hotel & Spa",
+    "inQloo": true,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "Anantara Hoi An Resort'",
     "qlooName": "Anantara Hoi An Resort",
     "inQloo": true,
     "marketSignal": true,
@@ -7846,7 +7893,7 @@
     "allRank": 24
    },
    {
-    "name": "The Nam Hai",
+    "name": "The Nam Hai'",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7855,18 +7902,9 @@
     "allRank": null
    },
    {
-    "name": "Hoi An Historic Hotel",
+    "name": "Hoi An Historic Hotel'",
     "qlooName": "Hoi An Historic Hotel",
     "inQloo": true,
-    "marketSignal": false,
-    "ref": null,
-    "peerRank": null,
-    "allRank": null
-   },
-   {
-    "name": "La Siesta Hoi An Trend",
-    "qlooName": null,
-    "inQloo": false,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
@@ -7875,32 +7913,32 @@
   ],
   "artists": [
    {
-    "name": "Tame Impala",
+    "name": "Tame Impala'",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Flume",
+    "name": "Flume'",
     "qlooRank": 12,
     "localRank": null
    },
    {
-    "name": "Vance Joy",
+    "name": "Vance Joy'",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "King Gizzard & The Lizard Wizard",
+    "name": "Sia'",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Sampa the Great",
-    "qlooRank": null,
+    "name": "Kylie Minogue'",
+    "qlooRank": 4,
     "localRank": null
    }
   ],
-  "advice": "To attract Sydney travellers, highlight your property’s proximity to both the historic town centre and the beach, emphasizing easy day‑trips to My Son and the Marble Mountains. Offer Aussie‑friendly touches such as English‑speaking staff, a breakfast menu with Vegemite and flat whites, and free Wi‑Fi for streaming Australian sport or shows. Use targeted Instagram and Facebook ads featuring user‑generated content from past Australian guests, and partner with Sydney‑based travel agencies that promote Vietnam packages. Finally, consider a limited‑time “Sydney Special” package that includes a complimentary cooking class or a sunset boat tour on the Thu Bồn River.",
+  "advice": "To attract Sydney travelers, emphasize your property’s proximity to An Bang Beach and the UNESCO Old Town, and highlight any Australian‑friendly touches such as English‑speaking staff, Vegemite‑stocked mini‑bars, or complimentary sunscreen. Use targeted ads on Facebook and Instagram that showcase sunset photos and guest testimonials from Aussies, and consider offering a “Sydney‑Special” package that includes a free surf lesson or a guided bike tour of the countryside. Partner with Australian travel blogs and influencers to generate authentic word‑of‑mouth, and encourage guests to leave reviews on TripAdvisor and Google mentioning their hometown. Finally, ensure your booking engine displays prices in AUD and offers flexible cancellation policies that match the expectations of Australian travelers.",
   "poolSizes": {
    "peers": 10,
    "all": 28,
@@ -16394,17 +16432,20 @@
    "ref": "I1",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:category:place:cooking_class",
-    "name": "Cooking class",
+    "id": "urn:tag:amenity:qloo:cooking_classes",
+    "name": "Cooking Classes",
     "idea": "cooking class",
     "domain": "places",
-    "marketCount": 1,
+    "marketCount": 5,
     "marketTotal": 28,
-    "cityCount": 1,
+    "cityCount": 9,
     "cityTotal": 50,
-    "ratio": 1.7857142857142856,
-    "verdict": "too-few",
+    "ratio": 0.9920634920634921,
+    "verdict": "common",
     "examples": [
+     "P14",
+     "P15",
+     "P10",
      "P22"
     ],
     "ref": "I1"
@@ -16418,22 +16459,17 @@
    "ref": "I2",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:genre:media:cycling",
-    "name": "Cycling",
+    "id": "urn:tag:amenity:place:bicycle_tours",
+    "name": "Bicycle tours",
     "idea": "bicycle tours",
     "domain": "places",
-    "marketCount": 8,
+    "marketCount": 0,
     "marketTotal": 28,
-    "cityCount": 12,
+    "cityCount": 1,
     "cityTotal": 50,
-    "ratio": 1.1904761904761905,
-    "verdict": "common",
-    "examples": [
-     "P1",
-     "P2",
-     "P4",
-     "P10"
-    ],
+    "ratio": 0,
+    "verdict": "too-few",
+    "examples": [],
     "ref": "I2"
    },
    "source": {
@@ -16502,73 +16538,73 @@
    "detail": null
   },
   {
-   "ms": 3327,
+   "ms": 2987,
    "phase": "qloo",
    "label": "10 places to stay and 28 places with a Sydney signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 3619,
+   "ms": 3020,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 55+, leans female"
   },
   {
-   "ms": 3619,
+   "ms": 3020,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 4961,
+   "ms": 4174,
    "phase": "agent",
    "label": "Look up Qloo tags for “cooking class”",
    "detail": "Cooking class, Cooking Classes, Cooking Class Dishes"
   },
   {
-   "ms": 6306,
+   "ms": 5235,
    "phase": "agent",
-   "label": "Look up Qloo tags for “cycling”",
-   "detail": "Cycling, Cycling lanes, Cycling park, Cycling Groups"
+   "label": "Look up Qloo tags for “bicycle tour”",
+   "detail": "Bicycle tours, Bicycle Tours Stop, Bicycle rental, Bicycle Shop"
   },
   {
-   "ms": 8124,
+   "ms": 6601,
    "phase": "agent",
    "label": "Look up Qloo tags for “rooftop bar”",
    "detail": "Rooftop Bar, Rooftop Bar Style, Rooftop Bar View, Rooftop Bar Decor"
   },
   {
-   "ms": 9097,
+   "ms": 7431,
    "phase": "agent",
-   "label": "Look up Qloo tags for “yoga”",
-   "detail": "Yoga, Yoga studio, Yoga instructor, Yoga classes"
+   "label": "Look up Qloo tags for “yoga morning”",
+   "detail": "Yoga studio, Yoga instructor, Yoga classes, Yoga retreat center"
   },
   {
-   "ms": 11060,
+   "ms": 9052,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
-   "detail": "bicycle tours → Cycling: 8/28 vs 12/50 (common); cooking class → Cooking class: 1/28 vs 1/50 (too-few); rooftop bar → Rooftop Bar: 1/28 vs 1/50 (too-few); yoga mornings → Yoga: 0/28 vs 2/50 (too-few)"
+   "detail": "cooking class → Cooking Classes: 5/28 vs 9/50 (common); rooftop bar → Rooftop Bar: 1/28 vs 1/50 (too-few); bicycle tours → Bicycle tours: 0/28 vs 1/50 (too-few); yoga mornings → Yoga: 0/28 vs 2/50 (too-few)"
   },
   {
-   "ms": 12141,
+   "ms": 9993,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 12141,
+   "ms": 9993,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 33452,
+   "ms": 23616,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among the places people in Sydney favour in Hoi An than among the city's top places:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Context — Sydney rank 1, Hoi An rank 1\nC2 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC3 Beyoncé — Sydney rank 8, Hoi An rank 4\nC4 Rihanna — Sydney rank 11, Hoi An rank 6\nC5 Adele — Sydney rank 13, Hoi An rank 12\nC6 Britney Spears — Sydney rank 22, Hoi An rank 34\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC7 Raumskaya — Sydney rank 2\nC8 Kylie Minogue — Sydney rank 4\nC9 Delta Goodrem — Sydney rank 5\nC10 Jessica Mauboy — Sydney rank 7\nC11 Ricki-Lee — Sydney rank 9\nC12 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC13 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC14 Bluey — Sydney rank 4\nC15 Suits — Sydney rank 9\nC16 Younger — Sydney rank 11\nC17 Wentworth — Sydney rank 12\nC18 RuPaul's Drag Race UK — Sydney rank 14\nC19 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking class\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P22\nI2 \"bicycle tours\" → tag \"Cycling\" (places): 8/28 of their favourites vs 12/50 city-wide — verdict common — e.g. P1, P2, P4, P10\nI3 \"rooftop bar\" → tag \"Rooftop Bar\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\" (places): 0/28 of their favourites vs 2/50 city-wide — verdict too-few",
- "generatedAt": "2026-10-06T11:48:20.158Z"
+ "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Sydney favour in Hoi An (mostly restaurants, bars and hotels — not specifically places to stay) than among the city's top places. Do not write that people prefer places to stay with these traits; write that these traits are common in the places they favour:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Context — Sydney rank 1, Hoi An rank 1\nC2 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC3 Beyoncé — Sydney rank 8, Hoi An rank 4\nC4 Rihanna — Sydney rank 11, Hoi An rank 6\nC5 Adele — Sydney rank 13, Hoi An rank 12\nC6 Britney Spears — Sydney rank 22, Hoi An rank 34\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC7 Raumskaya — Sydney rank 2\nC8 Kylie Minogue — Sydney rank 4\nC9 Delta Goodrem — Sydney rank 5\nC10 Jessica Mauboy — Sydney rank 7\nC11 Ricki-Lee — Sydney rank 9\nC12 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC13 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC14 Bluey — Sydney rank 4\nC15 Suits — Sydney rank 9\nC16 Younger — Sydney rank 11\nC17 Wentworth — Sydney rank 12\nC18 RuPaul's Drag Race UK — Sydney rank 14\nC19 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking Classes\": carried by 5 of the 28 places people in Sydney favour vs 9 of the 50 places people in Hoi An favour — verdict common — e.g. P14, P15, P10, P22\nI2 \"bicycle tours\" → tag \"Bicycle tours\": carried by 0 of the 28 places people in Sydney favour vs 1 of the 50 places people in Hoi An favour — verdict too-few\nI3 \"rooftop bar\" → tag \"Rooftop Bar\": carried by 1 of the 28 places people in Sydney favour vs 1 of the 50 places people in Hoi An favour — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\": carried by 0 of the 28 places people in Sydney favour vs 2 of the 50 places people in Hoi An favour — verdict too-few",
+ "generatedAt": "2026-10-06T22:22:00.121Z"
 }

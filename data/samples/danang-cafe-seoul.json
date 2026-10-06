@@ -7212,33 +7212,33 @@
    "ref": "I2",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:menu_highlight:qloo:coconut_coffee",
-    "name": "Coconut Coffee"
+    "id": "urn:tag:offerings:place:coffee",
+    "name": "Coffee"
    },
    "domain": "places",
    "rank": 2,
    "of": 4,
-   "verdict": "over-represented",
-   "ratio": 7.000000000000001,
-   "marketCount": 7,
+   "verdict": "common",
+   "ratio": 1.4000000000000001,
+   "marketCount": 14,
    "marketTotal": 50,
-   "cityCount": 1,
+   "cityCount": 10,
    "cityTotal": 50,
    "examples": [
+    "P7",
     "P1",
     "P13",
-    "P16",
-    "P2"
+    "P23"
    ]
   },
   {
    "idea": "K-pop playlist",
    "status": "ranked",
-   "ref": "I3",
+   "ref": "I4",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:keyword:qloo:k_pop",
-    "name": "K-pop"
+    "id": "urn:tag:genre:music:k_pop",
+    "name": "K Pop"
    },
    "domain": "music",
    "rank": 3,
@@ -7259,7 +7259,7 @@
   {
    "idea": "brunch menu",
    "status": "ranked",
-   "ref": "I4",
+   "ref": "I3",
    "via": {
     "kind": "tag",
     "id": "urn:tag:dining_options:place:brunch",
@@ -7283,33 +7283,34 @@
   }
  ],
  "brief": {
-  "headline": "People in Seoul strongly prefer coconut‑coffee and brunch offerings at Da Nang cafes.",
-  "summary": "Among Da Nang cafés, those highlighted by Seoul residents rank highest for coconut coffee and brunch tags, indicating strong market signals. The welcoming ambiance also appears more frequently in Seoul‑favoured venues than city‑wide averages. These patterns suggest focusing on coconut‑coffee drinks, brunch items, and a warm atmosphere to attract Seoul‑based visitors.",
+  "headline": "Welcoming ambience draws Seoul residents to Da Nang venues.",
+  "summary": "People in Seoul favour venues with a welcoming ambience, which appears in 33 out of 50 of their favourite Da Nang spots versus 19 out of 50 city‑wide (1.7× more common). They also show strong preference for coconut coffee, full bar/wine offerings, and brunch menus, all occurring far more often among their favourites than across the city.",
   "actions": [
    {
-    "title": "Add coconut coffee to the menu",
-    "detail": "Introduce coconut‑coffee drinks, leveraging the over‑represented signal that Seoul‑favoured venues feature this highlight far more often than typical Da Nang spots.",
-    "refs": [
-     "I2"
-    ]
-   },
-   {
-    "title": "Launch a brunch menu",
-    "detail": "Offer brunch items, as the brunch tag is over‑represented among Seoul‑favoured places compared to the city average.",
-    "refs": [
-     "I4"
-    ]
-   },
-   {
-    "title": "Highlight a welcoming ambiance",
-    "detail": "Emphasize friendly, welcoming service and décor, since this ambiance appears 1.7× more often in Seoul‑favoured venues than across Da Nang.",
+    "title": "Emphasise welcoming ambience",
+    "detail": "Train staff to provide warm, attentive service and create cozy seating areas to match the ambience that Seoul residents favour.",
     "refs": [
      "T3"
     ]
    },
    {
-    "title": "Test a K‑pop playlist as a low‑cost trial",
-    "detail": "Play K‑pop music occasionally to gauge response; the K‑pop tag is common in both markets, making it a safe, inexpensive experiment.",
+    "title": "Add coconut coffee to the menu",
+    "detail": "Introduce coconut‑based coffee drinks, as this menu highlight is 7× more common among Seoul‑favoured places than city‑wide.",
+    "refs": [
+     "T2"
+    ]
+   },
+   {
+    "title": "Offer a full bar with wine options",
+    "detail": "Expand beverage service to include a full bar and wine selection, reflecting the 2.6× and 2.0× higher prevalence of full bar and wine among Seoul‑favoured venues.",
+    "refs": [
+     "T4",
+     "T8"
+    ]
+   },
+   {
+    "title": "Introduce a brunch menu",
+    "detail": "Launch a brunch offering, since brunch is over‑represented among Seoul‑favoured spots (17/50 vs 7/50 city‑wide).",
     "refs": [
      "I3"
     ]
@@ -7317,77 +7318,78 @@
   ],
   "partners": [
    {
+    "ref": "P1",
+    "why": "Top‑ranked café among Seoul residents (market rank 1) and a recognised favourite."
+   },
+   {
+    "ref": "P2",
+    "why": "Second‑most favoured café by Seoul residents (market rank 2)."
+   },
+   {
     "ref": "P7",
-    "why": "Top‑ranked restaurant favoured by Seoul residents (market rank 1)."
+    "why": "Overall top favourite venue for Seoul residents (market rank 1) serving Vietnamese cuisine."
    },
    {
     "ref": "P12",
-    "why": "Highest‑ranked hotel overall and favoured by Seoul guests (market rank 7, city rank 1)."
-   },
-   {
-    "ref": "P8",
-    "why": "Second‑most favoured resort by Seoul visitors (market rank 2)."
-   },
-   {
-    "ref": "P9",
-    "why": "Third‑most favoured attraction among Seoul residents (market rank 3)."
+    "why": "Highly favoured resort by Seoul residents (market rank 7) and the city’s top‑ranked resort (city rank 1)."
    }
   ],
   "playlist": [
    {
     "ref": "C1",
-    "why": "Loved in Seoul (rank 2) and Da Nang (rank 1)."
+    "why": "Loved by people in Seoul (rank 2) and also popular in Da Nang (rank 1)."
    },
    {
     "ref": "C2",
-    "why": "Seoul rank 3, Da Nang rank 48."
+    "why": "Seoul rank 3, Da Nang rank 48 – still recognised in both markets."
    },
    {
     "ref": "C3",
-    "why": "Seoul rank 4, Da Nang rank 3."
+    "why": "Seoul rank 4, Da Nang rank 3 – strong cross‑market appeal."
    },
    {
     "ref": "C4",
-    "why": "Seoul rank 5, Da Nang rank 32."
+    "why": "Seoul rank 5, Da Nang rank 32 – known in both cities."
    },
    {
     "ref": "C5",
-    "why": "Seoul rank 6, Da Nang rank 17."
+    "why": "Seoul rank 6, Da Nang rank 17 – appreciated in both locales."
    },
    {
     "ref": "C6",
-    "why": "Seoul rank 7, Da Nang rank 5."
+    "why": "Seoul rank 7, Da Nang rank 5 – popular across both audiences."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Sea view terrace – common among Seoul‑favoured venues and city‑wide; not a differentiating factor."
+    "note": "Sea view terrace (Beachfront) – common: appears equally among Seoul‑favoured and city‑wide venues; not a differentiating factor."
    },
    {
     "ref": "I2",
-    "note": "Coconut coffee – over‑represented in Seoul‑favoured venues; strong signal to emphasize."
+    "note": "Coconut coffee – common: similar prevalence in both groups; offers no unique advantage."
    },
    {
     "ref": "I3",
-    "note": "K‑pop playlist – common in both markets; suitable for a low‑cost test."
+    "note": "Brunch menu – over‑represented: significantly more common among Seoul‑favoured spots, signalling a strong opportunity."
    },
    {
     "ref": "I4",
-    "note": "Brunch menu – over‑represented among Seoul‑favoured venues; strong signal to implement."
+    "note": "K‑pop playlist – common: roughly equivalent prevalence; optional rather than essential."
    }
   ],
   "caveats": [
-   "The data does not prove that adding coconut coffee or brunch will increase sales or profitability.",
-   "It does not distinguish between preferences of Seoul residents visiting Da Nang versus those living in Seoul.",
-   "It does not indicate price sensitivity or optimal pricing for these offerings."
+   "The data shows correlation, not causation; adopting these traits does not guarantee increased patronage.",
+   "It reflects aggregate preferences of people in Seoul, not individual guests or tourists, so reactions may vary.",
+   "The analysis does not consider price sensitivity, operating costs, or seasonal variations that could affect feasibility."
   ],
   "dropped": []
  },
+ "briefEn": null,
  "baseline": {
   "places": [
    {
-    "name": "The Nang Coffee House'}",
+    "name": "Café Moc",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7396,7 +7398,7 @@
     "allRank": null
    },
    {
-    "name": "Phố Cổ Café'",
+    "name": "The Green House",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7405,7 +7407,7 @@
     "allRank": null
    },
    {
-    "name": "Bếp Nhà Café'",
+    "name": "Bếp Nhà",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7414,7 +7416,7 @@
     "allRank": null
    },
    {
-    "name": "Sea View Café'",
+    "name": "Phố Cũ Coffee",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7423,7 +7425,7 @@
     "allRank": null
    },
    {
-    "name": "Mỹ An Art Cafe'",
+    "name": "Alley 68",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7434,32 +7436,32 @@
   ],
   "artists": [
    {
-    "name": "IU'",
+    "name": "IU",
     "qlooRank": 8,
     "localRank": 2
    },
    {
-    "name": "BTS'",
+    "name": "BTS",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "BLACKPINK'",
+    "name": "BLACKPINK",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Zico'",
+    "name": "ZICO",
     "qlooRank": 16,
     "localRank": 21
    },
    {
-    "name": "Heize'",
+    "name": "HEIZE",
     "qlooRank": 46,
     "localRank": 46
    }
   ],
-  "advice": "To attract Korean guests, highlight any Korean‑friendly touches such as English/Korean menus, free Wi‑Fi, and Instagram‑worthy photo spots. Offer small comforts like Korean tea or snacks alongside your Vietnamese specialties, and consider playing soft K‑pop or indie tracks during peak hours. Partner with Korean travel influencers or bloggers to showcase your café on platforms like Naver Blog and Instagram. Finally, ensure staff are trained to greet visitors in basic Korean phrases, which creates a welcoming atmosphere and encourages word‑of‑mouth recommendations.",
+  "advice": "To attract Korean visitors, highlight your café on popular Korean platforms such as Naver Blog and KakaoStory, and consider offering a Korean‑language menu or signage. Partner with Seoul‑based travel agencies or influencers who can feature your spot in their Da Nang itineraries. Provide free, high‑speed Wi‑Fi and a few Korean‑style snacks or drinks to create a familiar comfort zone. Finally, play a curated K‑pop playlist during peak hours and encourage guests to share their experience with a branded hashtag for organic word‑of‑mouth promotion.",
   "poolSizes": {
    "peers": 6,
    "all": 50,
@@ -12798,7 +12800,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C2": {
@@ -12860,7 +12862,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C3": {
@@ -12922,7 +12924,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C4": {
@@ -12982,7 +12984,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C5": {
@@ -13041,7 +13043,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C6": {
@@ -13100,7 +13102,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C7": {
@@ -13157,7 +13159,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C8": {
@@ -13259,7 +13261,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C9": {
@@ -13317,7 +13319,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C10": {
@@ -13379,7 +13381,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C11": {
@@ -13443,7 +13445,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C12": {
@@ -13509,7 +13511,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C13": {
@@ -13630,7 +13632,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C14": {
@@ -13723,7 +13725,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C15": {
@@ -13805,7 +13807,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C16": {
@@ -13893,7 +13895,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C17": {
@@ -13992,7 +13994,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C18": {
@@ -14080,7 +14082,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C19": {
@@ -14180,7 +14182,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C20": {
@@ -14281,7 +14283,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C21": {
@@ -14365,7 +14367,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C22": {
@@ -14459,7 +14461,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C23": {
@@ -14573,7 +14575,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C24": {
@@ -14694,7 +14696,7 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "P18": {
@@ -16386,27 +16388,445 @@
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
+  "P23": {
+   "ref": "P23",
+   "kind": "place",
+   "item": {
+    "id": "B72EB70D-E705-42C5-B39E-AA23330B00A1",
+    "name": "Bếp Hên",
+    "kind": "place",
+    "genre": "restaurant:vietnamese",
+    "address": "47 Lê Hồng Phong Hải Châu Đà Nẵng 84236 Vietnam",
+    "neighborhood": "Phước Ninh",
+    "priceLevel": 2,
+    "rating": 4.400000095367432,
+    "summary": "Authentic Vietnamese home-style dining in a cozy, vintage setting with generous portions and a warm, family atmosphere.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnKnCzezVVDX4x3CIcLk_wNw5K4hYJSq4fSRNn5A387d3v7DpoRxkm-5QnlFdBf9I6qb0R0fMQARfHfnLg-jbYHcKD2F70L3M1nFdtqMfILHX7V_olq4oAuSPS-qKb8odqJ21st=w1900-h1900-k-no",
+    "lat": 16.0639161,
+    "lon": 108.22103609999999,
+    "popularity": 0.9142051134039919,
+    "affinity": 0.9965118927954677,
+    "tags": [
+     {
+      "id": "urn:tag:offerings:place:small_plates",
+      "name": "Small plates",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:sweet_potato_leaves",
+      "name": "Sweet potato leaves",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:lemongrass_and_chili",
+      "name": "Lemongrass and chili",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:fried_spring_rolls",
+      "name": "Fried spring rolls",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:seaweed_soup_with_tofu",
+      "name": "Seaweed soup with tofu",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:vintage",
+      "name": "Vintage",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:rustic",
+      "name": "Rustic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_gastronomy",
+      "name": "Local gastronomy",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:caramelized_pork",
+      "name": "Caramelized pork",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:offerings:place:vegetarian_options",
+      "name": "Vegetarian meals",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:vietnamese_spring_roll_with_shrimp_and_pork",
+      "name": "Vietnamese spring roll with shrimp and pork",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+      "name": "Specialty non alcoholic",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:homely",
+      "name": "Homely",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:historic",
+      "name": "Historic",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese",
+      "name": "Vietnamese",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:stir_fried_morning_glory_with_garlic",
+      "name": "Stir fried morning glory with garlic",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:fried_pork_belly_with_lemongrass",
+      "name": "Fried pork belly with lemongrass",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_heritage",
+      "name": "Cultural heritage",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:quiet",
+      "name": "Quiet",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:braised_chicken_with_lemongrass",
+      "name": "Braised chicken with lemongrass",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:decor:qloo:cozy",
+      "name": "Cozy",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:shophouse",
+      "name": "Shophouse",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:offerings:place:hot_tea",
+      "name": "Hot tea",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_traditions",
+      "name": "Culinary traditions",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:offerings:place:beer",
+      "name": "Beer",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:interests:qloo:sustainable_travel",
+      "name": "Sustainable travel",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:fried_tofu_with",
+      "name": "Fried tofu with",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:casual",
+      "name": "Casual",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:offerings:place:quick_bite",
+      "name": "Quick bite",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:classic",
+      "name": "Classic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:cocktails",
+      "name": "Cocktails",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:wine",
+      "name": "Wine",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:offerings:place:alcohol",
+      "name": "Alcohol",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:caramelized_pork_belly_with_egg",
+      "name": "Caramelized pork belly with egg",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:nostalgic",
+      "name": "Nostalgic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:vintage_decor",
+      "name": "Vintage decor",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:eclectic",
+      "name": "Eclectic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:stuffed_eggplant_with_minced_pork",
+      "name": "Stuffed eggplant with minced pork",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:fried_tofu_with_lemongrass_and_chili",
+      "name": "Fried tofu with lemongrass and chili",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:home_style_cooking",
+      "name": "Home style cooking",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:offerings:place:vegan_options",
+      "name": "Vegan meals",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:ambience:place:large_group",
+      "name": "Large group",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:retro",
+      "name": "Retro",
+      "family": "decor"
+     }
+    ],
+    "allTags": [
+     "Solo diners",
+     "Small plates",
+     "Sweet potato leaves",
+     "Lemongrass and chili",
+     "Fried spring rolls",
+     "25 29",
+     "Seaweed soup with tofu",
+     "Vintage",
+     "Gluten free",
+     "Rustic",
+     "Charming",
+     "Local gastronomy",
+     "Outdoor seating",
+     "Restaurant",
+     "Caramelized pork",
+     "Vegetarian meals",
+     "Dine in",
+     "Authentic",
+     "Vietnamese spring roll with shrimp and pork",
+     "Free street parking",
+     "Dinner",
+     "Brunch",
+     "Dining drinking",
+     "Lunch",
+     "Debit cards",
+     "Routine visit",
+     "Wi fi",
+     "Vegan",
+     "Delivery",
+     "Groups of friends",
+     "City center",
+     "Specialty non alcoholic",
+     "Homely",
+     "Historic",
+     "Vietnamese",
+     "Casual",
+     "Private dining",
+     "No contact delivery",
+     "Good for kids",
+     "Stir fried morning glory with garlic",
+     "Urban",
+     "Fried pork belly with lemongrass",
+     "Families",
+     "Cultural heritage",
+     "Foodies",
+     "Quiet",
+     "Midday",
+     "Braised chicken with lemongrass",
+     "Cozy",
+     "Shophouse",
+     "Hot tea",
+     "Culinary traditions",
+     "Beer",
+     "Accepts reservations",
+     "Afternoon",
+     "Dessert",
+     "Order ahead",
+     "Table service",
+     "Vietnamese restaurant",
+     "Sustainable travel",
+     "Couples",
+     "Fried tofu with",
+     "Card payment",
+     "Comfortable",
+     "18 24",
+     "Vegetarian",
+     "Quick bite",
+     "Classic",
+     "Cocktails",
+     "Counter service",
+     "Wine",
+     "Air conditioning",
+     "Work dinner",
+     "Reservations",
+     "Central",
+     "Tourists",
+     "Onsite services",
+     "Street view",
+     "Alcohol",
+     "Takeout",
+     "Caramelized pork belly with egg",
+     "Han market",
+     "Nostalgic",
+     "Vintage decor",
+     "Welcoming",
+     "Eclectic",
+     "Traditional",
+     "Destination",
+     "Stuffed eggplant with minced pork",
+     "Busy street",
+     "Fried tofu with lemongrass and chili",
+     "Home style cooking",
+     "₫100000 to ₫200000",
+     "Restroom",
+     "Coffee",
+     "Place",
+     "30 34",
+     "Halal",
+     "Vegan meals",
+     "Large group",
+     "Retro",
+     "Locals",
+     "Walkable",
+     "Moderate",
+     "Evening",
+     "Home style vietnamese cuisine"
+    ],
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Da Nang",
+     "take": 50,
+     "signal.location.query": "Seoul"
+    },
+    "cached": false
+   }
+  },
   "I2": {
    "ref": "I2",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:menu_highlight:qloo:coconut_coffee",
-    "name": "Coconut Coffee",
+    "id": "urn:tag:offerings:place:coffee",
+    "name": "Coffee",
     "idea": "coconut coffee",
     "domain": "places",
-    "marketCount": 7,
+    "marketCount": 14,
     "marketTotal": 50,
-    "cityCount": 1,
+    "cityCount": 10,
     "cityTotal": 50,
-    "ratio": 7.000000000000001,
-    "verdict": "over-represented",
+    "ratio": 1.4000000000000001,
+    "verdict": "common",
     "examples": [
+     "P7",
      "P1",
      "P13",
-     "P16",
-     "P2"
+     "P23"
     ],
     "ref": "I2"
+   },
+   "source": {
+    "derivedFrom": "places",
+    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
+   }
+  },
+  "I3": {
+   "ref": "I3",
+   "kind": "idea",
+   "item": {
+    "id": "urn:tag:dining_options:place:brunch",
+    "name": "Brunch",
+    "idea": "brunch menu",
+    "domain": "places",
+    "marketCount": 17,
+    "marketTotal": 50,
+    "cityCount": 7,
+    "cityTotal": 50,
+    "ratio": 2.4285714285714284,
+    "verdict": "over-represented",
+    "examples": [
+     "P7",
+     "P8",
+     "P13",
+     "P15"
+    ],
+    "ref": "I3"
    },
    "source": {
     "derivedFrom": "places",
@@ -16471,15 +16891,15 @@
      "signal.location.query": "Seoul",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
-  "I3": {
-   "ref": "I3",
+  "I4": {
+   "ref": "I4",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:keyword:qloo:k_pop",
-    "name": "K-pop",
+    "id": "urn:tag:genre:music:k_pop",
+    "name": "K Pop",
     "idea": "K-pop playlist",
     "domain": "music",
     "marketCount": 37,
@@ -16494,37 +16914,10 @@
      "C3",
      "C5"
     ],
-    "ref": "I3"
-   },
-   "source": {
-    "derivedFrom": "music",
-    "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
-   }
-  },
-  "I4": {
-   "ref": "I4",
-   "kind": "idea",
-   "item": {
-    "id": "urn:tag:dining_options:place:brunch",
-    "name": "Brunch",
-    "idea": "brunch menu",
-    "domain": "places",
-    "marketCount": 17,
-    "marketTotal": 50,
-    "cityCount": 7,
-    "cityTotal": 50,
-    "ratio": 2.4285714285714284,
-    "verdict": "over-represented",
-    "examples": [
-     "P7",
-     "P8",
-     "P13",
-     "P15"
-    ],
     "ref": "I4"
    },
    "source": {
-    "derivedFrom": "places",
+    "derivedFrom": "music",
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   }
@@ -16543,85 +16936,85 @@
    "detail": null
   },
   {
-   "ms": 3347,
+   "ms": 2880,
    "phase": "qloo",
    "label": "6 cafés and 50 places with a Seoul signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 3637,
+   "ms": 2909,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 30–34, leans female"
   },
   {
-   "ms": 3637,
+   "ms": 2909,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 5068,
+   "ms": 4136,
    "phase": "agent",
    "label": "Look up Qloo tags for “sea view terrace”",
    "detail": "Seaview Terrace, Sea View from Terrace, Sea View Terrace, Sea View from Roof Terrace"
   },
   {
-   "ms": 6908,
+   "ms": 5022,
    "phase": "agent",
    "label": "Look up Qloo tags for “beachfront”",
    "detail": "Beachfront, Beachfront Dining, Beachfront Community, Beachfront Area"
   },
   {
-   "ms": 8430,
+   "ms": 6015,
    "phase": "agent",
    "label": "Look up Qloo tags for “waterfront”",
    "detail": "Waterfront, Waterfront View, Waterfront Park, Waterfront District"
   },
   {
-   "ms": 10125,
+   "ms": 6966,
    "phase": "agent",
-   "label": "Look up Qloo tags for “coconut coffee”",
-   "detail": "Coconut Coffee And Banana Cake, Coconut Coffee Ice Cream Cone, Coconut Milk Coffee, Iced Coconut Milk Coffee"
+   "label": "Look up Qloo tags for “coffee”",
+   "detail": "Coffee, Coffee shop, Coffee / tea maker"
   },
   {
-   "ms": 11583,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “K-Pop”",
-   "detail": "K Pop, Kpop, K-POP Themed, K-Pop Fans"
-  },
-  {
-   "ms": 13291,
+   "ms": 8018,
    "phase": "agent",
    "label": "Look up Qloo tags for “brunch”",
    "detail": "Brunch, Brunch restaurant, Brunch reservations recommended"
   },
   {
-   "ms": 15423,
+   "ms": 9038,
    "phase": "agent",
-   "label": "Score 4 ideas against the two lists",
-   "detail": "brunch menu → Brunch: 17/50 vs 7/50 (over-represented); coconut coffee → Coconut Coffee: 7/50 vs 1/50 (over-represented); K-pop playlist → K-pop: 37/50 vs 33/50 (common); sea view terrace → Beachfront: 18/50 vs 15/50 (common)"
+   "label": "Look up Qloo tags for “K-pop”",
+   "detail": "K Pop, Kpop, K-POP Themed, K-Pop Fans"
   },
   {
-   "ms": 16757,
+   "ms": 10831,
+   "phase": "agent",
+   "label": "Score 4 ideas against the two lists",
+   "detail": "brunch menu → Brunch: 17/50 vs 7/50 (over-represented); coconut coffee → Coffee: 14/50 vs 10/50 (common); K-pop playlist → K Pop: 37/50 vs 33/50 (common); sea view terrace → Beachfront: 18/50 vs 15/50 (common)"
+  },
+  {
+   "ms": 11894,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 16757,
+   "ms": 11894,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 32898,
+   "ms": 30560,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Da Nang, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Da Nang with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Da Nang's top cafés without that signal:\nP1 Cong Caphe (Hải Châu) — market rank 1, city rank not in the top list — tags: Urban exploration, Eclectic, Retro, Fresh juices, Retro themed, Coconut cacao\nP2 Brewman Coffee Concept (Phước Ninh) — market rank 2, city rank not in the top list — tags: Intimate, Vietnamese phin coffee, Hidden gems, Wine, Vietnamese, Slow travel\nP3 XLIII Specialty Coffee (Mỹ An) — market rank 3, city rank 1 — tags: Relaxing, Minimalist, Sourdough cinnamon roll, Single origin pour over coffee, Stylish, Specialty coffee\nP4 Cong Caphe (Thạch Thang) — market rank 4, city rank not in the top list — tags: Cultural, Local travel, Coconut frappe, Asian, City center, Historic\nP5 Highlands Coffee Tran Phu Da Nang (Phước Ninh) — market rank =5, city rank 17 — tags: Vietnamese pastries, Productive, Hot tea, Casual, Phin sữa da, Espresso based drinks\nP6 Moka Coffee (Thạch Thang) — market rank =5, city rank not in the top list — tags: Hard liquor, Beer, Large group, Coffee, Local gastronomy, Cozy\n\nAll kinds of places in Da Nang favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Nhà hàng Madame Lân (vietnamese, Thạch Thang) — market rank 1, city rank 4\nP8 Naman Retreat (hotel:resort, Hòa Hải) — market rank 2, city rank not in top 50\nP9 Da Nang Cathedral (catholic cathedral, Hải Châu) — market rank 3, city rank 8\nP1 Cong Caphe (cafe, Hải Châu) — market rank 4, city rank 18\nP10 Cape Nao Beach Club - Melia Danang Beach Resort (hotel:resort, Hòa Hải) — market rank 5, city rank not in top 50\nP11 Sky36 (night club, Thạch Thang) — market rank 6, city rank 15\nP12 Pullman Danang Beach Resort (hotel:resort, Khuê Mỹ) — market rank 7, city rank 1\nP13 Bánh mì Happy Bread Mì AA (vietnamese, Hải Châu) — market rank 8, city rank not in top 50\nP14 Grandvrio Ocean Resort Danang (hotel:resort) — market rank 9, city rank 24\nP15 Nhà Hàng Nhà Bếp Khuê Mỹ (vietnamese, Mỹ An) — market rank 10, city rank not in top 50\nP16 Han River Bridge (bridge, An Hải Bắc) — market rank 11, city rank not in top 50\nP17 Han Market (traditional market, Hải Châu) — market rank 12, city rank 2\n\nTags clearly more common among the places people in Seoul favour in Da Nang than among the city's top places:\nT1 \"Authentic\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P18, P19, P20, P21\nT2 \"Coconut coffee\" (menu_highlight) — 7/50 of their favourites vs 1/50 city-wide, 7.0× as common — e.g. P1, P13, P16, P2\nT3 \"Welcoming\" (ambience) — 33/50 of their favourites vs 19/50 city-wide, 1.7× as common — e.g. P7, P8, P12, P13\nT4 \"Full bar\" (beverage_offering) — 13/50 of their favourites vs 5/50 city-wide, 2.6× as common — e.g. P7, P13, P2, P22\nT5 \"Fresh juices\" (beverage_offering) — 8/50 of their favourites vs 3/50 city-wide, 2.7× as common — e.g. P1, P13, P15, P18\nT6 \"Vietnamese\" (cuisine) — 12/50 of their favourites vs 5/50 city-wide, 2.4× as common — e.g. P7, P13, P15, P16\nT7 \"Beer\" (offerings) — 23/50 of their favourites vs 12/50 city-wide, 1.9× as common — e.g. P7, P11, P13, P15\nT8 \"Wine\" (beverage_offering) — 20/50 of their favourites vs 10/50 city-wide, 2.0× as common — e.g. P7, P11, P13, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 30–34, leans female\n\nMusic loved by people in Seoul that people in Da Nang also love (bridge):\nC1 Suzy — Seoul rank 2, Da Nang rank 1\nC2 Dynamic Duo — Seoul rank 3, Da Nang rank 48\nC3 G-Dragon — Seoul rank 4, Da Nang rank 3\nC4 Beenzino — Seoul rank 5, Da Nang rank 32\nC5 SUNMI — Seoul rank 6, Da Nang rank 17\nC6 SULLI — Seoul rank 7, Da Nang rank 5\nMusic loved in Seoul but not in Da Nang's top list (distinct):\nC7 Ohhyuk — Seoul rank 13\nC8 Peggy Gou — Seoul rank 15\nC9 sohee — Seoul rank 17\nC10 성시경 — Seoul rank 18\nC11 윤종신 — Seoul rank 20\nC12 엄정화 — Seoul rank 21\n\nTV loved by people in Seoul that people in Da Nang also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Da Nang rank 21\nC14 Live — Seoul rank 5, Da Nang rank 31\nC15 Clean with Passion for Now — Seoul rank 9, Da Nang rank 17\nC16 Start-Up — Seoul rank 14, Da Nang rank 27\nC17 Call It Love — Seoul rank 18, Da Nang rank 49\nC18 Run On — Seoul rank 29, Da Nang rank 28\nTV loved in Seoul but not in Da Nang's top list (distinct):\nC19 Our Blues — Seoul rank 12\nC20 The Devil's Plan — Seoul rank 22\nC21 Melloga Chejil — Seoul rank 36\nC22 I'm Not a Robot — Seoul rank 42\nC23 My Roommate Is a Gumiho — Seoul rank 43\nC24 My Country: The New Age — Seoul rank 44\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"sea view terrace\" → tag \"Beachfront\" (places): 18/50 of their favourites vs 15/50 city-wide — verdict common — e.g. P8, P10, P12, P14\nI2 \"coconut coffee\" → tag \"Coconut Coffee\" (places): 7/50 of their favourites vs 1/50 city-wide — verdict over-represented — e.g. P1, P13, P16, P2\nI3 \"K-pop playlist\" → tag \"K-pop\" (music): 37/50 of their favourites vs 33/50 city-wide — verdict common — e.g. C25, C1, C3, C5\nI4 \"brunch menu\" → tag \"Brunch\" (places): 17/50 of their favourites vs 7/50 city-wide — verdict over-represented — e.g. P7, P8, P13, P15",
- "generatedAt": "2026-10-06T11:50:37.835Z"
+ "facts": "Business: Cafe in Da Nang, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Da Nang with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Da Nang's top cafés without that signal:\nP1 Cong Caphe (Hải Châu) — market rank 1, city rank not in the top list — tags: Urban exploration, Eclectic, Retro, Fresh juices, Retro themed, Coconut cacao\nP2 Brewman Coffee Concept (Phước Ninh) — market rank 2, city rank not in the top list — tags: Intimate, Vietnamese phin coffee, Hidden gems, Wine, Vietnamese, Slow travel\nP3 XLIII Specialty Coffee (Mỹ An) — market rank 3, city rank 1 — tags: Relaxing, Minimalist, Sourdough cinnamon roll, Single origin pour over coffee, Stylish, Specialty coffee\nP4 Cong Caphe (Thạch Thang) — market rank 4, city rank not in the top list — tags: Cultural, Local travel, Coconut frappe, Asian, City center, Historic\nP5 Highlands Coffee Tran Phu Da Nang (Phước Ninh) — market rank =5, city rank 17 — tags: Vietnamese pastries, Productive, Hot tea, Casual, Phin sữa da, Espresso based drinks\nP6 Moka Coffee (Thạch Thang) — market rank =5, city rank not in the top list — tags: Hard liquor, Beer, Large group, Coffee, Local gastronomy, Cozy\n\nAll kinds of places in Da Nang favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Nhà hàng Madame Lân (vietnamese, Thạch Thang) — market rank 1, city rank 4\nP8 Naman Retreat (hotel:resort, Hòa Hải) — market rank 2, city rank not in top 50\nP9 Da Nang Cathedral (catholic cathedral, Hải Châu) — market rank 3, city rank 8\nP1 Cong Caphe (cafe, Hải Châu) — market rank 4, city rank 18\nP10 Cape Nao Beach Club - Melia Danang Beach Resort (hotel:resort, Hòa Hải) — market rank 5, city rank not in top 50\nP11 Sky36 (night club, Thạch Thang) — market rank 6, city rank 15\nP12 Pullman Danang Beach Resort (hotel:resort, Khuê Mỹ) — market rank 7, city rank 1\nP13 Bánh mì Happy Bread Mì AA (vietnamese, Hải Châu) — market rank 8, city rank not in top 50\nP14 Grandvrio Ocean Resort Danang (hotel:resort) — market rank 9, city rank 24\nP15 Nhà Hàng Nhà Bếp Khuê Mỹ (vietnamese, Mỹ An) — market rank 10, city rank not in top 50\nP16 Han River Bridge (bridge, An Hải Bắc) — market rank 11, city rank not in top 50\nP17 Han Market (traditional market, Hải Châu) — market rank 12, city rank 2\n\nTags clearly more common among ALL KINDS of places people in Seoul favour in Da Nang (mostly restaurants, bars and hotels — not specifically cafés) than among the city's top places. Do not write that people prefer cafés with these traits; write that these traits are common in the places they favour:\nT1 \"Authentic\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P18, P19, P20, P21\nT2 \"Coconut coffee\" (menu_highlight) — 7/50 of their favourites vs 1/50 city-wide, 7.0× as common — e.g. P1, P13, P16, P2\nT3 \"Welcoming\" (ambience) — 33/50 of their favourites vs 19/50 city-wide, 1.7× as common — e.g. P7, P8, P12, P13\nT4 \"Full bar\" (beverage_offering) — 13/50 of their favourites vs 5/50 city-wide, 2.6× as common — e.g. P7, P13, P2, P22\nT5 \"Fresh juices\" (beverage_offering) — 8/50 of their favourites vs 3/50 city-wide, 2.7× as common — e.g. P1, P13, P15, P18\nT6 \"Vietnamese\" (cuisine) — 12/50 of their favourites vs 5/50 city-wide, 2.4× as common — e.g. P7, P13, P15, P16\nT7 \"Beer\" (offerings) — 23/50 of their favourites vs 12/50 city-wide, 1.9× as common — e.g. P7, P11, P13, P15\nT8 \"Wine\" (beverage_offering) — 20/50 of their favourites vs 10/50 city-wide, 2.0× as common — e.g. P7, P11, P13, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 30–34, leans female\n\nMusic loved by people in Seoul that people in Da Nang also love (bridge):\nC1 Suzy — Seoul rank 2, Da Nang rank 1\nC2 Dynamic Duo — Seoul rank 3, Da Nang rank 48\nC3 G-Dragon — Seoul rank 4, Da Nang rank 3\nC4 Beenzino — Seoul rank 5, Da Nang rank 32\nC5 SUNMI — Seoul rank 6, Da Nang rank 17\nC6 SULLI — Seoul rank 7, Da Nang rank 5\nMusic loved in Seoul but not in Da Nang's top list (distinct):\nC7 Ohhyuk — Seoul rank 13\nC8 Peggy Gou — Seoul rank 15\nC9 sohee — Seoul rank 17\nC10 성시경 — Seoul rank 18\nC11 윤종신 — Seoul rank 20\nC12 엄정화 — Seoul rank 21\n\nTV loved by people in Seoul that people in Da Nang also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Da Nang rank 21\nC14 Live — Seoul rank 5, Da Nang rank 31\nC15 Clean with Passion for Now — Seoul rank 9, Da Nang rank 17\nC16 Start-Up — Seoul rank 14, Da Nang rank 27\nC17 Call It Love — Seoul rank 18, Da Nang rank 49\nC18 Run On — Seoul rank 29, Da Nang rank 28\nTV loved in Seoul but not in Da Nang's top list (distinct):\nC19 Our Blues — Seoul rank 12\nC20 The Devil's Plan — Seoul rank 22\nC21 Melloga Chejil — Seoul rank 36\nC22 I'm Not a Robot — Seoul rank 42\nC23 My Roommate Is a Gumiho — Seoul rank 43\nC24 My Country: The New Age — Seoul rank 44\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"sea view terrace\" → tag \"Beachfront\": carried by 18 of the 50 places people in Seoul favour vs 15 of the 50 places people in Da Nang favour — verdict common — e.g. P8, P10, P12, P14\nI2 \"coconut coffee\" → tag \"Coffee\": carried by 14 of the 50 places people in Seoul favour vs 10 of the 50 places people in Da Nang favour — verdict common — e.g. P7, P1, P13, P23\nI4 \"K-pop playlist\" → tag \"K Pop\": carried by 37 of the 50 artists people in Seoul favour vs 33 of the 50 artists people in Da Nang favour — verdict common — e.g. C25, C1, C3, C5\nI3 \"brunch menu\" → tag \"Brunch\": carried by 17 of the 50 places people in Seoul favour vs 7 of the 50 places people in Da Nang favour — verdict over-represented — e.g. P7, P8, P13, P15",
+ "generatedAt": "2026-10-06T22:26:16.791Z"
 }

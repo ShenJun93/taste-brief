@@ -9572,33 +9572,33 @@
   }
  ],
  "brief": {
-  "headline": "'No frills' là yếu tố được ưa chuộng nhất.",
-  "summary": "Người sinh sống tại Singapore thường ưa thích các quán ăn có phong cách đơn giản, không cầu kỳ và không phô mai. Họ cũng đánh giá cao không gian ấm áp, góc ngồi riêng tư và trải nghiệm khám phá ẩm thực đường phố. Đối tượng khách hàng chính là nam giới độ tuổi 30‑34, cho thấy xu hướng thích không gian thoải mái nhưng vẫn có chất lượng.",
+  "headline": "Khách du lịch Singapore ưa thích những quán ăn đơn giản, không cầu kỳ tại Thành phố Hồ Chí Minh.",
+  "summary": "Những địa điểm được xếp hạng cao nhất bởi người Singapore là các quán ăn bình dân, không cầu kỳ như tiệm bánh mì và các gánh hàng rong, thường nằm trong hẻm hoặc ngay mặt tiền đường. Đối tượng khách hàng chủ yếu là nam giới từ 30 đến 34 tuổi, cho thấy phân khúc khách trẻ, thiên về nam giới.",
   "actions": [
    {
     "title": "Thiết kế không gian đơn giản",
-    "detail": "Loại bỏ trang trí phức tạp, tập trung vào bố trí sạch sẽ và chức năng để phù hợp với sở thích 'Simple' được 9/50 người Singapore ưa thích.",
-    "refs": [
-     "T2"
-    ]
-   },
-   {
-    "title": "Tạo cảm giác ấm áp và riêng tư",
-    "detail": "Thêm ánh sáng ấm, sử dụng gỗ hoặc vải mềm để mang lại cảm giác 'Cozy', một đặc điểm xuất hiện ở 8/50 địa điểm được Singapore ưa chuộng.",
-    "refs": [
-     "T4"
-    ]
-   },
-   {
-    "title": "Giữ phong cách đường phố, không cầu kỳ",
-    "detail": "Đảm bảo menu và không gian giữ phong cách 'No frills', tránh các món ăn phức tạp và trang trí hoa hoa, phù hợp với 12/50 địa điểm được Singapore ưa thích.",
+    "detail": "Giảm bớt trang trí, tập trung vào yếu tố đơn giản và tiện dụng, phù hợp với sở thích không cầu kỳ như ở 12/50 địa điểm được người Singapore ưa thích.",
     "refs": [
      "T1"
     ]
    },
    {
-    "title": "Cung cấp tùy chọn halal",
-    "detail": "Thêm món ăn có chứng nhận halal để đáp ứng nhu cầu 'halal options', một yếu tố được 9/50 người Singapore ưa thích so với chỉ 4/50 ở toàn thành phố.",
+    "title": "Làm nổi bật trải nghiệm ẩm thực đường phố",
+    "detail": "Tạo thực đơn hoặc hành trình nếm thử các món ăn đường phố đặc trưng, phản ánh sở thích khám phá ẩm thực đường phố phổ biến ở 9/50 địa điểm được yêu thích.",
+    "refs": [
+     "T3"
+    ]
+   },
+   {
+    "title": "Mở cửa phục vụ về đêm",
+    "detail": "Giữ bếp hoạt động sau nửa đêm, vì dịch vụ về đêm xuất hiện ở 15/50 địa điểm được người Singapore ưa chuộng.",
+    "refs": [
+     "I4"
+    ]
+   },
+   {
+    "title": "Thêm món ăn được chứng nhận Halal",
+    "detail": "Bao gồm các món có nhãn Halal, do các lựa chọn Halal xuất hiện ở 9/50 địa điểm được ưa thích so với 4/50 trên toàn thành phố.",
     "refs": [
      "I2"
     ]
@@ -9607,63 +9607,164 @@
   "partners": [
    {
     "ref": "P1",
-    "why": "Bánh Mì Hòa Mã là địa điểm hàng đầu theo thị trường Singapore (market rank 1) dù không nằm trong top danh sách thành phố, cho thấy sự ưa chuộng mạnh."
+    "why": "Địa điểm hàng đầu thể hiện đúng tinh thần giản dị, bình dân trong hẻm mà khách Singapore tìm kiếm."
    },
    {
     "ref": "P3",
-    "why": "Pizza 4P's Ben Thanh có market rank 3 và city rank 3, cho thấy nó vừa được Singapore ưa thích vừa nổi tiếng ở thành phố, thích hợp để giới thiệu khách."
-   },
-   {
-    "ref": "P6",
-    "why": "Bún Chả 145 có market rank 6, city rank 22, và có tags như 'Full bar', 'Cocktails', 'Vietnamese', cho thấy sự đa dạng mà Singapore ưa chuộng."
+    "why": "Quán pizza pha trộn ẩm thực toàn cầu với cocktail, được yêu thích cả ở Singapore và trên toàn thành phố."
    },
    {
     "ref": "P7",
-    "why": "Ben Nghe Street Food có market rank 7, city rank 1, và có tags 'Functional', 'Social', 'Casual', 'Beer', 'Late night food', 'Vegan meals', phản ánh xu hướng không gian xã hội và ăn vặt tối."
+    "why": "Địa điểm được xếp hạng cao nhất tại thành phố, phục vụ các món ăn đường phố giản dị, phù hợp cho giao lưu xã hội, có bia và món chay."
+   },
+   {
+    "ref": "P12",
+    "why": "Khách sạn được người Singapore ưa chuộng, có thể dùng để quảng bá chéo hoặc giới thiệu khách."
    }
   ],
   "playlist": [
    {
     "ref": "C1",
-    "why": "G-Dragon được yêu thích cả ở Singapore (rank 34) và Hồ Chí Minh City (rank 10)."
+    "why": "G-Dragon xếp hạng cao ở cả Singapore và HCMC, cho thấy sự yêu thích chung."
    },
    {
     "ref": "C2",
-    "why": "CL được yêu thích cả ở Singapore (rank 41) và Hồ Chí Minh City (rank 20)."
+    "why": "CL được yêu thích mạnh ở cả hai thị trường, kết nối thị hiếu K-pop."
    },
    {
     "ref": "C3",
-    "why": "Taylor Swift được yêu thích cả ở Singapore (rank 44) và Hồ Chí Minh City (rank 11)."
+    "why": "Taylor Swift có sức hút rộng rãi trong cả hai bảng xếp hạng Singapore và HCMC."
    },
    {
     "ref": "C4",
-    "why": "太阳 (태양) được yêu thích cả ở Singapore (rank 45) và Hồ Chí Minh City (rank 16)."
+    "why": "태양 (Taeyang) được yêu thích ở cả hai nơi, cho thấy sự đồng điệu về thị hiếu K-pop."
    },
    {
     "ref": "C5",
-    "why": "黃宗澤 được yêu thích cả ở Singapore (rank 50) và Hồ Chí Minh City (rank 50)."
+    "why": "黃宗澤 có mặt khiêm tốn nhưng đều đặn ở cả hai thành phố trong sở thích âm nhạc."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Ý tưởng 'seafood hotpot' được thị trường Singapore ưa chuộng mạnh (over-represented), với 13/50 địa điểm ưa thích có tag 'Seafood' so với chỉ 3/50 ở toàn thành phố."
+    "note": "Cân nhắc thêm món lẩu hải sản, vì món này xuất hiện ở 13/50 địa điểm được ưa thích so với chỉ 3/50 trên toàn thành phố."
    },
    {
     "ref": "I2",
-    "note": "Ý tưởng 'halal options' phù hợp vì 9/50 địa điểm được Singapore ưa thích có tag 'Halal' so với 4/50 ở thành phố (over-represented)."
+    "note": "Cung cấp các món ăn được chứng nhận Halal; Halal xuất hiện ở 9/50 địa điểm được ưa thích so với 4/50 trên toàn thành phố."
    },
    {
     "ref": "I3",
-    "note": "Ý tưởng 'street food tour' được 12/50 địa điểm Singapore ưa thích có tag 'Street Food' so với 4/50 ở thành phố (over-represented)."
+    "note": "Phát triển gói tour ẩm thực đường phố; sở thích ẩm thực đường phố xuất hiện ở 12/50 địa điểm được ưa thích so với 4/50 trên toàn thành phố."
    },
    {
     "ref": "I4",
-    "note": "Ý tưởng 'late-night menu' xuất hiện ở 15/50 địa điểm được Singapore ưa thích (tag 'Late Night') so với 7/50 ở thành phố (over-represented)."
+    "note": "Mở rộng thực đơn về đêm; dịch vụ về đêm xuất hiện ở 15/50 địa điểm được ưa thích so với 7/50 trên toàn thành phố."
    }
   ],
   "caveats": [
-   "Dữ liệu không cho thấy mối quan hệ nhân quả giữa việc thay đổi không gian và tăng doanh số."
+   "Dữ liệu cho thấy mối tương quan chứ không phải nhân quả giữa phong cách quán hoặc thực đơn với tần suất ghé thăm.",
+   "Dữ liệu không cho biết mức độ nhạy cảm về giá hay willingness to pay cho các đề xuất.",
+   "Thông tin phản ánh sở thích tổng hợp của người sống ở Singapore, không đảm bảo mọi khách cá nhân sẽ phản ứng giống nhau."
+  ],
+  "dropped": [],
+  "lang": "vi"
+ },
+ "briefEn": {
+  "headline": "Singapore visitors favor no‑frills, simple settings in Ho Chi Minh City eateries.",
+  "summary": "The top‑ranked spots favored by Singaporeans are casual, no‑frills venues such as bánh mì shops and street‑food stalls, often located in alleyways or at street level. Their audience skews toward 30‑ to 34‑year‑old males, indicating a young‑adult, male‑leaning segment.",
+  "actions": [
+   {
+    "title": "Adopt a no‑frills interior",
+    "detail": "Strip back décor to simple, functional elements matching the no‑frills preference seen in 12/50 of Singapore‑favoured places.",
+    "refs": [
+     "T1"
+    ]
+   },
+   {
+    "title": "Highlight street‑food exploration",
+    "detail": "Create a menu or tasting route that showcases local street staples, reflecting the street food exploration interest common among 9/50 of favoured venues.",
+    "refs": [
+     "T3"
+    ]
+   },
+   {
+    "title": "Extend hours for late‑night diners",
+    "detail": "Keep the kitchen open past midnight, as late‑night service appears in 15/50 of the places Singaporeans favour.",
+    "refs": [
+     "I4"
+    ]
+   },
+   {
+    "title": "Add halal‑certified dishes",
+    "detail": "Include halal‑labelled items, given halal options appear in 9/50 of favoured spots versus 4/50 city‑wide.",
+    "refs": [
+     "I2"
+    ]
+   }
+  ],
+  "partners": [
+   {
+    "ref": "P1",
+    "why": "Top‑ranked favourite embodying the no‑frills, alleyway casual vibe that Singapore visitors seek."
+   },
+   {
+    "ref": "P3",
+    "why": "Well‑liked global‑fusion pizza bar with cocktails, ranking highly both among Singaporeans and city‑wide."
+   },
+   {
+    "ref": "P7",
+    "why": "Highest city‑ranked favourite, offering functional, social street food with beer and vegan options."
+   },
+   {
+    "ref": "P12",
+    "why": "Hotel favoured by Singaporeans, useful for cross‑promotion or guest referrals."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "G‑Dragon ranks high in both Singapore and HCMC charts, showing shared appeal."
+   },
+   {
+    "ref": "C2",
+    "why": "CL enjoys strong popularity in both markets, bridging K‑pop tastes."
+   },
+   {
+    "ref": "C3",
+    "why": "Taylor Swift’s broad pop resonance appears in both Singapore and HCMC rankings."
+   },
+   {
+    "ref": "C4",
+    "why": "태양 (Taeyang) is well‑liked in both locales, indicating common K‑pop affinity."
+   },
+   {
+    "ref": "C5",
+    "why": "黃宗澤 maintains modest but equal presence in both cities’ music preferences."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Consider adding a seafood hotpot, as it appears in 13/50 of favoured places versus only 3/50 city‑wide."
+   },
+   {
+    "ref": "I2",
+    "note": "Offer halal‑certified dishes; halal appears in 9/50 of favoured spots versus 4/50 city‑wide."
+   },
+   {
+    "ref": "I3",
+    "note": "Develop a street‑food tour package; street food interest appears in 12/50 of favoured places versus 4/50 city‑wide."
+   },
+   {
+    "ref": "I4",
+    "note": "Extend a late‑night menu; late‑night service appears in 15/50 of favoured places versus 7/50 city‑wide."
+   }
+  ],
+  "caveats": [
+   "The data show correlation, not causation, between ambience or menu features and visitation rates.",
+   "It does not reveal price sensitivity or willingness to pay for the suggested additions.",
+   "The signal reflects aggregated preferences of people living in Singapore, not guaranteeing identical responses from individual guests."
   ],
   "dropped": []
  },
@@ -9673,6 +9774,15 @@
     "name": "The Deck Saigon",
     "qlooName": "The Deck Saigon",
     "inQloo": true,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "L'Usine",
+    "qlooName": null,
+    "inQloo": false,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
@@ -9697,16 +9807,7 @@
     "allRank": null
    },
    {
-    "name": "Anan Saigon",
-    "qlooName": "Anan Saigon",
-    "inQloo": true,
-    "marketSignal": true,
-    "ref": "P5",
-    "peerRank": 5,
-    "allRank": 5
-   },
-   {
-    "name": "L'Usine",
+    "name": "Madame Hien",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -9727,27 +9828,28 @@
     "localRank": null
    },
    {
-    "name": "Kit Chan",
-    "qlooRank": null,
+    "name": "The Sam Willows",
+    "qlooRank": 9,
     "localRank": null
    },
    {
-    "name": "Tanya Chua",
-    "qlooRank": null,
+    "name": "Dick Lee",
+    "qlooRank": 39,
     "localRank": null
    },
    {
-    "name": "Gentle Bones",
-    "qlooRank": 24,
+    "name": "Nathan Hartono",
+    "qlooRank": 2,
     "localRank": null
    }
   ],
-  "advice": "To attract Singaporean diners, highlight familiar flavors such as Hainanese chicken rice, laksa, and chili crab on your menu while keeping descriptions in English. Use targeted Facebook and Instagram ads that showcase your dishes during peak travel periods like the Singapore school holidays and major festivals. Partner with Singapore‑based travel agencies and hotel concierges to offer special dining packages or complimentary welcome drinks. Ensure free, high‑speed Wi‑Fi and a few power outlets so guests can stay connected and share their experience online. Finally, train staff to greet guests in a friendly, polite manner and to be able to explain any Vietnamese dishes in simple terms, making the experience comfortable and welcoming.",
+  "advice": "Để thu hút thực khách Singapore, hãy làm nổi bật các hương vị quen thuộc và món ăn mang lại cảm giác thân thuộc, đồng thời thể hiện nét đặc trưng Việt Nam – cân nhắc thêm một vài món ăn lấy cảm hứng từ Singapore như cơm gà Hải Nam hay laksa vào thực đơn. Tận dụng các nền tảng mạng xã hội phổ biến ở Singapore như Instagram và TikTok, bằng cách hợp tác với các KOL địa phương để chia sẻ trải nghiệm ăn uống ngay tại chỗ. Cung cấp các chương trình khuyến mãi vào các ngày lễ của Singapore (ví dụ: Quốc khánh, Tết Trung Thu) và tạo danh sách phát nhạc có các nghệ sĩ Singapore để khách cảm thấy gần gũi. Đảm bảo nhân viên được đào tạo chào đón khách thân thiện bằng tiếng Anh và, nếu có thể, vài câu đơn giản bằng tiếng Quan Thoại hoặc tiếng Malay để tăng sự gần gũi. Cuối cùng, thu thập phản hồi qua các khảo sát nhanh sau mỗi lượt đến để liên tục cải thiện trải nghiệm cho nhóm khách này.",
   "poolSizes": {
    "peers": 40,
    "all": 50,
    "artists": 50
-  }
+  },
+  "adviceEn": "To attract Singaporean diners, highlight familiar flavors and comfort foods while showcasing authentic Vietnamese twists—consider adding a few Singapore‑inspired dishes like Hainanese chicken rice or laksa to your menu. Leverage social media platforms popular in Singapore, such as Instagram and TikTok, by partnering with local influencers who can share their dining experiences in real time. Offer promotions during Singaporean holidays (e.g., National Day, Mid‑Autumn Festival) and create a playlist featuring Singaporean artists to make guests feel at home. Ensure your staff is trained to greet guests warmly in English and, if possible, a few phrases in Mandarin or Malay to enhance the personal touch. Finally, collect feedback through quick surveys after each visit to continuously refine the experience for this market."
  },
  "ledger": {
   "C1": {
@@ -19833,73 +19935,85 @@
    "detail": null
   },
   {
-   "ms": 3460,
+   "ms": 1504,
    "phase": "qloo",
    "label": "40 restaurants and 50 places with a Singapore signal; 8 tags stand out; 5 shared artists",
    "detail": null
   },
   {
-   "ms": 3762,
+   "ms": 1540,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 30–34, leans male"
   },
   {
-   "ms": 3762,
+   "ms": 1540,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 5503,
+   "ms": 2679,
    "phase": "agent",
-   "label": "Look up Qloo tags for “seafood”",
-   "detail": "Seafood, Seafood restaurant, Seafood market, Seafood wholesaler"
+   "label": "Look up Qloo tags for “seafood hotpot”",
+   "detail": "Seafood Hot Pot, Sea Food Hot Pot, Seafood Hot Pot Selection, Seafood Hot Pots"
   },
   {
-   "ms": 6613,
+   "ms": 3536,
    "phase": "agent",
    "label": "Look up Qloo tags for “halal”",
    "detail": "Halal, Halal food, Halal restaurant, Halal Options"
   },
   {
-   "ms": 8117,
+   "ms": 4344,
    "phase": "agent",
-   "label": "Look up Qloo tags for “street food”",
-   "detail": "Street Food, Street Food Experience, Street Food Style, Street Food Vibe"
+   "label": "Look up Qloo tags for “street food tour”",
+   "detail": "Street Food Tours, Street Food, Street Food Experience, Mexican Street Food"
   },
   {
-   "ms": 9290,
+   "ms": 5224,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “hotpot”",
+   "detail": "Hot Pot, Hot pot restaurant, Hot Pot Soup, Hot Pot Buffet"
+  },
+  {
+   "ms": 6775,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “seafood”",
+   "detail": "Seafood, Seafood restaurant, Seafood market, Seafood wholesaler"
+  },
+  {
+   "ms": 8229,
    "phase": "agent",
    "label": "Look up Qloo tags for “late night”",
    "detail": "Late Night, Late-night food, Late night meal restaurant, Late Night Dining"
   },
   {
-   "ms": 11032,
+   "ms": 10004,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
    "detail": "seafood hotpot → Seafood: 13/50 vs 3/50 (over-represented); street food tour → Street Food: 12/50 vs 4/50 (over-represented); late-night menu → Late Night: 15/50 vs 7/50 (over-represented); halal options → Halal: 9/50 vs 4/50 (over-represented)"
   },
   {
-   "ms": 12264,
+   "ms": 11103,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 12264,
+   "ms": 11103,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 80722,
+   "ms": 23005,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
- "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Restaurant in Ho Chi Minh City, Vietnam. Visitor market: people living in Singapore, Singapore.\n\nrestaurants in Ho Chi Minh City with a measurable Singapore signal (40 found), ranked by the taste of people in Singapore; \"city rank\" is the rank among Ho Chi Minh City's top restaurants without that signal:\nP1 Bánh Mì Hòa Mã (Ward 3) — market rank 1, city rank not in the top list — tags: Alleyway, Classic, Casual, Sizzling pan combination, Bottled water, Quick bite\nP2 Bánh Mì Hồng Hoa (Ben Thanh Ward) — market rank 2, city rank not in the top list — tags: Clean, Welcoming, Energetic, Late night food, Beer, Pate chaud\nP3 Pizza 4P's Ben Thanh (Khu phố 8) — market rank 3, city rank 3 — tags: City center, Cocktails, Cheese pizza, Beer, Global fusion cuisine, Urban\nP4 Maison Marou Flagship Saigon (Khu phố 9) — market rank 4, city rank 6 — tags: French, Artisan factory shop, Baking, Pain au chocolat, Specialty non alcoholic, Food photography\nP5 Anan Saigon (Khu phố 7) — market rank 5, city rank not in the top list — tags: Coffee, Global travel experiences, Alcohol, Coffee and tea, Historic, Chaotic\nP6 Bún Chả 145 (Pham Ngu Lao Ward) — market rank 6, city rank 22 — tags: Full bar, Cocktails, Vietnamese, Backpacking culture, Healthy options, Traditional street eatery\nP7 Ben Nghe Street Food (Khu phố 3) — market rank 7, city rank 1 — tags: Functional, Social, Casual, Beer, Late night food, Vegan meals\nP8 The Daun Restaurant (Khu phố 6) — market rank 8, city rank not in the top list — tags: Coffee, Vietnamese pancakes, Indonesian, Shophouse, Spring rolls, Casual\nP9 Bánh Mì Huynh Hoa - Lê Thị Riêng (Khu phố 4) — market rank 9, city rank not in the top list — tags: Busy, Sandwich, Local gastronomy, No frills, Asian, Street food\nP10 Pho Le (Ward 7) — market rank 10, city rank 27 — tags: No frills, City center, Beer, Soft drinks, Lively, Meatballs\n\nAll kinds of places in Ho Chi Minh City favoured by people in Singapore (hotels, restaurants, attractions), with their city-wide rank:\nP1 Bánh Mì Hòa Mã (restaurant, Ward 3) — market rank 1, city rank not in top 50\nP2 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank 2, city rank not in top 50\nP3 Pizza 4P's Ben Thanh (pizza, Khu phố 8) — market rank 3, city rank 37\nP4 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 4, city rank 49\nP5 Anan Saigon (vietnamese, Khu phố 7) — market rank 5, city rank not in top 50\nP11 Trung Nguyên Legend Café (coffee shop, Ben Thanh Ward) — market rank 6, city rank not in top 50\nP6 Bún Chả 145 (vietnamese, Pham Ngu Lao Ward) — market rank 7, city rank not in top 50\nP7 Ben Nghe Street Food (restaurant, Khu phố 3) — market rank 8, city rank 14\nP8 The Daun Restaurant (halal, Khu phố 6) — market rank 9, city rank not in top 50\nP9 Bánh Mì Huynh Hoa - Lê Thị Riêng (sandwich shop, Khu phố 4) — market rank 10, city rank not in top 50\nP10 Pho Le (pho, Ward 7) — market rank 11, city rank not in top 50\nP12 Liberty Central Saigon Citypoint Hotel (hotel, Khu phố 6) — market rank =12, city rank not in top 50\n\nTags clearly more common among the places people in Singapore favour in Ho Chi Minh City than among the city's top places:\nT1 \"No frills\" (ambience) — 12/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P2, P6, P9\nT2 \"Simple\" (decor) — 9/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P6, P8, P13\nT3 \"Street food exploration\" (interests) — 9/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P6, P8, P14, P15\nT4 \"Cozy\" (ambience) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P16, P17, P18, P19\nT5 \"Street level\" (setting) — 6/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P15, P13, P20, P21\nT6 \"Unpretentious\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P8, P17, P18\nT7 \"Cultural immersion\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P6, P22, P13, P17\nT8 \"Intimate\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P8, P23, P19, P24\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Singapore): skews 30–34, leans male\n\nMusic loved by people in Singapore that people in Ho Chi Minh City also love (bridge):\nC1 G-Dragon — Singapore rank 34, Ho Chi Minh City rank 10\nC2 CL — Singapore rank 41, Ho Chi Minh City rank 20\nC3 Taylor Swift — Singapore rank 44, Ho Chi Minh City rank 11\nC4 태양 — Singapore rank 45, Ho Chi Minh City rank 16\nC5 黃宗澤 — Singapore rank 50, Ho Chi Minh City rank 50\nMusic loved in Singapore but not in Ho Chi Minh City's top list (distinct):\nC6 Nathan Hartono — Singapore rank 2\nC7 林俊傑 — Singapore rank 3\nC8 周杰倫 — Singapore rank 4\nC9 孫燕姿 — Singapore rank 6\nC10 G.E.M. — Singapore rank 8\nC11 The Sam Willows — Singapore rank 9\n\nTV loved by people in Singapore that people in Ho Chi Minh City also love (bridge):\nC12 Start-Up — Singapore rank 22, Ho Chi Minh City rank 23\nC13 Hospital Playlist — Singapore rank 34, Ho Chi Minh City rank 34\nC14 Clean with Passion for Now — Singapore rank 44, Ho Chi Minh City rank 8\nC15 Run On — Singapore rank 48, Ho Chi Minh City rank 10\nC16 Lovestruck in the City — Singapore rank 50, Ho Chi Minh City rank 7\nTV loved in Singapore but not in Ho Chi Minh City's top list (distinct):\nC17 Emily in Paris — Singapore rank 21\nC18 Fresh Off the Boat — Singapore rank 26\nC19 True Beauty — Singapore rank 35\nC20 Someday or One Day — Singapore rank 47\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"seafood hotpot\" → tag \"Seafood\" (places): 13/50 of their favourites vs 3/50 city-wide — verdict over-represented — e.g. P5, P7, P25, P13\nI2 \"halal options\" → tag \"Halal\" (places): 9/50 of their favourites vs 4/50 city-wide — verdict over-represented — e.g. P4, P6, P7, P8\nI3 \"street food tour\" → tag \"Street Food\" (places): 12/50 of their favourites vs 4/50 city-wide — verdict over-represented — e.g. P1, P2, P6, P7\nI4 \"late-night menu\" → tag \"Late Night\" (places): 15/50 of their favourites vs 7/50 city-wide — verdict over-represented — e.g. P2, P5, P11, P7",
- "generatedAt": "2026-10-06T12:06:32.534Z"
+ "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b); translated by Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "facts": "Business: Restaurant in Ho Chi Minh City, Vietnam. Visitor market: people living in Singapore, Singapore.\n\nrestaurants in Ho Chi Minh City with a measurable Singapore signal (40 found), ranked by the taste of people in Singapore; \"city rank\" is the rank among Ho Chi Minh City's top restaurants without that signal:\nP1 Bánh Mì Hòa Mã (Ward 3) — market rank 1, city rank not in the top list — tags: Alleyway, Classic, Casual, Sizzling pan combination, Bottled water, Quick bite\nP2 Bánh Mì Hồng Hoa (Ben Thanh Ward) — market rank 2, city rank not in the top list — tags: Clean, Welcoming, Energetic, Late night food, Beer, Pate chaud\nP3 Pizza 4P's Ben Thanh (Khu phố 8) — market rank 3, city rank 3 — tags: City center, Cocktails, Cheese pizza, Beer, Global fusion cuisine, Urban\nP4 Maison Marou Flagship Saigon (Khu phố 9) — market rank 4, city rank 6 — tags: French, Artisan factory shop, Baking, Pain au chocolat, Specialty non alcoholic, Food photography\nP5 Anan Saigon (Khu phố 7) — market rank 5, city rank not in the top list — tags: Coffee, Global travel experiences, Alcohol, Coffee and tea, Historic, Chaotic\nP6 Bún Chả 145 (Pham Ngu Lao Ward) — market rank 6, city rank 22 — tags: Full bar, Cocktails, Vietnamese, Backpacking culture, Healthy options, Traditional street eatery\nP7 Ben Nghe Street Food (Khu phố 3) — market rank 7, city rank 1 — tags: Functional, Social, Casual, Beer, Late night food, Vegan meals\nP8 The Daun Restaurant (Khu phố 6) — market rank 8, city rank not in the top list — tags: Coffee, Vietnamese pancakes, Indonesian, Shophouse, Spring rolls, Casual\nP9 Bánh Mì Huynh Hoa - Lê Thị Riêng (Khu phố 4) — market rank 9, city rank not in the top list — tags: Busy, Sandwich, Local gastronomy, No frills, Asian, Street food\nP10 Pho Le (Ward 7) — market rank 10, city rank 27 — tags: No frills, City center, Beer, Soft drinks, Lively, Meatballs\n\nAll kinds of places in Ho Chi Minh City favoured by people in Singapore (hotels, restaurants, attractions), with their city-wide rank:\nP1 Bánh Mì Hòa Mã (restaurant, Ward 3) — market rank 1, city rank not in top 50\nP2 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank 2, city rank not in top 50\nP3 Pizza 4P's Ben Thanh (pizza, Khu phố 8) — market rank 3, city rank 37\nP4 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 4, city rank 49\nP5 Anan Saigon (vietnamese, Khu phố 7) — market rank 5, city rank not in top 50\nP11 Trung Nguyên Legend Café (coffee shop, Ben Thanh Ward) — market rank 6, city rank not in top 50\nP6 Bún Chả 145 (vietnamese, Pham Ngu Lao Ward) — market rank 7, city rank not in top 50\nP7 Ben Nghe Street Food (restaurant, Khu phố 3) — market rank 8, city rank 14\nP8 The Daun Restaurant (halal, Khu phố 6) — market rank 9, city rank not in top 50\nP9 Bánh Mì Huynh Hoa - Lê Thị Riêng (sandwich shop, Khu phố 4) — market rank 10, city rank not in top 50\nP10 Pho Le (pho, Ward 7) — market rank 11, city rank not in top 50\nP12 Liberty Central Saigon Citypoint Hotel (hotel, Khu phố 6) — market rank =12, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Singapore favour in Ho Chi Minh City (mostly restaurants, bars and hotels — not specifically restaurants) than among the city's top places. Do not write that people prefer restaurants with these traits; write that these traits are common in the places they favour:\nT1 \"No frills\" (ambience) — 12/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P2, P6, P9\nT2 \"Simple\" (decor) — 9/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P6, P8, P13\nT3 \"Street food exploration\" (interests) — 9/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P6, P8, P14, P15\nT4 \"Cozy\" (ambience) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P16, P17, P18, P19\nT5 \"Street level\" (setting) — 6/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P15, P13, P20, P21\nT6 \"Unpretentious\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P8, P17, P18\nT7 \"Cultural immersion\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P6, P22, P13, P17\nT8 \"Intimate\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P8, P23, P19, P24\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Singapore): skews 30–34, leans male\n\nMusic loved by people in Singapore that people in Ho Chi Minh City also love (bridge):\nC1 G-Dragon — Singapore rank 34, Ho Chi Minh City rank 10\nC2 CL — Singapore rank 41, Ho Chi Minh City rank 20\nC3 Taylor Swift — Singapore rank 44, Ho Chi Minh City rank 11\nC4 태양 — Singapore rank 45, Ho Chi Minh City rank 16\nC5 黃宗澤 — Singapore rank 50, Ho Chi Minh City rank 50\nMusic loved in Singapore but not in Ho Chi Minh City's top list (distinct):\nC6 Nathan Hartono — Singapore rank 2\nC7 林俊傑 — Singapore rank 3\nC8 周杰倫 — Singapore rank 4\nC9 孫燕姿 — Singapore rank 6\nC10 G.E.M. — Singapore rank 8\nC11 The Sam Willows — Singapore rank 9\n\nTV loved by people in Singapore that people in Ho Chi Minh City also love (bridge):\nC12 Start-Up — Singapore rank 22, Ho Chi Minh City rank 23\nC13 Hospital Playlist — Singapore rank 34, Ho Chi Minh City rank 34\nC14 Clean with Passion for Now — Singapore rank 44, Ho Chi Minh City rank 8\nC15 Run On — Singapore rank 48, Ho Chi Minh City rank 10\nC16 Lovestruck in the City — Singapore rank 50, Ho Chi Minh City rank 7\nTV loved in Singapore but not in Ho Chi Minh City's top list (distinct):\nC17 Emily in Paris — Singapore rank 21\nC18 Fresh Off the Boat — Singapore rank 26\nC19 True Beauty — Singapore rank 35\nC20 Someday or One Day — Singapore rank 47\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"seafood hotpot\" → tag \"Seafood\": carried by 13 of the 50 places people in Singapore favour vs 3 of the 50 places people in Ho Chi Minh City favour — verdict over-represented — e.g. P5, P7, P25, P13\nI2 \"halal options\" → tag \"Halal\": carried by 9 of the 50 places people in Singapore favour vs 4 of the 50 places people in Ho Chi Minh City favour — verdict over-represented — e.g. P4, P6, P7, P8\nI3 \"street food tour\" → tag \"Street Food\": carried by 12 of the 50 places people in Singapore favour vs 4 of the 50 places people in Ho Chi Minh City favour — verdict over-represented — e.g. P1, P2, P6, P7\nI4 \"late-night menu\" → tag \"Late Night\": carried by 15 of the 50 places people in Singapore favour vs 7 of the 50 places people in Ho Chi Minh City favour — verdict over-represented — e.g. P2, P5, P11, P7",
+ "generatedAt": "2026-10-06T22:30:08.213Z"
 }

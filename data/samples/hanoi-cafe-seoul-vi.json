@@ -8400,7 +8400,7 @@
     "name": "Egg Coffee"
    },
    "domain": "places",
-   "rank": 2,
+   "rank": 3,
    "of": 4,
    "verdict": "common",
    "ratio": 0.6,
@@ -8424,7 +8424,7 @@
     "name": "Live Music"
    },
    "domain": "places",
-   "rank": 3,
+   "rank": 4,
    "of": 4,
    "verdict": "too-few",
    "ratio": 0.5,
@@ -8467,123 +8467,216 @@
    "ref": "I4",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:specialty_dish:place:vegan_cake",
-    "name": "Vegan Cake"
+    "id": "urn:tag:genre:place:restaurant:vegan",
+    "name": "Vegan"
    },
    "domain": "places",
-   "rank": 4,
+   "rank": 2,
    "of": 4,
-   "verdict": "untested",
-   "ratio": null,
-   "marketCount": 0,
+   "verdict": "over-represented",
+   "ratio": 1.7,
+   "marketCount": 17,
    "marketTotal": 50,
-   "cityCount": 0,
+   "cityCount": 10,
    "cityTotal": 50,
-   "examples": []
+   "examples": [
+    "P7",
+    "P8",
+    "P10",
+    "P11"
+   ]
   }
  ],
  "brief": {
-  "headline": "Khách Seoul thích khám phá ẩm thực và không gian đơn giản",
-  "summary": "Xofa Cafe (Hàng Bông) là café hàng đầu trong danh sách 6 café Hà Nội có tín hiệu Seoul mạnh nhất, xếp hạng thị trường 1. Dữ liệu cho thấy người Seoul thường thích các nơi có phong cách đơn giản, sạch sẽ, phù hợp cho nhóm lớn và có bia. Những đặc điểm này có thể được áp dụng để cải thiện sự hấp dẫn của quán café.",
+  "headline": "Người dân Seoul ưa thích không gian trang trí đơn giản và sạch sẽ tại các địa điểm",
+  "summary": "Dữ liệu cho thấy các địa điểm được người dân Seoul ưa chuộng tại Hà Nội có xu hướng trang trí đơn giản và không gian sạch sẽ nhiều hơn đáng kể so với mức trung bình của thành phố. Hai đặc điểm này xuất hiện nhiều gấp bốn lần tại các địa điểm được người Seoul yêu thích, trở thành tín hiệu mạnh nhất để thu hút nhóm khách này. Việc điều chỉnh không gian và dịch vụ của quán cà phê theo những sở thích này có thể làm tăng sức hấp dẫn với du khách đến từ Seoul.",
   "actions": [
    {
-    "title": "Thêm bữa ăn khám phá ẩm thực",
-    "detail": "Cung cấp món ăn thay đổi tuần theo nguyên liệu địa phương để đáp ứng sở thích khám phá ẩm thực của khách Seoul.",
+    "title": "Tập trung vào trang trí đơn giản",
+    "detail": "Áp dụng phong cách thiết kế nội thất tối giản, gọn gàng để phản ánh mức độ phổ biến cao gấp 4 lần của phong cách trang trí đơn giản tại các địa điểm được người Seoul ưa chuộng.",
     "refs": [
-     "T1",
-     "P7"
+     "T2"
     ]
    },
    {
-    "title": "Thiết kế nội thất đơn giản và sạch sẽ",
-    "detail": "Áp dụng phong cách tối giản, màu trung tính và giữ gìn không gian sạch sẽ để phù hợp với xu hướng 'Simple' và 'Clean' mà người Seoul ưu tiên.",
+    "title": "Duy trì không gian sạch sẽ",
+    "detail": "Giữ không gian luôn gọn gàng và được chăm sóc tốt, phù hợp với tần suất xuất hiện cao gấp 4 lần của yếu tố sạch sẽ tại các địa điểm được người dân Seoul yêu thích.",
     "refs": [
-     "T2",
      "T3"
     ]
    },
    {
-    "title": "Tận dụng không gian cho nhóm lớn và cung cấp bia",
-    "detail": "Sắp xếp bàn ghế để tiếp nhận nhóm lớn và mở rộng danh mục đồ uống vớiseveral loại bia locally sourced.",
+    "title": "Cung cấp bia và các món ăn Việt Nam",
+    "detail": "Bổ sung bia vào thực đơn đồ uống và thêm các món ăn kiểu Việt Nam, vì bia và ẩm thực Việt Nam phổ biến hơn 2.1× và 2.8× tại các địa điểm được người Seoul ưa chuộng.",
     "refs": [
-     "T4",
-     "T5"
-    ]
-   },
-   {
-    "title": "Thêm playlist K‑pop",
-    "detail": "Phát nhạc K‑pop trong quán vì đây là ý tưởng được biểu thị mạnh (over-represented) trong sở thích của người Seoul.",
-    "refs": [
-     "I3"
+     "T5",
+     "T6"
     ]
    }
   ],
   "partners": [
    {
     "ref": "P7",
-    "why": "Khu Văn hoá ẩm thực Sen Tây Hồ là địa điểm hàng đầu được người Seoul ưa thích, phản ánh sự khám phá ẩm thực và khả năng tiếp nhận nhóm lớn."
+    "why": "Địa điểm buffet được xếp hạng cao, được khán giả Seoul yêu thích để khám phá ẩm thực, cho thấy sự quan tâm mạnh mẽ đến các trải nghiệm ẩm thực đa dạng."
    },
    {
     "ref": "P8",
-    "why": "Pho Quynh là món ăn được người Seoul chọn nhiều, cho thấy sự ưa thích về ẩm thực Việt Nam truyền thống và phù hợp với nhóm lớn."
+    "why": "Quán phở nổi tiếng có thứ hạng cao trên thị trường Seoul, được ghi nhận với bia, ẩm thực Việt Nam và phù hợp với nhóm khách lớn."
+   },
+   {
+    "ref": "P10",
+    "why": "Điểm đến bún chả được yêu thích, đạt điểm cao với du khách Seoul nhờ phục vụ bia, đồ ăn Việt và đón tiếp nhóm đông người."
    },
    {
     "ref": "P11",
-    "why": "Pizza 4P’s Tràng Tiền đứng hạng 5 trong thị trường Seoul, cho thấy sự chấp nhận của ẩm thực quốc tế và không gian thích hợp để giao lưu."
-   },
-   {
-    "ref": "P12",
-    "why": "Top of Hanoi là bar được người Seoul ưa thích, phản ánh nhu cầu về bia, rượu và không gian social."
+    "why": "Nhà hàng pizza đứng thứ năm trong danh sách các địa điểm được người Seoul ưa chuộng, cung cấp bia, đồ uống có cồn và không gian phù hợp với nhóm khách."
    }
   ],
   "playlist": [
    {
     "ref": "C1",
-    "why": "G‑Dragon rất hot ở Seoul và cũng được người Hà Nội lắng nghe nhiều (bridge artist)."
+    "why": "G-Dragon xếp hạng cao tại cả Seoul (4) và Hà Nội (9), cho thấy sức hút xuyên thị trường."
    },
    {
     "ref": "C2",
-    "why": "Sulli có độ phổ biến cao ở Seoul và xuất hiện trong bảng xếp hạng Hà Nội, thích hợp để tạo氣氛 trẻ trung."
+    "why": "SULLI được yêu thích tại Seoul (7) và cũng xuất hiện tại Hà Nội (46)."
    },
    {
     "ref": "C3",
-    "why": "Jennie là một trong những ca sĩ K‑pop được người Seoul yêu thích và cũng được biết đến ở Hà Nội."
+    "why": "Jennie có độ phổ biến lan rộng giữa hai thị trường (Seoul 10, Hà Nội 47)."
    },
    {
     "ref": "C4",
-    "why": "Số 영 (Suzy) được Seoul ưa chuộng và có thứ hạng tương đương ở Hà Nội, mang lại cảm giác quen thuộc."
+    "why": "수영 có thứ hạng tương đương tại Seoul (34) và Hà Nội (36)."
    },
    {
     "ref": "C5",
-    "why": "HyunA là biểu tượng âm nhạc K‑pop, được người Seoul lắng nghe và cũng có mặt trong sở thích Hà Nội."
+    "why": "HyunA có sự hiện diện tại cả hai nơi (Seoul 35, Hà Nội 37)."
    },
    {
     "ref": "C6",
-    "why": "Taeyang (태양) là ca sĩ Seoul được người Hà Nội biết và thích, giúp kết nối hai thị trường."
+    "why": "태양 được biết đến rộng rãi tại cả hai thành phố (Seoul 39, Hà Nội 17)."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Không nên làm egg coffee workshop là điểm chính vì đây là ý tưởng phổ biến (common) không tạo ra điểm khác biệt."
+    "note": "Workshop cà phê trứng phổ biến ở cả hai thị trường; cân nhắc giữ như một dịch vụ tùy chọn thay vì điểm nhấn chính."
    },
    {
     "ref": "I2",
-    "note": "Có thể thử live music vào thứ Sáu với chi phí thấp vì đây là ý tưởng còn ít dữ liệu (too-few)."
+    "note": "Nhạc sống vào tối thứ Sáu xuất hiện quá ít tại các địa điểm được người Seoul ưa chuộng để làm điểm tựa; thử nghiệm với các buổi biểu diễn nhỏ, chi phí thấp."
    },
    {
     "ref": "I3",
-    "note": "Nên thêm playlist K‑pop vì đây là ý tưởng được biểu thị mạnh (over-represented) trong sở thích của người Seoul."
+    "note": "Danh sách nhạc K Pop xuất hiện vượt trội tại các địa điểm được người Seoul yêu thích; triển khai phát nhạc K Pop thường xuyên để thu hút nhóm khách này."
    },
    {
     "ref": "I4",
-    "note": "Có thể thử bánh kek vegetarian với chi phí thấp vì đây là ý tưởng chưa được kiểm chứng (untested)."
+    "note": "Bánh chay phổ biến hơn tại các địa điểm được người Seoul ưa chuộng; thêm các món tráng miệng chay để đáp ứng nhu cầu."
    }
   ],
   "caveats": [
-   "Dữ liệu chỉ cho thấy mối quan hệ tương quan, không chứng minh rằng việc áp dụng những thay đổi này sẽ trực tiếp tăng doanh số.",
-   "Thông tin dựa trên sở thích tổng hợp của người Seoul living in Seoul, không phản ánh hành động cá nhân hoặc các yếu tố thời tiết, mùa vụ.",
-   "Mẫu dữ liệu có giới hạn (50 địa điểm được khảo sát) và có thể không đầy đủ biểu thị toàn bộ thị trường."
+   "Dữ liệu phản ánh tần suất tương đối, không phải chi tiêu thực tế hay tần suất ghé thăm của người dân Seoul.",
+   "Không chứng minh rằng việc áp dụng các đặc điểm này sẽ làm tăng doanh thu hay lòng trung thành của khách hàng.",
+   "Các tín hiệu dựa trên các địa điểm hiện có tại Hà Nội; sở thích có thể thay đổi hoặc khác biệt trong bối cảnh riêng của từng quán cà phê."
+  ],
+  "dropped": [],
+  "lang": "vi"
+ },
+ "briefEn": {
+  "headline": "People in Seoul prefer simple decor and clean ambience in venues",
+  "summary": "The data shows that venues favoured by Seoul residents in Hanoi are far more likely to feature simple decor and clean ambience than the city’s average. These traits appear four times as often among Seoul‑favoured places, making them the strongest signals for attracting that audience. Aligning a café’s environment and offerings with these preferences can improve its appeal to Seoul‑based visitors.",
+  "actions": [
+   {
+    "title": "Emphasize simple decor",
+    "detail": "Adopt a minimal, uncluttered interior design to reflect the 4× higher prevalence of simple decor among Seoul‑favoured places.",
+    "refs": [
+     "T2"
+    ]
+   },
+   {
+    "title": "Maintain a clean ambience",
+    "detail": "Keep the space tidy and well‑maintained, matching the 4× higher occurrence of clean ambience in venues preferred by Seoul residents.",
+    "refs": [
+     "T3"
+    ]
+   },
+   {
+    "title": "Offer beer and Vietnamese food options",
+    "detail": "Add beer to the drink menu and include Vietnamese‑style bites, as beer and Vietnamese cuisine are 2.1× and 2.8× more common among Seoul‑favoured spots.",
+    "refs": [
+     "T5",
+     "T6"
+    ]
+   }
+  ],
+  "partners": [
+   {
+    "ref": "P7",
+    "why": "Top‑ranked buffet venue favoured by Seoul audiences for culinary exploration, indicating strong interest in diverse food experiences."
+   },
+   {
+    "ref": "P8",
+    "why": "Popular pho shop with high Seoul market rank, noted for beer, Vietnamese cuisine and large‑group suitability."
+   },
+   {
+    "ref": "P10",
+    "why": "Well‑liked bún chả spot that scores highly with Seoul visitors for beer, Vietnamese food and accommodating larger parties."
+   },
+   {
+    "ref": "P11",
+    "why": "Pizza restaurant ranked fifth among Seoul‑favoured places, offering beer, alcohol and a setting that appeals to groups."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "G‑Dragon ranks high in both Seoul (4) and Hanoi (9), showing cross‑market appeal."
+   },
+   {
+    "ref": "C2",
+    "why": "Sulli is favoured in Seoul (7) and also heard in Hanoi (46)."
+   },
+   {
+    "ref": "C3",
+    "why": "Jennie’s popularity bridges the markets (Seoul 10, Hanoi 47)."
+   },
+   {
+    "ref": "C4",
+    "why": "수영 enjoys comparable rankings in Seoul (34) and Hanoi (36)."
+   },
+   {
+    "ref": "C5",
+    "why": "HyunA’s reach overlaps (Seoul 35, Hanoi 37)."
+   },
+   {
+    "ref": "C6",
+    "why": "태양 is well‑known in both cities (Seoul 39, Hanoi 17)."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Egg coffee workshop is common across both markets; consider keeping it as an optional feature rather than a main draw."
+   },
+   {
+    "ref": "I2",
+    "note": "Live music on Fridays appears in too few Seoul‑favoured places to rely on; test it with a low‑cost occasional performance."
+   },
+   {
+    "ref": "I3",
+    "note": "K‑pop playlist is strongly over‑represented among Seoul‑favoured artists; implement a regular K‑pop soundtrack to attract the audience."
+   },
+   {
+    "ref": "I4",
+    "note": "Vegan cakes are over‑represented in Seoul‑favoured venues; add vegan dessert options to meet this demand."
+   }
+  ],
+  "caveats": [
+   "The data reflects relative frequencies, not actual spending or visit frequency of Seoul residents.",
+   "It does not prove that adopting these traits will increase revenue or customer loyalty for a café.",
+   "Signals are based on existing venues in Hanoi; preferences may evolve or differ for café‑specific contexts."
   ],
   "dropped": []
  },
@@ -8617,9 +8710,9 @@
     "allRank": null
    },
    {
-    "name": "Hidden Bean Café",
-    "qlooName": null,
-    "inQloo": false,
+    "name": "Hidden Gem Café",
+    "qlooName": "Hidden Gem Cafe Hanoi",
+    "inQloo": true,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
@@ -8637,18 +8730,13 @@
   ],
   "artists": [
    {
-    "name": "IU",
-    "qlooRank": 8,
-    "localRank": null
-   },
-   {
     "name": "BTS",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "BLACKPINK",
-    "qlooRank": null,
+    "name": "IU",
+    "qlooRank": 8,
     "localRank": null
    },
    {
@@ -8657,17 +8745,23 @@
     "localRank": null
    },
    {
-    "name": "Zico",
-    "qlooRank": 16,
+    "name": "Zion.T",
+    "qlooRank": 24,
+    "localRank": null
+   },
+   {
+    "name": "Dean",
+    "qlooRank": null,
     "localRank": null
    }
   ],
-  "advice": "To attract Korean visitors, highlight familiar flavors by adding Korean‑style pastries or drinks (e.g., bingsu, dalgona coffee) alongside your Vietnamese menu. Use Korean language signage and menus, and promote your café on Naver Blog, KakaoStory, and Instagram with hashtags popular in Seoul. Partner with Korean travel agencies or student groups to offer special discounts or loyalty cards for their members. Host occasional K‑pop music nights or showcase Korean indie playlists to create a cultural connection. Finally, encourage satisfied Korean guests to leave reviews in Korean on platforms like Naver Maps, which will boost visibility among their peers.",
+  "advice": "Để thu hút thêm du khách Hàn Quốc, hãy cân nhắc bổ sung một vài món ăn nhẹ hoặc đồ uống kiểu Hàn (như bingsu, bánh mì nướng Hàn Quốc hoặc trà lúa mạch) bên cạnh thực đơn Việt Nam. Cung cấp Wi-Fi miễn phí, tốc độ cao và dán bảng hiệu hoặc thực đơn tiếng Hàn đơn giản để khách cảm thấy thoải mái khi sử dụng không gian. Phát danh sách nhạc K-Pop/K-Indie được chọn lọc vào khung giờ cao điểm sẽ tạo ra bầu không khí quen thuộc, khuyến khích khách ở lại lâu hơn. Cuối cùng, tương tác với các cộng đồng du lịch Hàn Quốc trên các nền tảng như Naver Blog hoặc Instagram, cung cấp các ưu đãi đặc biệt hoặc thẻ tích điểm cho du khách đến từ Seoul.",
   "poolSizes": {
    "peers": 6,
    "all": 50,
    "artists": 50
-  }
+  },
+  "adviceEn": "To draw more Korean visitors, consider adding a few Korean‑style snacks or drinks (such as bingsu, Korean toast, or barley tea) alongside your Vietnamese menu. Provide free, high‑speed Wi‑Fi and display simple Korean signage or menus so guests feel comfortable navigating the space. Playing a curated K‑pop/K‑indie playlist during peak hours creates a familiar atmosphere that encourages longer stays. Finally, engage with Korean travel communities on platforms like Naver Blog or Instagram, offering special discounts or loyalty cards for Seoul‑based travelers."
  },
  "ledger": {
   "P1": {
@@ -20330,17 +20424,22 @@
    "ref": "I4",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:specialty_dish:place:vegan_cake",
-    "name": "Vegan Cake",
+    "id": "urn:tag:genre:place:restaurant:vegan",
+    "name": "Vegan",
     "idea": "vegan cakes",
     "domain": "places",
-    "marketCount": 0,
+    "marketCount": 17,
     "marketTotal": 50,
-    "cityCount": 0,
+    "cityCount": 10,
     "cityTotal": 50,
-    "ratio": null,
-    "verdict": "untested",
-    "examples": [],
+    "ratio": 1.7,
+    "verdict": "over-represented",
+    "examples": [
+     "P7",
+     "P8",
+     "P10",
+     "P11"
+    ],
     "ref": "I4"
    },
    "source": {
@@ -20357,85 +20456,91 @@
    "detail": null
   },
   {
-   "ms": 0,
+   "ms": 1,
    "phase": "qloo",
    "label": "Music and TV loved in Seoul, checked against Hanoi",
    "detail": null
   },
   {
-   "ms": 3428,
+   "ms": 2675,
    "phase": "qloo",
    "label": "6 cafés and 50 places with a Seoul signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 4105,
+   "ms": 3237,
    "phase": "qloo",
    "label": "Look up “Xofa Cafe” and rank it with the favourites",
    "detail": "Xofa Cafe: rank 1 of 6"
   },
   {
-   "ms": 4105,
+   "ms": 3237,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 25–29, leans female"
   },
   {
-   "ms": 4106,
+   "ms": 3237,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 6091,
+   "ms": 4758,
    "phase": "agent",
    "label": "Look up Qloo tags for “egg coffee”",
    "detail": "Egg Coffee, Egg Coffee And Coconut Coffee, Egg Coffee With, Egg Coffee Ice"
   },
   {
-   "ms": 7165,
+   "ms": 5650,
    "phase": "agent",
    "label": "Look up Qloo tags for “live music”",
    "detail": "Live Music, Live music venue, Live music bar"
   },
   {
-   "ms": 8454,
+   "ms": 6330,
    "phase": "agent",
    "label": "Look up Qloo tags for “K-pop”",
    "detail": "K Pop, Kpop, K-POP Themed, K-Pop Fans"
   },
   {
-   "ms": 9465,
+   "ms": 6955,
    "phase": "agent",
    "label": "Look up Qloo tags for “vegan cake”",
    "detail": "Vegan Cake, Vegan Cakes, Vegan Cake Of The Day, Vegan Chocolate Cake"
   },
   {
-   "ms": 11176,
+   "ms": 8164,
    "phase": "agent",
-   "label": "Score 4 ideas against the two lists",
-   "detail": "K-pop playlist → K Pop: 37/50 vs 21/50 (over-represented); egg coffee workshop → Egg Coffee: 3/50 vs 5/50 (common); live music on Fridays → Live Music: 1/50 vs 2/50 (too-few); vegan cakes → Vegan Cake: 0/50 vs 0/50 (untested)"
+   "label": "Look up Qloo tags for “vegan”",
+   "detail": "Vegan, Vegan Meals, Vegan restaurant, Vegans"
   },
   {
-   "ms": 12149,
+   "ms": 9812,
+   "phase": "agent",
+   "label": "Score 4 ideas against the two lists",
+   "detail": "K-pop playlist → K Pop: 37/50 vs 21/50 (over-represented); vegan cakes → Vegan: 17/50 vs 10/50 (over-represented); egg coffee workshop → Egg Coffee: 3/50 vs 5/50 (common); live music on Fridays → Live Music: 1/50 vs 2/50 (too-few)"
+  },
+  {
+   "ms": 10980,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 12149,
+   "ms": 10980,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 31704,
+   "ms": 20626,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
- "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Hanoi, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Hanoi with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Hanoi's top cafés without that signal:\nP1 Xofa Cafe (Hàng Bông) — market rank 1, city rank 1 — tags: Relaxing, Small plates, Stylish, Healthy options, Asian, Mille crepe cake\nP2 Kafeville (Truc Bach Ward) — market rank 2, city rank not in the top list — tags: Comfortable, Quiet, Literary culture, Panama bouquete, Specialty coffee roasting, Slow living\nP3 Vivienne Cafe&Restaurant (Hàng Trống) — market rank 3, city rank not in the top list — tags: Casual, Urban photography, City center, Vietnamese cafe, Beer, Egg coffee\nP4 Highlands Coffee Big C Ha Noi (Trung Hòa) — market rank =4, city rank not in the top list — tags: Beer, Convenient, Modern, Social networking, Lotus tea, Casual\nP5 Oriberry Coffee (Quang An Ward) — market rank =4, city rank not in the top list — tags: Late night food, Quiet, Local ingredients, Quick bite, Beef banh mi, Fresh juices\nP6 Serein Cafe & Lounge (Dong Xuan Ward) — market rank =4, city rank not in the top list — tags: Beer, Stylish, Spirits, Cocktails, Coffee and tea, Craft beer\n\nAll kinds of places in Hanoi favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Khu Văn hoá ẩm thực Sen Tây Hồ (buffet, Nhat Tan Ward) — market rank 1, city rank not in top 50\nP8 Pho Quynh (pho, Phú Đô) — market rank 2, city rank 29\nP9 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 3, city rank not in top 50\nP10 Bún chả Hương Liên (vietnamese, Phạm Đình Hổ) — market rank 4, city rank 24\nP11 Pizza 4P’s Tràng Tiền (pizza, Tràng Tiền) — market rank 5, city rank 7\nP12 Top of Hanoi (bar, Ngọc Khánh) — market rank 6, city rank not in top 50\nP13 Apricot Hotel (hotel, Hàng Trống) — market rank =7, city rank not in top 50\nP14 Bún Chả Số 1 Hàng Mành (restaurant, Hàng Gai) — market rank =7, city rank not in top 50\nP15 Madame Hien - Vietnamese Restaurant Hanoi (vietnamese, Hàng Bạc) — market rank 9, city rank not in top 50\nP16 Somerset Grand Hanoi (hotel:serviced accommodation, Trần Hưng Đạo) — market rank 10, city rank not in top 50\nP17 AIRA Boutique Hanoi Hotel & Spa (hotel, Dien Bien Ward) — market rank 11, city rank 42\nP18 RuNam Nha Tho Street (restaurant, Hàng Trống) — market rank =12, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Seoul favour in Hanoi (mostly restaurants, bars and hotels — not specifically cafés) than among the city's top places. Do not write that people prefer cafés with these traits; write that these traits are common in the places they favour:\nT1 \"Culinary exploration\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P7, P19, P20, P21\nT2 \"Simple\" (decor) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P10, P22, P23\nT3 \"Clean\" (ambience) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P24, P19, P20\nT4 \"Large group\" (ambience) — 29/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT5 \"Beer\" (offerings) — 30/50 of their favourites vs 14/50 city-wide, 2.1× as common — e.g. P7, P8, P10, P11\nT6 \"Vietnamese\" (cuisine) — 17/50 of their favourites vs 6/50 city-wide, 2.8× as common — e.g. P7, P8, P10, P14\nT7 \"Alcohol\" (offerings) — 28/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT8 \"Boutique\" (decor) — 7/50 of their favourites vs 2/50 city-wide, 3.5× as common — e.g. P13, P17, P20, P25\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 25–29, leans female\n\nMusic loved by people in Seoul that people in Hanoi also love (bridge):\nC1 G-Dragon — Seoul rank 4, Hanoi rank 9\nC2 SULLI — Seoul rank 7, Hanoi rank 46\nC3 Jennie — Seoul rank 10, Hanoi rank 47\nC4 수영 — Seoul rank 34, Hanoi rank 36\nC5 HyunA — Seoul rank 35, Hanoi rank 37\nC6 태양 — Seoul rank 39, Hanoi rank 17\nMusic loved in Seoul but not in Hanoi's top list (distinct):\nC7 Suzy — Seoul rank 2\nC8 Dynamic Duo — Seoul rank 3\nC9 Beenzino — Seoul rank 5\nC10 SUNMI — Seoul rank 6\nC11 IU — Seoul rank 8\nC12 크리스탈 — Seoul rank 9\n\nTV loved by people in Seoul that people in Hanoi also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Hanoi rank 28\nC14 Clean with Passion for Now — Seoul rank 9, Hanoi rank 13\nC15 Start-Up — Seoul rank 14, Hanoi rank 21\nC16 Call It Love — Seoul rank 18, Hanoi rank 36\nC17 Run On — Seoul rank 29, Hanoi rank 7\nC18 Itaewon Class — Seoul rank 32, Hanoi rank 10\nTV loved in Seoul but not in Hanoi's top list (distinct):\nC19 Live — Seoul rank 5\nC20 Our Blues — Seoul rank 12\nC21 The Devil's Plan — Seoul rank 22\nC22 Melloga Chejil — Seoul rank 36\nC23 I'm Not a Robot — Seoul rank 42\nC24 My Country: The New Age — Seoul rank 44\n\nP1 Owner's place Xofa Cafe ranks 1 of 6 when Qloo ranks it with the top market favourites.\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"egg coffee workshop\" → tag \"Egg Coffee\": carried by 3 of the 50 places people in Seoul favour vs 5 of the 50 places people in Hanoi favour — verdict common — e.g. P15, P3, P26\nI2 \"live music on Fridays\" → tag \"Live Music\": carried by 1 of the 50 places people in Seoul favour vs 2 of the 50 places people in Hanoi favour — verdict too-few — e.g. P27\nI3 \"K-pop playlist\" → tag \"K Pop\": carried by 37 of the 50 artists people in Seoul favour vs 21 of the 50 artists people in Hanoi favour — verdict over-represented — e.g. C25, C7, C1, C10\nI4 \"vegan cakes\" → tag \"Vegan Cake\": carried by 0 of the 50 places people in Seoul favour vs 0 of the 50 places people in Hanoi favour — verdict untested",
- "generatedAt": "2026-10-06T12:16:03.867Z"
+ "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b); translated by Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "facts": "Business: Cafe in Hanoi, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Hanoi with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Hanoi's top cafés without that signal:\nP1 Xofa Cafe (Hàng Bông) — market rank 1, city rank 1 — tags: Relaxing, Small plates, Stylish, Healthy options, Asian, Mille crepe cake\nP2 Kafeville (Truc Bach Ward) — market rank 2, city rank not in the top list — tags: Comfortable, Quiet, Literary culture, Panama bouquete, Specialty coffee roasting, Slow living\nP3 Vivienne Cafe&Restaurant (Hàng Trống) — market rank 3, city rank not in the top list — tags: Casual, Urban photography, City center, Vietnamese cafe, Beer, Egg coffee\nP4 Highlands Coffee Big C Ha Noi (Trung Hòa) — market rank =4, city rank not in the top list — tags: Beer, Convenient, Modern, Social networking, Lotus tea, Casual\nP5 Oriberry Coffee (Quang An Ward) — market rank =4, city rank not in the top list — tags: Late night food, Quiet, Local ingredients, Quick bite, Beef banh mi, Fresh juices\nP6 Serein Cafe & Lounge (Dong Xuan Ward) — market rank =4, city rank not in the top list — tags: Beer, Stylish, Spirits, Cocktails, Coffee and tea, Craft beer\n\nAll kinds of places in Hanoi favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Khu Văn hoá ẩm thực Sen Tây Hồ (buffet, Nhat Tan Ward) — market rank 1, city rank not in top 50\nP8 Pho Quynh (pho, Phú Đô) — market rank 2, city rank 29\nP9 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 3, city rank not in top 50\nP10 Bún chả Hương Liên (vietnamese, Phạm Đình Hổ) — market rank 4, city rank 24\nP11 Pizza 4P’s Tràng Tiền (pizza, Tràng Tiền) — market rank 5, city rank 7\nP12 Top of Hanoi (bar, Ngọc Khánh) — market rank 6, city rank not in top 50\nP13 Apricot Hotel (hotel, Hàng Trống) — market rank =7, city rank not in top 50\nP14 Bún Chả Số 1 Hàng Mành (restaurant, Hàng Gai) — market rank =7, city rank not in top 50\nP15 Madame Hien - Vietnamese Restaurant Hanoi (vietnamese, Hàng Bạc) — market rank 9, city rank not in top 50\nP16 Somerset Grand Hanoi (hotel:serviced accommodation, Trần Hưng Đạo) — market rank 10, city rank not in top 50\nP17 AIRA Boutique Hanoi Hotel & Spa (hotel, Dien Bien Ward) — market rank 11, city rank 42\nP18 RuNam Nha Tho Street (restaurant, Hàng Trống) — market rank =12, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Seoul favour in Hanoi (mostly restaurants, bars and hotels — not specifically cafés) than among the city's top places. Do not write that people prefer cafés with these traits; write that these traits are common in the places they favour:\nT1 \"Culinary exploration\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P7, P19, P20, P21\nT2 \"Simple\" (decor) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P10, P22, P23\nT3 \"Clean\" (ambience) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P24, P19, P20\nT4 \"Large group\" (ambience) — 29/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT5 \"Beer\" (offerings) — 30/50 of their favourites vs 14/50 city-wide, 2.1× as common — e.g. P7, P8, P10, P11\nT6 \"Vietnamese\" (cuisine) — 17/50 of their favourites vs 6/50 city-wide, 2.8× as common — e.g. P7, P8, P10, P14\nT7 \"Alcohol\" (offerings) — 28/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT8 \"Boutique\" (decor) — 7/50 of their favourites vs 2/50 city-wide, 3.5× as common — e.g. P13, P17, P20, P25\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 25–29, leans female\n\nMusic loved by people in Seoul that people in Hanoi also love (bridge):\nC1 G-Dragon — Seoul rank 4, Hanoi rank 9\nC2 SULLI — Seoul rank 7, Hanoi rank 46\nC3 Jennie — Seoul rank 10, Hanoi rank 47\nC4 수영 — Seoul rank 34, Hanoi rank 36\nC5 HyunA — Seoul rank 35, Hanoi rank 37\nC6 태양 — Seoul rank 39, Hanoi rank 17\nMusic loved in Seoul but not in Hanoi's top list (distinct):\nC7 Suzy — Seoul rank 2\nC8 Dynamic Duo — Seoul rank 3\nC9 Beenzino — Seoul rank 5\nC10 SUNMI — Seoul rank 6\nC11 IU — Seoul rank 8\nC12 크리스탈 — Seoul rank 9\n\nTV loved by people in Seoul that people in Hanoi also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Hanoi rank 28\nC14 Clean with Passion for Now — Seoul rank 9, Hanoi rank 13\nC15 Start-Up — Seoul rank 14, Hanoi rank 21\nC16 Call It Love — Seoul rank 18, Hanoi rank 36\nC17 Run On — Seoul rank 29, Hanoi rank 7\nC18 Itaewon Class — Seoul rank 32, Hanoi rank 10\nTV loved in Seoul but not in Hanoi's top list (distinct):\nC19 Live — Seoul rank 5\nC20 Our Blues — Seoul rank 12\nC21 The Devil's Plan — Seoul rank 22\nC22 Melloga Chejil — Seoul rank 36\nC23 I'm Not a Robot — Seoul rank 42\nC24 My Country: The New Age — Seoul rank 44\n\nP1 Owner's place Xofa Cafe ranks 1 of 6 when Qloo ranks it with the top market favourites.\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"egg coffee workshop\" → tag \"Egg Coffee\": carried by 3 of the 50 places people in Seoul favour vs 5 of the 50 places people in Hanoi favour — verdict common — e.g. P15, P3, P26\nI2 \"live music on Fridays\" → tag \"Live Music\": carried by 1 of the 50 places people in Seoul favour vs 2 of the 50 places people in Hanoi favour — verdict too-few — e.g. P27\nI3 \"K-pop playlist\" → tag \"K Pop\": carried by 37 of the 50 artists people in Seoul favour vs 21 of the 50 artists people in Hanoi favour — verdict over-represented — e.g. C25, C7, C1, C10\nI4 \"vegan cakes\" → tag \"Vegan\": carried by 17 of the 50 places people in Seoul favour vs 10 of the 50 places people in Hanoi favour — verdict over-represented — e.g. P7, P8, P10, P11",
+ "generatedAt": "2026-10-06T22:21:05.792Z"
 }

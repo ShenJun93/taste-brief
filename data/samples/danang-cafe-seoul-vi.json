@@ -7283,120 +7283,216 @@
   }
  ],
  "brief": {
-  "headline": "Brunch menu và không gian chào đón được ưa chuộng bởi người Seoul ở Đà Nẵng",
-  "summary": "Dựa trên tín hiệu Seoul, menu brunch là yếu tố được ưu đại hơn so với trung bình thành phố, trong khi không gian chào đón cũng xuất hiện thường xuyên hơn. Các yếu tố như cà phê dừa, view biển hoặc playlist K-pop chỉ phổ biến như mức độ chung, nên không nên làm điểm nhấn chính.",
+  "headline": "Không khí thân thiện thu hút người dân Seoul đến các địa điểm ở Đà Nẵng.",
+  "summary": "Người dân Seoul ưa thích những địa điểm có không khí thân thiện, xuất hiện ở 33 trên 50 địa điểm yêu thích tại Đà Nẵng của họ, so với 19 trên 50 địa điểm trên toàn thành phố (phổ biến hơn 1.7×). Họ cũng đặc biệt ưa chuộng cà phê dừa, dịch vụ quán bar đầy đủ/rượu vang và thực đơn bữa trưa muộn (brunch), tất cả đều xuất hiện thường xuyên hơn nhiều trong các địa điểm yêu thích của người Seoul so với mức trung bình toàn thành phố.",
   "actions": [
    {
-    "title": "Nhấn mạnh menu brunch",
-    "detail": "Thêm các món brunch đặc trưng và quảng bá chúng như điểm mạnh của quán, dựa trên sự über‑represented của ý tưởng Brunch.",
+    "title": "Tập trung vào không khí thân thiện",
+    "detail": "Đào tạo nhân viên phục vụ ấm áp, chu đáo và tạo các khu vực ngồi thoải mái để phù hợp với không khí mà người dân Seoul yêu thích.",
+    "refs": [
+     "T3"
+    ]
+   },
+   {
+    "title": "Thêm cà phê dừa vào thực đơn",
+    "detail": "Giới thiệu các loại đồ uống cà phê làm từ dừa, vì món này phổ biến hơn 7× ở các địa điểm được người Seoul yêu thích so với mức trung bình toàn thành phố.",
+    "refs": [
+     "T2"
+    ]
+   },
+   {
+    "title": "Cung cấp quán bar đầy đủ với lựa chọn rượu vang",
+    "detail": "Mở rộng dịch vụ đồ uống bằng cách có quán bar đầy đủ và lựa chọn rượu vang, phản ánh mức độ phổ biến cao hơn 2.6× và 2.0× đối với quán bar đầy đủ và rượu vang ở các địa điểm được người Seoul ưa chuộng.",
+    "refs": [
+     "T4",
+     "T8"
+    ]
+   },
+   {
+    "title": "Giới thiệu thực đơn bữa trưa muộn (brunch)",
+    "detail": "Triển khai dịch vụ brunch, vì brunch xuất hiện nhiều hơn rõ rệt ở các địa điểm được người Seoul yêu thích (17/50 so với 7/50 trên toàn thành phố).",
     "refs": [
      "I3"
-    ]
-   },
-   {
-    "title": "Không làm điểm nhấn cà phê dừa",
-    "detail": "Vì ý tưởng Coffee chỉ common, nên giữ cà phê dừa như một món thường mà không cần đầu tư đặc biệt hoặc quảng bá mạnh.",
-    "refs": [
-     "I2"
-    ]
-   },
-   {
-    "title": "Tránh dựa vào view biển làm điểm bán",
-    "detail": "Ý tưởng Beachfront về beachfront cũng chỉ common, vì vậy không nên đầu tư lớn vào terrace view biển mà nên tập trung vào yếu tố khác biệt hơn.",
-    "refs": [
-     "I1"
-    ]
-   },
-   {
-    "title": "Giữ playlist K-pop như nhạc nền thông thường",
-    "detail": "Ý tưởng K Pop về K-pop playlist cũng chỉ common, nên dùng nó như nhạc nền bình thường thay vì làm chủ đề chính.",
-    "refs": [
-     "I4"
     ]
    }
   ],
   "partners": [
    {
-    "ref": "P7",
-    "why": "Có thị trường Seoul rank 1 và ambience auténtic, welcoming, full bar – phù hợp để gợi ý khách Seoul thưởng thức bữa brunch."
+    "ref": "P1",
+    "why": "Quán cà phê được xếp hạng cao nhất trong số người dân Seoul (xếp hạng thị trường 1) và là một địa điểm yêu thích được công nhận."
    },
    {
-    "ref": "P8",
-    "why": "Là resort với mức Seoul rank 2, có không gian welcoming và full bar, thích hợp để kết hợp brunch và giải trí nhẹ."
+    "ref": "P2",
+    "why": "Quán cà phê được yêu thích thứ hai bởi người dân Seoul (xếp hạng thị trường 2)."
+   },
+   {
+    "ref": "P7",
+    "why": "Địa điểm yêu thích hàng đầu tổng thể của người dân Seoul (xếp hạng thị trường 1), phục vụ ẩm thực Việt Nam."
    },
    {
     "ref": "P12",
-    "why": "Có city rank 1 và Seoul rank 7, mang lại uy tín và không gian rộng rãi để tổ chức sự kiện brunch."
-   },
-   {
-    "ref": "P1",
-    "why": "Có Seoul rank 4 và các tag như fresh juices, retro, coconut cacao – thể hiện phong cách mà khách Seoul thích."
+    "why": "Khu nghỉ dưỡng được ưa chuộng cao bởi người dân Seoul (xếp hạng thị trường 7) và là khu nghỉ dưỡng được xếp hạng cao nhất thành phố (xếp hạng thành phố 1)."
    }
   ],
   "playlist": [
    {
     "ref": "C1",
-    "why": "Seoul rank 2, Da Nang rank 1 – biểu hiện sự chồng lấp mạnh mẽ giữa hai thị trường."
+    "why": "Được yêu thích bởi người dân Seoul (xếp hạng 2) và cũng phổ biến ở Đà Nẵng (xếp hạng 1)."
    },
    {
     "ref": "C2",
-    "why": "Seoul rank 3, Da Nang rank 48 – vẫn được yêu thích ở Seoul, có thể thử chơi để đo lường phản hồi."
+    "why": "Xếp hạng Seoul 3, Đà Nẵng 48 – vẫn được biết đến ở cả hai thị trường."
    },
    {
     "ref": "C3",
-    "why": "Seoul rank 4, Da Nang rank 3 – cao ở cả hai thị trường, phù hợp cho playlist chính."
+    "why": "Xếp hạng Seoul 4, Đà Nẵng 3 – sức hấp dẫn mạnh mẽ trên cả hai thị trường."
    },
    {
     "ref": "C4",
-    "why": "Seoul rank 5, Da Nang rank 32 – phổ biến ở Seoul, có thể đưa vào ca khúc phụ."
+    "why": "Xếp hạng Seoul 5, Đà Nẵng 32 – được biết đến ở cả hai thành phố."
    },
    {
     "ref": "C5",
-    "why": "Seoul rank 6, Da Nang rank 17 – mức độ trung bình ở Da Nang nhưng vẫn được biết đến ở Seoul."
+    "why": "Xếp hạng Seoul 6, Đà Nẵng 17 – được đánh giá cao tại cả hai địa phương."
    },
    {
     "ref": "C6",
-    "why": "Seoul rank 7, Da Nang rank 5 – được yêu thích ở cả hai nơi, tốt để tạo cảm giác quen thuộc."
+    "why": "Xếp hạng Seoul 7, Đà Nẵng 5 – phổ biến ở cả hai đối tượng."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "sea view terrace (Beachfront): common – không nên làm điểm nhấn chính."
+    "note": "Sân hiên nhìn biển (Beachfront) – phổ biến: xuất hiện tương đương nhau ở các địa điểm được người Seoul yêu thích và toàn thành phố; không phải yếu tố phân biệt."
    },
    {
     "ref": "I2",
-    "note": "coconut coffee (Coffee): common – giữ như món thường, không cần đầu tư đặc biệt."
+    "note": "Cà phê dừa – phổ biến: mức độ xuất hiện tương tự ở cả hai nhóm; không mang lại lợi thế độc đáo."
    },
    {
     "ref": "I3",
-    "note": "brunch menu (Brunch): over-represented – nên nhấn mạnh và phát triển thêm món brunch."
+    "note": "Thực đơn brunch – xuất hiện nhiều hơn: phổ biến đáng kể ở các địa điểm được người Seoul yêu thích, cho thấy cơ hội phát triển mạnh."
    },
    {
     "ref": "I4",
-    "note": "K-pop playlist (K Pop): common – dùng như nhạc nền thông thường."
+    "note": "Danh sách nhạc K-pop – phổ biến: mức độ tương đương nhau; tùy chọn thay vì bắt buộc."
    }
   ],
   "caveats": [
-   "Dữ liệu chỉ cho thấy mối quan hệ tương đồng, không chứng minh rằng việc thay đổi menu hoặc ambience sẽ trực tiếp tăng lượng khách Seoul.",
-   "Thông tin không bao gồm yếu tố giá cả hoặc sức mua của khách Seoul, vì vậy mức độ chấp nhận có thể thay đổi theo chi phí.",
-   "Các chỉ số dựa trên tổng sở thích của người dân Seoul ở Đà Nẵng, không phản ánh sự khác biệt giữa các nhóm tuổi hoặc mục đích du lịch cụ thể."
+   "Dữ liệu cho thấy mối tương quan, không phải nguyên nhân; việc áp dụng các yếu tố này không đảm bảo tăng lượng khách.",
+   "Dữ liệu phản ánh sở thích chung của người dân Seoul, không phải từng cá nhân khách hay du khách, do đó phản ứng có thể khác nhau.",
+   "Phân tích không tính đến mức độ nhạy cảm về giá, chi phí vận hành hoặc biến động theo mùa có thể ảnh hưởng đến khả năng thực hiện."
+  ],
+  "dropped": [],
+  "lang": "vi"
+ },
+ "briefEn": {
+  "headline": "Welcoming ambience draws Seoul residents to Da Nang venues.",
+  "summary": "People in Seoul favour venues with a welcoming ambience, which appears in 33 out of 50 of their favourite Da Nang spots versus 19 out of 50 city‑wide (1.7× more common). They also show strong preference for coconut coffee, full bar/wine offerings, and brunch menus, all occurring far more often among their favourites than across the city.",
+  "actions": [
+   {
+    "title": "Emphasise welcoming ambience",
+    "detail": "Train staff to provide warm, attentive service and create cozy seating areas to match the ambience that Seoul residents favour.",
+    "refs": [
+     "T3"
+    ]
+   },
+   {
+    "title": "Add coconut coffee to the menu",
+    "detail": "Introduce coconut‑based coffee drinks, as this menu highlight is 7× more common among Seoul‑favoured places than city‑wide.",
+    "refs": [
+     "T2"
+    ]
+   },
+   {
+    "title": "Offer a full bar with wine options",
+    "detail": "Expand beverage service to include a full bar and wine selection, reflecting the 2.6× and 2.0× higher prevalence of full bar and wine among Seoul‑favoured venues.",
+    "refs": [
+     "T4",
+     "T8"
+    ]
+   },
+   {
+    "title": "Introduce a brunch menu",
+    "detail": "Launch a brunch offering, since brunch is over‑represented among Seoul‑favoured spots (17/50 vs 7/50 city‑wide).",
+    "refs": [
+     "I3"
+    ]
+   }
+  ],
+  "partners": [
+   {
+    "ref": "P1",
+    "why": "Top‑ranked café among Seoul residents (market rank 1) and a recognised favourite."
+   },
+   {
+    "ref": "P2",
+    "why": "Second‑most favoured café by Seoul residents (market rank 2)."
+   },
+   {
+    "ref": "P7",
+    "why": "Overall top favourite venue for Seoul residents (market rank 1) serving Vietnamese cuisine."
+   },
+   {
+    "ref": "P12",
+    "why": "Highly favoured resort by Seoul residents (market rank 7) and the city’s top‑ranked resort (city rank 1)."
+   }
+  ],
+  "playlist": [
+   {
+    "ref": "C1",
+    "why": "Loved by people in Seoul (rank 2) and also popular in Da Nang (rank 1)."
+   },
+   {
+    "ref": "C2",
+    "why": "Seoul rank 3, Da Nang rank 48 – still recognised in both markets."
+   },
+   {
+    "ref": "C3",
+    "why": "Seoul rank 4, Da Nang rank 3 – strong cross‑market appeal."
+   },
+   {
+    "ref": "C4",
+    "why": "Seoul rank 5, Da Nang rank 32 – known in both cities."
+   },
+   {
+    "ref": "C5",
+    "why": "Seoul rank 6, Da Nang rank 17 – appreciated in both locales."
+   },
+   {
+    "ref": "C6",
+    "why": "Seoul rank 7, Da Nang rank 5 – popular across both audiences."
+   }
+  ],
+  "ideas": [
+   {
+    "ref": "I1",
+    "note": "Sea view terrace (Beachfront) – common: appears equally among Seoul‑favoured and city‑wide venues; not a differentiating factor."
+   },
+   {
+    "ref": "I2",
+    "note": "Coconut coffee – common: similar prevalence in both groups; offers no unique advantage."
+   },
+   {
+    "ref": "I3",
+    "note": "Brunch menu – over‑represented: significantly more common among Seoul‑favoured spots, signalling a strong opportunity."
+   },
+   {
+    "ref": "I4",
+    "note": "K‑pop playlist – common: roughly equivalent prevalence; optional rather than essential."
+   }
+  ],
+  "caveats": [
+   "The data shows correlation, not causation; adopting these traits does not guarantee increased patronage.",
+   "It reflects aggregate preferences of people in Seoul, not individual guests or tourists, so reactions may vary.",
+   "The analysis does not consider price sensitivity, operating costs, or seasonal variations that could affect feasibility."
   ],
   "dropped": []
  },
  "baseline": {
   "places": [
    {
-    "name": "The Coffee House Da Nang",
-    "qlooName": "The Coffee House",
-    "inQloo": true,
-    "marketSignal": false,
-    "ref": null,
-    "peerRank": null,
-    "allRank": null
-   },
-   {
-    "name": "Phố Cổ Coffee",
+    "name": "Café Moc",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7405,16 +7501,7 @@
     "allRank": null
    },
    {
-    "name": "Cong Caphe Da Nang",
-    "qlooName": "Cong Caphe",
-    "inQloo": true,
-    "marketSignal": true,
-    "ref": "P1",
-    "peerRank": 1,
-    "allRank": 4
-   },
-   {
-    "name": "Trung Nguyên Legend",
+    "name": "The Green House",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7423,7 +7510,25 @@
     "allRank": null
    },
    {
-    "name": "Mocha Garden",
+    "name": "Bếp Nhà",
+    "qlooName": null,
+    "inQloo": false,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "Phố Cũ Coffee",
+    "qlooName": null,
+    "inQloo": false,
+    "marketSignal": false,
+    "ref": null,
+    "peerRank": null,
+    "allRank": null
+   },
+   {
+    "name": "Alley 68",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -7444,27 +7549,28 @@
     "localRank": null
    },
    {
-    "name": "AKMU",
+    "name": "BLACKPINK",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Zion.T",
-    "qlooRank": 24,
-    "localRank": null
+    "name": "ZICO",
+    "qlooRank": 16,
+    "localRank": 21
    },
    {
-    "name": "Heize",
+    "name": "HEIZE",
     "qlooRank": 46,
     "localRank": 46
    }
   ],
-  "advice": "To attract more visitors from Seoul, highlight your café’s Korean‑friendly touches on Instagram and Naver Blog—post photos of Korean‑style desserts, bilingual signage, and staff greeting guests in Korean. Offer a small Korean menu section (e.g., bingsu, Korean toast, or kimchi fried rice) and consider a loyalty program that rewards repeat visits with a free Korean drink. Partner with Korean travel influencers or host occasional K‑pop music nights to create buzz and word‑of‑mouth referrals.",
+  "advice": "Để thu hút khách Hàn Quốc, hãy quảng bá quán của bạn trên các nền tảng phổ biến của Hàn như Naver Blog và KakaoStory, và cân nhắc cung cấp thực đơn hoặc bảng hiệu bằng tiếng Hàn. Hợp tác với các công ty du lịch hoặc người có ảnh hưởng tại Seoul để họ đưa địa điểm của bạn vào các hành trình du lịch Đà Nẵng. Cung cấp Wi-Fi miễn phí, tốc độ cao và một vài món ăn nhẹ hoặc đồ uống theo phong cách Hàn để tạo cảm giác quen thuộc. Cuối cùng, phát danh sách nhạc K-pop được chọn lọc vào giờ cao điểm và khuyến khích khách chia sẻ trải nghiệm bằng một hashtag riêng để lan truyền thông tin một cách tự nhiên.",
   "poolSizes": {
    "peers": 6,
    "all": 50,
    "artists": 50
-  }
+  },
+  "adviceEn": "To attract Korean visitors, highlight your café on popular Korean platforms such as Naver Blog and KakaoStory, and consider offering a Korean‑language menu or signage. Partner with Seoul‑based travel agencies or influencers who can feature your spot in their Da Nang itineraries. Provide free, high‑speed Wi‑Fi and a few Korean‑style snacks or drinks to create a familiar comfort zone. Finally, play a curated K‑pop playlist during peak hours and encourage guests to share their experience with a branded hashtag for organic word‑of‑mouth promotion."
  },
  "ledger": {
   "P1": {
@@ -16934,85 +17040,85 @@
    "detail": null
   },
   {
-   "ms": 4067,
+   "ms": 2880,
    "phase": "qloo",
    "label": "6 cafés and 50 places with a Seoul signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 4361,
+   "ms": 2909,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 30–34, leans female"
   },
   {
-   "ms": 4361,
+   "ms": 2909,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 6084,
+   "ms": 4136,
    "phase": "agent",
    "label": "Look up Qloo tags for “sea view terrace”",
    "detail": "Seaview Terrace, Sea View from Terrace, Sea View Terrace, Sea View from Roof Terrace"
   },
   {
-   "ms": 7461,
+   "ms": 5022,
    "phase": "agent",
    "label": "Look up Qloo tags for “beachfront”",
    "detail": "Beachfront, Beachfront Dining, Beachfront Community, Beachfront Area"
   },
   {
-   "ms": 8579,
+   "ms": 6015,
    "phase": "agent",
    "label": "Look up Qloo tags for “waterfront”",
    "detail": "Waterfront, Waterfront View, Waterfront Park, Waterfront District"
   },
   {
-   "ms": 9897,
+   "ms": 6966,
    "phase": "agent",
    "label": "Look up Qloo tags for “coffee”",
    "detail": "Coffee, Coffee shop, Coffee / tea maker"
   },
   {
-   "ms": 11348,
+   "ms": 8018,
    "phase": "agent",
    "label": "Look up Qloo tags for “brunch”",
    "detail": "Brunch, Brunch restaurant, Brunch reservations recommended"
   },
   {
-   "ms": 12946,
+   "ms": 9038,
    "phase": "agent",
    "label": "Look up Qloo tags for “K-pop”",
    "detail": "K Pop, Kpop, K-POP Themed, K-Pop Fans"
   },
   {
-   "ms": 14806,
+   "ms": 10831,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
    "detail": "brunch menu → Brunch: 17/50 vs 7/50 (over-represented); coconut coffee → Coffee: 14/50 vs 10/50 (common); K-pop playlist → K Pop: 37/50 vs 33/50 (common); sea view terrace → Beachfront: 18/50 vs 15/50 (common)"
   },
   {
-   "ms": 16107,
+   "ms": 11894,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 16107,
+   "ms": 11894,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 35927,
+   "ms": 30560,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
- "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Da Nang, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Da Nang with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Da Nang's top cafés without that signal:\nP1 Cong Caphe (Hải Châu) — market rank 1, city rank not in the top list — tags: Urban exploration, Eclectic, Retro, Fresh juices, Retro themed, Coconut cacao\nP2 Brewman Coffee Concept (Phước Ninh) — market rank 2, city rank not in the top list — tags: Intimate, Vietnamese phin coffee, Hidden gems, Wine, Vietnamese, Slow travel\nP3 XLIII Specialty Coffee (Mỹ An) — market rank 3, city rank 1 — tags: Relaxing, Minimalist, Sourdough cinnamon roll, Single origin pour over coffee, Stylish, Specialty coffee\nP4 Cong Caphe (Thạch Thang) — market rank 4, city rank not in the top list — tags: Cultural, Local travel, Coconut frappe, Asian, City center, Historic\nP5 Highlands Coffee Tran Phu Da Nang (Phước Ninh) — market rank =5, city rank 17 — tags: Vietnamese pastries, Productive, Hot tea, Casual, Phin sữa da, Espresso based drinks\nP6 Moka Coffee (Thạch Thang) — market rank =5, city rank not in the top list — tags: Hard liquor, Beer, Large group, Coffee, Local gastronomy, Cozy\n\nAll kinds of places in Da Nang favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Nhà hàng Madame Lân (vietnamese, Thạch Thang) — market rank 1, city rank 4\nP8 Naman Retreat (hotel:resort, Hòa Hải) — market rank 2, city rank not in top 50\nP9 Da Nang Cathedral (catholic cathedral, Hải Châu) — market rank 3, city rank 8\nP1 Cong Caphe (cafe, Hải Châu) — market rank 4, city rank 18\nP10 Cape Nao Beach Club - Melia Danang Beach Resort (hotel:resort, Hòa Hải) — market rank 5, city rank not in top 50\nP11 Sky36 (night club, Thạch Thang) — market rank 6, city rank 15\nP12 Pullman Danang Beach Resort (hotel:resort, Khuê Mỹ) — market rank 7, city rank 1\nP13 Bánh mì Happy Bread Mì AA (vietnamese, Hải Châu) — market rank 8, city rank not in top 50\nP14 Grandvrio Ocean Resort Danang (hotel:resort) — market rank 9, city rank 24\nP15 Nhà Hàng Nhà Bếp Khuê Mỹ (vietnamese, Mỹ An) — market rank 10, city rank not in top 50\nP16 Han River Bridge (bridge, An Hải Bắc) — market rank 11, city rank not in top 50\nP17 Han Market (traditional market, Hải Châu) — market rank 12, city rank 2\n\nTags clearly more common among the places people in Seoul favour in Da Nang than among the city's top places:\nT1 \"Authentic\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P18, P19, P20, P21\nT2 \"Coconut coffee\" (menu_highlight) — 7/50 of their favourites vs 1/50 city-wide, 7.0× as common — e.g. P1, P13, P16, P2\nT3 \"Welcoming\" (ambience) — 33/50 of their favourites vs 19/50 city-wide, 1.7× as common — e.g. P7, P8, P12, P13\nT4 \"Full bar\" (beverage_offering) — 13/50 of their favourites vs 5/50 city-wide, 2.6× as common — e.g. P7, P13, P2, P22\nT5 \"Fresh juices\" (beverage_offering) — 8/50 of their favourites vs 3/50 city-wide, 2.7× as common — e.g. P1, P13, P15, P18\nT6 \"Vietnamese\" (cuisine) — 12/50 of their favourites vs 5/50 city-wide, 2.4× as common — e.g. P7, P13, P15, P16\nT7 \"Beer\" (offerings) — 23/50 of their favourites vs 12/50 city-wide, 1.9× as common — e.g. P7, P11, P13, P15\nT8 \"Wine\" (beverage_offering) — 20/50 of their favourites vs 10/50 city-wide, 2.0× as common — e.g. P7, P11, P13, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 30–34, leans female\n\nMusic loved by people in Seoul that people in Da Nang also love (bridge):\nC1 Suzy — Seoul rank 2, Da Nang rank 1\nC2 Dynamic Duo — Seoul rank 3, Da Nang rank 48\nC3 G-Dragon — Seoul rank 4, Da Nang rank 3\nC4 Beenzino — Seoul rank 5, Da Nang rank 32\nC5 SUNMI — Seoul rank 6, Da Nang rank 17\nC6 SULLI — Seoul rank 7, Da Nang rank 5\nMusic loved in Seoul but not in Da Nang's top list (distinct):\nC7 Ohhyuk — Seoul rank 13\nC8 Peggy Gou — Seoul rank 15\nC9 sohee — Seoul rank 17\nC10 성시경 — Seoul rank 18\nC11 윤종신 — Seoul rank 20\nC12 엄정화 — Seoul rank 21\n\nTV loved by people in Seoul that people in Da Nang also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Da Nang rank 21\nC14 Live — Seoul rank 5, Da Nang rank 31\nC15 Clean with Passion for Now — Seoul rank 9, Da Nang rank 17\nC16 Start-Up — Seoul rank 14, Da Nang rank 27\nC17 Call It Love — Seoul rank 18, Da Nang rank 49\nC18 Run On — Seoul rank 29, Da Nang rank 28\nTV loved in Seoul but not in Da Nang's top list (distinct):\nC19 Our Blues — Seoul rank 12\nC20 The Devil's Plan — Seoul rank 22\nC21 Melloga Chejil — Seoul rank 36\nC22 I'm Not a Robot — Seoul rank 42\nC23 My Roommate Is a Gumiho — Seoul rank 43\nC24 My Country: The New Age — Seoul rank 44\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"sea view terrace\" → tag \"Beachfront\" (places): 18/50 of their favourites vs 15/50 city-wide — verdict common — e.g. P8, P10, P12, P14\nI2 \"coconut coffee\" → tag \"Coffee\" (places): 14/50 of their favourites vs 10/50 city-wide — verdict common — e.g. P7, P1, P13, P23\nI4 \"K-pop playlist\" → tag \"K Pop\" (music): 37/50 of their favourites vs 33/50 city-wide — verdict common — e.g. C25, C1, C3, C5\nI3 \"brunch menu\" → tag \"Brunch\" (places): 17/50 of their favourites vs 7/50 city-wide — verdict over-represented — e.g. P7, P8, P13, P15",
- "generatedAt": "2026-10-06T12:04:06.287Z"
+ "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b); translated by Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "facts": "Business: Cafe in Da Nang, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Da Nang with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Da Nang's top cafés without that signal:\nP1 Cong Caphe (Hải Châu) — market rank 1, city rank not in the top list — tags: Urban exploration, Eclectic, Retro, Fresh juices, Retro themed, Coconut cacao\nP2 Brewman Coffee Concept (Phước Ninh) — market rank 2, city rank not in the top list — tags: Intimate, Vietnamese phin coffee, Hidden gems, Wine, Vietnamese, Slow travel\nP3 XLIII Specialty Coffee (Mỹ An) — market rank 3, city rank 1 — tags: Relaxing, Minimalist, Sourdough cinnamon roll, Single origin pour over coffee, Stylish, Specialty coffee\nP4 Cong Caphe (Thạch Thang) — market rank 4, city rank not in the top list — tags: Cultural, Local travel, Coconut frappe, Asian, City center, Historic\nP5 Highlands Coffee Tran Phu Da Nang (Phước Ninh) — market rank =5, city rank 17 — tags: Vietnamese pastries, Productive, Hot tea, Casual, Phin sữa da, Espresso based drinks\nP6 Moka Coffee (Thạch Thang) — market rank =5, city rank not in the top list — tags: Hard liquor, Beer, Large group, Coffee, Local gastronomy, Cozy\n\nAll kinds of places in Da Nang favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Nhà hàng Madame Lân (vietnamese, Thạch Thang) — market rank 1, city rank 4\nP8 Naman Retreat (hotel:resort, Hòa Hải) — market rank 2, city rank not in top 50\nP9 Da Nang Cathedral (catholic cathedral, Hải Châu) — market rank 3, city rank 8\nP1 Cong Caphe (cafe, Hải Châu) — market rank 4, city rank 18\nP10 Cape Nao Beach Club - Melia Danang Beach Resort (hotel:resort, Hòa Hải) — market rank 5, city rank not in top 50\nP11 Sky36 (night club, Thạch Thang) — market rank 6, city rank 15\nP12 Pullman Danang Beach Resort (hotel:resort, Khuê Mỹ) — market rank 7, city rank 1\nP13 Bánh mì Happy Bread Mì AA (vietnamese, Hải Châu) — market rank 8, city rank not in top 50\nP14 Grandvrio Ocean Resort Danang (hotel:resort) — market rank 9, city rank 24\nP15 Nhà Hàng Nhà Bếp Khuê Mỹ (vietnamese, Mỹ An) — market rank 10, city rank not in top 50\nP16 Han River Bridge (bridge, An Hải Bắc) — market rank 11, city rank not in top 50\nP17 Han Market (traditional market, Hải Châu) — market rank 12, city rank 2\n\nTags clearly more common among ALL KINDS of places people in Seoul favour in Da Nang (mostly restaurants, bars and hotels — not specifically cafés) than among the city's top places. Do not write that people prefer cafés with these traits; write that these traits are common in the places they favour:\nT1 \"Authentic\" (ambience) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P18, P19, P20, P21\nT2 \"Coconut coffee\" (menu_highlight) — 7/50 of their favourites vs 1/50 city-wide, 7.0× as common — e.g. P1, P13, P16, P2\nT3 \"Welcoming\" (ambience) — 33/50 of their favourites vs 19/50 city-wide, 1.7× as common — e.g. P7, P8, P12, P13\nT4 \"Full bar\" (beverage_offering) — 13/50 of their favourites vs 5/50 city-wide, 2.6× as common — e.g. P7, P13, P2, P22\nT5 \"Fresh juices\" (beverage_offering) — 8/50 of their favourites vs 3/50 city-wide, 2.7× as common — e.g. P1, P13, P15, P18\nT6 \"Vietnamese\" (cuisine) — 12/50 of their favourites vs 5/50 city-wide, 2.4× as common — e.g. P7, P13, P15, P16\nT7 \"Beer\" (offerings) — 23/50 of their favourites vs 12/50 city-wide, 1.9× as common — e.g. P7, P11, P13, P15\nT8 \"Wine\" (beverage_offering) — 20/50 of their favourites vs 10/50 city-wide, 2.0× as common — e.g. P7, P11, P13, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 30–34, leans female\n\nMusic loved by people in Seoul that people in Da Nang also love (bridge):\nC1 Suzy — Seoul rank 2, Da Nang rank 1\nC2 Dynamic Duo — Seoul rank 3, Da Nang rank 48\nC3 G-Dragon — Seoul rank 4, Da Nang rank 3\nC4 Beenzino — Seoul rank 5, Da Nang rank 32\nC5 SUNMI — Seoul rank 6, Da Nang rank 17\nC6 SULLI — Seoul rank 7, Da Nang rank 5\nMusic loved in Seoul but not in Da Nang's top list (distinct):\nC7 Ohhyuk — Seoul rank 13\nC8 Peggy Gou — Seoul rank 15\nC9 sohee — Seoul rank 17\nC10 성시경 — Seoul rank 18\nC11 윤종신 — Seoul rank 20\nC12 엄정화 — Seoul rank 21\n\nTV loved by people in Seoul that people in Da Nang also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Da Nang rank 21\nC14 Live — Seoul rank 5, Da Nang rank 31\nC15 Clean with Passion for Now — Seoul rank 9, Da Nang rank 17\nC16 Start-Up — Seoul rank 14, Da Nang rank 27\nC17 Call It Love — Seoul rank 18, Da Nang rank 49\nC18 Run On — Seoul rank 29, Da Nang rank 28\nTV loved in Seoul but not in Da Nang's top list (distinct):\nC19 Our Blues — Seoul rank 12\nC20 The Devil's Plan — Seoul rank 22\nC21 Melloga Chejil — Seoul rank 36\nC22 I'm Not a Robot — Seoul rank 42\nC23 My Roommate Is a Gumiho — Seoul rank 43\nC24 My Country: The New Age — Seoul rank 44\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"sea view terrace\" → tag \"Beachfront\": carried by 18 of the 50 places people in Seoul favour vs 15 of the 50 places people in Da Nang favour — verdict common — e.g. P8, P10, P12, P14\nI2 \"coconut coffee\" → tag \"Coffee\": carried by 14 of the 50 places people in Seoul favour vs 10 of the 50 places people in Da Nang favour — verdict common — e.g. P7, P1, P13, P23\nI4 \"K-pop playlist\" → tag \"K Pop\": carried by 37 of the 50 artists people in Seoul favour vs 33 of the 50 artists people in Da Nang favour — verdict common — e.g. C25, C1, C3, C5\nI3 \"brunch menu\" → tag \"Brunch\": carried by 17 of the 50 places people in Seoul favour vs 7 of the 50 places people in Da Nang favour — verdict over-represented — e.g. P7, P8, P13, P15",
+ "generatedAt": "2026-10-06T22:26:16.791Z"
 }

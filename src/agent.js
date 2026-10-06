@@ -363,11 +363,14 @@ export async function translateBrief(translator,brief,{advice='',names=[]}={}) {
     advice
   };
   const protectedNames=[...new Set(names.filter((n)=>n && n.length>1))].slice(0,120);
+  // Pin every list to the source length so the model cannot merge or drop items.
+  const schema=structuredClone(TRANSLATION_SCHEMA);
+  for (const k of ['actions','partners','playlist','ideas','caveats']) Object.assign(schema.properties[k],{minItems:src[k].length,maxItems:src[k].length});
   let lastProblems=[];
   for (let attempt=0; attempt<2; attempt+=1) {
     const {data}=await translator.chatJSON({
       schemaName:'vietnamese_brief',
-      schema:TRANSLATION_SCHEMA,
+      schema,
       system:[
         'Translate this JSON from English into natural, plain Vietnamese for the owner of a small hospitality business in Vietnam.',
         'Keep exactly the same structure and the same number of items in every list.',

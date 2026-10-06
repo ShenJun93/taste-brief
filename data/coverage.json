@@ -1,5 +1,5 @@
 {
- "measuredAt": "2026-10-06T22:10:14.590Z",
+ "measuredAt": "2026-10-06T22:46:05.926Z",
  "take": 50,
  "counts": {
   "hanoi": {
@@ -113,6 +113,22 @@
    "berlin": 5,
    "newyork": 1,
    "losangeles": 2
+  },
+  "phuquoc": {
+   "seoul": 17,
+   "busan": 15,
+   "tokyo": 0,
+   "osaka": 2,
+   "taipei": 3,
+   "singapore": 2,
+   "bangkok": 1,
+   "sydney": 6,
+   "melbourne": 9,
+   "london": 1,
+   "paris": 1,
+   "berlin": 5,
+   "newyork": 0,
+   "losangeles": 0
   }
  }
 }
