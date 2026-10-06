@@ -227,3 +227,31 @@ test('ideaDomains always includes places and adds culture when present', ()=>{
   assert.deepEqual(ideaDomains(places).map((d)=>d.label),['places']);
   assert.deepEqual(ideaDomains(places,{marketItems:[],localItems:[]},null).map((d)=>d.label),['places','music']);
 });
+
+test('a translated brief keeps citations and must really be Vietnamese', async ()=>{
+  const {localizeResult,translationProblems}=await import('../src/agent.js');
+  const result={
+    input:{city:'Hanoi',market:'Seoul',country:'South Korea',lang:'en'},
+    engine:'nemotron',
+    ledger:{P1:{kind:'place',item:{name:'Xofa Cafe'}}},
+    baseline:{advice:'Add a Korean menu.'},
+    brief:{headline:'People in Seoul favour simple places',summary:'Two sentences.',actions:[{title:'Partner with Xofa Cafe',detail:'It ranks first.',refs:['P1']}],partners:[],playlist:[],ideas:[],caveats:['Aggregate only.'],dropped:[]}
+  };
+  const good={headline:'Người Seoul thích nơi đơn giản',summary:'Hai câu ngắn gọn.',actions:[{title:'Hợp tác với Xofa Cafe',detail:'Quán đứng đầu.'}],partners:[],playlist:[],ideas:[],caveats:['Chỉ là số liệu tổng hợp.'],advice:'Thêm thực đơn tiếng Hàn.'};
+  const translator={model:'fake',calls:0,async chatJSON(){ this.calls+=1; return {data:good}; }};
+  const vi=await localizeResult(result,{translator});
+  assert.equal(vi.input.lang,'vi');
+  assert.equal(vi.brief.actions[0].title,'Hợp tác với Xofa Cafe');
+  assert.deepEqual(vi.brief.actions[0].refs,['P1'],'refs untouched');
+  assert.equal(vi.briefEn.headline,'People in Seoul favour simple places');
+  assert.equal(vi.baseline.advice,'Thêm thực đơn tiếng Hàn.');
+
+  assert.ok(translationProblems({actions:[{}]},{...good,headline:'People in Seoul'},['Xofa Cafe']).includes('not Vietnamese'));
+  assert.ok(translationProblems({actions:[{}]},{...good,actions:[{title:'Thêm bia',detail:'with several loại bia'}]},[]).some((p)=>p.startsWith('English left')));
+  assert.ok(translationProblems({actions:[{},{}]},good,[]).includes('actions count changed'));
+
+  const bad={async chatJSON(){ return {data:{...good,headline:'Still English'}}; },model:'bad'};
+  const kept=await localizeResult(result,{translator:bad});
+  assert.equal(kept.input.lang,'en','falls back to English when the translation fails the checks');
+  assert.match(kept.translationError,/not Vietnamese/);
+});

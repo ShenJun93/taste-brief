@@ -1,10 +1,12 @@
 // Regenerates the saved examples served by the example buttons, in English and Vietnamese, so
-// judges can open a finished brief instantly. Run with the same keys as the server:
-//   node --env-file=.env scripts/make-samples.mjs [sample-id] [en|vi]
-import {writeFile} from 'node:fs/promises';
+// judges can open a finished brief instantly. The Vietnamese file is a translation of the English
+// one (same Qloo data and checks). Run with the same keys as the server:
+//   node --env-file=.env scripts/make-samples.mjs [sample-id|all] [en|vi]
+// "vi" alone re-translates the saved English file without calling Qloo.
+import {readFile, writeFile} from 'node:fs/promises';
 import {qlooFromEnv} from '../src/qloo.js';
-import {nebiusFromEnv} from '../src/llm.js';
-import {buildBrief} from '../src/agent.js';
+import {nebiusFromEnv, translatorFromEnv} from '../src/llm.js';
+import {buildBrief, localizeResult} from '../src/agent.js';
 
 export const SAMPLES={
   'hanoi-cafe-seoul':{city:'hanoi',market:'seoul',business:'cafe',ownPlace:'Xofa Cafe',ideas:['egg coffee workshop','live music on Fridays','K-pop playlist','vegan cakes']},
@@ -18,17 +20,28 @@ export const SAMPLES={
 
 const qloo=qlooFromEnv(process.env);
 const llm=nebiusFromEnv(process.env);
+const translator=translatorFromEnv(process.env);
 const [only,onlyLang]=process.argv.slice(2);
+const path=(file)=>new URL(`../data/samples/${file}`,import.meta.url);
+const summary=(file,b,started)=>console.log(`${file}: ${b.peerCount} peers, ${b.profile.length} tags, ${b.ideas.filter((i)=>i.status==='ranked').length}/${b.ideas.length} ideas scored, ${b.brief.actions.length} actions (${b.brief.dropped.length} dropped), ${((Date.now()-started)/1000).toFixed(0)}s, ${b.engine}${b.translationError?` [${b.translationError}]`:''}`);
+
 for (const [id,input] of Object.entries(SAMPLES)) {
   if (only && only!=='all' && id!==only) continue;
-  for (const lang of ['en','vi']) {
-    if (onlyLang && lang!==onlyLang) continue;
-    const started=Date.now();
-    const brief=await buildBrief({...input,lang},{qloo,llm});
-    brief.generatedAt=new Date().toISOString();
-    const file=lang==='en'?`${id}.json`:`${id}-vi.json`;
-    await writeFile(new URL(`../data/samples/${file}`,import.meta.url),JSON.stringify(brief,null,1));
-    console.log(`${file}: ${brief.peerCount} peers, ${brief.profile.length} tags, ${brief.ideas.filter((i)=>i.status==='ranked').length}/${brief.ideas.length} ideas scored, ${brief.brief.actions.length} actions (${brief.brief.dropped.length} dropped), ${((Date.now()-started)/1000).toFixed(0)}s, ${brief.engine}`);
+  let started=Date.now();
+  let en;
+  if (onlyLang==='vi') {
+    en=JSON.parse(await readFile(path(`${id}.json`),'utf8'));
+  } else {
+    en=await buildBrief({...input,lang:'en'},{qloo,llm});
+    en.generatedAt=new Date().toISOString();
+    await writeFile(path(`${id}.json`),JSON.stringify(en,null,1));
+    summary(`${id}.json`,en,started);
   }
+  if (onlyLang==='en') continue;
+  started=Date.now();
+  const vi=await localizeResult(en,{translator});
+  vi.generatedAt=en.generatedAt;
+  await writeFile(path(`${id}-vi.json`),JSON.stringify(vi,null,1));
+  summary(`${id}-vi.json`,vi,started);
 }
 console.log('qloo',JSON.stringify(qloo.meta.stats()));

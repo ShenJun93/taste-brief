@@ -16,7 +16,7 @@ const market=z.enum(MARKETS.map((m)=>m.id)).describe('Visitor market (a city who
 const business=z.enum(BUSINESSES.map((b)=>b.id)).describe('Kind of business');
 
 export function buildMcpServer(providers={}) {
-  const {qloo=null,llm=null}=providers;
+  const {qloo=null,llm=null,translator=null}=providers;
   const need=()=>{
     if (!qloo) throw new Error('QLOO_API_KEY is not configured on this server');
     const left=qloo.meta?.monthRemaining?.();
@@ -100,7 +100,7 @@ export function buildMcpServer(providers={}) {
     },
     async (args)=>{
       need();
-      const brief=await buildBrief(args,{qloo,llm});
+      const brief=await buildBrief(args,{qloo,llm,translator});
       const {ledger,facts,...rest}=brief;
       return result(rest);
     }

@@ -1,8 +1,9 @@
-// NVIDIA Nemotron on Nebius Token Factory (OpenAI-compatible). Two calls: a tool-using chat turn for
-// the agent loop, and a JSON-schema turn for the final brief.
+// Models on Nebius Token Factory (OpenAI-compatible). NVIDIA Nemotron runs the agent loop and writes
+// the brief; a multilingual model translates the finished brief when the owner reads Vietnamese.
 
 export const NEBIUS_BASE_URL='https://api.tokenfactory.nebius.com/v1';
 export const DEFAULT_MODEL='nvidia/nemotron-3-super-120b-a12b';
+export const DEFAULT_TRANSLATE_MODEL='Qwen/Qwen3-235B-A22B-Instruct-2507';
 
 export function parseJsonObject(text) {
   const start=text.indexOf('{');
@@ -11,25 +12,33 @@ export function parseJsonObject(text) {
   return JSON.parse(text.slice(start,end+1));
 }
 
-export function nebiusFromEnv(env=process.env,fetchImpl=fetch) {
-  const apiKey=env.NEBIUS_API_KEY;
-  if (!apiKey) return null;
-  const model=env.NEBIUS_MODEL || DEFAULT_MODEL;
-  const baseUrl=(env.NEBIUS_BASE_URL || NEBIUS_BASE_URL).replace(/\/$/,'');
-
+function nebiusClient({apiKey,baseUrl,model,fetchImpl,sleep}) {
   async function complete(body,timeoutMs) {
-    const res=await fetchImpl(`${baseUrl}/chat/completions`,{
-      method:'POST',
-      headers:{'content-type':'application/json',authorization:`Bearer ${apiKey}`},
-      body:JSON.stringify({model,temperature:0,...body}),
-      signal:AbortSignal.timeout(timeoutMs)
-    });
-    const text=await res.text();
-    if (!res.ok) throw new Error(`Token Factory responded ${res.status}: ${text.slice(0,200)}`);
-    const out=JSON.parse(text);
-    const message=out.choices?.[0]?.message;
-    if (!message) throw new Error('Token Factory returned no message');
-    return {message,usage:out.usage ?? null};
+    // A dropped connection is retried once; HTTP errors are not.
+    let lastError;
+    for (let attempt=0; attempt<2; attempt+=1) {
+      if (attempt>0) await sleep(1500);
+      let res;
+      let text;
+      try {
+        res=await fetchImpl(`${baseUrl}/chat/completions`,{
+          method:'POST',
+          headers:{'content-type':'application/json',authorization:`Bearer ${apiKey}`},
+          body:JSON.stringify({model,temperature:0,...body}),
+          signal:AbortSignal.timeout(timeoutMs)
+        });
+        text=await res.text();
+      } catch (error) {
+        lastError=new Error(`Token Factory unreachable: ${error.cause?.code ?? error.message}`);
+        continue;
+      }
+      if (!res.ok) throw new Error(`Token Factory responded ${res.status}: ${text.slice(0,200)}`);
+      const out=JSON.parse(text);
+      const message=out.choices?.[0]?.message;
+      if (!message) throw new Error('Token Factory returned no message');
+      return {message,usage:out.usage ?? null};
+    }
+    throw lastError;
   }
 
   return {
@@ -58,4 +67,21 @@ export function nebiusFromEnv(env=process.env,fetchImpl=fetch) {
       throw lastError;
     }
   };
+}
+
+const defaults=(env,fetchImpl,sleep)=>({
+  apiKey:env.NEBIUS_API_KEY,
+  baseUrl:(env.NEBIUS_BASE_URL || NEBIUS_BASE_URL).replace(/\/$/,''),
+  fetchImpl,
+  sleep
+});
+
+export function nebiusFromEnv(env=process.env,fetchImpl=fetch,{sleep=(ms)=>new Promise((r)=>setTimeout(r,ms))}={}) {
+  if (!env.NEBIUS_API_KEY) return null;
+  return nebiusClient({...defaults(env,fetchImpl,sleep),model:env.NEBIUS_MODEL || DEFAULT_MODEL});
+}
+
+export function translatorFromEnv(env=process.env,fetchImpl=fetch,{sleep=(ms)=>new Promise((r)=>setTimeout(r,ms))}={}) {
+  if (!env.NEBIUS_API_KEY || env.NEBIUS_TRANSLATE_MODEL==='off') return null;
+  return nebiusClient({...defaults(env,fetchImpl,sleep),model:env.NEBIUS_TRANSLATE_MODEL || DEFAULT_TRANSLATE_MODEL});
 }

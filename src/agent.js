@@ -314,29 +314,100 @@ export function factSheet({input,places,profile,music,screen,own,ideas,audience}
 }
 
 const VIETNAMESE=/[ăâđêôơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹ]/i;
-const FOREIGN_SCRIPT=/[Ѐ-ӿ֐-ۿ]/;
 
-async function writeBrief(llm,facts,input) {
-  const {lang}=input;
-  // Nemotron sometimes answers in English (or slips another script in) when asked for Vietnamese;
-  // one retry with a firmer instruction usually fixes it.
-  let data=await writeOnce(llm,facts,input,false);
-  if (lang==='vi' && (!VIETNAMESE.test(data.headline ?? '') || !VIETNAMESE.test(data.summary ?? '') || FOREIGN_SCRIPT.test(JSON.stringify(data)))) {
-    data=await writeOnce(llm,facts,input,true);
+const TRANSLATION_SCHEMA={
+  type:'object',
+  additionalProperties:false,
+  required:['headline','summary','actions','partners','playlist','ideas','caveats','advice'],
+  properties:{
+    headline:{type:'string'},
+    summary:{type:'string'},
+    actions:{type:'array',items:{type:'object',additionalProperties:false,required:['title','detail'],properties:{title:{type:'string'},detail:{type:'string'}}}},
+    partners:{type:'array',items:{type:'string'}},
+    playlist:{type:'array',items:{type:'string'}},
+    ideas:{type:'array',items:{type:'string'}},
+    caveats:{type:'array',items:{type:'string'}},
+    advice:{type:'string'}
   }
-  return data;
+};
+
+// Common English words that should not survive a translation (names are exempt because they are
+// checked against the protected list).
+const ENGLISH_LEFTOVER=/\b(the|and|with|for|your|this|that|several|locally|sourced|guests|visitors|offer|serve|menu)\b/i;
+
+export function translationProblems(src,out,names) {
+  const problems=[];
+  const lists=['actions','partners','playlist','ideas','caveats'];
+  for (const k of lists) if ((out[k] ?? []).length!==(src[k] ?? []).length) problems.push(`${k} count changed`);
+  const all=[out.headline,out.summary,...(out.actions ?? []).flatMap((a)=>[a.title,a.detail]),...(out.partners ?? []),...(out.playlist ?? []),...(out.ideas ?? []),...(out.caveats ?? [])].join(' \n ');
+  if (!VIETNAMESE.test(out.headline ?? '') || !VIETNAMESE.test(out.summary ?? '')) problems.push('not Vietnamese');
+  if (FOREIGN_SCRIPT.test(all)) problems.push('foreign script');
+  let stripped=all;
+  for (const n of names) if (n) stripped=stripped.split(n).join(' ');
+  const leftover=stripped.match(ENGLISH_LEFTOVER);
+  if (leftover) problems.push(`English left: ${leftover[0]}`);
+  return problems;
 }
 
-async function writeOnce(llm,facts,input,firm) {
-  const {market,business,lang}=input;
+// Translate the checked English brief with a multilingual model, keeping names exactly. Refs stay
+// on the English structure, so citations cannot change. Falls back to English if the result fails
+// the checks twice.
+export async function translateBrief(translator,brief,{advice='',names=[]}={}) {
+  const src={
+    headline:brief.headline,summary:brief.summary,
+    actions:brief.actions.map((a)=>({title:a.title,detail:a.detail})),
+    partners:brief.partners.map((p)=>p.why),
+    playlist:brief.playlist.map((p)=>p.why),
+    ideas:brief.ideas.map((i)=>i.note),
+    caveats:brief.caveats,
+    advice
+  };
+  const protectedNames=[...new Set(names.filter((n)=>n && n.length>1))].slice(0,120);
+  let lastProblems=[];
+  for (let attempt=0; attempt<2; attempt+=1) {
+    const {data}=await translator.chatJSON({
+      schemaName:'vietnamese_brief',
+      schema:TRANSLATION_SCHEMA,
+      system:[
+        'Translate this JSON from English into natural, plain Vietnamese for the owner of a small hospitality business in Vietnam.',
+        'Keep exactly the same structure and the same number of items in every list.',
+        'Do not translate these names; copy them exactly: '+protectedNames.join(' | '),
+        'Write numbers as given (8/50, 2.2×). Use no English words other than those names.',
+        attempt?'Your previous answer had problems: '+lastProblems.join('; ')+'. Fix them.':''
+      ].join('\n'),
+      user:JSON.stringify(src)
+    });
+    lastProblems=translationProblems(src,data,protectedNames);
+    if (!lastProblems.length) {
+      return {
+        brief:{
+          ...brief,
+          headline:data.headline,
+          summary:data.summary,
+          actions:brief.actions.map((a,i)=>({...a,title:data.actions[i].title,detail:data.actions[i].detail})),
+          partners:brief.partners.map((p,i)=>({...p,why:data.partners[i]})),
+          playlist:brief.playlist.map((p,i)=>({...p,why:data.playlist[i]})),
+          ideas:brief.ideas.map((x,i)=>({...x,note:data.ideas[i]})),
+          caveats:data.caveats,
+          lang:'vi'
+        },
+        advice:data.advice
+      };
+    }
+  }
+  throw new Error(`translation rejected: ${lastProblems.join('; ')}`);
+}
+const FOREIGN_SCRIPT=/[Ѐ-ӿ֐-ۿ]/;
+
+// The brief is always written and checked in English (the name and citation checks work on it);
+// a Vietnamese reader gets a translation of the checked brief.
+async function writeBrief(llm,facts,input) {
+  const {market,business}=input;
   const {data}=await llm.chatJSON({
     schemaName:'taste_brief',
     schema:BRIEF_SCHEMA,
     system:[
-      'You write a one-page plan for a small hospitality business owner. Plain, concrete language; no hype.',
-      lang==='vi'
-        ?`Write every text field, including the headline, in natural Vietnamese for a Vietnamese owner${firm?' — Vietnamese only, no English sentences and no other languages':''}. Keep place, artist and tag names exactly as given.`
-        :'Write in English.',
+      'You write a one-page plan for a small hospitality business owner. Plain, concrete English; no hype.',
       'Use ONLY the facts provided. Every action must cite one or more refs (P#, T#, C#, I#) that support it, in its refs array.',
       'In text fields write names, never refs. Do not name any place, street, river, beach, dish, product or event that is not in the facts.',
       `The tag findings (T refs) describe all kinds of places people in ${market.label} favour — restaurants, bars, hotels — not only ${business.plural}; never say they describe ${business.plural}. Translate them into what a ${business.label.toLowerCase()} can do.`,
@@ -546,7 +617,7 @@ export async function audienceOf({qloo},list) {
 
 // --- entry point -------------------------------------------------------------------------------
 
-export async function buildBrief(rawInput,{qloo,llm,onEvent=()=>{},now=()=>Date.now()}) {
+export async function buildBrief(rawInput,{qloo,llm,translator=null,onEvent=()=>{},now=()=>Date.now()}) {
   if (!qloo) throw new Error('QLOO_API_KEY is not configured');
   const input=readInput(rawInput);
   const {city,market,business,ideas,ownPlace,lang}=input;
@@ -609,10 +680,9 @@ export async function buildBrief(rawInput,{qloo,llm,onEvent=()=>{},now=()=>Date.
     if (contrast.status==='fulfilled') baseline=contrast.value;
   }
   if (!brief || !brief.actions.length) brief=ruleBrief({input,places,profile,music},llm?'the model brief was unavailable':undefined);
-  step('done',`Brief ready (${engine}${brief.dropped?.length?`; ${brief.dropped.length} unsupported action${brief.dropped.length>1?'s':''} removed`:''})`);
 
-  return {
-    input:{city:city.label,cityId:city.id,market:market.label,marketId:market.id,country:market.country,business:business.label,businessId:business.id,businessPlural:business.plural,ideas,ownPlace,lang},
+  const result={
+    input:{city:city.label,cityId:city.id,market:market.label,marketId:market.id,country:market.country,business:business.label,businessId:business.id,businessPlural:business.plural,ideas,ownPlace,lang:'en'},
     peers:places.peers,
     peerCount:places.peerCount,
     allPlaces:places.allPlaces,
@@ -624,10 +694,37 @@ export async function buildBrief(rawInput,{qloo,llm,onEvent=()=>{},now=()=>Date.
     own,
     ideas:ideaResults,
     brief,
+    briefEn:null,
     baseline,
     ledger:ledger.toJSON(),
     trace,
     engine,
     facts
   };
+  const final=lang==='vi'?await localizeResult(result,{translator,step}):result;
+  step('done',`Brief ready (${final.engine}${brief.dropped?.length?`; ${brief.dropped.length} unsupported action${brief.dropped.length>1?'s':''} removed`:''})`);
+  return final;
+}
+
+// Turn a finished English result into a Vietnamese one by translating only the written text. All
+// Qloo data, refs and checks stay as they are, so the two versions say the same thing.
+export async function localizeResult(result,{translator,step=()=>{}}) {
+  if (!translator || result.engine==='rules') return {...result,input:{...result.input,lang:'vi'}};
+  step('model',`Translate the checked brief into Vietnamese (${translator.model})`);
+  const {input,ledger,baseline}=result;
+  const names=Object.values(ledger).map((e)=>e.item?.name).concat([input.city,input.market,input.country]);
+  try {
+    const out=await translateBrief(translator,result.brief,{advice:baseline?.advice ?? '',names});
+    return {
+      ...result,
+      input:{...input,lang:'vi'},
+      brief:out.brief,
+      briefEn:result.brief,
+      baseline:baseline?{...baseline,adviceEn:baseline.advice,advice:out.advice}:baseline,
+      engine:`${result.engine}; translated by ${translator.model}`
+    };
+  } catch (error) {
+    step('model','Translation failed; showing the English brief',error.message);
+    return {...result,input:{...input,lang:'en'},translationError:error.message};
+  }
 }

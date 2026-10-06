@@ -227,3 +227,5 @@ summary { cursor: pointer; font-weight: 600; font-size: 14px; }
   body { background: #fff; }
   .card { box-shadow: none; break-inside: avoid; }
 }
+
+.coverage-note { margin: -4px 0 0; font-size: 14px; color: var(--amber); background: var(--amber-soft); border-radius: 8px; padding: 8px 12px; }

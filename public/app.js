@@ -56,6 +56,9 @@ const T={
     artistHit:(a,i)=>`Qloo ${i.market} #${a.qlooRank}${a.localRank?` · ${i.city} #${a.localRank}`:''}`,
     artistMiss:(i,n)=>`Not in Qloo's top ${n} for ${i.market}`,
     caveatQloo:'Qloo results describe the aggregate taste of people in a city, not any individual guest.',
+    signal:{strong:'strong signal',medium:'some signal',thin:'thin signal',none:'no signal'},
+    coverageNote:(n,c,m,best)=>n===0?`Qloo has no places in ${c} with a ${m} signal yet — the brief would be empty.${best?` Try ${best}.`:''}`:`Qloo has only ${n} places in ${c} with a ${m} signal, so the brief will be thin.${best?` ${best} has more.`:''}`,
+    englishShown:'The Vietnamese translation did not pass our checks, so the brief is shown in English.',
     verdict:{'over-represented':'Over-represented','common':'Common, not distinctive','too-few':'Too few to tell','untested':'Untested','under-represented':'Less common among them','absent-from-favourites':'Absent from their favourites'},
     phase:{qloo:'Qloo',agent:'Agent',model:'Model',done:'Done',cache:'Cache',start:'Start'},
     sending:'Sending your question',failed:(m)=>`Could not build the brief: ${m}`,
@@ -127,6 +130,9 @@ const T={
     artistHit:(a,i)=>`Qloo: hạng ${a.qlooRank} ở ${i.market}${a.localRank?` · hạng ${a.localRank} ở ${i.city}`:''}`,
     artistMiss:(i,n)=>`Không có trong top ${n} của Qloo cho ${i.market}`,
     caveatQloo:'Kết quả Qloo mô tả gu chung của người sống ở một thành phố, không phải của một vị khách cụ thể.',
+    signal:{strong:'dữ liệu nhiều',medium:'dữ liệu vừa',thin:'dữ liệu ít',none:'chưa có dữ liệu'},
+    coverageNote:(n,c,m,best)=>n===0?`Qloo chưa có địa điểm nào ở ${c} có tín hiệu từ ${m} — kế hoạch sẽ trống.${best?` Hãy thử ${best}.`:''}`:`Qloo chỉ có ${n} địa điểm ở ${c} có tín hiệu từ ${m}, nên kế hoạch sẽ ít dữ liệu.${best?` ${best} có nhiều hơn.`:''}`,
+    englishShown:'Bản dịch tiếng Việt chưa đạt kiểm tra nên kế hoạch được hiển thị bằng tiếng Anh.',
     verdict:{'over-represented':'Nổi bật ở họ','common':'Phổ biến, không tạo khác biệt','too-few':'Quá ít dữ liệu','untested':'Chưa ai làm','under-represented':'Ít gặp ở họ hơn','absent-from-favourites':'Không có ở nơi họ thích'},
     phase:{qloo:'Qloo',agent:'Agent',model:'Mô hình',done:'Xong',cache:'Bộ nhớ',start:'Bắt đầu'},
     sending:'Đang gửi câu hỏi',failed:(m)=>`Không tạo được kế hoạch: ${m}`,
@@ -184,7 +190,7 @@ function applyLang() {
   for (const el of document.querySelectorAll('[data-i18n-html]')) el.innerHTML=t(el.dataset.i18nHtml);
   for (const b of document.querySelectorAll('[data-lang]')) b.setAttribute('aria-pressed',String(b.dataset.lang===lang));
   fill('samples',t('examples').map((s)=>h('button',{type:'button',class:'chip',onclick:()=>openSample(s.id)},s.label)));
-  if (state.options) renderBusinessChips();
+  if (state.options) { renderBusinessChips(); updateCoverage(); }
   const ideas=$('ideas');
   if (!ideas.dataset.touched) ideas.value=t('form.defaultIdeas');
 }
@@ -194,7 +200,28 @@ function setLang(next) {
   store.set('lang',lang);
   applyLang();
   if (state.sampleId) openSample(state.sampleId,{scroll:false});
+  // A live brief is fetched again in the new language; the server reuses the English analysis,
+  // so this costs a translation, not another Qloo run.
+  else if (state.brief && state.brief.input.lang!==lang) $('brief-form').requestSubmit();
   else if (state.brief) render(state.brief,{scroll:false});
+}
+
+const level=(n)=>n>=30?'strong':n>=10?'medium':n>0?'thin':'none';
+
+function updateCoverage() {
+  const counts=state.options?.coverage?.[$('city').value];
+  for (const o of $('market').options) {
+    const m=state.options.markets.find((x)=>x.id===o.value);
+    const n=counts?.[o.value];
+    o.textContent=`${m.label}, ${m.country}${n===undefined?'':` — ${t('signal')[level(n)]}`}`;
+  }
+  const n=counts?.[$('market').value];
+  const note=$('coverage-note');
+  if (n===undefined || n>=10) { note.hidden=true; return; }
+  const best=Object.entries(counts).sort((x,y)=>y[1]-x[1])[0];
+  const bestLabel=best && best[1]>n ? state.options.markets.find((x)=>x.id===best[0])?.label : null;
+  note.textContent=t('coverageNote',n,$('city').selectedOptions[0]?.textContent,$('market').selectedOptions[0]?.textContent.split(',')[0],bestLabel);
+  note.hidden=false;
 }
 
 function renderBusinessChips() {
@@ -206,6 +233,8 @@ async function init() {
   for (const c of state.options.cities) $('city').append(h('option',{value:c.id},c.label));
   for (const m of state.options.markets) $('market').append(h('option',{value:m.id},`${m.label}, ${m.country}`));
   $('market').value='seoul';
+  $('city').addEventListener('change',updateCoverage);
+  $('market').addEventListener('change',updateCoverage);
   $('ideas').addEventListener('input',()=>{ $('ideas').dataset.touched='1'; });
   for (const b of document.querySelectorAll('[data-lang]')) b.addEventListener('click',()=>setLang(b.dataset.lang));
   $('brief-form').addEventListener('submit',onSubmit);
@@ -223,6 +252,7 @@ async function init() {
     if (q.get('business')) pickBusiness(q.get('business'));
     $('city').value=q.get('city');
     if (q.get('market')) $('market').value=q.get('market');
+    updateCoverage();
     if (q.get('own')) $('own').value=q.get('own');
     if (q.get('ideas')) { $('ideas').value=q.get('ideas'); $('ideas').dataset.touched='1'; }
     $('form-card').scrollIntoView();
@@ -326,6 +356,7 @@ async function openSample(id,{scroll=true}={}) {
     $('own').value=i.ownPlace ?? '';
     $('ideas').value=(i.ideas ?? []).join('\n');
     $('ideas').dataset.touched='1';
+    updateCoverage();
   } catch (error) {
     showError(error.message);
   }
@@ -440,6 +471,8 @@ function render(brief,{sample=false,scroll=true}={}) {
   $('brief-eyebrow').textContent=t('eyebrow',input);
   $('headline').textContent=b.headline;
   $('summary').textContent=b.summary ?? '';
+  $('lang-note').hidden=!(lang==='vi' && input.lang!=='vi');
+  $('lang-note').textContent=t('englishShown');
   const cited=new Set([...b.actions.flatMap((a)=>a.refs),...b.partners.map((p)=>p.ref),...b.playlist.map((p)=>p.ref),...b.ideas.map((i)=>i.ref)]);
   const when=brief.cachedAt ?? brief.generatedAt;
   const whenText=when?new Date(when).toLocaleString(lang==='vi'?'vi-VN':'en-GB',{dateStyle:'medium',timeStyle:'short'}):null;
