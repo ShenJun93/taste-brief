@@ -113,6 +113,7 @@ app.post('/api/brief',limiter,async (req,res)=>{
     if (input.lang==='vi') {
       brief=await localizeResult(en,{translator:providers.translator,step:(phase,label,detail=null)=>send('step',{ms:0,phase,label,detail})});
       if (brief.input.lang==='vi') remember(key,brief);
+      send('step',{ms:0,phase:'done',label:brief.input.lang==='vi'?'Vietnamese brief ready':'Translation unavailable; English brief shown'});
     }
     send('brief',brief);
   } catch (error) {
