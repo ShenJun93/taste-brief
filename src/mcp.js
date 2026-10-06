@@ -17,7 +17,11 @@ const business=z.enum(BUSINESSES.map((b)=>b.id)).describe('Kind of business');
 
 export function buildMcpServer(providers={}) {
   const {qloo=null,llm=null}=providers;
-  const need=()=>{ if (!qloo) throw new Error('QLOO_API_KEY is not configured on this server'); };
+  const need=()=>{
+    if (!qloo) throw new Error('QLOO_API_KEY is not configured on this server');
+    const left=qloo.meta?.monthRemaining?.();
+    if (left!==null && left!==undefined && left<(providers.monthReserve ?? 1000)) throw new Error(`Paused to keep the Qloo event quota for judging (${left} calls left this month)`);
+  };
 
   const server=new McpServer(
     {name:'qloo-taste-brief',version:'0.1.0'},

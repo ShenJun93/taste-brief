@@ -20,12 +20,24 @@ function encodeParams(params) {
   return new URLSearchParams(entries).toString();
 }
 
-export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000,maxEntries=800,now=()=>Date.now(),sleep=(ms)=>new Promise((r)=>setTimeout(r,ms))}={}) {
+export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000,maxEntries=800,perSecond=4,now=()=>Date.now(),sleep=(ms)=>new Promise((r)=>setTimeout(r,ms))}={}) {
   const apiKey=env.QLOO_API_KEY;
   if (!apiKey) return null;
   const baseUrl=(env.QLOO_BASE_URL || QLOO_BASE_URL).replace(/\/$/,'');
   const cache=new Map();
   let liveCalls=0;
+  // The hackathon key allows 5 requests a second and 10,000 a month (from the response headers).
+  let monthRemaining=null;
+  const stamps=[];
+
+  async function slot() {
+    for (;;) {
+      const t=now();
+      while (stamps.length && t-stamps[0]>=1000) stamps.shift();
+      if (stamps.length<perSecond) { stamps.push(t); return; }
+      await sleep(1000-(t-stamps[0])+25);
+    }
+  }
 
   async function get(path,params) {
     const query=encodeParams(params);
@@ -34,8 +46,9 @@ export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000
     if (hit && now()-hit.at<ttlMs) return {...hit.value,cached:true};
 
     let lastError;
-    for (let attempt=0; attempt<2; attempt+=1) {
-      if (attempt>0) await sleep(800);
+    for (let attempt=0; attempt<3; attempt+=1) {
+      if (attempt>0) await sleep(1100*attempt);
+      await slot();
       liveCalls+=1;
       let res;
       try {
@@ -44,6 +57,8 @@ export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000
         lastError=new QlooError(`Qloo request failed: ${error.message}`,{retryable:true});
         continue;
       }
+      const remaining=Number(res.headers?.get?.('x-month-ratelimit-remaining'));
+      if (Number.isFinite(remaining) && res.headers.get('x-month-ratelimit-remaining')!==null) monthRemaining=remaining;
       const text=await res.text();
       let body;
       try { body=JSON.parse(text); } catch { body={}; }
@@ -53,7 +68,7 @@ export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000
         if (cache.size>maxEntries) cache.delete(cache.keys().next().value);
         return {...value,cached:false};
       }
-      const detail=body.errors?.[0]?.message ?? body.error ?? text.slice(0,160);
+      const detail=body.errors?.[0]?.message ?? body.error_msg ?? body.error ?? text.slice(0,160);
       const retryable=res.status===429 || res.status>=500;
       lastError=new QlooError(`Qloo ${path} responded ${res.status}: ${detail}`,{status:res.status,retryable});
       if (!retryable) break;
@@ -63,7 +78,8 @@ export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000
 
   return {
     name:'qloo',
-    stats:()=>({liveCalls,cached:cache.size}),
+    // Not wrapped by the daily budget (it only wraps top-level functions).
+    meta:{stats:()=>({liveCalls,cached:cache.size,monthRemaining}),monthRemaining:()=>monthRemaining},
     async search(query,{types,take=5}={}) {
       const out=await get('/search',{query,types,take});
       return {...out,entities:out.body.results ?? []};

@@ -88,6 +88,7 @@ Point any Streamable HTTP MCP client at `https://<deployment>/mcp`. Tools:
 
 - Qloo results describe the **aggregate** taste of people in a city. They say nothing about any individual guest, and the app sends no personal data to Qloo.
 - Coverage is uneven. Hanoi and Ho Chi Minh City have measurable signals for most markets; smaller cities have few for distant markets. When a business type has too few, the list widens to every kind of place and says so; when there is none, the page says that too.
+- The hackathon key allows 5 Qloo requests a second and 10,000 a month. The client paces itself to 4 a second, retries rate-limited requests, caches responses for 12 hours, and the server pauses live briefs when fewer than 1,000 monthly calls remain, so the saved examples and cached briefs keep working through judging.
 - Qloo returns at most 50 results per request, so "city-wide" means the city's top 50 for that business type.
 - Idea scores show whether places offering something are over-represented among a market's favourites. They do not show that adding it will bring guests.
 

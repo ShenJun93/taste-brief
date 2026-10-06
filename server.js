@@ -14,13 +14,15 @@ const isVercel=Boolean(process.env.VERCEL);
 
 // Budgets cap what a public deployment can spend per instance per day.
 const providers={
-  qloo:dailyBudget(qlooFromEnv(process.env),Number(process.env.QLOO_DAILY_CALLS ?? 1500)),
+  qloo:dailyBudget(qlooFromEnv(process.env),Number(process.env.QLOO_DAILY_CALLS ?? 400)),
   llm:dailyBudget(nebiusFromEnv(process.env),Number(process.env.NEBIUS_DAILY_CALLS ?? 150))
 };
 const engines={
   data:providers.qloo?'Qloo Taste AI (hackathon API)':'not configured',
   model:providers.llm?`${providers.llm.model} via Nebius Token Factory`:'none (rule-based brief)'
 };
+const QLOO_MONTH_RESERVE=Number(process.env.QLOO_MONTH_RESERVE ?? 1000);
+providers.monthReserve=QLOO_MONTH_RESERVE;
 const limiter=rateLimit({max:Number(process.env.RATE_LIMIT_PER_10_MIN ?? 12)});
 const mcpNodeHandler=toNodeHandler(createTasteBriefHandler(providers));
 
@@ -41,7 +43,7 @@ app.all('/mcp',limiter,async (req,res)=>{
 
 app.use(express.json({limit:'32kb'}));
 
-app.get('/health',(_req,res)=>res.json({status:'ok',engines}));
+app.get('/health',(_req,res)=>res.json({status:'ok',engines,qlooMonthRemaining:providers.qloo?.meta?.monthRemaining() ?? null}));
 
 app.get('/api/options',(_req,res)=>res.json({
   cities:CITIES.map(({id,label})=>({id,label})),
@@ -75,6 +77,12 @@ app.post('/api/brief',limiter,async (req,res)=>{
   if (hit && Date.now()-hit.at<6*60*60*1000) {
     send('step',{ms:0,phase:'cache',label:'Same question answered in the last six hours; returning that brief'});
     send('brief',{...hit.brief,cachedAt:new Date(hit.at).toISOString()});
+    return res.end();
+  }
+  // Keep part of the monthly Qloo quota for the judging window; saved examples stay available.
+  const remaining=providers.qloo?.meta?.monthRemaining();
+  if (remaining!==null && remaining!==undefined && remaining<QLOO_MONTH_RESERVE) {
+    send('error',{error:`Live briefs are paused to keep the Qloo event quota for judging (${remaining} calls left this month). The saved examples below still work.`});
     return res.end();
   }
   try {

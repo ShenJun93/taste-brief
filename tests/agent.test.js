@@ -168,6 +168,33 @@ test('Qloo client sends the key as a header, caches, and surfaces errors', async
   assert.equal(qlooFromEnv({}),null);
 });
 
+test('Qloo client paces requests and records the monthly quota', async ()=>{
+  let clock=0;
+  const sent=[];
+  const fetchImpl=async (url)=>{
+    sent.push(clock);
+    return new Response(JSON.stringify({results:{entities:[]}}),{status:200,headers:{'x-month-ratelimit-remaining':'812'}});
+  };
+  const qloo=qlooFromEnv({QLOO_API_KEY:'k'},fetchImpl,{now:()=>clock,sleep:async (ms)=>{ clock+=ms; },perSecond:4});
+  await Promise.all([1,2,3,4,5,6].map((n)=>qloo.insights({take:n})));
+  assert.equal(sent.length,6);
+  assert.ok(sent.filter((t)=>t<1000).length<=4,'no more than four requests in the first second');
+  assert.equal(qloo.meta.monthRemaining(),812);
+});
+
+test('Qloo client retries a rate-limited request', async ()=>{
+  let calls=0;
+  const fetchImpl=async ()=>{
+    calls+=1;
+    if (calls===1) return new Response(JSON.stringify({error_msg:'Rate limit exceeded'}),{status:429});
+    return new Response(JSON.stringify({results:{entities:[{entity_id:'1',name:'A'}]}}),{status:200});
+  };
+  const qloo=qlooFromEnv({QLOO_API_KEY:'k'},fetchImpl,{sleep:async ()=>{}});
+  const out=await qloo.insights({take:1});
+  assert.equal(out.entities.length,1);
+  assert.equal(calls,2);
+});
+
 test('MCP server lists the taste tools', async ()=>{
   const server=buildMcpServer({qloo:null,llm:null});
   const names=Object.keys(server._registeredTools ?? {});

@@ -22,4 +22,4 @@ for (const [id,input] of Object.entries(SAMPLES)) {
   await writeFile(new URL(`../data/samples/${id}.json`,import.meta.url),JSON.stringify(brief,null,1));
   console.log(`${id}: ${brief.places.length} places, ${brief.profile.length} tags, ${brief.ideas.filter((i)=>i.status==='ranked').length}/${brief.ideas.length} ideas scored, ${brief.brief.actions.length} actions, ${((Date.now()-started)/1000).toFixed(0)}s, engine ${brief.engine}`);
 }
-console.log('qloo',JSON.stringify(qloo.stats()));
+console.log('qloo',JSON.stringify(qloo.meta.stats()));
