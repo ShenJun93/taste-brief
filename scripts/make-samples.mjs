@@ -9,7 +9,11 @@ import {buildBrief} from '../src/agent.js';
 export const SAMPLES={
   'hanoi-cafe-seoul':{city:'hanoi',market:'seoul',business:'cafe',ownPlace:'Xofa Cafe',ideas:['egg coffee workshop','live music on Fridays','K-pop playlist','vegan cakes']},
   'hoian-stay-sydney':{city:'hoian',market:'sydney',business:'stay',ideas:['cooking class','bicycle tours','rooftop bar','yoga mornings']},
-  'hcmc-cafe-tokyo':{city:'hcmc',market:'tokyo',business:'cafe',ideas:['matcha latte','rooftop seating','vinyl records','pour-over coffee']}
+  'hcmc-cafe-tokyo':{city:'hcmc',market:'tokyo',business:'cafe',ideas:['matcha latte','rooftop seating','vinyl records','pour-over coffee']},
+  'danang-cafe-seoul':{city:'danang',market:'seoul',business:'cafe',ideas:['sea view terrace','coconut coffee','K-pop playlist','brunch menu']},
+  'hcmc-bar-seoul':{city:'hcmc',market:'seoul',business:'bar',ideas:['craft beer','live jazz','karaoke night','rooftop view']},
+  'hanoi-stay-tokyo':{city:'hanoi',market:'tokyo',business:'stay',ideas:['onsen-style bath','old quarter walking tour','cooking class','quiet rooms']},
+  'hcmc-restaurant-singapore':{city:'hcmc',market:'singapore',business:'restaurant',ideas:['seafood hotpot','halal options','street food tour','late-night menu']}
 };
 
 const qloo=qlooFromEnv(process.env);

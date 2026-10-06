@@ -35,7 +35,7 @@ export const MARKETS=[
 export const BUSINESSES=[
   {id:'cafe',label:'Cafe',plural:'cafés',
     tags:['urn:tag:genre:place:restaurant:coffee_shop','urn:tag:genre:place:cafe','urn:tag:category:place:coffee_shop'],
-    genre:/^(restaurant:)?(coffee_shop|cafe|coffee_roasters|tea_house|tea_room|dessert_shop|pastry_shop|bakery|juice_shop|bubble_tea)/},
+    genre:/^(restaurant:)?(coffee_shop|cafe|coffee_roasters|tea_house|tea_room|dessert_shop|juice_shop|bubble_tea|chocolate_cafe)/},
   {id:'restaurant',label:'Restaurant',plural:'restaurants',
     tags:['urn:tag:genre:place:restaurant'],
     genre:/^restaurant(?!:(coffee_shop|cafe|bar|pub|live_music_bar|sports_bar|wine_bar|cocktail_bar|pastry_shop|bakery|dessert_shop))/},

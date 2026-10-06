@@ -66,7 +66,11 @@ const T={
     examples:[
       {id:'hanoi-cafe-seoul',label:'Hanoi café · guests from Seoul'},
       {id:'hoian-stay-sydney',label:'Hoi An homestay · guests from Sydney'},
-      {id:'hcmc-cafe-tokyo',label:'Saigon café · guests from Tokyo'}
+      {id:'hcmc-cafe-tokyo',label:'Saigon café · guests from Tokyo'},
+      {id:'danang-cafe-seoul',label:'Da Nang café · guests from Seoul'},
+      {id:'hcmc-bar-seoul',label:'Saigon bar · guests from Seoul'},
+      {id:'hanoi-stay-tokyo',label:'Hanoi hotel · guests from Tokyo'},
+      {id:'hcmc-restaurant-singapore',label:'Saigon restaurant · guests from Singapore'}
     ]
   },
   vi:{
@@ -133,7 +137,11 @@ const T={
     examples:[
       {id:'hanoi-cafe-seoul',label:'Cà phê Hà Nội · khách Seoul'},
       {id:'hoian-stay-sydney',label:'Homestay Hội An · khách Sydney'},
-      {id:'hcmc-cafe-tokyo',label:'Cà phê Sài Gòn · khách Tokyo'}
+      {id:'hcmc-cafe-tokyo',label:'Cà phê Sài Gòn · khách Tokyo'},
+      {id:'danang-cafe-seoul',label:'Cà phê Đà Nẵng · khách Seoul'},
+      {id:'hcmc-bar-seoul',label:'Quán bar Sài Gòn · khách Seoul'},
+      {id:'hanoi-stay-tokyo',label:'Khách sạn Hà Nội · khách Tokyo'},
+      {id:'hcmc-restaurant-singapore',label:'Nhà hàng Sài Gòn · khách Singapore'}
     ]
   }
 };
@@ -485,7 +493,7 @@ function render(brief,{sample=false,scroll=true}={}) {
     const verdict=x.verdict ?? (x.status==='no-signal'?'untested':null);
     const counts=x.verdict?t('ideaCounts',x,input):x.status==='unmapped'?t('unmapped'):x.status==='not-evaluated'?t('notEvaluated'):x.via?t('entityRank',x):'';
     return h('li',{},
-      h('div',{class:'top'},h('span',{class:'iname'},x.idea),verdict?h('span',{class:`verdict ${verdict}`},t('verdict')[verdict]):null),
+      h('div',{class:'itop'},h('span',{class:'iname'},x.idea),verdict?h('span',{class:`verdict ${verdict}`},t('verdict')[verdict]):null),
       h('div',{class:'why'},counts),
       notes.get(x.ref)?h('div',{class:'inote'},notes.get(x.ref)):null
     );

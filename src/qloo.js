@@ -51,15 +51,17 @@ export function qlooFromEnv(env=process.env,fetchImpl=fetch,{ttlMs=12*60*60*1000
       await slot();
       liveCalls+=1;
       let res;
+      let text;
       try {
-        res=await fetchImpl(`${baseUrl}${key}`,{headers:{'X-Api-Key':apiKey},signal:AbortSignal.timeout(20000)});
+        // The timeout covers reading the body too, so both sit inside the retry.
+        res=await fetchImpl(`${baseUrl}${key}`,{headers:{'X-Api-Key':apiKey},signal:AbortSignal.timeout(25000)});
+        text=await res.text();
       } catch (error) {
         lastError=new QlooError(`Qloo request failed: ${error.message}`,{retryable:true});
         continue;
       }
       const remaining=Number(res.headers?.get?.('x-month-ratelimit-remaining'));
       if (Number.isFinite(remaining) && res.headers.get('x-month-ratelimit-remaining')!==null) monthRemaining=remaining;
-      const text=await res.text();
       let body;
       try { body=JSON.parse(text); } catch { body={}; }
       if (res.ok) {
@@ -138,7 +140,10 @@ export function compactEntity(entity) {
     disambiguation:entity.disambiguation ?? null,
     popularity:entity.popularity ?? null,
     affinity:entity.query?.affinity ?? null,
-    allTags:[...new Set((entity.tags ?? []).map((t)=>t.name).filter(Boolean))]
+    allTags:[...new Set((entity.tags ?? []).map((t)=>t.name).filter(Boolean))],
+    // How many music-specific tags (genre, music style, instrument) Qloo attaches; actors and
+    // celebrities filed as artists carry few or none.
+    musicTags:(entity.tags ?? []).filter((t)=>/^urn:tag:(genre:music|music:qloo|instrument:qloo)/.test(String(t.id ?? ''))).length
   };
 }
 

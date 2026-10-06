@@ -6089,43 +6089,10 @@
      "Electronic",
      "House"
     ],
+    "musicTags": 4,
     "rank": 1,
     "localRank": 1,
     "ref": "C1"
-   },
-   {
-    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
-    "name": "Nicole Richie",
-    "kind": "artist",
-    "disambiguation": "Nicole Richie",
-    "popularity": 0.8038685619540071,
-    "affinity": 0.9999855342781788,
-    "allTags": [
-     "Pop Culture Enthusiasts",
-     "Paris Hilton",
-     "Trendy",
-     "3",
-     "Fashionable",
-     "Influential",
-     "Engaging",
-     "None",
-     "R & B",
-     "Reality TV Personality",
-     "Reality TV Music",
-     "Rhythm & Blues",
-     "Stylish",
-     "Fashion",
-     "Entertaining",
-     "Pop",
-     "Charismatic",
-     "Fashion Influencer Culture",
-     "Creative",
-     "Reality TV",
-     "R&B"
-    ],
-    "rank": 3,
-    "localRank": 18,
-    "ref": "C2"
    },
    {
     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
@@ -6217,9 +6184,10 @@
      "Folk",
      "Pop Rock"
     ],
+    "musicTags": 19,
     "rank": 6,
     "localRank": 48,
-    "ref": "C3"
+    "ref": "C2"
    },
    {
     "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
@@ -6313,9 +6281,10 @@
      "Electronic",
      "Country"
     ],
+    "musicTags": 15,
     "rank": 8,
     "localRank": 4,
-    "ref": "C4"
+    "ref": "C3"
    },
    {
     "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
@@ -6404,9 +6373,10 @@
      "EDM",
      "Soul"
     ],
+    "musicTags": 16,
     "rank": 11,
     "localRank": 6,
-    "ref": "C5"
+    "ref": "C4"
    },
    {
     "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
@@ -6496,8 +6466,62 @@
      "Torch Song",
      "Piano Ballad"
     ],
+    "musicTags": 14,
     "rank": 13,
     "localRank": 12,
+    "ref": "C5"
+   },
+   {
+    "id": "F8C15F57-39B6-454A-87F3-2D227B6B42B1",
+    "name": "Britney Spears",
+    "kind": "artist",
+    "disambiguation": "Britney Spears",
+    "popularity": 0.9997837327723492,
+    "affinity": 0.9998319283322697,
+    "allTags": [
+     "Empowerment",
+     "Pop",
+     "Teen Pop",
+     "Madonna",
+     "Charismatic",
+     "Dance Pop",
+     "Dance",
+     "Loyal",
+     "Mezzo-Soprano",
+     "Vocals",
+     "Catchy",
+     "Passionate",
+     "Freedom",
+     "Resilient",
+     "Legend",
+     "Love",
+     "Electropop",
+     "Janet Jackson",
+     "Versatile",
+     "Theatrical",
+     "Danceable",
+     "Michael Jackson",
+     "Choreographed",
+     "Energetic",
+     "Engaging",
+     "Dedicated",
+     "Youth",
+     "Whitney Houston",
+     "Synthpop",
+     "Bubblegum Pop",
+     "1",
+     "Heartbreak",
+     "Supportive",
+     "R&B",
+     "Melodic",
+     "Iconic",
+     "Youthful",
+     "Dance-Pop",
+     "Synth-Pop"
+    ],
+    "musicTags": 10,
+    "rank": 22,
+    "localRank": 34,
     "ref": "C6"
    }
   ],
@@ -6541,6 +6565,7 @@
      "Dance-Pop",
      "Ace of Base"
     ],
+    "musicTags": 9,
     "rank": 2,
     "localRank": null,
     "ref": "C7"
@@ -6628,6 +6653,7 @@
      "1",
      "Adult Contemporary"
     ],
+    "musicTags": 17,
     "rank": 4,
     "localRank": null,
     "ref": "C8"
@@ -6683,6 +6709,7 @@
      "Piano-driven Pop",
      "Self-discovery"
     ],
+    "musicTags": 11,
     "rank": 5,
     "localRank": null,
     "ref": "C9"
@@ -6735,6 +6762,7 @@
      "Self-discovery",
      "R&B"
     ],
+    "musicTags": 9,
     "rank": 7,
     "localRank": null,
     "ref": "C10"
@@ -6808,6 +6836,7 @@
      "House-Pop",
      "Club"
     ],
+    "musicTags": 7,
     "rank": 9,
     "localRank": null,
     "ref": "C11"
@@ -6865,6 +6894,7 @@
      "Gospel-Infused",
      "R&B"
     ],
+    "musicTags": 13,
     "rank": 10,
     "localRank": null,
     "ref": "C12"
@@ -6972,6 +7002,7 @@
      "Workplace politics",
      "Stylistic vignette"
     ],
+    "musicTags": 0,
     "rank": 23,
     "localRank": 49,
     "ref": "C13"
@@ -7132,6 +7163,7 @@
      "Dog",
      "Family activities"
     ],
+    "musicTags": 0,
     "rank": 4,
     "localRank": null,
     "ref": "C14"
@@ -7236,6 +7268,7 @@
      "2010s",
      "Sexual attraction"
     ],
+    "musicTags": 0,
     "rank": 9,
     "localRank": null,
     "ref": "C15"
@@ -7323,6 +7356,7 @@
      "The lover",
      "Based on novel"
     ],
+    "musicTags": 0,
     "rank": 11,
     "localRank": null,
     "ref": "C16"
@@ -7414,6 +7448,7 @@
      "Prison drama",
      "Women in prison"
     ],
+    "musicTags": 0,
     "rank": 12,
     "localRank": null,
     "ref": "C17"
@@ -7506,6 +7541,7 @@
      "Lgbtq",
      "Diversity"
     ],
+    "musicTags": 0,
     "rank": 14,
     "localRank": null,
     "ref": "C18"
@@ -7634,6 +7670,7 @@
      "Puzzle like staging",
      "Redemptive"
     ],
+    "musicTags": 0,
     "rank": 16,
     "localRank": null,
     "ref": "C19"
@@ -7731,117 +7768,72 @@
   }
  ],
  "brief": {
-  "headline": "Khách Sydney yêu ẩm thực địa phương và xe đạp ở Hội An",
-  "summary": "Người sinh sống ở Sydney thường chọn những chỗ ở ở Hội An có ẩm thực địa phương, cơ hội xe đạp và không gian nước, sân chơi sống động. Họ cũng thích âm nhạc như Context, Nicole Richie và Taylor Swift, được yêu thích cả ở Sydney và Hội An. Đối tượng này chủ yếu là người 55+ và xu hướng nữ.",
+  "headline": "Khách Sydney ở Hoi An thích ẩm thực địa phương và không gian mở trời",
+  "summary": "Theo dữ liệu, những chỗ ở được người Sydney ưa chuộng nhất bao gồm IVY VILLA (Cẩm Châu), Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) và Resort Hội An (Cửa Đại), với thị phần cao trong danh sách yêu thích. Khán giả chủ yếu là người trên 55 tuổi, xu hướng nữ. Những đặc điểm nổi bật là ẩm thực địa phương, không gian mở trời,氣氛 żywot và hobby đạp xe.",
   "actions": [
    {
-    "title": "Nhấn mạnh ẩm thực địa phương trong mô tả và menu",
-    "detail": "People in Sydney show strong preference for local cuisine (Local cuisine).",
+    "title": "Nhấn mạnh ẩm thực địa phương",
+    "detail": "Cung cấp món ăn địa phương trong bữa sáng hoặc giới thiệu quán ăn như Miss Ly (thị trấn Hoi An) vì thẻ 'Local cuisine' chỉ xuất hiện trong sở thích của người Sydney (Local cuisine) và được thấy ở Miss Ly (Miss Ly).",
     "refs": [
-     "T1"
+     "T1",
+     "P13"
     ]
    },
    {
-    "title": "Đề xuất hoạt động xe đạp và tour đường phố",
-    "detail": "Cycling interest appears 2.5× more among Sydney favourites (Cycling).",
+    "title": "Tạo không gian mở trời",
+    "detail": "Thiết kế khu vực ngồi ngoài trời, ban công hoặc vườn vì thẻ 'Open air' chỉ có trong sở thích của người Sydney (Open air).",
     "refs": [
-     "T5"
+     "T2"
     ]
    },
    {
-    "title": "Tạo không gian thoáng đãng, mở cửa và sống động",
-    "detail": "Open air decor and lively ambience are over‑represented among favourites (Open air, Lively).",
+    "title": "Đề xuất tour xe đạp",
+    "detail": "Kết hợp vớistay và cung cấp bản đồ đường đạp xe vì thẻ 'Cycling' xuất hiện 2,5 lần nhiều hơn trong sở thích của người Sydney so với trung bình thành phố (Cycling), như thấy ở IVY VILLA (IVY VILLA) và Riverside Impression Villa (Riverside Impression Villa).",
     "refs": [
-     "T2",
+     "T5",
+     "P1",
+     "P4"
+    ]
+   },
+   {
+    "title": "Giữ không khí sống động",
+    "detail": "Organize buổi hòa âm thanh hoặc sự kiện tối để phù hợp với thẻ 'Lively' mà người Sydney yêu thích 2,1 lần nhiều hơn so với trung bình thành phố (Lively).",
+    "refs": [
      "T3"
     ]
-   },
-   {
-    "title": "Phát triển playlist âm nhạc橋接 Sydney‑Hội An",
-    "detail": "Bridge artists such as Context, Nicole Richie and Taylor Swift are loved in both markets (Context‑Adele).",
-    "refs": [
-     "C1",
-     "C2",
-     "C3",
-     "C4",
-     "C5",
-     "C6"
-    ]
    }
   ],
-  "partners": [
-   {
-    "ref": "P1",
-    "why": "IVY VILLA có thị trường hạng 1 và được mô tả là Casual, Welcoming, phù hợp với khách thích nhiếp ảnh và trung tâm thành phố."
-   },
-   {
-    "ref": "P2",
-    "why": "Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa xếp hạng thị trường 2, nổi bật về Gastronomy, Historic và Photography, thu hút khách yêu cầu ẩm thực và lịch sử."
-   },
-   {
-    "ref": "P3",
-    "why": "Resort Hội An có thị trường hạng 3 và xếp hạng thành phố 1, đặc điểm Waterfront, Wellness retreats và Beachfront phù hợp với sở thích về không gian nước và thư giãn."
-   },
-   {
-    "ref": "P11",
-    "why": "Mango Mango là món ăn fusión Ásia xếp hạng thị trường 1, đáp ứng xu hướng ẩm thực Ásia mà khách Sydney thích."
-   }
-  ],
-  "playlist": [
-   {
-    "ref": "C1",
-    "why": "Context là bài hát được yêu thích cả ở Sydney (hạng 1) và Hội An (hạng 1)."
-   },
-   {
-    "ref": "C2",
-    "why": "Nicole Richie được xếp hạng 3 ở Sydney và 18 ở Hội An, thể hiện sự chung chung trong sở thích."
-   },
-   {
-    "ref": "C3",
-    "why": "Taylor Swift ở Sydney hạng 6, Hội An hạng 48, vẫn nằm trong danh sách bridge."
-   },
-   {
-    "ref": "C4",
-    "why": "Beyoncé ở Sydney hạng 8, Hội An hạng 4, được yêu thích mạnh ở cả hai thị trường."
-   },
-   {
-    "ref": "C5",
-    "why": "Rihanna ở Sydney hạng 11, Hội An hạng 6, là một trong những nghệ sĩ bridge phổ biến."
-   },
-   {
-    "ref": "C6",
-    "why": "Adele ở Sydney hạng 13, Hội An hạng 12, cho thấy sự đồng bộ trong sở thích ballad."
-   }
-  ],
+  "partners": [],
+  "playlist": [],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Ý tưởng lớp học nấu ăn là phổ biến như ở thành phố, không tạo điểm khác biệt."
+    "note": "Ý tưởng 'cooking class' chỉ phổ biến như trung bình thành phố (common), không nên làm điểm nổi bật chính."
    },
    {
     "ref": "I2",
-    "note": "Ý tưởng tour xe đạp có quá ít dữ liệu để xác định; nếu muốn thử, nên chạy thử chi phí thấp."
+    "note": "Ý tưởng 'bicycle tours' xuất hiện trong ít hơn 3 sở thích (too-few); nếu muốn thử, nên thực hiện thử nghiệm chi phí thấp."
    },
    {
     "ref": "I3",
-    "note": "Ý tưởng bar trên máu cũng thiếu dữ liệu; cân nhắc thử nghiệm nhỏ."
+    "note": "Ý tưởng 'rooftop bar' cũng too-few; cân nhắc thử nghiệm nhỏ trước khi đầu tư lớn."
    },
    {
     "ref": "I4",
-    "note": "Ý tưởng buổi yoga sáng cũng thiếu dữ liệu; chỉ nên thử khi có nguồn lực."
+    "note": "Ý tưởng 'yoga mornings' too-few; đề xuất thử nghiệm ngắn hạn nếu muốn khám phá."
    }
   ],
   "caveats": [
-   "Dữ liệu không cho thấy mối quan hệ nhân quả giữa sở thích và quyết định đặt phòng.",
-   "Phân tích chỉ cho xu hướng tổng thể của người Sydney, không phân biệt theo faixa tuổi cụ thể ngoài sự lệch 55+. ",
-   "Không có thông tin về biến đổi theo mùa hoặc thời gian mà có thể ảnh hưởng đến sở thích."
+   "Dữ liệu không cho thấy mức độ giá mà người Sydney sẵn sàng trả.",
+   "Không thể xác nhận rằng các tính năng được ưa chuộng sẽ dẫn đến tỷ lệ đặt phòng cao hơn.",
+   "Không phản ánh biến đổi theo mùa hoặc sự kiện đặc biệt trong năm."
   ],
   "dropped": []
  },
  "baseline": {
   "places": [
    {
-    "name": "Anantara Hoi An Resort",
+    "name": "Anantara Hoi An Resort & Villas",
     "qlooName": "Anantara Hoi An Resort",
     "inQloo": true,
     "marketSignal": true,
@@ -7877,9 +7869,9 @@
     "allRank": null
    },
    {
-    "name": "Little Riverside Hoi An",
-    "qlooName": "Little Riverside Hoi An - Little Luxury Hotel & Spa",
-    "inQloo": true,
+    "name": "Little Riverside Boutique Hotel",
+    "qlooName": null,
+    "inQloo": false,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
@@ -7898,22 +7890,22 @@
     "localRank": null
    },
    {
+    "name": "Vance Joy",
+    "qlooRank": null,
+    "localRank": null
+   },
+   {
     "name": "RÜFÜS DU SOL",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "Pond",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "King Gizzard & the Lizard Wizard",
+    "name": "Chet Faker",
     "qlooRank": null,
     "localRank": null
    }
   ],
-  "advice": "Highlight your property’s blend of Vietnamese charm and modern comforts in your marketing, using vivid photos of the ancient town and nearby beaches. Offer special packages that include a complimentary surf‑lesson voucher or a guided bike tour to the Marble Mountains, experiences Sydney travelers often seek. Provide clear information about easy airport transfers from Da Nang and free Wi‑Fi, and encourage guests to leave reviews on platforms popular with Australians like TripAdvisor and Google.",
+  "advice": "Highlight your property’s blend of Vietnamese charm and modern comforts in marketing materials aimed at Australian travelers, emphasizing easy access to Hoi An’s beaches and UNESCO‑listed old town. Offer special packages that include a complimentary surf lesson or bike tour, activities Sydneysiders enjoy back home. Use social media ads targeting Sydney‑based interests like beach lifestyle, boutique hotels, and wellness retreats. Encourage past Australian guests to leave reviews and share photos, leveraging word‑of‑mouth credibility. Finally, consider partnering with Australian travel influencers who can showcase your homestay’s unique appeal to their followers.",
   "poolSizes": {
    "peers": 10,
    "all": 28,
@@ -8138,7 +8130,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P2": {
@@ -8373,7 +8365,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P3": {
@@ -8599,7 +8591,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P4": {
@@ -8828,7 +8820,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P5": {
@@ -9064,7 +9056,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P6": {
@@ -9313,7 +9305,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P7": {
@@ -9537,7 +9529,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P8": {
@@ -9784,7 +9776,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P9": {
@@ -10035,7 +10027,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P10": {
@@ -10270,7 +10262,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P11": {
@@ -10667,7 +10659,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P12": {
@@ -11086,7 +11078,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P13": {
@@ -11469,7 +11461,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P14": {
@@ -11952,7 +11944,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P15": {
@@ -12315,7 +12307,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P16": {
@@ -12646,7 +12638,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P17": {
@@ -12853,7 +12845,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P18": {
@@ -13228,7 +13220,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "C1": {
@@ -13247,6 +13239,7 @@
      "Electronic",
      "House"
     ],
+    "musicTags": 4,
     "rank": 1,
     "localRank": 1
    },
@@ -13257,57 +13250,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C2": {
    "ref": "C2",
-   "kind": "artist",
-   "item": {
-    "id": "EE63A5A9-294A-4687-8801-A98FE7308A86",
-    "name": "Nicole Richie",
-    "kind": "artist",
-    "disambiguation": "Nicole Richie",
-    "popularity": 0.8038685619540071,
-    "affinity": 0.9999855342781788,
-    "allTags": [
-     "Pop Culture Enthusiasts",
-     "Paris Hilton",
-     "Trendy",
-     "3",
-     "Fashionable",
-     "Influential",
-     "Engaging",
-     "None",
-     "R & B",
-     "Reality TV Personality",
-     "Reality TV Music",
-     "Rhythm & Blues",
-     "Stylish",
-     "Fashion",
-     "Entertaining",
-     "Pop",
-     "Charismatic",
-     "Fashion Influencer Culture",
-     "Creative",
-     "Reality TV",
-     "R&B"
-    ],
-    "rank": 3,
-    "localRank": 18
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Sydney",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C3": {
-   "ref": "C3",
    "kind": "artist",
    "item": {
     "id": "4BBEF799-A0C4-4110-AB01-39216993C312",
@@ -13399,6 +13346,7 @@
      "Folk",
      "Pop Rock"
     ],
+    "musicTags": 19,
     "rank": 6,
     "localRank": 48
    },
@@ -13409,11 +13357,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
-  "C4": {
-   "ref": "C4",
+  "C3": {
+   "ref": "C3",
    "kind": "artist",
    "item": {
     "id": "F6754C46-B3E7-457F-8B7E-06C613597320",
@@ -13507,6 +13455,7 @@
      "Electronic",
      "Country"
     ],
+    "musicTags": 15,
     "rank": 8,
     "localRank": 4
    },
@@ -13517,11 +13466,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
-  "C5": {
-   "ref": "C5",
+  "C4": {
+   "ref": "C4",
    "kind": "artist",
    "item": {
     "id": "723BCD5C-AA73-4E13-AAA6-9FBE10A889E4",
@@ -13610,6 +13559,7 @@
      "EDM",
      "Soul"
     ],
+    "musicTags": 16,
     "rank": 11,
     "localRank": 6
    },
@@ -13620,11 +13570,11 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
-  "C6": {
-   "ref": "C6",
+  "C5": {
+   "ref": "C5",
    "kind": "artist",
    "item": {
     "id": "24012F7D-C125-4EB7-A661-6AF65523E43C",
@@ -13714,6 +13664,7 @@
      "Torch Song",
      "Piano Ballad"
     ],
+    "musicTags": 14,
     "rank": 13,
     "localRank": 12
    },
@@ -13724,7 +13675,72 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "artist",
+   "item": {
+    "id": "F8C15F57-39B6-454A-87F3-2D227B6B42B1",
+    "name": "Britney Spears",
+    "kind": "artist",
+    "disambiguation": "Britney Spears",
+    "popularity": 0.9997837327723492,
+    "affinity": 0.9998319283322697,
+    "allTags": [
+     "Empowerment",
+     "Pop",
+     "Teen Pop",
+     "Madonna",
+     "Charismatic",
+     "Dance Pop",
+     "Dance",
+     "Loyal",
+     "Mezzo-Soprano",
+     "Vocals",
+     "Catchy",
+     "Passionate",
+     "Freedom",
+     "Resilient",
+     "Legend",
+     "Love",
+     "Electropop",
+     "Janet Jackson",
+     "Versatile",
+     "Theatrical",
+     "Danceable",
+     "Michael Jackson",
+     "Choreographed",
+     "Energetic",
+     "Engaging",
+     "Dedicated",
+     "Youth",
+     "Whitney Houston",
+     "Synthpop",
+     "Bubblegum Pop",
+     "1",
+     "Heartbreak",
+     "Supportive",
+     "R&B",
+     "Melodic",
+     "Iconic",
+     "Youthful",
+     "Dance-Pop",
+     "Synth-Pop"
+    ],
+    "musicTags": 10,
+    "rank": 22,
+    "localRank": 34
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Sydney",
+     "take": 50
+    },
+    "cached": false
    }
   },
   "C7": {
@@ -13769,6 +13785,7 @@
      "Dance-Pop",
      "Ace of Base"
     ],
+    "musicTags": 9,
     "rank": 2,
     "localRank": null
    },
@@ -13779,7 +13796,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C8": {
@@ -13868,6 +13885,7 @@
      "1",
      "Adult Contemporary"
     ],
+    "musicTags": 17,
     "rank": 4,
     "localRank": null
    },
@@ -13878,7 +13896,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C9": {
@@ -13935,6 +13953,7 @@
      "Piano-driven Pop",
      "Self-discovery"
     ],
+    "musicTags": 11,
     "rank": 5,
     "localRank": null
    },
@@ -13945,7 +13964,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C10": {
@@ -13999,6 +14018,7 @@
      "Self-discovery",
      "R&B"
     ],
+    "musicTags": 9,
     "rank": 7,
     "localRank": null
    },
@@ -14009,7 +14029,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C11": {
@@ -14084,6 +14104,7 @@
      "House-Pop",
      "Club"
     ],
+    "musicTags": 7,
     "rank": 9,
     "localRank": null
    },
@@ -14094,7 +14115,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C12": {
@@ -14153,6 +14174,7 @@
      "Gospel-Infused",
      "R&B"
     ],
+    "musicTags": 13,
     "rank": 10,
     "localRank": null
    },
@@ -14163,7 +14185,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C13": {
@@ -14268,6 +14290,7 @@
      "Workplace politics",
      "Stylistic vignette"
     ],
+    "musicTags": 0,
     "rank": 23,
     "localRank": 49
    },
@@ -14278,7 +14301,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C14": {
@@ -14438,6 +14461,7 @@
      "Dog",
      "Family activities"
     ],
+    "musicTags": 0,
     "rank": 4,
     "localRank": null
    },
@@ -14448,7 +14472,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C15": {
@@ -14554,6 +14578,7 @@
      "2010s",
      "Sexual attraction"
     ],
+    "musicTags": 0,
     "rank": 9,
     "localRank": null
    },
@@ -14564,7 +14589,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C16": {
@@ -14653,6 +14678,7 @@
      "The lover",
      "Based on novel"
     ],
+    "musicTags": 0,
     "rank": 11,
     "localRank": null
    },
@@ -14663,7 +14689,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C17": {
@@ -14756,6 +14782,7 @@
      "Prison drama",
      "Women in prison"
     ],
+    "musicTags": 0,
     "rank": 12,
     "localRank": null
    },
@@ -14766,7 +14793,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C18": {
@@ -14860,6 +14887,7 @@
      "Lgbtq",
      "Diversity"
     ],
+    "musicTags": 0,
     "rank": 14,
     "localRank": null
    },
@@ -14870,7 +14898,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C19": {
@@ -15000,6 +15028,7 @@
      "Puzzle like staging",
      "Redemptive"
     ],
+    "musicTags": 0,
     "rank": 16,
     "localRank": null
    },
@@ -15010,7 +15039,7 @@
      "signal.location.query": "Sydney",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "P19": {
@@ -15259,7 +15288,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P20": {
@@ -15580,7 +15609,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "T1": {
@@ -15891,7 +15920,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P22": {
@@ -16175,7 +16204,7 @@
      "take": 50,
      "signal.location.query": "Sydney"
     },
-    "cached": true
+    "cached": false
    }
   },
   "T2": {
@@ -16476,73 +16505,73 @@
    "detail": null
   },
   {
-   "ms": 49,
+   "ms": 3419,
    "phase": "qloo",
    "label": "10 places to stay and 28 places with a Sydney signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 49,
+   "ms": 3716,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 55+, leans female"
   },
   {
-   "ms": 49,
+   "ms": 3716,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 1102,
+   "ms": 5788,
    "phase": "agent",
    "label": "Look up Qloo tags for “cooking class”",
    "detail": "Cooking class, Cooking Classes, Cooking Class Dishes"
   },
   {
-   "ms": 3519,
+   "ms": 7282,
    "phase": "agent",
    "label": "Look up Qloo tags for “bicycle tour”",
    "detail": "Bicycle tours, Bicycle Tours Stop, Bicycle rental, Bicycle Shop"
   },
   {
-   "ms": 4818,
+   "ms": 8669,
    "phase": "agent",
    "label": "Look up Qloo tags for “rooftop bar”",
    "detail": "Rooftop Bar, Rooftop Bar Style, Rooftop Bar View, Rooftop Bar Decor"
   },
   {
-   "ms": 5685,
+   "ms": 9851,
    "phase": "agent",
    "label": "Look up Qloo tags for “yoga”",
    "detail": "Yoga, Yoga studio, Yoga instructor, Yoga classes"
   },
   {
-   "ms": 7848,
+   "ms": 11632,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
    "detail": "cooking class → Cooking Classes: 5/28 vs 9/50 (common); rooftop bar → Rooftop Bar: 1/28 vs 1/50 (too-few); bicycle tours → Bicycle tours: 0/28 vs 1/50 (too-few); yoga mornings → Yoga: 0/28 vs 2/50 (too-few)"
   },
   {
-   "ms": 8867,
+   "ms": 12449,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 8867,
+   "ms": 12449,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 23343,
+   "ms": 33412,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among the places people in Sydney favour in Hoi An than among the city's top places:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Context — Sydney rank 1, Hoi An rank 1\nC2 Nicole Richie — Sydney rank 3, Hoi An rank 18\nC3 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC4 Beyoncé — Sydney rank 8, Hoi An rank 4\nC5 Rihanna — Sydney rank 11, Hoi An rank 6\nC6 Adele — Sydney rank 13, Hoi An rank 12\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC7 Raumskaya — Sydney rank 2\nC8 Kylie Minogue — Sydney rank 4\nC9 Delta Goodrem — Sydney rank 5\nC10 Jessica Mauboy — Sydney rank 7\nC11 Ricki-Lee — Sydney rank 9\nC12 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC13 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC14 Bluey — Sydney rank 4\nC15 Suits — Sydney rank 9\nC16 Younger — Sydney rank 11\nC17 Wentworth — Sydney rank 12\nC18 RuPaul's Drag Race UK — Sydney rank 14\nC19 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking Classes\" (places): 5/28 of their favourites vs 9/50 city-wide — verdict common — e.g. P14, P15, P10, P22\nI2 \"bicycle tours\" → tag \"Bicycle tours\" (places): 0/28 of their favourites vs 1/50 city-wide — verdict too-few\nI3 \"rooftop bar\" → tag \"Rooftop Bar\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\" (places): 0/28 of their favourites vs 2/50 city-wide — verdict too-few",
- "generatedAt": "2026-10-06T11:21:25.722Z"
+ "facts": "Business: Homestay / hotel in Hoi An, Vietnam. Visitor market: people living in Sydney, Australia.\n\nplaces to stay in Hoi An with a measurable Sydney signal (10 found), ranked by the taste of people in Sydney; \"city rank\" is the rank among Hoi An's top places to stay without that signal:\nP1 IVY VILLA (Cẩm Châu) — market rank 1, city rank not in the top list — tags: Casual, Photography, City center, Welcoming, Boutique villa, Town villa\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (Cẩm Phô) — market rank 2, city rank 7 — tags: Gastronomy, Romantic, French, Historic, Photography, Relaxing\nP3 Resort Hội An (Cửa Đại) — market rank =3, city rank 1 — tags: Waterfront, Wellness retreats, Coastal, Beach relaxation, Fine dining, Beachfront\nP4 Riverside Impression Villa (Cẩm Nam) — market rank =3, city rank not in the top list — tags: Casual, Local cuisine, Rural, Cycling, Bonsai cultivation, Nature focused\nP5 Sol An Bang Beach Resort & Spa (Cẩm An) — market rank =5, city rank not in the top list — tags: Beachfront, Waterfront, Pine forest, Casual, Relaxing, Scandinavian\nP6 Anantara Hoi An Resort (Sơn Phong) — market rank =5, city rank 9 — tags: Romantic, Historic, Culinary arts, Cycling, French colonial, Colonial\nP7 Boutique Hoi An Resort (Cẩm An) — market rank =5, city rank 5 — tags: Clean, Waterfront, Relaxing, Elegant, Welcoming, Resort\nP8 Hoi An Coco River Resort & Spa (Cẩm Thanh) — market rank =5, city rank 26 — tags: Relaxation, Rustic, Tropical garden, Charming, Tropical, Quiet\nP9 White Lotus Hotel Hoian (Cẩm Châu) — market rank =5, city rank not in the top list — tags: Cycling, Near beach, Simple, Comfortable, Local culinary exploration, Minimalist\nP10 Allamanda Estate (Cẩm Hà) — market rank =5, city rank not in the top list — tags: Cycling, Relaxing, Culinary experiences, Nature appreciation, Tropical, Quiet\n\nAll kinds of places in Hoi An favoured by people in Sydney (hotels, restaurants, attractions), with their city-wide rank:\nP11 Mango Mango (asian fusion, Minh An) — market rank =1, city rank 22\nP1 IVY VILLA (hotel, Cẩm Châu) — market rank =1, city rank not in top 50\nP12 Morning Glory Signature (restaurant, Minh An) — market rank =3, city rank not in top 50\nP13 Miss Ly (vietnamese, Hoi An Old Town) — market rank =3, city rank 2\nP2 Hotel Royal Hoi An Danang, The Legacy Riverfront Resort & Spa (hotel, Cẩm Phô) — market rank =3, city rank 14\nP14 Phin Coffee Restaurant (restaurant, Minh An) — market rank =3, city rank 36\nP4 Riverside Impression Villa (hotel:resort, Cẩm Nam) — market rank =7, city rank not in top 50\nP15 Cafe 43 (vietnamese, Cẩm Phô) — market rank =7, city rank 39\nP16 Bale Well restaurant (restaurant, Minh An) — market rank =7, city rank not in top 50\nP17 White Rose Spa – Hair Wash, Head Spa & Massage (day spa, Cẩm Phô) — market rank =7, city rank 28\nP3 Resort Hội An (hotel:resort, Cửa Đại) — market rank =7, city rank 1\nP18 Pho Xua (vietnamese, Hoi An Old Town) — market rank =7, city rank not in top 50\n\nTags clearly more common among the places people in Sydney favour in Hoi An than among the city's top places:\nT1 \"Local cuisine\" (interests) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P4, P19, P20\nT2 \"Open air\" (decor) — 3/28 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P21, P22, P20\nT3 \"Lively\" (ambience) — 15/28 of their favourites vs 13/50 city-wide, 2.1× as common — e.g. P11, P12, P13, P15\nT4 \"Old town\" (setting) — 5/28 of their favourites vs 3/50 city-wide, 3.0× as common — e.g. P12, P13, P18, P21\nT5 \"Cycling\" (interests) — 7/28 of their favourites vs 5/50 city-wide, 2.5× as common — e.g. P1, P4, P10, P8\nT6 \"Asian\" (cuisine) — 9/28 of their favourites vs 7/50 city-wide, 2.3× as common — e.g. P11, P12, P14, P15\nT7 \"Beer\" (beverage_offering) — 16/28 of their favourites vs 17/50 city-wide, 1.7× as common — e.g. P11, P12, P13, P14\nT8 \"Waterfront\" (setting) — 8/28 of their favourites vs 7/50 city-wide, 2.0× as common — e.g. P11, P3, P7, P20\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Sydney): skews 55+, leans female\n\nMusic loved by people in Sydney that people in Hoi An also love (bridge):\nC1 Context — Sydney rank 1, Hoi An rank 1\nC2 Taylor Swift — Sydney rank 6, Hoi An rank 48\nC3 Beyoncé — Sydney rank 8, Hoi An rank 4\nC4 Rihanna — Sydney rank 11, Hoi An rank 6\nC5 Adele — Sydney rank 13, Hoi An rank 12\nC6 Britney Spears — Sydney rank 22, Hoi An rank 34\nMusic loved in Sydney but not in Hoi An's top list (distinct):\nC7 Raumskaya — Sydney rank 2\nC8 Kylie Minogue — Sydney rank 4\nC9 Delta Goodrem — Sydney rank 5\nC10 Jessica Mauboy — Sydney rank 7\nC11 Ricki-Lee — Sydney rank 9\nC12 Guy Sebastian — Sydney rank 10\n\nTV loved by people in Sydney that people in Hoi An also love (bridge):\nC13 Emily in Paris — Sydney rank 23, Hoi An rank 49\nTV loved in Sydney but not in Hoi An's top list (distinct):\nC14 Bluey — Sydney rank 4\nC15 Suits — Sydney rank 9\nC16 Younger — Sydney rank 11\nC17 Wentworth — Sydney rank 12\nC18 RuPaul's Drag Race UK — Sydney rank 14\nC19 The Good Place — Sydney rank 16\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"cooking class\" → tag \"Cooking Classes\" (places): 5/28 of their favourites vs 9/50 city-wide — verdict common — e.g. P14, P15, P10, P22\nI2 \"bicycle tours\" → tag \"Bicycle tours\" (places): 0/28 of their favourites vs 1/50 city-wide — verdict too-few\nI3 \"rooftop bar\" → tag \"Rooftop Bar\" (places): 1/28 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2\nI4 \"yoga mornings\" → tag \"Yoga\" (places): 0/28 of their favourites vs 2/50 city-wide — verdict too-few",
+ "generatedAt": "2026-10-06T11:56:13.338Z"
 }

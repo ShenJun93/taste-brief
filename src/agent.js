@@ -179,7 +179,18 @@ async function runIdeaAgent(ctx,{llm,input,domains,step,maxTurns=10}) {
     if (turn===maxTurns-3 && [...results.values()].some((r)=>r.status==='unmapped')) {
       messages.push({role:'user',content:'You are almost out of steps. Score every idea now with rank_ideas_by_tags, using the best tags you have already found.'});
     }
-    const {message}=await llm.chatTools({messages,tools:AGENT_TOOLS});
+    let message;
+    try {
+      ({message}=await llm.chatTools({messages,tools:AGENT_TOOLS}));
+    } catch (error) {
+      // One retry for a dropped connection; after that, stop and score with what was found.
+      try {
+        ({message}=await llm.chatTools({messages,tools:AGENT_TOOLS}));
+      } catch {
+        step('agent','Model unavailable; scoring with the tags found so far',error.message);
+        break;
+      }
+    }
     const calls=message.tool_calls ?? [];
     messages.push({role:'assistant',content:message.content ?? '',tool_calls:calls.length?calls:undefined});
     if (!calls.length) break;
@@ -269,7 +280,7 @@ export function factSheet({input,places,profile,music,screen,own,ideas,audience}
     lines.push('',`All kinds of places in ${city.label} favoured by people in ${market.label} (hotels, restaurants, attractions), with their city-wide rank:`);
     for (const p of places.allPlaces) lines.push(`${p.ref} ${p.name} (${(p.genre ?? 'place').replace(/_/g,' ').replace('restaurant:','')}${p.neighborhood?`, ${p.neighborhood}`:''}) — market rank ${rankText(p)}, city rank ${p.cityRank ?? 'not in top 50'}`);
   }
-  lines.push('',`Tags clearly more common among the places people in ${market.label} favour in ${city.label} than among the city's top places:`);
+  lines.push('',`Tags clearly more common among ALL KINDS of places people in ${market.label} favour in ${city.label} (mostly restaurants, bars and hotels — not specifically ${business.plural}) than among the city's top places. Do not write that people prefer ${business.plural} with these traits; write that these traits are common in the places they favour:`);
   if (!profile.length) lines.push('(none clear enough to report)');
   for (const t of profile) lines.push(`${t.ref} "${t.name}" (${t.family}) — ${t.marketCount}/${t.marketTotal} of their favourites vs ${t.baselineCount}/${t.baselineTotal} city-wide, ${fmtRatio(t.ratio)} — e.g. ${t.places.join(', ')}`);
   if (audience) lines.push('',`Audience of the top favourites (Qloo demographics of each place's audience overall, not only ${market.label}): ${audience.summary}`);
@@ -290,7 +301,10 @@ export function factSheet({input,places,profile,music,screen,own,ideas,audience}
   if (ideas.length) {
     lines.push('','Owner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market\'s favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.');
     for (const i of ideas) {
-      if (i.status==='ranked' && i.via.kind==='tag') lines.push(`${i.ref} "${i.idea}" → tag "${i.via.name}" (${i.domain}): ${i.marketCount}/${i.marketTotal} of their favourites vs ${i.cityCount}/${i.cityTotal} city-wide — verdict ${i.verdict}${i.examples?.length?` — e.g. ${i.examples.join(', ')}`:''}`);
+      if (i.status==='ranked' && i.via.kind==='tag') {
+        const what={places:'places',music:'artists',TV:'TV shows'}[i.domain] ?? i.domain;
+        lines.push(`${i.ref} "${i.idea}" → tag "${i.via.name}": carried by ${i.marketCount} of the ${i.marketTotal} ${what} people in ${market.label} favour vs ${i.cityCount} of the ${i.cityTotal} ${what} people in ${city.label} favour — verdict ${i.verdict}${i.examples?.length?` — e.g. ${i.examples.join(', ')}`:''}`);
+      }
       else if (i.status==='ranked') lines.push(`${i.ref} "${i.idea}" → ${i.via.kind} "${i.via.name}" — rank ${i.rank} of ${i.of} for ${market.label} taste`);
       else if (i.status==='no-signal') lines.push(`(no ref) "${i.idea}" → ${i.via.kind} "${i.via.name}" — no ${market.label} affinity`);
       else lines.push(`(no ref) "${i.idea}" — no matching Qloo tag or entity`);
@@ -299,20 +313,35 @@ export function factSheet({input,places,profile,music,screen,own,ideas,audience}
   return lines.join('\n');
 }
 
+const VIETNAMESE=/[ăâđêôơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹ]/i;
+const FOREIGN_SCRIPT=/[Ѐ-ӿ֐-ۿ]/;
+
 async function writeBrief(llm,facts,input) {
-  const {market,lang}=input;
+  const {lang}=input;
+  // Nemotron sometimes answers in English (or slips another script in) when asked for Vietnamese;
+  // one retry with a firmer instruction usually fixes it.
+  let data=await writeOnce(llm,facts,input,false);
+  if (lang==='vi' && (!VIETNAMESE.test(data.headline ?? '') || !VIETNAMESE.test(data.summary ?? '') || FOREIGN_SCRIPT.test(JSON.stringify(data)))) {
+    data=await writeOnce(llm,facts,input,true);
+  }
+  return data;
+}
+
+async function writeOnce(llm,facts,input,firm) {
+  const {market,business,lang}=input;
   const {data}=await llm.chatJSON({
     schemaName:'taste_brief',
     schema:BRIEF_SCHEMA,
     system:[
       'You write a one-page plan for a small hospitality business owner. Plain, concrete language; no hype.',
       lang==='vi'
-        ?'Write every text field in natural Vietnamese for a Vietnamese owner. Keep place, artist and tag names exactly as given.'
+        ?`Write every text field, including the headline, in natural Vietnamese for a Vietnamese owner${firm?' — Vietnamese only, no English sentences and no other languages':''}. Keep place, artist and tag names exactly as given.`
         :'Write in English.',
       'Use ONLY the facts provided. Every action must cite one or more refs (P#, T#, C#, I#) that support it, in its refs array.',
       'In text fields write names, never refs. Do not name any place, street, river, beach, dish, product or event that is not in the facts.',
+      `The tag findings (T refs) describe all kinds of places people in ${market.label} favour — restaurants, bars, hotels — not only ${business.plural}; never say they describe ${business.plural}. Translate them into what a ${business.label.toLowerCase()} can do.`,
       `The signal is the aggregate taste of people living in ${market.label}, not of tourists or of any individual: say "people in ${market.label}" or "${market.label} audiences", and never claim what a specific guest will do.`,
-      'headline: one sentence, 8 to 16 words, stating the main finding from the favourites or the tags; never present an untested or too-few idea as something the market favours.',
+      'headline: one sentence, 8 to 16 words, stating the single most useful finding (name at most two attributes, not a list); never present an untested or too-few idea as something the market favours.',
       'summary: two or three sentences.',
       'actions: 3 to 5, each with a short imperative title and one or two sentences saying what to do and which fact supports it.',
       'Only recommend adding an owner idea when its verdict is over-represented. For common, under-represented or absent ideas, say not to lead with them; for untested or too-few ideas, suggest at most a cheap trial.',
@@ -327,6 +356,8 @@ async function writeBrief(llm,facts,input) {
 
 const ADD_WORDS=/\b(add|introduce|launch|offer|host|start|create|feature)\b|thêm|mở|tổ chức|ra mắt|bổ sung/i;
 const HOLD_WORDS=/\b(skip|drop|avoid|don'?t|do not|not lead|pause|test|trial|pilot|small|cheap)\b|thử|bỏ|tránh|đừng|không/i;
+
+const PLACE_NOUN=/^(River|Beach|Street|Road|Market|Lake|Temple|Pagoda|Bridge|Island|Mountain|Bay|Park|Square|Tower|Museum|Café|Cafe|Hotel|Resort|Restaurant|Bar|Sông|Bãi|Biển|Chùa|Chợ|Phố|Đường|Hồ|Cầu|Đảo|Núi|Vịnh)$/u;
 
 function withinOneEdit(a,b) {
   if (Math.abs(a.length-b.length)>1) return false;
@@ -357,16 +388,22 @@ export function unknownNames(text,facts) {
   };
   const found=[];
   for (const sentence of String(text ?? '').split(/(?<=[.!?;:])\s+/)) {
-    const tokens=sentence.split(/(\s+|[,()–—-]+)/);
+    const tokens=sentence.split(/(\s+|[,()–—\-/;、]+)/);
     let run=[];
     let first=true;
+    // A run is suspicious when two of its words are unknown, or when one is unknown and the run
+    // names a kind of place ("Thu Bon River", "Chợ Hàn"). A lone unknown adjective ("Muslim
+    // Singapore") is not.
     const flush=()=>{
-      if (run.length>=2 && run.some((w)=>!isKnown(w))) found.push(run.join(' '));
+      if (run.length>=2) {
+        const unknown=run.filter((w)=>!isKnown(w)).length;
+        if (unknown>=2 || (unknown===1 && run.some((w)=>PLACE_NOUN.test(w)))) found.push(run.join(' '));
+      }
       run=[];
     };
     for (const token of tokens) {
       if (/^\s+$/.test(token) || token==='') continue;
-      if (/^[,()–—-]+$/.test(token)) { flush(); continue; }
+      if (/^[,()–—\-/;、]+$/.test(token)) { flush(); continue; }
       const word=token.replace(/[^\p{L}\p{N}'’&]/gu,'');
       if (!word) { flush(); continue; }
       if (!first && /^\p{Lu}/u.test(word)) run.push(word); else flush();
@@ -389,7 +426,8 @@ export function validateBrief(brief,ledger,facts='') {
     const action={title:text(a.title,160),detail:text(a.detail,600),refs:okRefs(a.refs)};
     const weakIdea=action.refs.find((r)=>kindOf(r)==='idea' && verdictOf(r)!=='over-represented');
     const invented=facts?unknownNames(action.detail,facts):[];
-    if (!action.refs.length) dropped.push({title:action.title,reason:'no valid citation'});
+    if (FOREIGN_SCRIPT.test(`${action.title} ${action.detail}`)) dropped.push({title:action.title,reason:'garbled text'});
+    else if (!action.refs.length) dropped.push({title:action.title,reason:'no valid citation'});
     else if (weakIdea && ADD_WORDS.test(action.title) && !HOLD_WORDS.test(`${action.title} ${action.detail}`)) dropped.push({title:action.title,reason:`recommends an idea whose verdict is ${verdictOf(weakIdea)}`});
     else if (invented.length) dropped.push({title:action.title,reason:`names not in the data: ${invented.join(', ')}`});
     else actions.push(action);

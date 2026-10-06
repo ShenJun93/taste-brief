@@ -151,7 +151,7 @@ button.primary:disabled { opacity: .55; cursor: progress; }
 .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
 
 .idea-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.idea-list .top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.idea-list .itop { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
 .idea-list .iname { font-weight: 600; }
 .verdict { font-size: 12px; font-weight: 600; border-radius: 6px; padding: 2px 8px; white-space: nowrap; }
 .verdict.over-represented { background: var(--green-soft); color: var(--green); }

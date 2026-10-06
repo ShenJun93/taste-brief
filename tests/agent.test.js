@@ -12,7 +12,7 @@ const place=(id,name,tags=[],genre='restaurant:coffee_shop',affinity)=>({
   query:affinity===undefined?undefined:{affinity},
   tags:tags.map((t)=>({id:`urn:tag:ambience:qloo:${t.toLowerCase()}`,name:t,type:'urn:tag:ambience:qloo'}))
 });
-const artist=(id,name,tags=[],popularity=0.9)=>({entity_id:id,name,subtype:'urn:entity:artist',popularity,tags:tags.map((t)=>({id:`urn:tag:genre:music:${t.toLowerCase()}`,name:t}))});
+const artist=(id,name,tags=['Pop','Rock','Ballad','Indie'],popularity=0.9)=>({entity_id:id,name,subtype:'urn:entity:artist',popularity,tags:tags.map((t)=>({id:`urn:tag:genre:music:${t.toLowerCase()}`,name:t}))});
 
 // A stand-in for the Qloo client: answers by request shape, records every call.
 function fakeQloo({peerMarket=[],peerCity=[],allMarket=[],allCity=[],artistsAbroad=[],artistsLocal=[]}={}) {
@@ -125,8 +125,9 @@ test('bridgeCulture splits shared and distinctive taste and hides low-popularity
 });
 
 test('unknownNames flags names absent from the facts and tolerates a one-letter slip', ()=>{
-  const facts='Taylor Swift, Nicole Richie, Xofa Cafe, Hoi An';
-  assert.deepEqual(unknownNames('Mention nearby Thu Bon River and An Bang beach.',facts),['Thu Bon River','An Bang']);
+  const facts='Taylor Swift, Nicole Richie, Xofa Cafe, Hoi An, people in Singapore';
+  assert.deepEqual(unknownNames('Mention nearby Thu Bon River and Chợ Hàn.',facts),['Thu Bon River','Chợ Hàn']);
+  assert.deepEqual(unknownNames('Serve Muslim Singapore guests; play Taylor Swift/Nicole Richie.',facts),[]);
   assert.deepEqual(unknownNames('Play Nicole Ritchie, Taylor Swift in Hoi An.',facts),[]);
 });
 

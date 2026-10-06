@@ -1846,304 +1846,9 @@
    "lift": null,
    "pool": "peers",
    "ref": "P6"
-  },
-  {
-   "id": "7473A001-E97A-4BDF-9803-933F455958E4",
-   "name": "S'Patisserie",
-   "kind": "place",
-   "genre": "restaurant:bakery",
-   "address": "17 P. Hàng Khay Tràng Tiền Hoàn Kiếm Hà Nội, Vietnam",
-   "neighborhood": "Tràng Tiền",
-   "priceLevel": 2,
-   "rating": 4.400000095367432,
-   "summary": "Patisserie and café in central Hanoi offering pastries, specialty cakes, coffee, and fruit smoothies; moderately expensive with dine-in and takeaway.",
-   "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgd8UtPDmdrObxM3gHYuojA7NDSOcu6OlESA5JzXfI9R-XxcAmkvJzm5CSloW0Cp-Kn3oHY-ehdq4-NB-S-rTFL2iBjh2kSzjKq5d8dsMUsGZiYSUllakZSyATOl05VNq-NWMb=w1900-h1900-k-no",
-   "lat": 21.0255433,
-   "lon": 105.85256609999999,
-   "popularity": 0.7566478746525483,
-   "affinity": 0.981649047553556,
-   "tags": [
-    {
-     "id": "urn:tag:cuisine:qloo:french",
-     "name": "French",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:interests:qloo:pastry_baking",
-     "name": "Pastry baking",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:new_york_cheesecake",
-     "name": "New york cheesecake",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:setting:qloo:waterfront",
-     "name": "Waterfront",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:setting:qloo:lakefront",
-     "name": "Lakefront",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:charming",
-     "name": "Charming",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:decor:qloo:casual",
-     "name": "Casual",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:smoothies",
-     "name": "Smoothies",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:interests:qloo:casual_socializing",
-     "name": "Casual socializing",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-     "name": "Coffee and tea",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:deli_chocolate_cake",
-     "name": "Deli chocolate cake",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:interests:qloo:dessert_appreciation",
-     "name": "Dessert appreciation",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:comfortable",
-     "name": "Comfortable",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:fresh_juices",
-     "name": "Fresh juices",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:cozy",
-     "name": "Cozy",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:setting:qloo:city_center",
-     "name": "City center",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:mixed_fruits_smoothie",
-     "name": "Mixed fruits smoothie",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:relaxing",
-     "name": "Relaxing",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:desserts",
-     "name": "Desserts",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:dreamy",
-     "name": "Dreamy",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:setting:qloo:urban",
-     "name": "Urban",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:milkshakes",
-     "name": "Milkshakes",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:egg_coffee",
-     "name": "Egg coffee",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:vietnamese",
-     "name": "Vietnamese",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
-     "name": "Specialty non alcoholic",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:decor:qloo:french_style_coffee_house",
-     "name": "French style coffee house",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:offerings:place:coffee",
-     "name": "Coffee",
-     "family": "offerings"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:black_forest_cake",
-     "name": "Black forest cake",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:welcoming",
-     "name": "Welcoming",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:interests:qloo:coffee_culture",
-     "name": "Coffee culture",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:salted_whipped_cream_coffee",
-     "name": "Salted whipped cream coffee",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:lava_croissant",
-     "name": "Lava croissant",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:tiramisu_cake",
-     "name": "Tiramisu cake",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:lively",
-     "name": "Lively",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:interests:qloo:city_exploration",
-     "name": "City exploration",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:decor:qloo:classic",
-     "name": "Classic",
-     "family": "decor"
-    }
-   ],
-   "allTags": [
-    "French",
-    "Breakfast",
-    "Pastry baking",
-    "New york cheesecake",
-    "Couples",
-    "Bakery",
-    "Dine in",
-    "Visa",
-    "Onsite services",
-    "Waterfront",
-    "Lakefront",
-    "Charming",
-    "Casual",
-    "Walkable",
-    "Smoothies",
-    "Old quarter",
-    "Traditional",
-    "18 24",
-    "25 29",
-    "Morning",
-    "Dining drinking",
-    "Tourists",
-    "Indoor seating",
-    "Moderate",
-    "Drive through",
-    "Casual socializing",
-    "Coffee and tea",
-    "Cafe",
-    "Deli chocolate cake",
-    "Jcb",
-    "Convenience stop",
-    "Dessert appreciation",
-    "Comfortable",
-    "Midday",
-    "Fresh juices",
-    "Moderately expensive",
-    "Groups of friends",
-    "Delivery",
-    "Foodies",
-    "Restaurant",
-    "Cozy",
-    "City center",
-    "Lake view",
-    "Mixed fruits smoothie",
-    "Impulse visit",
-    "Central",
-    "Relaxing",
-    "Desserts",
-    "Dreamy",
-    "In store pickup",
-    "Debit cards",
-    "30 34",
-    "Urban",
-    "Credit cards",
-    "Takeout",
-    "Milkshakes",
-    "Price level",
-    "Egg coffee",
-    "Reservations",
-    "Vegetarian",
-    "Vietnamese",
-    "Wi fi",
-    "Takeout service",
-    "Specialty non alcoholic",
-    "Restroom",
-    "Outdoor seating",
-    "French style coffee house",
-    "Locals",
-    "Hoan kiếm lake",
-    "Coffee",
-    "Scenic",
-    "Black forest cake",
-    "Welcoming",
-    "Coffee culture",
-    "Cash only",
-    "Salted whipped cream coffee",
-    "Street view",
-    "Lava croissant",
-    "Display cases",
-    "Place",
-    "Tiramisu cake",
-    "Afternoon",
-    "Lively",
-    "Mastercard",
-    "City exploration",
-    "Cafe seating",
-    "Touristic",
-    "Pickup",
-    "Classic"
-   ],
-   "rank": 4,
-   "tied": true,
-   "cityRank": null,
-   "lift": null,
-   "pool": "peers",
-   "ref": "P7"
   }
  ],
- "peerCount": 7,
+ "peerCount": 6,
  "allPlaces": [
   {
    "id": "23D13B37-59C8-4967-95A6-9D581883029B",
@@ -3587,7 +3292,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P8"
+   "ref": "P7"
   },
   {
    "id": "59CCF32A-7A25-4BF9-9ACF-A97AB4FE1D64",
@@ -3993,7 +3698,7 @@
    "cityRank": 29,
    "lift": 27,
    "pool": "all",
-   "ref": "P9"
+   "ref": "P8"
   },
   {
    "id": "F5ADC856-324F-459B-85A2-13802A989E9C",
@@ -4017,7 +3722,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P10"
+   "ref": "P9"
   },
   {
    "id": "65A59E7E-33EF-4BCD-BF77-24FF9192E00B",
@@ -4381,7 +4086,7 @@
    "cityRank": 24,
    "lift": 20,
    "pool": "all",
-   "ref": "P11"
+   "ref": "P10"
   },
   {
    "id": "369B43A5-4CBC-478A-91DA-A0062B1CC614",
@@ -4910,7 +4615,7 @@
    "cityRank": 7,
    "lift": 2,
    "pool": "all",
-   "ref": "P12"
+   "ref": "P11"
   },
   {
    "id": "E55F9189-46F9-4963-B34A-D88B2236E075",
@@ -5152,7 +4857,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P13"
+   "ref": "P12"
   },
   {
    "id": "49884032-CB26-4A1A-9009-EB574F02BD2B",
@@ -5355,7 +5060,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P14"
+   "ref": "P13"
   },
   {
    "id": "5AC39667-3AF8-49E1-8C70-D4D8BB6943F8",
@@ -5631,7 +5336,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P15"
+   "ref": "P14"
   },
   {
    "id": "7DA10DF3-21B3-4690-9120-AA297304F4B4",
@@ -6061,7 +5766,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P16"
+   "ref": "P15"
   },
   {
    "id": "131EC82C-C98E-43E1-8AA2-0840670B49DE",
@@ -6251,7 +5956,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P17"
+   "ref": "P16"
   },
   {
    "id": "372F7C75-8CFE-42D9-8DB3-863D45836694",
@@ -6447,7 +6152,7 @@
    "cityRank": 42,
    "lift": 31,
    "pool": "all",
-   "ref": "P18"
+   "ref": "P17"
   },
   {
    "id": "74B7F642-8689-4355-9B35-589F1DF92A04",
@@ -6771,14 +6476,14 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P19"
+   "ref": "P18"
   }
  ],
  "poolSizes": {
   "market": 50,
   "city": 50,
-  "peers": 7,
-  "peersCity": 45
+  "peers": 6,
+  "peersCity": 43
  },
  "profile": [
   {
@@ -6793,10 +6498,10 @@
    "score": 2.5021562831227797,
    "derived": true,
    "places": [
-    "P8",
+    "P7",
+    "P19",
     "P20",
-    "P21",
-    "P22"
+    "P21"
    ],
    "ref": "T1"
   },
@@ -6812,10 +6517,10 @@
    "score": 1.3558351536351823,
    "derived": true,
    "places": [
-    "P8",
-    "P11",
-    "P23",
-    "P24"
+    "P7",
+    "P10",
+    "P22",
+    "P23"
    ],
    "ref": "T2"
   },
@@ -6831,10 +6536,10 @@
    "score": 1.3558351536351823,
    "derived": true,
    "places": [
-    "P8",
-    "P25",
-    "P20",
-    "P21"
+    "P7",
+    "P24",
+    "P19",
+    "P20"
    ],
    "ref": "T3"
   },
@@ -6850,10 +6555,10 @@
    "score": 1.3379885757441385,
    "derived": true,
    "places": [
+    "P7",
     "P8",
-    "P9",
-    "P11",
-    "P12"
+    "P10",
+    "P11"
    ],
    "ref": "T4"
   },
@@ -6869,10 +6574,10 @@
    "score": 1.3204654086309207,
    "derived": true,
    "places": [
+    "P7",
     "P8",
-    "P9",
-    "P11",
-    "P12"
+    "P10",
+    "P11"
    ],
    "ref": "T5"
   },
@@ -6888,10 +6593,10 @@
    "score": 1.2743424543690507,
    "derived": true,
    "places": [
+    "P7",
     "P8",
-    "P9",
-    "P11",
-    "P15"
+    "P10",
+    "P14"
    ],
    "ref": "T6"
   },
@@ -6907,10 +6612,10 @@
    "score": 1.2580400255962119,
    "derived": true,
    "places": [
+    "P7",
     "P8",
-    "P9",
-    "P11",
-    "P12"
+    "P10",
+    "P11"
    ],
    "ref": "T7"
   },
@@ -6926,10 +6631,10 @@
    "score": 1.207415148516909,
    "derived": true,
    "places": [
-    "P14",
-    "P18",
-    "P21",
-    "P26"
+    "P13",
+    "P17",
+    "P20",
+    "P25"
    ],
    "ref": "T8"
   }
@@ -7011,9 +6716,10 @@
      "Dr. Dre",
      "R&B"
     ],
+    "musicTags": 7,
     "rank": 4,
     "localRank": 9,
-    "ref": "C13"
+    "ref": "C1"
    },
    {
     "id": "8E5D4B89-E784-420D-8250-91303EDD6B1A",
@@ -7057,9 +6763,10 @@
      "Synth-Pop",
      "Björk"
     ],
+    "musicTags": 9,
     "rank": 7,
     "localRank": 46,
-    "ref": "C14"
+    "ref": "C2"
    },
    {
     "id": "EA6FA491-838D-47D8-AF1D-36DE2FC0E03B",
@@ -7104,25 +6811,10 @@
      "Beyoncé",
      "Self-empowerment"
     ],
+    "musicTags": 8,
     "rank": 10,
     "localRank": 47,
-    "ref": "C15"
-   },
-   {
-    "id": "FB1FEF2C-19D8-4176-B2D8-2786757EB43E",
-    "name": "PONY",
-    "kind": "artist",
-    "disambiguation": "PONY",
-    "popularity": 0.8810431944635589,
-    "affinity": 0.9998017147296795,
-    "allTags": [
-     "Pop - Rock",
-     "Pop",
-     "Indie"
-    ],
-    "rank": 25,
-    "localRank": 6,
-    "ref": "C16"
+    "ref": "C3"
    },
    {
     "id": "448D8ED0-BCB4-431E-832B-82346BE4104A",
@@ -7163,9 +6855,10 @@
      "Electropop",
      "Self-empowerment"
     ],
+    "musicTags": 8,
     "rank": 34,
     "localRank": 36,
-    "ref": "C17"
+    "ref": "C4"
    },
    {
     "id": "B05253E8-AC44-4A44-978F-037EC45915A0",
@@ -7212,9 +6905,64 @@
      "Synth-Pop",
      "Dance-Pop"
     ],
+    "musicTags": 6,
     "rank": 35,
     "localRank": 37,
-    "ref": "C18"
+    "ref": "C5"
+   },
+   {
+    "id": "9697860A-A38A-42EA-835F-E180D13E6256",
+    "name": "태양",
+    "kind": "artist",
+    "disambiguation": "태양",
+    "popularity": 0.9864079324197681,
+    "affinity": 0.999685957674049,
+    "allTags": [
+     "Dynamic",
+     "Growth",
+     "Love",
+     "Michael Jackson",
+     "Charismatic",
+     "Dedicated",
+     "Dance-Infused R&B",
+     "K-Pop",
+     "Korean",
+     "Usher",
+     "Passionate",
+     "K Pop",
+     "Smooth",
+     "Catchy",
+     "Soul",
+     "Expressive",
+     "2",
+     "R & B",
+     "Self Reflection",
+     "Pop",
+     "Rhythm & Blues",
+     "Energetic",
+     "Soulful Ballad",
+     "Heartbreak",
+     "Rhythmic",
+     "Loyal",
+     "Urban Pop",
+     "Contemporary R&B",
+     "Contemporary K-Pop",
+     "Hip Hop",
+     "Versatile",
+     "Vocals",
+     "Tenor",
+     "Bobby Brown",
+     "Dance",
+     "Soulful",
+     "Korean R&B",
+     "Emotive",
+     "Self-reflection",
+     "R&B"
+    ],
+    "musicTags": 9,
+    "rank": 39,
+    "localRank": 17,
+    "ref": "C6"
    }
   ],
   "distinct": [
@@ -7289,9 +7037,10 @@
      "Dance-Pop",
      "Soundtrack (K-Drama OST)"
     ],
+    "musicTags": 13,
     "rank": 2,
     "localRank": null,
-    "ref": "C19"
+    "ref": "C7"
    },
    {
     "id": "037111E5-906A-4BA7-AF15-DD07591519C2",
@@ -7338,9 +7087,10 @@
      "Lyricism-Focused",
      "Jay-Z"
     ],
+    "musicTags": 12,
     "rank": 3,
     "localRank": null,
-    "ref": "C20"
+    "ref": "C8"
    },
    {
     "id": "89B0DBC3-ABB3-4C41-8A47-423975C4017F",
@@ -7385,9 +7135,10 @@
      "Self Reflection",
      "Self-Reflection"
     ],
+    "musicTags": 10,
     "rank": 5,
     "localRank": null,
-    "ref": "C21"
+    "ref": "C9"
    },
    {
     "id": "401D2EE5-0FDC-44D4-9EF5-FBAD7D88BFC2",
@@ -7431,9 +7182,10 @@
      "Retro-Pop",
      "Self-Confidence"
     ],
+    "musicTags": 9,
     "rank": 6,
     "localRank": null,
-    "ref": "C22"
+    "ref": "C10"
    },
    {
     "id": "A7BFA500-B91C-45D4-AD8E-4354CC858270",
@@ -7521,9 +7273,10 @@
      "Orchestral Pop",
      "Mezzo-Soprano"
     ],
+    "musicTags": 13,
     "rank": 8,
     "localRank": null,
-    "ref": "C23"
+    "ref": "C11"
    },
    {
     "id": "A2868174-FFC6-474A-8C73-2204B3044F24",
@@ -7569,9 +7322,10 @@
      "Self-Discovery",
      "R&B"
     ],
+    "musicTags": 8,
     "rank": 9,
     "localRank": null,
-    "ref": "C24"
+    "ref": "C12"
    }
   ]
  },
@@ -7681,9 +7435,10 @@
      "Surgeon",
      "Single father"
     ],
+    "musicTags": 0,
     "rank": 4,
     "localRank": 28,
-    "ref": "C1"
+    "ref": "C13"
    },
    {
     "id": "93CC4C6E-66B8-42B0-81B9-2F96DCA87BEF",
@@ -7750,9 +7505,10 @@
      "Cleaning",
      "Personal growth"
     ],
+    "musicTags": 0,
     "rank": 9,
     "localRank": 13,
-    "ref": "C2"
+    "ref": "C14"
    },
    {
     "id": "CD2991CD-832E-4626-8A82-32F9FA5504EB",
@@ -7825,9 +7581,10 @@
      "Software engineer",
      "Business adviser"
     ],
+    "musicTags": 0,
     "rank": 14,
     "localRank": 21,
-    "ref": "C3"
+    "ref": "C15"
    },
    {
     "id": "D564CC06-DC10-46DA-92F1-1C699B0A2037",
@@ -7911,9 +7668,10 @@
      "Relationship psychology",
      "Drama loving"
     ],
+    "musicTags": 0,
     "rank": 18,
     "localRank": 36,
-    "ref": "C4"
+    "ref": "C16"
    },
    {
     "id": "0EFAE100-6F45-4FB7-BE46-052B8C30699A",
@@ -7986,9 +7744,10 @@
      "Emotionally engaged",
      "Subtle emotionality"
     ],
+    "musicTags": 0,
     "rank": 29,
     "localRank": 7,
-    "ref": "C5"
+    "ref": "C17"
    },
    {
     "id": "36EBFE44-03B3-4914-885F-53FABD32C1E0",
@@ -8087,9 +7846,10 @@
      "Romance loving",
      "Social justice"
     ],
+    "musicTags": 0,
     "rank": 32,
     "localRank": 10,
-    "ref": "C6"
+    "ref": "C18"
    }
   ],
   "distinct": [
@@ -8169,9 +7929,10 @@
      "Subtle humor timing",
      "Neighborhood scale realism"
     ],
+    "musicTags": 0,
     "rank": 5,
     "localRank": null,
-    "ref": "C7"
+    "ref": "C19"
    },
    {
     "id": "B2295418-6B52-4A5C-907C-93A1C9C353D9",
@@ -8256,9 +8017,10 @@
      "Vulnerable",
      "Emotionally engaged"
     ],
+    "musicTags": 0,
     "rank": 12,
     "localRank": null,
-    "ref": "C8"
+    "ref": "C20"
    },
    {
     "id": "6D4C967F-0811-4FBE-B76F-B24CE2BC8F94",
@@ -8344,9 +8106,10 @@
      "Obsessive",
      "Reality competition"
     ],
+    "musicTags": 0,
     "rank": 22,
     "localRank": null,
-    "ref": "C9"
+    "ref": "C21"
    },
    {
     "id": "1D9F89FB-0A5D-48CF-95A2-8F74A753A180",
@@ -8415,9 +8178,10 @@
      "Female centric",
      "Subtly self referential"
     ],
+    "musicTags": 0,
     "rank": 36,
     "localRank": null,
-    "ref": "C10"
+    "ref": "C22"
    },
    {
     "id": "55126495-E636-4D0A-AF40-F35829F64A2F",
@@ -8496,9 +8260,10 @@
      "Science fiction",
      "Friendship"
     ],
+    "musicTags": 0,
     "rank": 42,
     "localRank": null,
-    "ref": "C11"
+    "ref": "C23"
    },
    {
     "id": "5D22FD3B-7DEB-4E21-A16D-EB18A9D792B1",
@@ -8604,9 +8369,10 @@
      "Aristocracy",
      "Suspenseful"
     ],
+    "musicTags": 0,
     "rank": 44,
     "localRank": null,
-    "ref": "C12"
+    "ref": "C24"
    }
   ]
  },
@@ -8620,7 +8386,7 @@
   "ref": "P1",
   "rank": 1,
   "tied": false,
-  "of": 7,
+  "of": 6,
   "noSignal": false
  },
  "ideas": [
@@ -8643,9 +8409,9 @@
    "cityCount": 5,
    "cityTotal": 50,
    "examples": [
-    "P16",
+    "P15",
     "P3",
-    "P7"
+    "P26"
    ]
   },
   {
@@ -8690,9 +8456,9 @@
    "cityTotal": 50,
    "examples": [
     "C25",
-    "C19",
-    "C13",
-    "C22"
+    "C7",
+    "C1",
+    "C10"
    ]
   },
   {
@@ -8714,127 +8480,120 @@
    "cityCount": 10,
    "cityTotal": 50,
    "examples": [
+    "P7",
     "P8",
-    "P9",
-    "P11",
-    "P12"
+    "P10",
+    "P11"
    ]
   }
  ],
  "brief": {
-  "headline": "People in Seoul prefer simple, clean spaces offering beer, Vietnamese food, and boutique vibes.",
-  "summary": "The Seoul‑based audience in Hanoi favors venues that are simple and clean, accommodate large groups, serve beer and Vietnamese cuisine, and feature boutique touches. They also show strong interest in Korean pop music and vegan options. Aligning the café with these signals can increase appeal to this visitor segment.",
+  "headline": "People in Seoul favor Simple, Clean spaces when choosing.",
+  "summary": "Analysis of Seoul residents’ favorite venues in Hanoi shows a strong tilt toward simple decor, clean ambience, beer/alcohol, Vietnamese food and boutique touches. The top‑ranked café among the Seoul signal is Xofa Cafe, confirming that these traits align with the market’s taste. Adopting these features can help a Hanoi café appeal to the same audience.",
   "actions": [
    {
-    "title": "Adopt simple, clean interior design",
-    "detail": "Use minimal décor and maintain a tidy ambience to match the preferences that are 4× more common among Seoul‑favoured places.",
+    "title": "Adopt simple, minimalist decor",
+    "detail": "Use plain furnishings and uncluttered layouts to match the strong preference for simple decor among Seoul‑based visitors.",
     "refs": [
-     "T2",
+     "T2"
+    ]
+   },
+   {
+    "title": "Maintain a clean, tidy environment",
+    "detail": "Ensure regular cleaning and visible hygiene to satisfy the high value placed on clean ambience.",
+    "refs": [
      "T3"
     ]
    },
    {
-    "title": "Serve beer and Vietnamese dishes",
-    "detail": "Add beer to the drink menu and highlight Vietnamese‑style food items, as both are over‑represented (≈2×) in the Seoul audience’s favourites.",
+    "title": "Offer beer and a modest alcohol selection",
+    "detail": "Include local brews and a few spirits, as beer and alcohol appear far more often in the venues Seoul residents favor.",
     "refs": [
      "T5",
+     "T7"
+    ]
+   },
+   {
+    "title": "Add Vietnamese‑style dishes or snacks",
+    "detail": "Serve items like bánh mì, fresh juices, or small plates that reflect the Vietnamese cuisine commonly liked by this audience.",
+    "refs": [
      "T6"
     ]
    },
    {
-    "title": "Accommodate larger groups",
-    "detail": "Arrange seating and tables to welcome parties of four or more, reflecting the 2.2× higher prevalence of ‘large group’ ambience among favoured spots.",
-    "refs": [
-     "T4"
-    ]
-   },
-   {
-    "title": "Introduce boutique décor elements",
-    "detail": "Add stylish, distinctive design details (e.g., unique lighting, curated artwork) to capture the boutique vibe that is 3.5× more common in Seoul‑chosen venues.",
+    "title": "Introduce boutique design touches",
+    "detail": "Incorporate unique decorative elements or curated details to echo the boutique vibe that is over‑represented among favored spots.",
     "refs": [
      "T8"
-    ]
-   },
-   {
-    "title": "Curate a K‑pop playlist with bridge artists",
-    "detail": "Play tracks by G‑Dragon, SULLI, Jennie, PONY, 수영, and HyunA—artists loved in both Seoul and Hanoi—to tap into the over‑represented K‑pop preference.",
-    "refs": [
-     "I3",
-     "C13",
-     "C14",
-     "C15",
-     "C16",
-     "C17",
-     "C18"
     ]
    }
   ],
   "partners": [
    {
     "ref": "P1",
-    "why": "Xofa Cafe ranks #1 among Seoul‑favoured cafés and offers relaxing, stylish, healthy options that complement a simple, clean vibe."
+    "why": "Xofa Cafe ranks #1 among cafés favored by Seoul residents, making it an ideal cross‑promotion ally."
    },
    {
-    "ref": "P2",
-    "why": "Kafeville’s quiet, literary‑culture atmosphere and specialty coffee align with the Seoul audience’s liking for comfortable, clean spaces."
+    "ref": "P7",
+    "why": "Khu Văn hoá ẩm thực Sen Tây Hồ holds the top market rank among all Seoul‑favored places and offers culinary exploration."
    },
    {
-    "ref": "P8",
-    "why": "Khu Văn hoá ẩm thực Sen Tây Hồ is the top favourite overall, known for culinary exploration and large‑group friendly buffet experiences."
+    "ref": "P11",
+    "why": "Pizza 4P’s Tràng Tiền is highly ranked (market #5, city #7) and blends familiar flavors with local appeal."
    },
    {
-    "ref": "P12",
-    "why": "Pizza 4P’s Tràng Tiền combines pizza (a familiar Western option) with a high city rank, showing appeal for varied tastes while still being favoured by Seoul visitors."
+    "ref": "P13",
+    "why": "Apricot Hotel is a boutique‑styled hotel favored by Seoul audiences, aligning with the preferred boutique decor."
    }
   ],
   "playlist": [
    {
-    "ref": "C13",
-    "why": "G‑Dragon ranks 4th in Seoul and 9th in Hanoi, showing strong cross‑city appeal."
+    "ref": "C1",
+    "why": "G‑Dragon is a top‑charted K‑pop act in Seoul and also recognized in Hanoi."
    },
    {
-    "ref": "C14",
-    "why": "SULLI is 7th in Seoul and 46th in Hanoi, bridging the K‑pop fan base."
+    "ref": "C2",
+    "why": "Sulli’s music enjoys strong Seoul popularity and appears in Hanoi’s listening charts."
    },
    {
-    "ref": "C15",
-    "why": "Jennie places 10th in Seoul and 47th in Hanoi, another popular bridge artist."
+    "ref": "C3",
+    "why": "Jennie’s solo work is favored by Seoul listeners and known locally."
    },
    {
-    "ref": "C16",
-    "why": "PONY ranks 25th in Seoul and 6th in Hanoi, indicating broad popularity."
+    "ref": "C4",
+    "why": "수영 (Suzy) ranks high in Seoul and is present in Hanoi’s top songs."
    },
    {
-    "ref": "C17",
-    "why": "수영 (Su‑young) is 34th in Seoul and 36th in Hanoi, resonating with both audiences."
+    "ref": "C5",
+    "why": "HyunA’s tracks are popular with Seoul audiences and chart in Hanoi."
    },
    {
-    "ref": "C18",
-    "why": "HyunA sits 35th in Seoul and 37th in Hanoi, completing the core K‑pop bridge set."
+    "ref": "C6",
+    "why": "태양 (Taeyang) is well‑liked in Seoul and also heard in Hanoi."
    }
   ],
   "ideas": [
    {
     "ref": "I1",
-    "note": "Egg coffee workshop is common (3/50 favourites vs 5/50 city‑wide) – not a differentiating factor; consider only if it fits existing offerings."
+    "note": "Egg coffee appears about as often in Seoul‑favored places as in the city overall; consider it as a standard offering rather than a differentiator."
    },
    {
     "ref": "I2",
-    "note": "Live music on Fridays is too‑few (1/50 favourites) – insufficient data to prioritize; a low‑cost trial could be tested."
+    "note": "Live music is present in fewer than three Seoul‑favored venues; a low‑cost trial (e.g., occasional acoustic set) could test interest."
    },
    {
     "ref": "I3",
-    "note": "K‑pop playlist is over‑represented (37/50 favourites vs 21/50 city‑wide) – a clear signal to implement."
+    "note": "K‑pop tracks are strongly over‑represented among Seoul listeners; featuring them regularly will likely resonate."
    },
    {
     "ref": "I4",
-    "note": "Vegan cakes are over‑represented (17/50 favourites vs 10/50 city‑wide) – strong signal to add vegan dessert options."
+    "note": "Vegan options appear much more often in Seoul‑favored spots; adding vegan cakes can meet a clear demand."
    }
   ],
   "caveats": [
-   "The data reflect relative frequencies, not actual spending or visit frequency, so popularity does not guarantee revenue impact.",
-   "Preferences may shift with seasons or trends; the current signal is based on a static snapshot.",
-   "The analysis does not account for price sensitivity or how specific menu items (beyond tags) influence choice."
+   "The data does not show whether these preferences apply equally to tourists versus residents.",
+   "It does not indicate price sensitivity or willingness to pay for these traits.",
+   "It does not confirm that implementing these changes will increase footfall or revenue."
   ],
   "dropped": []
  },
@@ -8859,7 +8618,7 @@
     "allRank": null
    },
    {
-    "name": "Hidden Bean Café",
+    "name": "Trung Nguyen Legend",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8868,16 +8627,16 @@
     "allRank": null
    },
    {
-    "name": "Mai Café",
-    "qlooName": null,
-    "inQloo": false,
+    "name": "Hanoi Social Club",
+    "qlooName": "The Hanoi Social Club",
+    "inQloo": true,
     "marketSignal": false,
     "ref": null,
     "peerRank": null,
     "allRank": null
    },
    {
-    "name": "The Workshop",
+    "name": "L'Usine Café",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8898,13 +8657,13 @@
     "localRank": null
    },
    {
-    "name": "EXO",
-    "qlooRank": null,
+    "name": "IU",
+    "qlooRank": 8,
     "localRank": null
    },
    {
-    "name": "IU",
-    "qlooRank": 8,
+    "name": "EXO",
+    "qlooRank": null,
     "localRank": null
    },
    {
@@ -8913,14 +8672,812 @@
     "localRank": null
    }
   ],
-  "advice": "To draw more Korean visitors, consider adding a Korean‑language menu with popular items like bingsu, hotteok, and Korean-style coffee drinks. Offer free, high‑speed Wi‑Fi and a few power outlets so guests can work or stream K‑content comfortably. Play a steady mix of current K‑pop hits and softer Korean indie tracks at a moderate volume to create a familiar atmosphere. Finally, train staff to greet guests in basic Korean phrases and display small signs or decorations that hint at Korean culture, which will make them feel welcomed and encourage repeat visits.",
+  "advice": "To attract Korean visitors, highlight any Korean‑friendly touches on your menus and signage—offer a few Korean snacks or drinks and label them in Hangul. Train at least one staff member to greet guests in basic Korean and consider offering free Wi‑Fi with a Naver/Kakao login option. Promote your cafe on Korean social platforms like Instagram Korea, Naver Blog, and KakaoStory, using hashtags such as #하노이카페 and #서울사람들. Host occasional K‑pop music nights or display Korean pop culture memorabilia to create a familiar atmosphere. Finally, encourage satisfied Korean guests to leave reviews on Korean travel sites (e.g., Kloud, Trip.com Korea) to boost word‑of‑mouth referrals.",
   "poolSizes": {
-   "peers": 7,
+   "peers": 6,
    "all": 50,
    "artists": 50
   }
  },
  "ledger": {
+  "C1": {
+   "ref": "C1",
+   "kind": "artist",
+   "item": {
+    "id": "5C18F96C-DB9D-4984-9001-65379DD5BED9",
+    "name": "G-Dragon",
+    "kind": "artist",
+    "disambiguation": "G-Dragon",
+    "popularity": 0.9897174763580598,
+    "affinity": 0.9999753230435824,
+    "allTags": [
+     "Rap",
+     "Hip Hop",
+     "Innovative",
+     "Youth",
+     "Piano",
+     "Electropop",
+     "Energetic",
+     "Loyal",
+     "Dynamic",
+     "R & B",
+     "Pop",
+     "Self-Identity",
+     "2",
+     "Passionate",
+     "Charismatic",
+     "Versatile",
+     "Vocals",
+     "K-Pop",
+     "Love",
+     "Kanye West",
+     "Dedicated",
+     "Catchy",
+     "Youthful",
+     "Teddy Park",
+     "Trap",
+     "Expressive",
+     "Dance",
+     "Dr Dre",
+     "Influential",
+     "Emotional",
+     "Rebellion",
+     "Eclectic",
+     "Trendsetting",
+     "Fame",
+     "Dr. Dre",
+     "R&B"
+    ],
+    "musicTags": 7,
+    "rank": 4,
+    "localRank": 9
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "kind": "artist",
+   "item": {
+    "id": "8E5D4B89-E784-420D-8250-91303EDD6B1A",
+    "name": "SULLI",
+    "kind": "artist",
+    "disambiguation": "SULLI",
+    "popularity": 0.8965980509735302,
+    "affinity": 0.9999506454257769,
+    "allTags": [
+     "R&B",
+     "K Pop",
+     "Individuality",
+     "Innovative",
+     "Vulnerable",
+     "Lee Hyori",
+     "Expressive",
+     "Vocals",
+     "Supportive",
+     "Electropop",
+     "K-Pop",
+     "Melodic",
+     "Self-Identity",
+     "Mental Health",
+     "Bjork",
+     "BoA",
+     "Love",
+     "Freedom",
+     "3",
+     "Korean",
+     "Empathetic",
+     "Ballad",
+     "Loyal",
+     "Pop",
+     "Bold",
+     "Synthpop",
+     "Confident",
+     "Emotional",
+     "Charismatic",
+     "Passionate",
+     "Soft",
+     "Synth-Pop",
+     "Björk"
+    ],
+    "musicTags": 9,
+    "rank": 7,
+    "localRank": 46
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "kind": "artist",
+   "item": {
+    "id": "EA6FA491-838D-47D8-AF1D-36DE2FC0E03B",
+    "name": "Jennie",
+    "kind": "artist",
+    "disambiguation": "Jennie",
+    "popularity": 0.9854085156859276,
+    "affinity": 0.9999255416532271,
+    "allTags": [
+     "K-Pop",
+     "Passionate",
+     "Dance Pop",
+     "Vocals",
+     "R&B",
+     "Hip Hop",
+     "Independence",
+     "Love",
+     "2NE1",
+     "Beyonce",
+     "Fashionable",
+     "Catchy",
+     "Engaging",
+     "2",
+     "Confidence",
+     "Confident",
+     "Rihanna",
+     "Versatile",
+     "Energetic",
+     "Pop",
+     "Korean",
+     "Charismatic",
+     "Dance",
+     "K Pop",
+     "Dynamic",
+     "Electropop",
+     "Self Empowerment",
+     "Dedicated",
+     "Loyal",
+     "Stylish",
+     "Bold",
+     "Dance-Pop",
+     "Beyoncé",
+     "Self-empowerment"
+    ],
+    "musicTags": 8,
+    "rank": 10,
+    "localRank": 47
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "kind": "artist",
+   "item": {
+    "id": "448D8ED0-BCB4-431E-832B-82346BE4104A",
+    "name": "수영",
+    "kind": "artist",
+    "disambiguation": "수영",
+    "popularity": 0.7023605895575696,
+    "affinity": 0.9997272403512029,
+    "allTags": [
+     "K-Pop",
+     "Friendship",
+     "Dynamic",
+     "Charismatic",
+     "K Pop",
+     "BoA",
+     "Energetic",
+     "Contemporary R&B",
+     "Loyal",
+     "Love",
+     "Expressive",
+     "R&B",
+     "Pop",
+     "Versatile",
+     "Passionate",
+     "Synthpop",
+     "3",
+     "Dance Pop",
+     "Catchy",
+     "Dedicated",
+     "Korean",
+     "Vocals",
+     "Talented",
+     "Melodic",
+     "Utada Hikaru",
+     "Upbeat",
+     "Engaging",
+     "Self Empowerment",
+     "Electropop",
+     "Self-empowerment"
+    ],
+    "musicTags": 8,
+    "rank": 34,
+    "localRank": 36
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "kind": "artist",
+   "item": {
+    "id": "B05253E8-AC44-4A44-978F-037EC45915A0",
+    "name": "HyunA",
+    "kind": "artist",
+    "disambiguation": "HyunA",
+    "popularity": 0.9224288775730884,
+    "affinity": 0.9997191541992667,
+    "allTags": [
+     "2",
+     "Empowerment",
+     "K-Pop",
+     "R&B",
+     "Energetic",
+     "Confident",
+     "Electropop",
+     "Hip Hop",
+     "R&B Infused",
+     "Charismatic",
+     "Sexuality",
+     "Confidence",
+     "K-Pop Dance Pop",
+     "Independence",
+     "Dynamic",
+     "Wonder Girls",
+     "Dance Pop",
+     "Hip Hop Influenced",
+     "Supportive",
+     "Bold",
+     "Passionate",
+     "Love",
+     "Vocals",
+     "Catchy",
+     "Synthpop",
+     "Versatile",
+     "2NE1",
+     "Provocative",
+     "BoA",
+     "Danceable",
+     "Loyal",
+     "K-Pop Dance-Pop",
+     "Hip Hop-Influenced",
+     "R&B-Infused",
+     "Synth-Pop",
+     "Dance-Pop"
+    ],
+    "musicTags": 6,
+    "rank": 35,
+    "localRank": 37
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "artist",
+   "item": {
+    "id": "9697860A-A38A-42EA-835F-E180D13E6256",
+    "name": "태양",
+    "kind": "artist",
+    "disambiguation": "태양",
+    "popularity": 0.9864079324197681,
+    "affinity": 0.999685957674049,
+    "allTags": [
+     "Dynamic",
+     "Growth",
+     "Love",
+     "Michael Jackson",
+     "Charismatic",
+     "Dedicated",
+     "Dance-Infused R&B",
+     "K-Pop",
+     "Korean",
+     "Usher",
+     "Passionate",
+     "K Pop",
+     "Smooth",
+     "Catchy",
+     "Soul",
+     "Expressive",
+     "2",
+     "R & B",
+     "Self Reflection",
+     "Pop",
+     "Rhythm & Blues",
+     "Energetic",
+     "Soulful Ballad",
+     "Heartbreak",
+     "Rhythmic",
+     "Loyal",
+     "Urban Pop",
+     "Contemporary R&B",
+     "Contemporary K-Pop",
+     "Hip Hop",
+     "Versatile",
+     "Vocals",
+     "Tenor",
+     "Bobby Brown",
+     "Dance",
+     "Soulful",
+     "Korean R&B",
+     "Emotive",
+     "Self-reflection",
+     "R&B"
+    ],
+    "musicTags": 9,
+    "rank": 39,
+    "localRank": 17
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C7": {
+   "ref": "C7",
+   "kind": "artist",
+   "item": {
+    "id": "DCCEC7B0-A20B-40BA-86C7-7AADEF9DAB94",
+    "name": "Suzy",
+    "kind": "artist",
+    "disambiguation": "Suzy",
+    "popularity": 0.947289778424395,
+    "affinity": 0.9999919162422933,
+    "allTags": [
+     "Versatile",
+     "Pop Ballad",
+     "Ballad",
+     "Melodic",
+     "Talented",
+     "Loyal",
+     "Expressive",
+     "Contemporary R&B",
+     "K-Pop Ballad",
+     "Hope",
+     "Lee Hyori",
+     "Emotional",
+     "Soft Pop",
+     "Korean",
+     "Passionate",
+     "K-Pop",
+     "Popular",
+     "BoA",
+     "Vocals",
+     "2",
+     "Love",
+     "Sweet-voiced",
+     "K Pop",
+     "Jewish",
+     "Catchy",
+     "Emotive Pop",
+     "Smooth",
+     "Ladino",
+     "Charismatic",
+     "Heartbreak",
+     "Pop",
+     "Youth",
+     "Supportive",
+     "Engaging",
+     "Graceful",
+     "R&B",
+     "Devoted",
+     "Young",
+     "Enthusiastic",
+     "Fashion-Conscious",
+     "Polished",
+     "Emotive",
+     "Radio-Friendly",
+     "Camera-Friendly",
+     "Reserved",
+     "Youthful",
+     "Screen-Friendly",
+     "Marketable",
+     "Warm",
+     "3",
+     "Melodic K-Drama Pop",
+     "Youthful Bubblegum Pop",
+     "Polished Dance-Pop",
+     "Soft R&B-Inflected Pop",
+     "K-Drama Soundtrack Pop",
+     "IU",
+     "Romance",
+     "Longing",
+     "Nostalgia",
+     "1",
+     "Dance-Pop",
+     "Soundtrack (K-Drama OST)"
+    ],
+    "musicTags": 13,
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C8": {
+   "ref": "C8",
+   "kind": "artist",
+   "item": {
+    "id": "037111E5-906A-4BA7-AF15-DD07591519C2",
+    "name": "Dynamic Duo",
+    "kind": "artist",
+    "disambiguation": "Dynamic Duo",
+    "popularity": 0.9404151020060424,
+    "affinity": 0.9999834069469765,
+    "allTags": [
+     "Conscious Rap",
+     "Love",
+     "Khiphop",
+     "Rap",
+     "Jay Z",
+     "Korean",
+     "Energetic",
+     "Life",
+     "Struggle",
+     "Boom Bap",
+     "Drunken Tiger",
+     "Dynamic",
+     "Innovative",
+     "Nas",
+     "K-Pop Hip Hop",
+     "Korean Hip Hop",
+     "Hip - Hop",
+     "Smooth",
+     "Influential",
+     "Hip Hop",
+     "Soulful",
+     "Clever",
+     "Engaging",
+     "Sampler",
+     "Turntables",
+     "Lyrical",
+     "Diverse",
+     "3",
+     "Society",
+     "Lyricism Focused",
+     "Passionate",
+     "Rhythmic",
+     "Loyal",
+     "Success",
+     "Lyricism-Focused",
+     "Jay-Z"
+    ],
+    "musicTags": 12,
+    "rank": 3,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C9": {
+   "ref": "C9",
+   "kind": "artist",
+   "item": {
+    "id": "89B0DBC3-ABB3-4C41-8A47-423975C4017F",
+    "name": "Beenzino",
+    "kind": "artist",
+    "disambiguation": "Beenzino",
+    "popularity": 0.9302472655302807,
+    "affinity": 0.999966813594911,
+    "allTags": [
+     "Kanye West",
+     "Charismatic",
+     "Artistic",
+     "Innovative",
+     "Korean Hip Hop",
+     "Rap",
+     "Confident",
+     "Youthful",
+     "Lyrical",
+     "Hip Hop",
+     "Melodic Rap",
+     "Lyrical Hip Hop",
+     "Alternative Hip Hop",
+     "Smooth",
+     "3",
+     "Life Experiences",
+     "Hip - Hop",
+     "Smooth Flow",
+     "Vocals",
+     "Drake",
+     "Passionate",
+     "Catchy",
+     "Energetic",
+     "Lupe Fiasco",
+     "Youth",
+     "Loyal",
+     "Melodic",
+     "Stylish",
+     "Korean",
+     "Trendy",
+     "Art",
+     "Love",
+     "Self Reflection",
+     "Self-Reflection"
+    ],
+    "musicTags": 10,
+    "rank": 5,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C10": {
+   "ref": "C10",
+   "kind": "artist",
+   "item": {
+    "id": "401D2EE5-0FDC-44D4-9EF5-FBAD7D88BFC2",
+    "name": "SUNMI",
+    "kind": "artist",
+    "disambiguation": "SUNMI",
+    "popularity": 0.9867323332612442,
+    "affinity": 0.999958729545831,
+    "allTags": [
+     "Innovative",
+     "Vocals",
+     "Love",
+     "Synthpop",
+     "Stylish",
+     "Danceable",
+     "Charismatic",
+     "Heartbreak",
+     "Versatile",
+     "Dedicated",
+     "Pop",
+     "Dance Pop",
+     "Catchy",
+     "K-Pop",
+     "Expressive",
+     "Electropop",
+     "Loyal",
+     "Lee Hyori",
+     "Independence",
+     "Self Confidence",
+     "2",
+     "BoA",
+     "Empowerment",
+     "Supportive",
+     "Korean",
+     "Passionate",
+     "Retro Pop",
+     "K Pop",
+     "Dynamic",
+     "Retro-Inspired",
+     "Dance-Pop",
+     "Retro-Pop",
+     "Self-Confidence"
+    ],
+    "musicTags": 9,
+    "rank": 6,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C11": {
+   "ref": "C11",
+   "kind": "artist",
+   "item": {
+    "id": "A7BFA500-B91C-45D4-AD8E-4354CC858270",
+    "name": "IU",
+    "kind": "artist",
+    "disambiguation": "IU",
+    "popularity": 0.9910281868286704,
+    "affinity": 0.9999421357490446,
+    "allTags": [
+     "Pop",
+     "Ballad",
+     "Melodic",
+     "Guitar",
+     "Contemporary R&B",
+     "Heartbreak",
+     "Intimate",
+     "Expressive",
+     "Passionate",
+     "Engaging",
+     "K Pop",
+     "Youth",
+     "K-Pop",
+     "Piano",
+     "Loyal",
+     "Charismatic",
+     "Talented",
+     "BoA",
+     "Self Reflection",
+     "Love",
+     "Korean",
+     "Korean Ballad",
+     "Acoustic Pop",
+     "Emotive Singer-Songwriter",
+     "Vocals",
+     "Smooth",
+     "Acoustic",
+     "Indie Pop",
+     "R & B",
+     "Growth",
+     "Emotive",
+     "Lee Sun Hee",
+     "Adele",
+     "Diverse",
+     "Versatile",
+     "2",
+     "Soprano",
+     "Dynamic",
+     "Supportive",
+     "Multi-generational",
+     "Dedicated",
+     "Engaged",
+     "Emotional",
+     "Lyrical",
+     "Polished",
+     "Warm",
+     "Reserved",
+     "Story-Driven",
+     "Articulate",
+     "Prolific",
+     "Authentic",
+     "6",
+     "Lyrical Piano-Driven Ballad",
+     "Indie-Tinged K-Pop",
+     "Folk-Inflected Acoustic Pop",
+     "Bedroom Singer-Songwriter Pop",
+     "Orchestral Pop Balladry",
+     "K-Pop Ballad",
+     "Korean Singer-Songwriter Pop",
+     "Indie-Influenced K-Pop",
+     "Lee Sora",
+     "Younha",
+     "Park Hyo-shin",
+     "Baek Ji-young",
+     "Classic Singer-Songwriters",
+     "Growing Up",
+     "Nostalgia",
+     "Introspection",
+     "Identity",
+     "Loneliness",
+     "Hope",
+     "1",
+     "Singer-Songwriter",
+     "Folk",
+     "R&B",
+     "Orchestral Pop",
+     "Mezzo-Soprano"
+    ],
+    "musicTags": 13,
+    "rank": 8,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C12": {
+   "ref": "C12",
+   "kind": "artist",
+   "item": {
+    "id": "A2868174-FFC6-474A-8C73-2204B3044F24",
+    "name": "크리스탈",
+    "kind": "artist",
+    "disambiguation": "크리스탈",
+    "popularity": 0.593407781688064,
+    "affinity": 0.999934051483308,
+    "allTags": [
+     "Pop",
+     "Energetic",
+     "Dance Pop",
+     "Youth",
+     "Expressive",
+     "Contemporary R&B",
+     "Loyal",
+     "Electropop",
+     "Love",
+     "Youthful",
+     "Talented",
+     "K-Pop",
+     "Beyonce",
+     "Charismatic",
+     "K Pop",
+     "3",
+     "BoA",
+     "Smooth",
+     "Utada Hikaru",
+     "Confident",
+     "Versatile",
+     "Heartbreak",
+     "Vocals",
+     "Synthpop",
+     "Self Discovery",
+     "Passionate",
+     "Catchy",
+     "R & B",
+     "Dedicated",
+     "Emotive",
+     "Polished",
+     "Synth-Pop",
+     "Beyoncé",
+     "Self-Discovery",
+     "R&B"
+    ],
+    "musicTags": 8,
+    "rank": 9,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Seoul",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
   "P1": {
    "ref": "P1",
    "kind": "place",
@@ -10868,320 +11425,6 @@
    "ref": "P7",
    "kind": "place",
    "item": {
-    "id": "7473A001-E97A-4BDF-9803-933F455958E4",
-    "name": "S'Patisserie",
-    "kind": "place",
-    "genre": "restaurant:bakery",
-    "address": "17 P. Hàng Khay Tràng Tiền Hoàn Kiếm Hà Nội, Vietnam",
-    "neighborhood": "Tràng Tiền",
-    "priceLevel": 2,
-    "rating": 4.400000095367432,
-    "summary": "Patisserie and café in central Hanoi offering pastries, specialty cakes, coffee, and fruit smoothies; moderately expensive with dine-in and takeaway.",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgd8UtPDmdrObxM3gHYuojA7NDSOcu6OlESA5JzXfI9R-XxcAmkvJzm5CSloW0Cp-Kn3oHY-ehdq4-NB-S-rTFL2iBjh2kSzjKq5d8dsMUsGZiYSUllakZSyATOl05VNq-NWMb=w1900-h1900-k-no",
-    "lat": 21.0255433,
-    "lon": 105.85256609999999,
-    "popularity": 0.7566478746525483,
-    "affinity": 0.981649047553556,
-    "tags": [
-     {
-      "id": "urn:tag:cuisine:qloo:french",
-      "name": "French",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:interests:qloo:pastry_baking",
-      "name": "Pastry baking",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:new_york_cheesecake",
-      "name": "New york cheesecake",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:setting:qloo:waterfront",
-      "name": "Waterfront",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:setting:qloo:lakefront",
-      "name": "Lakefront",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:charming",
-      "name": "Charming",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:decor:qloo:casual",
-      "name": "Casual",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:smoothies",
-      "name": "Smoothies",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:interests:qloo:casual_socializing",
-      "name": "Casual socializing",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-      "name": "Coffee and tea",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:deli_chocolate_cake",
-      "name": "Deli chocolate cake",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:interests:qloo:dessert_appreciation",
-      "name": "Dessert appreciation",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:comfortable",
-      "name": "Comfortable",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:fresh_juices",
-      "name": "Fresh juices",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:cozy",
-      "name": "Cozy",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:setting:qloo:city_center",
-      "name": "City center",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:mixed_fruits_smoothie",
-      "name": "Mixed fruits smoothie",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:relaxing",
-      "name": "Relaxing",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:desserts",
-      "name": "Desserts",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:dreamy",
-      "name": "Dreamy",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:setting:qloo:urban",
-      "name": "Urban",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:milkshakes",
-      "name": "Milkshakes",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:egg_coffee",
-      "name": "Egg coffee",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:vietnamese",
-      "name": "Vietnamese",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
-      "name": "Specialty non alcoholic",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:decor:qloo:french_style_coffee_house",
-      "name": "French style coffee house",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:offerings:place:coffee",
-      "name": "Coffee",
-      "family": "offerings"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:black_forest_cake",
-      "name": "Black forest cake",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:welcoming",
-      "name": "Welcoming",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:coffee_culture",
-      "name": "Coffee culture",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:salted_whipped_cream_coffee",
-      "name": "Salted whipped cream coffee",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:lava_croissant",
-      "name": "Lava croissant",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:tiramisu_cake",
-      "name": "Tiramisu cake",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:lively",
-      "name": "Lively",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:city_exploration",
-      "name": "City exploration",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:decor:qloo:classic",
-      "name": "Classic",
-      "family": "decor"
-     }
-    ],
-    "allTags": [
-     "French",
-     "Breakfast",
-     "Pastry baking",
-     "New york cheesecake",
-     "Couples",
-     "Bakery",
-     "Dine in",
-     "Visa",
-     "Onsite services",
-     "Waterfront",
-     "Lakefront",
-     "Charming",
-     "Casual",
-     "Walkable",
-     "Smoothies",
-     "Old quarter",
-     "Traditional",
-     "18 24",
-     "25 29",
-     "Morning",
-     "Dining drinking",
-     "Tourists",
-     "Indoor seating",
-     "Moderate",
-     "Drive through",
-     "Casual socializing",
-     "Coffee and tea",
-     "Cafe",
-     "Deli chocolate cake",
-     "Jcb",
-     "Convenience stop",
-     "Dessert appreciation",
-     "Comfortable",
-     "Midday",
-     "Fresh juices",
-     "Moderately expensive",
-     "Groups of friends",
-     "Delivery",
-     "Foodies",
-     "Restaurant",
-     "Cozy",
-     "City center",
-     "Lake view",
-     "Mixed fruits smoothie",
-     "Impulse visit",
-     "Central",
-     "Relaxing",
-     "Desserts",
-     "Dreamy",
-     "In store pickup",
-     "Debit cards",
-     "30 34",
-     "Urban",
-     "Credit cards",
-     "Takeout",
-     "Milkshakes",
-     "Price level",
-     "Egg coffee",
-     "Reservations",
-     "Vegetarian",
-     "Vietnamese",
-     "Wi fi",
-     "Takeout service",
-     "Specialty non alcoholic",
-     "Restroom",
-     "Outdoor seating",
-     "French style coffee house",
-     "Locals",
-     "Hoan kiếm lake",
-     "Coffee",
-     "Scenic",
-     "Black forest cake",
-     "Welcoming",
-     "Coffee culture",
-     "Cash only",
-     "Salted whipped cream coffee",
-     "Street view",
-     "Lava croissant",
-     "Display cases",
-     "Place",
-     "Tiramisu cake",
-     "Afternoon",
-     "Lively",
-     "Mastercard",
-     "City exploration",
-     "Cafe seating",
-     "Touristic",
-     "Pickup",
-     "Classic"
-    ],
-    "rank": 4,
-    "tied": true,
-    "cityRank": null,
-    "lift": null,
-    "pool": "peers"
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:place",
-     "filter.location.query": "Hanoi",
-     "filter.tags": [
-      "urn:tag:genre:place:restaurant:coffee_shop",
-      "urn:tag:genre:place:cafe",
-      "urn:tag:category:place:coffee_shop"
-     ],
-     "operator.filter.tags": "union",
-     "take": 50,
-     "signal.location.query": "Seoul"
-    },
-    "cached": false
-   }
-  },
-  "P8": {
-   "ref": "P8",
-   "kind": "place",
-   "item": {
     "id": "23D13B37-59C8-4967-95A6-9D581883029B",
     "name": "Khu Văn hoá ẩm thực Sen Tây Hồ",
     "kind": "place",
@@ -12635,8 +12878,8 @@
     "cached": false
    }
   },
-  "P9": {
-   "ref": "P9",
+  "P8": {
+   "ref": "P8",
    "kind": "place",
    "item": {
     "id": "59CCF32A-7A25-4BF9-9ACF-A97AB4FE1D64",
@@ -13054,8 +13297,8 @@
     "cached": false
    }
   },
-  "P10": {
-   "ref": "P10",
+  "P9": {
+   "ref": "P9",
    "kind": "place",
    "item": {
     "id": "F5ADC856-324F-459B-85A2-13802A989E9C",
@@ -13091,8 +13334,8 @@
     "cached": false
    }
   },
-  "P11": {
-   "ref": "P11",
+  "P10": {
+   "ref": "P10",
    "kind": "place",
    "item": {
     "id": "65A59E7E-33EF-4BCD-BF77-24FF9192E00B",
@@ -13468,8 +13711,8 @@
     "cached": false
    }
   },
-  "P12": {
-   "ref": "P12",
+  "P11": {
+   "ref": "P11",
    "kind": "place",
    "item": {
     "id": "369B43A5-4CBC-478A-91DA-A0062B1CC614",
@@ -14010,8 +14253,8 @@
     "cached": false
    }
   },
-  "P13": {
-   "ref": "P13",
+  "P12": {
+   "ref": "P12",
    "kind": "place",
    "item": {
     "id": "E55F9189-46F9-4963-B34A-D88B2236E075",
@@ -14265,8 +14508,8 @@
     "cached": false
    }
   },
-  "P14": {
-   "ref": "P14",
+  "P13": {
+   "ref": "P13",
    "kind": "place",
    "item": {
     "id": "49884032-CB26-4A1A-9009-EB574F02BD2B",
@@ -14481,8 +14724,8 @@
     "cached": false
    }
   },
-  "P15": {
-   "ref": "P15",
+  "P14": {
+   "ref": "P14",
    "kind": "place",
    "item": {
     "id": "5AC39667-3AF8-49E1-8C70-D4D8BB6943F8",
@@ -14770,8 +15013,8 @@
     "cached": false
    }
   },
-  "P16": {
-   "ref": "P16",
+  "P15": {
+   "ref": "P15",
    "kind": "place",
    "item": {
     "id": "7DA10DF3-21B3-4690-9120-AA297304F4B4",
@@ -15213,8 +15456,8 @@
     "cached": false
    }
   },
-  "P17": {
-   "ref": "P17",
+  "P16": {
+   "ref": "P16",
    "kind": "place",
    "item": {
     "id": "131EC82C-C98E-43E1-8AA2-0840670B49DE",
@@ -15416,8 +15659,8 @@
     "cached": false
    }
   },
-  "P18": {
-   "ref": "P18",
+  "P17": {
+   "ref": "P17",
    "kind": "place",
    "item": {
     "id": "372F7C75-8CFE-42D9-8DB3-863D45836694",
@@ -15625,8 +15868,8 @@
     "cached": false
    }
   },
-  "P19": {
-   "ref": "P19",
+  "P18": {
+   "ref": "P18",
    "kind": "place",
    "item": {
     "id": "74B7F642-8689-4355-9B35-589F1DF92A04",
@@ -15962,8 +16205,8 @@
     "cached": false
    }
   },
-  "C1": {
-   "ref": "C1",
+  "C13": {
+   "ref": "C13",
    "kind": "tv_show",
    "item": {
     "id": "0258FC25-D38F-4208-A869-D6BE0D1BD399",
@@ -16069,6 +16312,7 @@
      "Surgeon",
      "Single father"
     ],
+    "musicTags": 0,
     "rank": 4,
     "localRank": 28
    },
@@ -16082,8 +16326,8 @@
     "cached": false
    }
   },
-  "C2": {
-   "ref": "C2",
+  "C14": {
+   "ref": "C14",
    "kind": "tv_show",
    "item": {
     "id": "93CC4C6E-66B8-42B0-81B9-2F96DCA87BEF",
@@ -16150,6 +16394,7 @@
      "Cleaning",
      "Personal growth"
     ],
+    "musicTags": 0,
     "rank": 9,
     "localRank": 13
    },
@@ -16163,8 +16408,8 @@
     "cached": false
    }
   },
-  "C3": {
-   "ref": "C3",
+  "C15": {
+   "ref": "C15",
    "kind": "tv_show",
    "item": {
     "id": "CD2991CD-832E-4626-8A82-32F9FA5504EB",
@@ -16237,6 +16482,7 @@
      "Software engineer",
      "Business adviser"
     ],
+    "musicTags": 0,
     "rank": 14,
     "localRank": 21
    },
@@ -16250,8 +16496,8 @@
     "cached": false
    }
   },
-  "C4": {
-   "ref": "C4",
+  "C16": {
+   "ref": "C16",
    "kind": "tv_show",
    "item": {
     "id": "D564CC06-DC10-46DA-92F1-1C699B0A2037",
@@ -16335,6 +16581,7 @@
      "Relationship psychology",
      "Drama loving"
     ],
+    "musicTags": 0,
     "rank": 18,
     "localRank": 36
    },
@@ -16348,8 +16595,8 @@
     "cached": false
    }
   },
-  "C5": {
-   "ref": "C5",
+  "C17": {
+   "ref": "C17",
    "kind": "tv_show",
    "item": {
     "id": "0EFAE100-6F45-4FB7-BE46-052B8C30699A",
@@ -16422,6 +16669,7 @@
      "Emotionally engaged",
      "Subtle emotionality"
     ],
+    "musicTags": 0,
     "rank": 29,
     "localRank": 7
    },
@@ -16435,8 +16683,8 @@
     "cached": false
    }
   },
-  "C6": {
-   "ref": "C6",
+  "C18": {
+   "ref": "C18",
    "kind": "tv_show",
    "item": {
     "id": "36EBFE44-03B3-4914-885F-53FABD32C1E0",
@@ -16535,6 +16783,7 @@
      "Romance loving",
      "Social justice"
     ],
+    "musicTags": 0,
     "rank": 32,
     "localRank": 10
    },
@@ -16548,8 +16797,8 @@
     "cached": false
    }
   },
-  "C7": {
-   "ref": "C7",
+  "C19": {
+   "ref": "C19",
    "kind": "tv_show",
    "item": {
     "id": "77546F71-6C65-4180-ACE4-0F9304A151A0",
@@ -16627,6 +16876,7 @@
      "Subtle humor timing",
      "Neighborhood scale realism"
     ],
+    "musicTags": 0,
     "rank": 5,
     "localRank": null
    },
@@ -16640,8 +16890,8 @@
     "cached": false
    }
   },
-  "C8": {
-   "ref": "C8",
+  "C20": {
+   "ref": "C20",
    "kind": "tv_show",
    "item": {
     "id": "B2295418-6B52-4A5C-907C-93A1C9C353D9",
@@ -16726,6 +16976,7 @@
      "Vulnerable",
      "Emotionally engaged"
     ],
+    "musicTags": 0,
     "rank": 12,
     "localRank": null
    },
@@ -16739,8 +16990,8 @@
     "cached": false
    }
   },
-  "C9": {
-   "ref": "C9",
+  "C21": {
+   "ref": "C21",
    "kind": "tv_show",
    "item": {
     "id": "6D4C967F-0811-4FBE-B76F-B24CE2BC8F94",
@@ -16826,6 +17077,7 @@
      "Obsessive",
      "Reality competition"
     ],
+    "musicTags": 0,
     "rank": 22,
     "localRank": null
    },
@@ -16839,8 +17091,8 @@
     "cached": false
    }
   },
-  "C10": {
-   "ref": "C10",
+  "C22": {
+   "ref": "C22",
    "kind": "tv_show",
    "item": {
     "id": "1D9F89FB-0A5D-48CF-95A2-8F74A753A180",
@@ -16909,6 +17161,7 @@
      "Female centric",
      "Subtly self referential"
     ],
+    "musicTags": 0,
     "rank": 36,
     "localRank": null
    },
@@ -16922,8 +17175,8 @@
     "cached": false
    }
   },
-  "C11": {
-   "ref": "C11",
+  "C23": {
+   "ref": "C23",
    "kind": "tv_show",
    "item": {
     "id": "55126495-E636-4D0A-AF40-F35829F64A2F",
@@ -17002,6 +17255,7 @@
      "Science fiction",
      "Friendship"
     ],
+    "musicTags": 0,
     "rank": 42,
     "localRank": null
    },
@@ -17015,8 +17269,8 @@
     "cached": false
    }
   },
-  "C12": {
-   "ref": "C12",
+  "C24": {
+   "ref": "C24",
    "kind": "tv_show",
    "item": {
     "id": "5D22FD3B-7DEB-4E21-A16D-EB18A9D792B1",
@@ -17122,6 +17376,7 @@
      "Aristocracy",
      "Suspenseful"
     ],
+    "musicTags": 0,
     "rank": 44,
     "localRank": null
    },
@@ -17135,757 +17390,8 @@
     "cached": false
    }
   },
-  "C13": {
-   "ref": "C13",
-   "kind": "artist",
-   "item": {
-    "id": "5C18F96C-DB9D-4984-9001-65379DD5BED9",
-    "name": "G-Dragon",
-    "kind": "artist",
-    "disambiguation": "G-Dragon",
-    "popularity": 0.9897174763580598,
-    "affinity": 0.9999753230435824,
-    "allTags": [
-     "Rap",
-     "Hip Hop",
-     "Innovative",
-     "Youth",
-     "Piano",
-     "Electropop",
-     "Energetic",
-     "Loyal",
-     "Dynamic",
-     "R & B",
-     "Pop",
-     "Self-Identity",
-     "2",
-     "Passionate",
-     "Charismatic",
-     "Versatile",
-     "Vocals",
-     "K-Pop",
-     "Love",
-     "Kanye West",
-     "Dedicated",
-     "Catchy",
-     "Youthful",
-     "Teddy Park",
-     "Trap",
-     "Expressive",
-     "Dance",
-     "Dr Dre",
-     "Influential",
-     "Emotional",
-     "Rebellion",
-     "Eclectic",
-     "Trendsetting",
-     "Fame",
-     "Dr. Dre",
-     "R&B"
-    ],
-    "rank": 4,
-    "localRank": 9
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C14": {
-   "ref": "C14",
-   "kind": "artist",
-   "item": {
-    "id": "8E5D4B89-E784-420D-8250-91303EDD6B1A",
-    "name": "SULLI",
-    "kind": "artist",
-    "disambiguation": "SULLI",
-    "popularity": 0.8965980509735302,
-    "affinity": 0.9999506454257769,
-    "allTags": [
-     "R&B",
-     "K Pop",
-     "Individuality",
-     "Innovative",
-     "Vulnerable",
-     "Lee Hyori",
-     "Expressive",
-     "Vocals",
-     "Supportive",
-     "Electropop",
-     "K-Pop",
-     "Melodic",
-     "Self-Identity",
-     "Mental Health",
-     "Bjork",
-     "BoA",
-     "Love",
-     "Freedom",
-     "3",
-     "Korean",
-     "Empathetic",
-     "Ballad",
-     "Loyal",
-     "Pop",
-     "Bold",
-     "Synthpop",
-     "Confident",
-     "Emotional",
-     "Charismatic",
-     "Passionate",
-     "Soft",
-     "Synth-Pop",
-     "Björk"
-    ],
-    "rank": 7,
-    "localRank": 46
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C15": {
-   "ref": "C15",
-   "kind": "artist",
-   "item": {
-    "id": "EA6FA491-838D-47D8-AF1D-36DE2FC0E03B",
-    "name": "Jennie",
-    "kind": "artist",
-    "disambiguation": "Jennie",
-    "popularity": 0.9854085156859276,
-    "affinity": 0.9999255416532271,
-    "allTags": [
-     "K-Pop",
-     "Passionate",
-     "Dance Pop",
-     "Vocals",
-     "R&B",
-     "Hip Hop",
-     "Independence",
-     "Love",
-     "2NE1",
-     "Beyonce",
-     "Fashionable",
-     "Catchy",
-     "Engaging",
-     "2",
-     "Confidence",
-     "Confident",
-     "Rihanna",
-     "Versatile",
-     "Energetic",
-     "Pop",
-     "Korean",
-     "Charismatic",
-     "Dance",
-     "K Pop",
-     "Dynamic",
-     "Electropop",
-     "Self Empowerment",
-     "Dedicated",
-     "Loyal",
-     "Stylish",
-     "Bold",
-     "Dance-Pop",
-     "Beyoncé",
-     "Self-empowerment"
-    ],
-    "rank": 10,
-    "localRank": 47
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C16": {
-   "ref": "C16",
-   "kind": "artist",
-   "item": {
-    "id": "FB1FEF2C-19D8-4176-B2D8-2786757EB43E",
-    "name": "PONY",
-    "kind": "artist",
-    "disambiguation": "PONY",
-    "popularity": 0.8810431944635589,
-    "affinity": 0.9998017147296795,
-    "allTags": [
-     "Pop - Rock",
-     "Pop",
-     "Indie"
-    ],
-    "rank": 25,
-    "localRank": 6
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C17": {
-   "ref": "C17",
-   "kind": "artist",
-   "item": {
-    "id": "448D8ED0-BCB4-431E-832B-82346BE4104A",
-    "name": "수영",
-    "kind": "artist",
-    "disambiguation": "수영",
-    "popularity": 0.7023605895575696,
-    "affinity": 0.9997272403512029,
-    "allTags": [
-     "K-Pop",
-     "Friendship",
-     "Dynamic",
-     "Charismatic",
-     "K Pop",
-     "BoA",
-     "Energetic",
-     "Contemporary R&B",
-     "Loyal",
-     "Love",
-     "Expressive",
-     "R&B",
-     "Pop",
-     "Versatile",
-     "Passionate",
-     "Synthpop",
-     "3",
-     "Dance Pop",
-     "Catchy",
-     "Dedicated",
-     "Korean",
-     "Vocals",
-     "Talented",
-     "Melodic",
-     "Utada Hikaru",
-     "Upbeat",
-     "Engaging",
-     "Self Empowerment",
-     "Electropop",
-     "Self-empowerment"
-    ],
-    "rank": 34,
-    "localRank": 36
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C18": {
-   "ref": "C18",
-   "kind": "artist",
-   "item": {
-    "id": "B05253E8-AC44-4A44-978F-037EC45915A0",
-    "name": "HyunA",
-    "kind": "artist",
-    "disambiguation": "HyunA",
-    "popularity": 0.9224288775730884,
-    "affinity": 0.9997191541992667,
-    "allTags": [
-     "2",
-     "Empowerment",
-     "K-Pop",
-     "R&B",
-     "Energetic",
-     "Confident",
-     "Electropop",
-     "Hip Hop",
-     "R&B Infused",
-     "Charismatic",
-     "Sexuality",
-     "Confidence",
-     "K-Pop Dance Pop",
-     "Independence",
-     "Dynamic",
-     "Wonder Girls",
-     "Dance Pop",
-     "Hip Hop Influenced",
-     "Supportive",
-     "Bold",
-     "Passionate",
-     "Love",
-     "Vocals",
-     "Catchy",
-     "Synthpop",
-     "Versatile",
-     "2NE1",
-     "Provocative",
-     "BoA",
-     "Danceable",
-     "Loyal",
-     "K-Pop Dance-Pop",
-     "Hip Hop-Influenced",
-     "R&B-Infused",
-     "Synth-Pop",
-     "Dance-Pop"
-    ],
-    "rank": 35,
-    "localRank": 37
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C19": {
-   "ref": "C19",
-   "kind": "artist",
-   "item": {
-    "id": "DCCEC7B0-A20B-40BA-86C7-7AADEF9DAB94",
-    "name": "Suzy",
-    "kind": "artist",
-    "disambiguation": "Suzy",
-    "popularity": 0.947289778424395,
-    "affinity": 0.9999919162422933,
-    "allTags": [
-     "Versatile",
-     "Pop Ballad",
-     "Ballad",
-     "Melodic",
-     "Talented",
-     "Loyal",
-     "Expressive",
-     "Contemporary R&B",
-     "K-Pop Ballad",
-     "Hope",
-     "Lee Hyori",
-     "Emotional",
-     "Soft Pop",
-     "Korean",
-     "Passionate",
-     "K-Pop",
-     "Popular",
-     "BoA",
-     "Vocals",
-     "2",
-     "Love",
-     "Sweet-voiced",
-     "K Pop",
-     "Jewish",
-     "Catchy",
-     "Emotive Pop",
-     "Smooth",
-     "Ladino",
-     "Charismatic",
-     "Heartbreak",
-     "Pop",
-     "Youth",
-     "Supportive",
-     "Engaging",
-     "Graceful",
-     "R&B",
-     "Devoted",
-     "Young",
-     "Enthusiastic",
-     "Fashion-Conscious",
-     "Polished",
-     "Emotive",
-     "Radio-Friendly",
-     "Camera-Friendly",
-     "Reserved",
-     "Youthful",
-     "Screen-Friendly",
-     "Marketable",
-     "Warm",
-     "3",
-     "Melodic K-Drama Pop",
-     "Youthful Bubblegum Pop",
-     "Polished Dance-Pop",
-     "Soft R&B-Inflected Pop",
-     "K-Drama Soundtrack Pop",
-     "IU",
-     "Romance",
-     "Longing",
-     "Nostalgia",
-     "1",
-     "Dance-Pop",
-     "Soundtrack (K-Drama OST)"
-    ],
-    "rank": 2,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C20": {
-   "ref": "C20",
-   "kind": "artist",
-   "item": {
-    "id": "037111E5-906A-4BA7-AF15-DD07591519C2",
-    "name": "Dynamic Duo",
-    "kind": "artist",
-    "disambiguation": "Dynamic Duo",
-    "popularity": 0.9404151020060424,
-    "affinity": 0.9999834069469765,
-    "allTags": [
-     "Conscious Rap",
-     "Love",
-     "Khiphop",
-     "Rap",
-     "Jay Z",
-     "Korean",
-     "Energetic",
-     "Life",
-     "Struggle",
-     "Boom Bap",
-     "Drunken Tiger",
-     "Dynamic",
-     "Innovative",
-     "Nas",
-     "K-Pop Hip Hop",
-     "Korean Hip Hop",
-     "Hip - Hop",
-     "Smooth",
-     "Influential",
-     "Hip Hop",
-     "Soulful",
-     "Clever",
-     "Engaging",
-     "Sampler",
-     "Turntables",
-     "Lyrical",
-     "Diverse",
-     "3",
-     "Society",
-     "Lyricism Focused",
-     "Passionate",
-     "Rhythmic",
-     "Loyal",
-     "Success",
-     "Lyricism-Focused",
-     "Jay-Z"
-    ],
-    "rank": 3,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C21": {
-   "ref": "C21",
-   "kind": "artist",
-   "item": {
-    "id": "89B0DBC3-ABB3-4C41-8A47-423975C4017F",
-    "name": "Beenzino",
-    "kind": "artist",
-    "disambiguation": "Beenzino",
-    "popularity": 0.9302472655302807,
-    "affinity": 0.999966813594911,
-    "allTags": [
-     "Kanye West",
-     "Charismatic",
-     "Artistic",
-     "Innovative",
-     "Korean Hip Hop",
-     "Rap",
-     "Confident",
-     "Youthful",
-     "Lyrical",
-     "Hip Hop",
-     "Melodic Rap",
-     "Lyrical Hip Hop",
-     "Alternative Hip Hop",
-     "Smooth",
-     "3",
-     "Life Experiences",
-     "Hip - Hop",
-     "Smooth Flow",
-     "Vocals",
-     "Drake",
-     "Passionate",
-     "Catchy",
-     "Energetic",
-     "Lupe Fiasco",
-     "Youth",
-     "Loyal",
-     "Melodic",
-     "Stylish",
-     "Korean",
-     "Trendy",
-     "Art",
-     "Love",
-     "Self Reflection",
-     "Self-Reflection"
-    ],
-    "rank": 5,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C22": {
-   "ref": "C22",
-   "kind": "artist",
-   "item": {
-    "id": "401D2EE5-0FDC-44D4-9EF5-FBAD7D88BFC2",
-    "name": "SUNMI",
-    "kind": "artist",
-    "disambiguation": "SUNMI",
-    "popularity": 0.9867323332612442,
-    "affinity": 0.999958729545831,
-    "allTags": [
-     "Innovative",
-     "Vocals",
-     "Love",
-     "Synthpop",
-     "Stylish",
-     "Danceable",
-     "Charismatic",
-     "Heartbreak",
-     "Versatile",
-     "Dedicated",
-     "Pop",
-     "Dance Pop",
-     "Catchy",
-     "K-Pop",
-     "Expressive",
-     "Electropop",
-     "Loyal",
-     "Lee Hyori",
-     "Independence",
-     "Self Confidence",
-     "2",
-     "BoA",
-     "Empowerment",
-     "Supportive",
-     "Korean",
-     "Passionate",
-     "Retro Pop",
-     "K Pop",
-     "Dynamic",
-     "Retro-Inspired",
-     "Dance-Pop",
-     "Retro-Pop",
-     "Self-Confidence"
-    ],
-    "rank": 6,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C23": {
-   "ref": "C23",
-   "kind": "artist",
-   "item": {
-    "id": "A7BFA500-B91C-45D4-AD8E-4354CC858270",
-    "name": "IU",
-    "kind": "artist",
-    "disambiguation": "IU",
-    "popularity": 0.9910281868286704,
-    "affinity": 0.9999421357490446,
-    "allTags": [
-     "Pop",
-     "Ballad",
-     "Melodic",
-     "Guitar",
-     "Contemporary R&B",
-     "Heartbreak",
-     "Intimate",
-     "Expressive",
-     "Passionate",
-     "Engaging",
-     "K Pop",
-     "Youth",
-     "K-Pop",
-     "Piano",
-     "Loyal",
-     "Charismatic",
-     "Talented",
-     "BoA",
-     "Self Reflection",
-     "Love",
-     "Korean",
-     "Korean Ballad",
-     "Acoustic Pop",
-     "Emotive Singer-Songwriter",
-     "Vocals",
-     "Smooth",
-     "Acoustic",
-     "Indie Pop",
-     "R & B",
-     "Growth",
-     "Emotive",
-     "Lee Sun Hee",
-     "Adele",
-     "Diverse",
-     "Versatile",
-     "2",
-     "Soprano",
-     "Dynamic",
-     "Supportive",
-     "Multi-generational",
-     "Dedicated",
-     "Engaged",
-     "Emotional",
-     "Lyrical",
-     "Polished",
-     "Warm",
-     "Reserved",
-     "Story-Driven",
-     "Articulate",
-     "Prolific",
-     "Authentic",
-     "6",
-     "Lyrical Piano-Driven Ballad",
-     "Indie-Tinged K-Pop",
-     "Folk-Inflected Acoustic Pop",
-     "Bedroom Singer-Songwriter Pop",
-     "Orchestral Pop Balladry",
-     "K-Pop Ballad",
-     "Korean Singer-Songwriter Pop",
-     "Indie-Influenced K-Pop",
-     "Lee Sora",
-     "Younha",
-     "Park Hyo-shin",
-     "Baek Ji-young",
-     "Classic Singer-Songwriters",
-     "Growing Up",
-     "Nostalgia",
-     "Introspection",
-     "Identity",
-     "Loneliness",
-     "Hope",
-     "1",
-     "Singer-Songwriter",
-     "Folk",
-     "R&B",
-     "Orchestral Pop",
-     "Mezzo-Soprano"
-    ],
-    "rank": 8,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "C24": {
-   "ref": "C24",
-   "kind": "artist",
-   "item": {
-    "id": "A2868174-FFC6-474A-8C73-2204B3044F24",
-    "name": "크리스탈",
-    "kind": "artist",
-    "disambiguation": "크리스탈",
-    "popularity": 0.593407781688064,
-    "affinity": 0.999934051483308,
-    "allTags": [
-     "Pop",
-     "Energetic",
-     "Dance Pop",
-     "Youth",
-     "Expressive",
-     "Contemporary R&B",
-     "Loyal",
-     "Electropop",
-     "Love",
-     "Youthful",
-     "Talented",
-     "K-Pop",
-     "Beyonce",
-     "Charismatic",
-     "K Pop",
-     "3",
-     "BoA",
-     "Smooth",
-     "Utada Hikaru",
-     "Confident",
-     "Versatile",
-     "Heartbreak",
-     "Vocals",
-     "Synthpop",
-     "Self Discovery",
-     "Passionate",
-     "Catchy",
-     "R & B",
-     "Dedicated",
-     "Emotive",
-     "Polished",
-     "Synth-Pop",
-     "Beyoncé",
-     "Self-Discovery",
-     "R&B"
-    ],
-    "rank": 9,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Seoul",
-     "take": 50
-    },
-    "cached": false
-   }
-  },
-  "P20": {
-   "ref": "P20",
+  "P19": {
+   "ref": "P19",
    "kind": "place",
    "item": {
     "id": "69751BD1-44F5-44E4-A8D7-51D580C9E6F3",
@@ -18191,8 +17697,8 @@
     "cached": false
    }
   },
-  "P21": {
-   "ref": "P21",
+  "P20": {
+   "ref": "P20",
    "kind": "place",
    "item": {
     "id": "175672EA-6557-4FE2-9209-76BC7BCD0F16",
@@ -18406,8 +17912,8 @@
     "cached": false
    }
   },
-  "P22": {
-   "ref": "P22",
+  "P21": {
+   "ref": "P21",
    "kind": "place",
    "item": {
     "id": "34912D8A-A81F-469B-A1F2-925BF3CA5A1B",
@@ -18805,10 +18311,10 @@
     "score": 2.5021562831227797,
     "derived": true,
     "places": [
-     "P8",
+     "P7",
+     "P19",
      "P20",
-     "P21",
-     "P22"
+     "P21"
     ],
     "ref": "T1"
    },
@@ -18817,8 +18323,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P23": {
-   "ref": "P23",
+  "P22": {
+   "ref": "P22",
    "kind": "place",
    "item": {
     "id": "BBF88D49-0781-4861-8F6A-63A6471F19CD",
@@ -18976,8 +18482,8 @@
     "cached": false
    }
   },
-  "P24": {
-   "ref": "P24",
+  "P23": {
+   "ref": "P23",
    "kind": "place",
    "item": {
     "id": "D77F977E-6048-4C0D-BD86-260C4EF0651D",
@@ -19288,10 +18794,10 @@
     "score": 1.3558351536351823,
     "derived": true,
     "places": [
-     "P8",
-     "P11",
-     "P23",
-     "P24"
+     "P7",
+     "P10",
+     "P22",
+     "P23"
     ],
     "ref": "T2"
    },
@@ -19300,8 +18806,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P25": {
-   "ref": "P25",
+  "P24": {
+   "ref": "P24",
    "kind": "place",
    "item": {
     "id": "3A95DA2F-BE01-4602-A8AB-5A36DBCF3418",
@@ -19736,10 +19242,10 @@
     "score": 1.3558351536351823,
     "derived": true,
     "places": [
-     "P8",
-     "P25",
-     "P20",
-     "P21"
+     "P7",
+     "P24",
+     "P19",
+     "P20"
     ],
     "ref": "T3"
    },
@@ -19763,10 +19269,10 @@
     "score": 1.3379885757441385,
     "derived": true,
     "places": [
+     "P7",
      "P8",
-     "P9",
-     "P11",
-     "P12"
+     "P10",
+     "P11"
     ],
     "ref": "T4"
    },
@@ -19790,10 +19296,10 @@
     "score": 1.3204654086309207,
     "derived": true,
     "places": [
+     "P7",
      "P8",
-     "P9",
-     "P11",
-     "P12"
+     "P10",
+     "P11"
     ],
     "ref": "T5"
    },
@@ -19817,10 +19323,10 @@
     "score": 1.2743424543690507,
     "derived": true,
     "places": [
+     "P7",
      "P8",
-     "P9",
-     "P11",
-     "P15"
+     "P10",
+     "P14"
     ],
     "ref": "T6"
    },
@@ -19844,10 +19350,10 @@
     "score": 1.2580400255962119,
     "derived": true,
     "places": [
+     "P7",
      "P8",
-     "P9",
-     "P11",
-     "P12"
+     "P10",
+     "P11"
     ],
     "ref": "T7"
    },
@@ -19856,8 +19362,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P26": {
-   "ref": "P26",
+  "P25": {
+   "ref": "P25",
    "kind": "place",
    "item": {
     "id": "C0C5295A-4BA5-4E12-A3FB-B7F84BAFC358",
@@ -20101,16 +19607,320 @@
     "score": 1.207415148516909,
     "derived": true,
     "places": [
-     "P14",
-     "P18",
-     "P21",
-     "P26"
+     "P13",
+     "P17",
+     "P20",
+     "P25"
     ],
     "ref": "T8"
    },
    "source": {
     "derivedFrom": "all places in the city, with and without the market signal",
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
+   }
+  },
+  "P26": {
+   "ref": "P26",
+   "kind": "place",
+   "item": {
+    "id": "7473A001-E97A-4BDF-9803-933F455958E4",
+    "name": "S'Patisserie",
+    "kind": "place",
+    "genre": "restaurant:bakery",
+    "address": "17 P. Hàng Khay Tràng Tiền Hoàn Kiếm Hà Nội, Vietnam",
+    "neighborhood": "Tràng Tiền",
+    "priceLevel": 2,
+    "rating": 4.400000095367432,
+    "summary": "Patisserie and café in central Hanoi offering pastries, specialty cakes, coffee, and fruit smoothies; moderately expensive with dine-in and takeaway.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrgd8UtPDmdrObxM3gHYuojA7NDSOcu6OlESA5JzXfI9R-XxcAmkvJzm5CSloW0Cp-Kn3oHY-ehdq4-NB-S-rTFL2iBjh2kSzjKq5d8dsMUsGZiYSUllakZSyATOl05VNq-NWMb=w1900-h1900-k-no",
+    "lat": 21.0255433,
+    "lon": 105.85256609999999,
+    "popularity": 0.7566478746525483,
+    "affinity": 0.981649047553556,
+    "tags": [
+     {
+      "id": "urn:tag:cuisine:qloo:french",
+      "name": "French",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:interests:qloo:pastry_baking",
+      "name": "Pastry baking",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:new_york_cheesecake",
+      "name": "New york cheesecake",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:setting:qloo:waterfront",
+      "name": "Waterfront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:lakefront",
+      "name": "Lakefront",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:casual",
+      "name": "Casual",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:smoothies",
+      "name": "Smoothies",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:interests:qloo:casual_socializing",
+      "name": "Casual socializing",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:deli_chocolate_cake",
+      "name": "Deli chocolate cake",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:dessert_appreciation",
+      "name": "Dessert appreciation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:fresh_juices",
+      "name": "Fresh juices",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:cozy",
+      "name": "Cozy",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:mixed_fruits_smoothie",
+      "name": "Mixed fruits smoothie",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:desserts",
+      "name": "Desserts",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:dreamy",
+      "name": "Dreamy",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:milkshakes",
+      "name": "Milkshakes",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:egg_coffee",
+      "name": "Egg coffee",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese",
+      "name": "Vietnamese",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+      "name": "Specialty non alcoholic",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:decor:qloo:french_style_coffee_house",
+      "name": "French style coffee house",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:black_forest_cake",
+      "name": "Black forest cake",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:coffee_culture",
+      "name": "Coffee culture",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:salted_whipped_cream_coffee",
+      "name": "Salted whipped cream coffee",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:lava_croissant",
+      "name": "Lava croissant",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:tiramisu_cake",
+      "name": "Tiramisu cake",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:lively",
+      "name": "Lively",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:city_exploration",
+      "name": "City exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:classic",
+      "name": "Classic",
+      "family": "decor"
+     }
+    ],
+    "allTags": [
+     "French",
+     "Breakfast",
+     "Pastry baking",
+     "New york cheesecake",
+     "Couples",
+     "Bakery",
+     "Dine in",
+     "Visa",
+     "Onsite services",
+     "Waterfront",
+     "Lakefront",
+     "Charming",
+     "Casual",
+     "Walkable",
+     "Smoothies",
+     "Old quarter",
+     "Traditional",
+     "18 24",
+     "25 29",
+     "Morning",
+     "Dining drinking",
+     "Tourists",
+     "Indoor seating",
+     "Moderate",
+     "Drive through",
+     "Casual socializing",
+     "Coffee and tea",
+     "Cafe",
+     "Deli chocolate cake",
+     "Jcb",
+     "Convenience stop",
+     "Dessert appreciation",
+     "Comfortable",
+     "Midday",
+     "Fresh juices",
+     "Moderately expensive",
+     "Groups of friends",
+     "Delivery",
+     "Foodies",
+     "Restaurant",
+     "Cozy",
+     "City center",
+     "Lake view",
+     "Mixed fruits smoothie",
+     "Impulse visit",
+     "Central",
+     "Relaxing",
+     "Desserts",
+     "Dreamy",
+     "In store pickup",
+     "Debit cards",
+     "30 34",
+     "Urban",
+     "Credit cards",
+     "Takeout",
+     "Milkshakes",
+     "Price level",
+     "Egg coffee",
+     "Reservations",
+     "Vegetarian",
+     "Vietnamese",
+     "Wi fi",
+     "Takeout service",
+     "Specialty non alcoholic",
+     "Restroom",
+     "Outdoor seating",
+     "French style coffee house",
+     "Locals",
+     "Hoan kiếm lake",
+     "Coffee",
+     "Scenic",
+     "Black forest cake",
+     "Welcoming",
+     "Coffee culture",
+     "Cash only",
+     "Salted whipped cream coffee",
+     "Street view",
+     "Lava croissant",
+     "Display cases",
+     "Place",
+     "Tiramisu cake",
+     "Afternoon",
+     "Lively",
+     "Mastercard",
+     "City exploration",
+     "Cafe seating",
+     "Touristic",
+     "Pickup",
+     "Classic"
+    ],
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Hanoi",
+     "take": 50,
+     "signal.location.query": "Seoul"
+    },
+    "cached": false
    }
   },
   "I1": {
@@ -20128,9 +19938,9 @@
     "ratio": 0.6,
     "verdict": "common",
     "examples": [
-     "P16",
+     "P15",
      "P3",
-     "P7"
+     "P26"
     ],
     "ref": "I1"
    },
@@ -20485,6 +20295,7 @@
      "Electro-Pop",
      "Self-Reflection"
     ],
+    "musicTags": 8,
     "rank": 1,
     "localRank": null
    },
@@ -20514,9 +20325,9 @@
     "verdict": "over-represented",
     "examples": [
      "C25",
-     "C19",
-     "C13",
-     "C22"
+     "C7",
+     "C1",
+     "C10"
     ],
     "ref": "I3"
    },
@@ -20540,10 +20351,10 @@
     "ratio": 1.7,
     "verdict": "over-represented",
     "examples": [
+     "P7",
      "P8",
-     "P9",
-     "P11",
-     "P12"
+     "P10",
+     "P11"
     ],
     "ref": "I4"
    },
@@ -20567,85 +20378,85 @@
    "detail": null
   },
   {
-   "ms": 4918,
+   "ms": 3418,
    "phase": "qloo",
-   "label": "7 cafés and 50 places with a Seoul signal; 8 tags stand out; 6 shared artists",
+   "label": "6 cafés and 50 places with a Seoul signal; 8 tags stand out; 6 shared artists",
    "detail": null
   },
   {
-   "ms": 5757,
+   "ms": 4121,
    "phase": "qloo",
    "label": "Look up “Xofa Cafe” and rank it with the favourites",
-   "detail": "Xofa Cafe: rank 1 of 7"
+   "detail": "Xofa Cafe: rank 1 of 6"
   },
   {
-   "ms": 5757,
+   "ms": 4121,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
    "detail": "skews 25–29, leans female"
   },
   {
-   "ms": 5757,
+   "ms": 4121,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 7681,
+   "ms": 6259,
    "phase": "agent",
    "label": "Look up Qloo tags for “egg coffee”",
    "detail": "Egg Coffee, Egg Coffee And Coconut Coffee, Egg Coffee With, Egg Coffee Ice"
   },
   {
-   "ms": 8792,
+   "ms": 7934,
    "phase": "agent",
    "label": "Look up Qloo tags for “live music”",
    "detail": "Live Music, Live music venue, Live music bar"
   },
   {
-   "ms": 11436,
+   "ms": 9573,
    "phase": "agent",
-   "label": "Look up Qloo tags for “K-pop”",
+   "label": "Look up Qloo tags for “K-Pop”",
    "detail": "K Pop, Kpop, K-POP Themed, K-Pop Fans"
   },
   {
-   "ms": 12593,
+   "ms": 10648,
    "phase": "agent",
    "label": "Look up Qloo tags for “vegan cake”",
    "detail": "Vegan Cake, Vegan Cakes, Vegan Cake Of The Day, Vegan Chocolate Cake"
   },
   {
-   "ms": 14067,
+   "ms": 12571,
    "phase": "agent",
    "label": "Look up Qloo tags for “vegan”",
    "detail": "Vegan, Vegan Meals, Vegan restaurant, Vegans"
   },
   {
-   "ms": 15691,
+   "ms": 15205,
    "phase": "agent",
    "label": "Score 4 ideas against the two lists",
    "detail": "K-pop playlist → K Pop: 37/50 vs 21/50 (over-represented); vegan cakes → Vegan: 17/50 vs 10/50 (over-represented); egg coffee workshop → Egg Coffee: 3/50 vs 5/50 (common); live music on Fridays → Live Music: 1/50 vs 2/50 (too-few)"
   },
   {
-   "ms": 16742,
+   "ms": 16185,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 16742,
+   "ms": 16185,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 28418,
+   "ms": 33036,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Hanoi, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Hanoi with a measurable Seoul signal (7 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Hanoi's top cafés without that signal:\nP1 Xofa Cafe (Hàng Bông) — market rank 1, city rank 1 — tags: Relaxing, Small plates, Stylish, Healthy options, Asian, Mille crepe cake\nP2 Kafeville (Truc Bach Ward) — market rank 2, city rank not in the top list — tags: Comfortable, Quiet, Literary culture, Panama bouquete, Specialty coffee roasting, Slow living\nP3 Vivienne Cafe&Restaurant (Hàng Trống) — market rank 3, city rank not in the top list — tags: Casual, Urban photography, City center, Vietnamese cafe, Beer, Egg coffee\nP4 Highlands Coffee Big C Ha Noi (Trung Hòa) — market rank =4, city rank not in the top list — tags: Beer, Convenient, Modern, Social networking, Lotus tea, Casual\nP5 Oriberry Coffee (Quang An Ward) — market rank =4, city rank not in the top list — tags: Late night food, Quiet, Local ingredients, Quick bite, Beef banh mi, Fresh juices\nP6 Serein Cafe & Lounge (Dong Xuan Ward) — market rank =4, city rank not in the top list — tags: Beer, Stylish, Spirits, Cocktails, Coffee and tea, Craft beer\nP7 S'Patisserie (Tràng Tiền) — market rank =4, city rank not in the top list — tags: French, Pastry baking, New york cheesecake, Waterfront, Lakefront, Charming\n\nAll kinds of places in Hanoi favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP8 Khu Văn hoá ẩm thực Sen Tây Hồ (buffet, Nhat Tan Ward) — market rank 1, city rank not in top 50\nP9 Pho Quynh (pho, Phú Đô) — market rank 2, city rank 29\nP10 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 3, city rank not in top 50\nP11 Bún chả Hương Liên (vietnamese, Phạm Đình Hổ) — market rank 4, city rank 24\nP12 Pizza 4P’s Tràng Tiền (pizza, Tràng Tiền) — market rank 5, city rank 7\nP13 Top of Hanoi (bar, Ngọc Khánh) — market rank 6, city rank not in top 50\nP14 Apricot Hotel (hotel, Hàng Trống) — market rank =7, city rank not in top 50\nP15 Bún Chả Số 1 Hàng Mành (restaurant, Hàng Gai) — market rank =7, city rank not in top 50\nP16 Madame Hien - Vietnamese Restaurant Hanoi (vietnamese, Hàng Bạc) — market rank 9, city rank not in top 50\nP17 Somerset Grand Hanoi (hotel:serviced accommodation, Trần Hưng Đạo) — market rank 10, city rank not in top 50\nP18 AIRA Boutique Hanoi Hotel & Spa (hotel, Dien Bien Ward) — market rank 11, city rank 42\nP19 RuNam Nha Tho Street (restaurant, Hàng Trống) — market rank =12, city rank not in top 50\n\nTags clearly more common among the places people in Seoul favour in Hanoi than among the city's top places:\nT1 \"Culinary exploration\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P8, P20, P21, P22\nT2 \"Simple\" (decor) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P8, P11, P23, P24\nT3 \"Clean\" (ambience) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P8, P25, P20, P21\nT4 \"Large group\" (ambience) — 29/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P8, P9, P11, P12\nT5 \"Beer\" (offerings) — 30/50 of their favourites vs 14/50 city-wide, 2.1× as common — e.g. P8, P9, P11, P12\nT6 \"Vietnamese\" (cuisine) — 17/50 of their favourites vs 6/50 city-wide, 2.8× as common — e.g. P8, P9, P11, P15\nT7 \"Alcohol\" (offerings) — 28/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P8, P9, P11, P12\nT8 \"Boutique\" (decor) — 7/50 of their favourites vs 2/50 city-wide, 3.5× as common — e.g. P14, P18, P21, P26\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 25–29, leans female\n\nMusic loved by people in Seoul that people in Hanoi also love (bridge):\nC13 G-Dragon — Seoul rank 4, Hanoi rank 9\nC14 SULLI — Seoul rank 7, Hanoi rank 46\nC15 Jennie — Seoul rank 10, Hanoi rank 47\nC16 PONY — Seoul rank 25, Hanoi rank 6\nC17 수영 — Seoul rank 34, Hanoi rank 36\nC18 HyunA — Seoul rank 35, Hanoi rank 37\nMusic loved in Seoul but not in Hanoi's top list (distinct):\nC19 Suzy — Seoul rank 2\nC20 Dynamic Duo — Seoul rank 3\nC21 Beenzino — Seoul rank 5\nC22 SUNMI — Seoul rank 6\nC23 IU — Seoul rank 8\nC24 크리스탈 — Seoul rank 9\n\nTV loved by people in Seoul that people in Hanoi also love (bridge):\nC1 Hospital Playlist — Seoul rank 4, Hanoi rank 28\nC2 Clean with Passion for Now — Seoul rank 9, Hanoi rank 13\nC3 Start-Up — Seoul rank 14, Hanoi rank 21\nC4 Call It Love — Seoul rank 18, Hanoi rank 36\nC5 Run On — Seoul rank 29, Hanoi rank 7\nC6 Itaewon Class — Seoul rank 32, Hanoi rank 10\nTV loved in Seoul but not in Hanoi's top list (distinct):\nC7 Live — Seoul rank 5\nC8 Our Blues — Seoul rank 12\nC9 The Devil's Plan — Seoul rank 22\nC10 Melloga Chejil — Seoul rank 36\nC11 I'm Not a Robot — Seoul rank 42\nC12 My Country: The New Age — Seoul rank 44\n\nP1 Owner's place Xofa Cafe ranks 1 of 7 when Qloo ranks it with the top market favourites.\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"egg coffee workshop\" → tag \"Egg Coffee\" (places): 3/50 of their favourites vs 5/50 city-wide — verdict common — e.g. P16, P3, P7\nI2 \"live music on Fridays\" → tag \"Live Music\" (places): 1/50 of their favourites vs 2/50 city-wide — verdict too-few — e.g. P27\nI3 \"K-pop playlist\" → tag \"K Pop\" (music): 37/50 of their favourites vs 21/50 city-wide — verdict over-represented — e.g. C25, C19, C13, C22\nI4 \"vegan cakes\" → tag \"Vegan\" (places): 17/50 of their favourites vs 10/50 city-wide — verdict over-represented — e.g. P8, P9, P11, P12",
- "generatedAt": "2026-10-06T11:19:42.318Z"
+ "facts": "Business: Cafe in Hanoi, Vietnam. Visitor market: people living in Seoul, South Korea.\n\ncafés in Hanoi with a measurable Seoul signal (6 found), ranked by the taste of people in Seoul; \"city rank\" is the rank among Hanoi's top cafés without that signal:\nP1 Xofa Cafe (Hàng Bông) — market rank 1, city rank 1 — tags: Relaxing, Small plates, Stylish, Healthy options, Asian, Mille crepe cake\nP2 Kafeville (Truc Bach Ward) — market rank 2, city rank not in the top list — tags: Comfortable, Quiet, Literary culture, Panama bouquete, Specialty coffee roasting, Slow living\nP3 Vivienne Cafe&Restaurant (Hàng Trống) — market rank 3, city rank not in the top list — tags: Casual, Urban photography, City center, Vietnamese cafe, Beer, Egg coffee\nP4 Highlands Coffee Big C Ha Noi (Trung Hòa) — market rank =4, city rank not in the top list — tags: Beer, Convenient, Modern, Social networking, Lotus tea, Casual\nP5 Oriberry Coffee (Quang An Ward) — market rank =4, city rank not in the top list — tags: Late night food, Quiet, Local ingredients, Quick bite, Beef banh mi, Fresh juices\nP6 Serein Cafe & Lounge (Dong Xuan Ward) — market rank =4, city rank not in the top list — tags: Beer, Stylish, Spirits, Cocktails, Coffee and tea, Craft beer\n\nAll kinds of places in Hanoi favoured by people in Seoul (hotels, restaurants, attractions), with their city-wide rank:\nP7 Khu Văn hoá ẩm thực Sen Tây Hồ (buffet, Nhat Tan Ward) — market rank 1, city rank not in top 50\nP8 Pho Quynh (pho, Phú Đô) — market rank 2, city rank 29\nP9 Banh Mi 25 (sandwich shop, Hàng Bồ) — market rank 3, city rank not in top 50\nP10 Bún chả Hương Liên (vietnamese, Phạm Đình Hổ) — market rank 4, city rank 24\nP11 Pizza 4P’s Tràng Tiền (pizza, Tràng Tiền) — market rank 5, city rank 7\nP12 Top of Hanoi (bar, Ngọc Khánh) — market rank 6, city rank not in top 50\nP13 Apricot Hotel (hotel, Hàng Trống) — market rank =7, city rank not in top 50\nP14 Bún Chả Số 1 Hàng Mành (restaurant, Hàng Gai) — market rank =7, city rank not in top 50\nP15 Madame Hien - Vietnamese Restaurant Hanoi (vietnamese, Hàng Bạc) — market rank 9, city rank not in top 50\nP16 Somerset Grand Hanoi (hotel:serviced accommodation, Trần Hưng Đạo) — market rank 10, city rank not in top 50\nP17 AIRA Boutique Hanoi Hotel & Spa (hotel, Dien Bien Ward) — market rank 11, city rank 42\nP18 RuNam Nha Tho Street (restaurant, Hàng Trống) — market rank =12, city rank not in top 50\n\nTags clearly more common among ALL KINDS of places people in Seoul favour in Hanoi (mostly restaurants, bars and hotels — not specifically cafés) than among the city's top places. Do not write that people prefer cafés with these traits; write that these traits are common in the places they favour:\nT1 \"Culinary exploration\" (interests) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P7, P19, P20, P21\nT2 \"Simple\" (decor) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P10, P22, P23\nT3 \"Clean\" (ambience) — 8/50 of their favourites vs 2/50 city-wide, 4.0× as common — e.g. P7, P24, P19, P20\nT4 \"Large group\" (ambience) — 29/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT5 \"Beer\" (offerings) — 30/50 of their favourites vs 14/50 city-wide, 2.1× as common — e.g. P7, P8, P10, P11\nT6 \"Vietnamese\" (cuisine) — 17/50 of their favourites vs 6/50 city-wide, 2.8× as common — e.g. P7, P8, P10, P14\nT7 \"Alcohol\" (offerings) — 28/50 of their favourites vs 13/50 city-wide, 2.2× as common — e.g. P7, P8, P10, P11\nT8 \"Boutique\" (decor) — 7/50 of their favourites vs 2/50 city-wide, 3.5× as common — e.g. P13, P17, P20, P25\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Seoul): skews 25–29, leans female\n\nMusic loved by people in Seoul that people in Hanoi also love (bridge):\nC1 G-Dragon — Seoul rank 4, Hanoi rank 9\nC2 SULLI — Seoul rank 7, Hanoi rank 46\nC3 Jennie — Seoul rank 10, Hanoi rank 47\nC4 수영 — Seoul rank 34, Hanoi rank 36\nC5 HyunA — Seoul rank 35, Hanoi rank 37\nC6 태양 — Seoul rank 39, Hanoi rank 17\nMusic loved in Seoul but not in Hanoi's top list (distinct):\nC7 Suzy — Seoul rank 2\nC8 Dynamic Duo — Seoul rank 3\nC9 Beenzino — Seoul rank 5\nC10 SUNMI — Seoul rank 6\nC11 IU — Seoul rank 8\nC12 크리스탈 — Seoul rank 9\n\nTV loved by people in Seoul that people in Hanoi also love (bridge):\nC13 Hospital Playlist — Seoul rank 4, Hanoi rank 28\nC14 Clean with Passion for Now — Seoul rank 9, Hanoi rank 13\nC15 Start-Up — Seoul rank 14, Hanoi rank 21\nC16 Call It Love — Seoul rank 18, Hanoi rank 36\nC17 Run On — Seoul rank 29, Hanoi rank 7\nC18 Itaewon Class — Seoul rank 32, Hanoi rank 10\nTV loved in Seoul but not in Hanoi's top list (distinct):\nC19 Live — Seoul rank 5\nC20 Our Blues — Seoul rank 12\nC21 The Devil's Plan — Seoul rank 22\nC22 Melloga Chejil — Seoul rank 36\nC23 I'm Not a Robot — Seoul rank 42\nC24 My Country: The New Age — Seoul rank 44\n\nP1 Owner's place Xofa Cafe ranks 1 of 6 when Qloo ranks it with the top market favourites.\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"egg coffee workshop\" → tag \"Egg Coffee\": carried by 3 of the 50 places people in Seoul favour vs 5 of the 50 places people in Hanoi favour — verdict common — e.g. P15, P3, P26\nI2 \"live music on Fridays\" → tag \"Live Music\": carried by 1 of the 50 places people in Seoul favour vs 2 of the 50 places people in Hanoi favour — verdict too-few — e.g. P27\nI3 \"K-pop playlist\" → tag \"K Pop\": carried by 37 of the 50 artists people in Seoul favour vs 21 of the 50 artists people in Hanoi favour — verdict over-represented — e.g. C25, C7, C1, C10\nI4 \"vegan cakes\" → tag \"Vegan\": carried by 17 of the 50 places people in Seoul favour vs 10 of the 50 places people in Hanoi favour — verdict over-represented — e.g. P7, P8, P10, P11",
+ "generatedAt": "2026-10-06T12:13:23.852Z"
 }

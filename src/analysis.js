@@ -132,7 +132,8 @@ export function tasteProfile({ledger},pools,{minCount=3,minRatio=1.5,minGap=0.1,
 
 // Culture loved by people in the market, split into what people in the host city also love (a
 // bridge both visitors and locals enjoy) and what is distinctive to the market. Entities with low
-// Qloo popularity (often actors or models filed as artists) are kept for scoring but not shown.
+// Qloo popularity or, for artists, fewer than four music tags (actors and celebrities filed as
+// artists) are kept for scoring but not shown.
 export async function bridgeCulture({qloo,ledger},{city,market,kind='artist',take=50,keep=6,minPopularity=0.5}) {
   const type=CULTURE_TYPES[kind]?.type;
   if (!type) throw new Error(`unknown culture type "${kind}"`);
@@ -146,7 +147,7 @@ export async function bridgeCulture({qloo,ledger},{city,market,kind='artist',tak
   const seen=new Set();
   const shown=marketItems.filter((e)=>{
     const key=e.name.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
-    if ((e.popularity ?? 0)<minPopularity || seen.has(key)) return false;
+    if ((e.popularity ?? 0)<minPopularity || seen.has(key) || (kind==='artist' && (e.musicTags ?? 0)<4)) return false;
     seen.add(key);
     return true;
   });

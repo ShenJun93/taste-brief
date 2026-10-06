@@ -19,40 +19,60 @@
  },
  "peers": [
   {
-   "id": "A76EBF77-1473-484B-AABB-5D6FEB66E558",
-   "name": "Bánh Mì Như Lan",
+   "id": "8FCA4701-8A40-46C3-AAE4-9A695FDD7B75",
+   "name": "Maison Marou Flagship Saigon",
    "kind": "place",
-   "genre": "restaurant:bakery",
-   "address": "68 Hàm Nghi Sài Gòn Hồ Chí Minh 700000 Vietnam",
-   "neighborhood": "Khu phố 7",
-   "priceLevel": 1,
-   "rating": 3.799999952316284,
-   "summary": "Saigon bakery-restaurant famed for roasted pork bánh mì, offering a wide range of Vietnamese breads, pastries and prepared meals.",
-   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQUHAE-8qQBE4_7jrnPsSKzWVkn8q-K0jop3xp0GN5UOC2JhDKT3P2gdzr0R35P8RjIOa2ACHxFrv15_5C-E5ioH4VqTUIBwvPc8gNx9lMSrMndwsV8MQSsaWxcftzaNMPCRo=w1900-h1900-k-no",
-   "lat": 10.771116899999999,
-   "lon": 106.704177,
-   "popularity": 0.7048481836305547,
-   "affinity": 0.9950621601963269,
+   "genre": "restaurant:chocolate_cafe",
+   "address": "167-169 Đ. Calmette Bến Thành Hồ Chí Minh Vietnam",
+   "neighborhood": "Khu phố 9",
+   "priceLevel": null,
+   "rating": 4.599999904632568,
+   "summary": "Flagship bean-to-bar chocolaterie and café in District 1 offering artisan chocolates, pastries, coffee, and tasting classes.",
+   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldnmmlwCNw-h56nO_E5eCaG810SHtOrAE4BiXyf8SlBJRtwyHEqcgSXxzEoM1T6edWOpRbBnl8vDskVaqO9kVc6LuqfjpvGOn14D9BLXUZnw7yFU5FA0B7W9nMp7-jlRyjT1Cn=w1900-h1900-k-no",
+   "lat": 10.769494,
+   "lon": 106.69782099999999,
+   "popularity": 0.9919475532307295,
+   "affinity": 0.9973920848116216,
    "tags": [
     {
-     "id": "urn:tag:ambience:qloo:no_frills",
-     "name": "No frills",
-     "family": "ambience"
+     "id": "urn:tag:cuisine:qloo:french",
+     "name": "French",
+     "family": "cuisine"
     },
     {
-     "id": "urn:tag:interests:qloo:prepared_meal_shopping",
-     "name": "Prepared meal shopping",
+     "id": "urn:tag:setting:qloo:artisan_factory_shop",
+     "name": "Artisan factory shop",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:baking",
+     "name": "Baking",
      "family": "interests"
     },
     {
-     "id": "urn:tag:decor:qloo:utilitarian_market_style",
-     "name": "Utilitarian market style",
-     "family": "decor"
+     "id": "urn:tag:menu_highlight:qloo:pain_au_chocolat",
+     "name": "Pain au chocolat",
+     "family": "menu_highlight"
     },
     {
-     "id": "urn:tag:setting:qloo:street_corner",
-     "name": "Street corner",
-     "family": "setting"
+     "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+     "name": "Specialty non alcoholic",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:interests:qloo:food_photography",
+     "name": "Food photography",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:cuisine:qloo:chocolate",
+     "name": "Chocolate",
+     "family": "cuisine"
     },
     {
      "id": "urn:tag:ambience:qloo:lively",
@@ -60,38 +80,33 @@
      "family": "ambience"
     },
     {
-     "id": "urn:tag:setting:qloo:commercial",
-     "name": "Commercial",
+     "id": "urn:tag:ambience:qloo:stylish",
+     "name": "Stylish",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:specialty_dish:place:mint_chocolate",
+     "name": "Mint chocolate",
+     "family": "specialty_dish"
+    },
+    {
+     "id": "urn:tag:setting:qloo:urban",
+     "name": "Urban",
      "family": "setting"
     },
     {
-     "id": "urn:tag:offerings:place:coffee",
-     "name": "Coffee",
-     "family": "offerings"
+     "id": "urn:tag:menu_highlight:qloo:chocolate_brownie",
+     "name": "Chocolate brownie",
+     "family": "menu_highlight"
     },
     {
-     "id": "urn:tag:interests:qloo:local_culinary_history",
-     "name": "Local culinary history",
-     "family": "interests"
+     "id": "urn:tag:ambience:qloo:artistic",
+     "name": "Artistic",
+     "family": "ambience"
     },
     {
-     "id": "urn:tag:decor:qloo:traditional",
-     "name": "Traditional",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:interests:qloo:quick_service_dining",
-     "name": "Quick service dining",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:decor:qloo:functional",
-     "name": "Functional",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:bustling",
-     "name": "Bustling",
+     "id": "urn:tag:ambience:qloo:fragrant",
+     "name": "Fragrant",
      "family": "ambience"
     },
     {
@@ -100,14 +115,59 @@
      "family": "ambience"
     },
     {
-     "id": "urn:tag:ambience:qloo:efficient",
-     "name": "Efficient",
+     "id": "urn:tag:decor:qloo:chic",
+     "name": "Chic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:decor:qloo:modern",
+     "name": "Modern",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:signature_bold_hot_chocolate",
+     "name": "Signature bold hot chocolate",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:tiramisu",
+     "name": "Tiramisu",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:elegant",
+     "name": "Elegant",
      "family": "ambience"
     },
     {
-     "id": "urn:tag:interests:qloo:street_food_culture",
-     "name": "Street food culture",
+     "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+     "name": "Soft drinks",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+     "name": "Coffee and tea",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:interests:qloo:gift_shopping",
+     "name": "Gift shopping",
      "family": "interests"
+    },
+    {
+     "id": "urn:tag:specialty_dish:place:chocolate_tart",
+     "name": "Chocolate tart",
+     "family": "specialty_dish"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:single_origin_chocolate_bars",
+     "name": "Single origin chocolate bars",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:social",
+     "name": "Social",
+     "family": "ambience"
     },
     {
      "id": "urn:tag:setting:qloo:city_center",
@@ -115,78 +175,168 @@
      "family": "setting"
     },
     {
-     "id": "urn:tag:interests:qloo:traditional_baking",
-     "name": "Traditional baking",
+     "id": "urn:tag:interests:qloo:specialty_coffee",
+     "name": "Specialty coffee",
      "family": "interests"
     },
     {
-     "id": "urn:tag:setting:qloo:urban",
-     "name": "Urban",
+     "id": "urn:tag:ambience:qloo:chocolaty",
+     "name": "Chocolaty",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:specialty_dish:place:pastries",
+     "name": "Pastries",
+     "family": "specialty_dish"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:comfortable",
+     "name": "Comfortable",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:industrial_artisan",
+     "name": "Industrial artisan",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:culinary_arts",
+     "name": "Culinary arts",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:cuisine:qloo:desserts",
+     "name": "Desserts",
+     "family": "cuisine"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:chocolate_mousse",
+     "name": "Chocolate mousse",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:salted_caramel_bonbon",
+     "name": "Salted caramel bonbon",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:setting:qloo:commercial",
+     "name": "Commercial",
      "family": "setting"
     },
     {
-     "id": "urn:tag:ambience:qloo:convenient",
-     "name": "Convenient",
-     "family": "ambience"
+     "id": "urn:tag:menu_highlight:qloo:eclair",
+     "name": "Eclair",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:cheesecake",
+     "name": "Cheesecake",
+     "family": "menu_highlight"
     }
    ],
    "allTags": [
-    "No frills",
-    "Souvenir shopping",
-    "Retail section",
-    "Evening",
-    "Authentic",
-    "Bakery",
-    "Restaurant",
-    "Prepared meal shopping",
-    "Utilitarian market style",
-    "Street corner",
-    "Lively",
-    "Commercial",
-    "Takeout",
-    "Coffee",
+    "30 34",
+    "Dairy free",
     "Delivery",
-    "Onsite services",
-    "Takeout food purchase",
-    "Central",
-    "Free parking lot",
-    "Local culinary history",
-    "Traditional",
-    "Convenient",
-    "Quick service dining",
-    "In store shopping",
-    "Functional",
-    "Dining drinking",
-    "Bustling",
-    "Casual",
-    "Outdoor seating",
-    "Efficient",
-    "Walkable",
-    "Street food culture",
-    "City center",
-    "Convenience stop",
-    "Shopping",
-    "Saigon river",
-    "Moderately expensive",
-    "Afternoon",
-    "Midday",
-    "Dine in",
-    "Price level",
-    "Takeout service",
-    "Street view",
-    "Ben thanh market",
-    "Deli counter",
-    "₫1 to ₫100000",
-    "Traditional baking",
-    "Urban",
-    "Breakfast",
-    "Free street parking",
-    "Place",
-    "Nguyen hue walking street",
-    "Morning",
-    "Busy commercial district",
+    "Moderate",
     "Destination",
-    "Quick visit"
+    "Downtown",
+    "French",
+    "Artisan factory shop",
+    "Baking",
+    "Counter service",
+    "Place",
+    "Pain au chocolat",
+    "Pickup",
+    "Halal",
+    "Specialty non alcoholic",
+    "Food photography",
+    "Welcoming",
+    "Foodies",
+    "Dessert enthusiasts",
+    "Evening",
+    "Chocolate",
+    "Pastry workshops",
+    "Restaurant",
+    "Special occasion",
+    "Lively",
+    "Open kitchen",
+    "Stylish",
+    "Tourists",
+    "Culture arts",
+    "Mint chocolate",
+    "Urban",
+    "Chocolate brownie",
+    "Chocolate shop",
+    "Central",
+    "Takeout",
+    "Artistic",
+    "Locals",
+    "Fragrant",
+    "Dining drinking",
+    "Morning",
+    "Casual",
+    "Chic",
+    "Modern",
+    "Seating area",
+    "Chocolate artisan",
+    "Restroom",
+    "25 29",
+    "Signature bold hot chocolate",
+    "Impulse visit",
+    "Trendy",
+    "Tiramisu",
+    "Elegant",
+    "Vegetarian",
+    "Gift shop",
+    "Soft drinks",
+    "Chocolate cafe",
+    "Wheelchair accessible entrance",
+    "Groups of friends",
+    "Coffee and tea",
+    "Gluten free",
+    "Education learning",
+    "Gift shopping",
+    "Chocolate tasting",
+    "Walkable",
+    "Chocolate tart",
+    "Single origin chocolate bars",
+    "Nut free",
+    "Social",
+    "City center",
+    "Wheelchair accessible parking lot",
+    "Specialty coffee",
+    "Vegan",
+    "Chocolaty",
+    "Shopping",
+    "Ben thanh market",
+    "Pastries",
+    "Dine in",
+    "Bustling",
+    "Midday",
+    "Open kitchen view",
+    "Artisanal",
+    "Comfortable",
+    "Wheelchair accessible seating",
+    "Cafe",
+    "Free wi fi",
+    "Industrial artisan",
+    "Culinary arts",
+    "Identifies as women owned",
+    "Cooking classes",
+    "Desserts",
+    "Chocolate mousse",
+    "Couples",
+    "18 24",
+    "Lgbtq+ friendly",
+    "Afternoon",
+    "Salted caramel bonbon",
+    "Gourmet",
+    "Commercial",
+    "Eclair",
+    "Cheesecake",
+    "Air conditioning"
    ],
    "rank": 1,
    "tied": false,
@@ -597,294 +747,6 @@
    "ref": "P2"
   },
   {
-   "id": "719DB07D-93F9-4415-AD3C-9F0BF0E382D2",
-   "name": "Charm Bakery Vietnam",
-   "kind": "place",
-   "genre": "restaurant:bakery",
-   "address": "10 Lê Thị Riêng Bến Thành Hồ Chí Minh 700000 Vietnam",
-   "neighborhood": "Khu phố 4",
-   "priceLevel": 1,
-   "rating": 4.800000190734863,
-   "summary": "Women-owned bakery-café in central Ho Chi Minh City offering coffee, dine-in, takeout, drive-through, and delivery; LGBTQ+ friendly.",
-   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhNYNlIvMOv8nAmk7Ycd_VxT1ykKPq1iROPxeg0bUS8xH11WG3ACc0R8u2BemPPlVY8-ugheO49RAn-nHA3lMXByJzrR9Ac9sX7ZRXyw0TFiUkIQzL6-D3G3PJp2WKlVyZPioU5w=w1900-h1900-k-no",
-   "lat": 10.7715038,
-   "lon": 106.6926822,
-   "popularity": 0.4524044603081385,
-   "affinity": 0.9915486339571752,
-   "tags": [
-    {
-     "id": "urn:tag:menu_highlight:qloo:vegetarian_banh_mi",
-     "name": "Vegetarian banh mi",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:interests:qloo:culinary_travel",
-     "name": "Culinary travel",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:avocado_smoothie",
-     "name": "Avocado smoothie",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:roast_pork_banh_mi",
-     "name": "Roast pork banh mi",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:casual",
-     "name": "Casual",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:interests:qloo:sustainable_dining",
-     "name": "Sustainable dining",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:relaxing",
-     "name": "Relaxing",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:offerings:place:coffee",
-     "name": "Coffee",
-     "family": "offerings"
-    },
-    {
-     "id": "urn:tag:setting:qloo:commercial",
-     "name": "Commercial",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:special_charm_banh_mi",
-     "name": "Special charm banh mi",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:mango_smoothie",
-     "name": "Mango smoothie",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:interests:qloo:street_food_exploration",
-     "name": "Street food exploration",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:decor:qloo:simple",
-     "name": "Simple",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:banh_mi",
-     "name": "Banh mi",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:clean",
-     "name": "Clean",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:iced_coffee",
-     "name": "Iced coffee",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:comfortable",
-     "name": "Comfortable",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:interests:qloo:handmade_craft",
-     "name": "Handmade craft",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:setting:qloo:urban",
-     "name": "Urban",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:setting:qloo:bakery_cafe",
-     "name": "Bakery cafe",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:smoothies",
-     "name": "Smoothies",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:setting:qloo:city_center",
-     "name": "City center",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:charming",
-     "name": "Charming",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:decor:qloo:minimalist",
-     "name": "Minimalist",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:vietnamese",
-     "name": "Vietnamese",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:decor:qloo:modern",
-     "name": "Modern",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:positive",
-     "name": "Positive",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-     "name": "Coffee and tea",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:fusion",
-     "name": "Fusion",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:pate_banh_mi",
-     "name": "Pate banh mi",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:decor:qloo:cozy",
-     "name": "Cozy",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:intimate",
-     "name": "Intimate",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:welcoming",
-     "name": "Welcoming",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:fresh_juices",
-     "name": "Fresh juices",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:interests:qloo:local_culture",
-     "name": "Local culture",
-     "family": "interests"
-    }
-   ],
-   "allTags": [
-    "Young professionals",
-    "Dining drinking",
-    "Vegetarian banh mi",
-    "Bui vien street",
-    "Takeout",
-    "Casual",
-    "Culinary travel",
-    "Solo diners",
-    "Avocado smoothie",
-    "Roast pork banh mi",
-    "Sustainable dining",
-    "Relaxing",
-    "Wifi",
-    "Restroom",
-    "In store pickup",
-    "Onsite services",
-    "Air conditioning",
-    "Allergy friendly",
-    "Delivery",
-    "Quick bites",
-    "Coffee",
-    "Commercial",
-    "30 34",
-    "Tourists",
-    "Cafe",
-    "Evening",
-    "Special charm banh mi",
-    "Mango smoothie",
-    "Street food exploration",
-    "Simple",
-    "Banh mi",
-    "Convenience stop",
-    "Clean",
-    "Pickup",
-    "Iced coffee",
-    "Place",
-    "Authentic",
-    "Wi fi",
-    "Afternoon",
-    "Comfortable",
-    "Handmade craft",
-    "Locals",
-    "Convenient",
-    "Central",
-    "Moderate",
-    "Quick visit",
-    "₫1 to ₫100000",
-    "Urban",
-    "Bakery cafe",
-    "Midday",
-    "Smoothies",
-    "Dine in",
-    "Tourist hub",
-    "City center",
-    "Charming",
-    "Minimalist",
-    "Morning",
-    "Pham ngu lao",
-    "Drive thru",
-    "Gender neutral restroom",
-    "Destination",
-    "Bustling",
-    "Vietnamese",
-    "Modern",
-    "Cash only",
-    "Restaurant",
-    "Positive",
-    "Coffee and tea",
-    "18 24",
-    "Fusion",
-    "Walkable",
-    "Bakery",
-    "Pate banh mi",
-    "Breakfast",
-    "Traditional",
-    "Cozy",
-    "Identifies as women owned",
-    "Street view",
-    "25 29",
-    "Intimate",
-    "Foodies",
-    "Lgbtq+ friendly",
-    "Restrooms",
-    "Welcoming",
-    "Fresh juices",
-    "Vegetarian",
-    "Local culture"
-   ],
-   "rank": 3,
-   "tied": false,
-   "cityRank": null,
-   "lift": null,
-   "pool": "peers",
-   "ref": "P3"
-  },
-  {
    "id": "2048936C-97D9-445A-A7CD-BAFE9F218AC2",
    "name": "Dalaland Coffee",
    "kind": "place",
@@ -1279,12 +1141,12 @@
     "18 24",
     "Wine"
    ],
-   "rank": 4,
+   "rank": 3,
    "tied": false,
    "cityRank": null,
    "lift": null,
    "pool": "peers",
-   "ref": "P4"
+   "ref": "P3"
   },
   {
    "id": "53E66004-6F65-49F4-9A2E-35E4C3702A6B",
@@ -1588,12 +1450,12 @@
     "Large group",
     "Garden view"
    ],
-   "rank": 5,
+   "rank": 4,
    "tied": true,
    "cityRank": null,
    "lift": null,
    "pool": "peers",
-   "ref": "P5"
+   "ref": "P4"
   },
   {
    "id": "29948C61-43D6-42EB-A8B0-818C2338ECF6",
@@ -1897,12 +1759,12 @@
     "Artisanal",
     "Signature coffee blends"
    ],
-   "rank": 5,
+   "rank": 4,
    "tied": true,
    "cityRank": null,
    "lift": null,
    "pool": "peers",
-   "ref": "P6"
+   "ref": "P5"
   },
   {
    "id": "3A2ABE84-841E-482D-928F-E92FEA02537D",
@@ -2102,229 +1964,12 @@
     "Dogs allowed outside",
     "18 24"
    ],
-   "rank": 5,
+   "rank": 4,
    "tied": true,
-   "cityRank": 36,
+   "cityRank": 35,
    "lift": 31,
    "pool": "peers",
-   "ref": "P7"
-  },
-  {
-   "id": "A94EB95D-5463-4E1F-B20A-62FF1E9DE1E4",
-   "name": "Bơ by Butterman",
-   "kind": "place",
-   "genre": "restaurant:bakery",
-   "address": "67 Lê Thị Riêng Bến Thành Hồ Chí Minh Vietnam",
-   "neighborhood": "Khu phố 1",
-   "priceLevel": 1,
-   "rating": 4.699999809265137,
-   "summary": "Bakery-café offering butter-forward pastries and coffee in central Ho Chi Minh City’s District 1.",
-   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkGco516TQWngo0DnifaLlBHo5MLMszgKFTTDpl5fhsVSFCjncgNncC1O5DLnGuLtJ3u8ccegLfCa4weQxJO5pViBA-63u7V0HZDEAHHaGRv1eFOf_5jmzrKRlSQPEVeFpniCdqQKRqa_6=w1900-h1900-k-no",
-   "lat": 10.7711063,
-   "lon": 106.69110289999999,
-   "popularity": 0.35626375087710305,
-   "affinity": 0.9876724494690619,
-   "tags": [
-    {
-     "id": "urn:tag:cuisine:qloo:bakery",
-     "name": "Bakery",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:offerings:place:coffee",
-     "name": "Coffee",
-     "family": "offerings"
-    },
-    {
-     "id": "urn:tag:interests:qloo:cafe_culture",
-     "name": "Cafe culture",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-     "name": "Coffee and tea",
-     "family": "beverage_offering"
-    },
-    {
-     "id": "urn:tag:decor:qloo:modern",
-     "name": "Modern",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:pastries",
-     "name": "Pastries",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:interests:qloo:artisanal_baking",
-     "name": "Artisanal baking",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:interests:qloo:pastry_arts",
-     "name": "Pastry arts",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:clean",
-     "name": "Clean",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:decor:qloo:simple",
-     "name": "Simple",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:marshmallows",
-     "name": "Marshmallows",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:casual",
-     "name": "Casual",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:setting:qloo:commercial",
-     "name": "Commercial",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:interests:qloo:gourmet_desserts",
-     "name": "Gourmet desserts",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:setting:qloo:city_center",
-     "name": "City center",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:setting:qloo:urban",
-     "name": "Urban",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:decor:qloo:minimalist",
-     "name": "Minimalist",
-     "family": "decor"
-    },
-    {
-     "id": "urn:tag:interests:qloo:specialty_coffee",
-     "name": "Specialty coffee",
-     "family": "interests"
-    },
-    {
-     "id": "urn:tag:cuisine:qloo:desserts",
-     "name": "Desserts",
-     "family": "cuisine"
-    },
-    {
-     "id": "urn:tag:ambience:qloo:comfortable",
-     "name": "Comfortable",
-     "family": "ambience"
-    },
-    {
-     "id": "urn:tag:setting:qloo:bakery_cafe",
-     "name": "Bakery cafe",
-     "family": "setting"
-    },
-    {
-     "id": "urn:tag:menu_highlight:qloo:butter_pastries",
-     "name": "Butter pastries",
-     "family": "menu_highlight"
-    },
-    {
-     "id": "urn:tag:offerings:place:go_for_just_dessert",
-     "name": "Go for just dessert",
-     "family": "offerings"
-    }
-   ],
-   "allTags": [
-    "Bakery",
-    "Coffee",
-    "In store shopping",
-    "Cafe",
-    "Takeout",
-    "Trendy",
-    "Shopping",
-    "Drive thru",
-    "Independence palace",
-    "Takeout counter",
-    "Free parking lot",
-    "Price level",
-    "Chocolate cafe",
-    "Morning",
-    "Moderate",
-    "Cafe culture",
-    "Coffee and tea",
-    "Modern",
-    "Restaurant",
-    "Locals",
-    "Delivery service",
-    "Cake shop",
-    "Chocolate shop",
-    "Pastries",
-    "Moderately expensive",
-    "In store pickup",
-    "Candy store",
-    "Onsite services",
-    "₫1 to ₫100000",
-    "War remnants museum",
-    "Artisanal baking",
-    "Japanese confectionery shop",
-    "Pastry arts",
-    "Pickup",
-    "Place",
-    "Nfc mobile payments",
-    "Restroom",
-    "Street view",
-    "Clean",
-    "Bustling",
-    "Simple",
-    "Ben thanh market",
-    "District one core",
-    "Casual",
-    "Sweets and dessert buffet",
-    "Ice cream shop",
-    "Delivery",
-    "Dine in",
-    "Dining drinking",
-    "Marshmallows",
-    "Destination",
-    "Convenience stop",
-    "Cupcake shop",
-    "25 29",
-    "Commercial",
-    "Credit cards",
-    "Young adults",
-    "18 24",
-    "Gourmet desserts",
-    "City center",
-    "Central",
-    "Urban",
-    "Bakery shopping",
-    "Walkable",
-    "Afternoon",
-    "Indoor seating",
-    "Minimalist",
-    "Foodies",
-    "Specialty coffee",
-    "Desserts",
-    "Comfortable",
-    "Bakery cafe",
-    "30 34",
-    "Butter pastries",
-    "Go for just dessert",
-    "Quick visit"
-   ],
-   "rank": 5,
-   "tied": true,
-   "cityRank": null,
-   "lift": null,
-   "pool": "peers",
-   "ref": "P8"
+   "ref": "P6"
   },
   {
    "id": "A41F638A-FC88-449B-8CD1-BD4BCD50E37B",
@@ -2550,12 +2195,12 @@
     "Routine visit",
     "Parking lot"
    ],
-   "rank": 9,
+   "rank": 7,
    "tied": true,
    "cityRank": 23,
-   "lift": 14,
+   "lift": 16,
    "pool": "peers",
-   "ref": "P9"
+   "ref": "P7"
   },
   {
    "id": "C15DFDF2-3F17-498B-951A-BE529A3759E2",
@@ -2818,7 +2463,571 @@
     "Su van hanh street",
     "Full bar"
    ],
-   "rank": 9,
+   "rank": 7,
+   "tied": true,
+   "cityRank": null,
+   "lift": null,
+   "pool": "peers",
+   "ref": "P8"
+  },
+  {
+   "id": "0A0C95B4-AC09-4B4A-810E-A61ACD2AC08A",
+   "name": "Cheo Leo Cafe",
+   "kind": "place",
+   "genre": "restaurant:cafe",
+   "address": "109/ 36 Đ. Nguyễn Thiện Thuật Khu phố 8 Bàn Cờ Hồ Chí Minh 70000, Vietnam",
+   "neighborhood": "Ward 2",
+   "priceLevel": 1,
+   "rating": 4.400000095367432,
+   "summary": "Cozy inexpensive cafe in Ho Chi Minh's District 3 offering coffee, alcohol, outdoor seating and an LGBTQ+ friendly atmosphere.",
+   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWko88SoRviHFUpgFaWhoUGd4WyDAUhn7cRLM14QVNCkMQUe278vwayBA8kN529nUnkZb6MuhWUvI0KhXas5FC6ghK0eLqGrbeIsbgWdFzLOkE1H2Nm29stUduWuHZPcftFYp9dqZJ42QBRV=w1900-h1900-k-no",
+   "lat": 10.766997,
+   "lon": 106.67985329999999,
+   "popularity": 0.8470843033006562,
+   "affinity": 0.982165113445143,
+   "tags": [
+    {
+     "id": "urn:tag:ambience:qloo:rustic",
+     "name": "Rustic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:vintage",
+     "name": "Vintage",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:cuisine:qloo:vietnamese_coffee",
+     "name": "Vietnamese coffee",
+     "family": "cuisine"
+    },
+    {
+     "id": "urn:tag:interests:qloo:slow_living",
+     "name": "Slow living",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:welcoming",
+     "name": "Welcoming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:urban",
+     "name": "Urban",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:historic",
+     "name": "Historic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:offerings:place:hot_tea",
+     "name": "Hot tea",
+     "family": "offerings"
+    },
+    {
+     "id": "urn:tag:interests:qloo:cultural_heritage",
+     "name": "Cultural heritage",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:place:large_group",
+     "name": "Large group",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:coffee_culture",
+     "name": "Coffee culture",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:authentic",
+     "name": "Authentic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:casual",
+     "name": "Casual",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:classic",
+     "name": "Classic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+     "name": "Ok to order just drinks",
+     "family": "offerings"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:cozy",
+     "name": "Cozy",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:iced_black_coffee",
+     "name": "Iced black coffee",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:offerings:place:alcohol",
+     "name": "Alcohol",
+     "family": "offerings"
+    },
+    {
+     "id": "urn:tag:offerings:place:coffee",
+     "name": "Coffee",
+     "family": "offerings"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:beer",
+     "name": "Beer",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:nostalgic",
+     "name": "Nostalgic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:setting:qloo:historic_alleyway",
+     "name": "Historic alleyway",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:iced_coffee_with_condensed_milk",
+     "name": "Iced coffee with condensed milk",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:interests:qloo:photography",
+     "name": "Photography",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:city_center",
+     "name": "City center",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:coffee_with_lime_juice",
+     "name": "Coffee with lime juice",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+     "name": "Coffee and tea",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:decor:qloo:traditional_vietnamese_shop_house",
+     "name": "Traditional vietnamese shop house",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_history",
+     "name": "Local history",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:spirits",
+     "name": "Spirits",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:social",
+     "name": "Social",
+     "family": "ambience"
+    }
+   ],
+   "allTags": [
+    "Locals",
+    "Wheelchair accessible entrance",
+    "Rustic",
+    "Street view",
+    "Vintage",
+    "Vietnamese coffee",
+    "Seating",
+    "Slow living",
+    "18 24",
+    "Outdoor seating",
+    "Welcoming",
+    "Urban",
+    "Residential",
+    "Historic",
+    "Hot tea",
+    "Cultural heritage",
+    "Cafe",
+    "Table service",
+    "Coffee shop",
+    "Wheelchair accessible seating",
+    "Large group",
+    "Accepts reservations",
+    "30 34",
+    "Quiet",
+    "Restroom",
+    "Price level",
+    "Coffee culture",
+    "Traditional",
+    "Authentic",
+    "Dine in",
+    "Cash only",
+    "25 29",
+    "Casual",
+    "Classic",
+    "Culture arts",
+    "Moderate",
+    "Ok to order just drinks",
+    "Wi fi",
+    "Cozy",
+    "Independence palace",
+    "Takeout",
+    "Lgbtq+ friendly",
+    "Iced black coffee",
+    "Central",
+    "Free street parking",
+    "Charming",
+    "₫1 to ₫100000",
+    "Alcohol",
+    "Coffee",
+    "Beer",
+    "Walkable",
+    "Nostalgic",
+    "Lgbtq+",
+    "Historic alleyway",
+    "Iced coffee with condensed milk",
+    "Destination",
+    "Foodies",
+    "War remnants museum",
+    "Place",
+    "History enthusiasts",
+    "Restaurant",
+    "Good for kids",
+    "Coffee making demonstrations",
+    "Photography",
+    "City center",
+    "Afternoon",
+    "Onsite services",
+    "Coffee with lime juice",
+    "Coffee and tea",
+    "Traditional vietnamese shop house",
+    "Local history",
+    "Bar onsite",
+    "Traditional brewing equipment",
+    "Spirits",
+    "Social",
+    "Dining drinking",
+    "Tao dan park",
+    "Tourists",
+    "Morning"
+   ],
+   "rank": 7,
+   "tied": true,
+   "cityRank": 40,
+   "lift": 33,
+   "pool": "peers",
+   "ref": "P9"
+  },
+  {
+   "id": "CE0DEAD1-984D-4EE7-8C5A-1D04BC7E436B",
+   "name": "Cong Cafe",
+   "kind": "place",
+   "genre": "restaurant:coffee_shop",
+   "address": "136 Sương Nguyệt Anh Bến Thành Hồ Chí Minh 71000 Vietnam",
+   "neighborhood": "Khu phố 1",
+   "priceLevel": 1,
+   "rating": 4.400000095367432,
+   "summary": "Retro Vietnamese-themed cafe offering coffee, cocktails, beer and late-night small plates in central District 1.",
+   "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl78TqePG2vPcYbQxQP_WLKn1NIok5oTNFF1xzH2Q4PNaCw0e9Y0z9P78Iwo7Wqo6eKducUdRoFnUbTwiaUNjwJYaQ9mCJhdgNHb3TADmKp5HfcZo-PHJIoeREtB9G2ye-zF7O_=w1900-h1900-k-no",
+   "lat": 10.7707708,
+   "lon": 106.68791089999999,
+   "popularity": 0.4406701308754761,
+   "affinity": 0.982165113445143,
+   "tags": [
+    {
+     "id": "urn:tag:setting:qloo:corner_shop",
+     "name": "Corner shop",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:cocktails",
+     "name": "Cocktails",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:full_bar",
+     "name": "Full bar",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:decor:qloo:historic",
+     "name": "Historic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:social",
+     "name": "Social",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:casual",
+     "name": "Casual",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:traditional_vietnamese_che",
+     "name": "Traditional vietnamese che",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:charming",
+     "name": "Charming",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:authentic",
+     "name": "Authentic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:cultural",
+     "name": "Cultural",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:unique",
+     "name": "Unique",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:beer",
+     "name": "Beer",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+     "name": "Coffee and tea",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:setting:qloo:urban",
+     "name": "Urban",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:decor:qloo:cozy",
+     "name": "Cozy",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:coconut_coffee",
+     "name": "Coconut coffee",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:nostalgic",
+     "name": "Nostalgic",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:beverage_offering:qloo:spirits",
+     "name": "Spirits",
+     "family": "beverage_offering"
+    },
+    {
+     "id": "urn:tag:decor:qloo:vintage",
+     "name": "Vintage",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:relaxing",
+     "name": "Relaxing",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:interests:qloo:historic_preservation",
+     "name": "Historic preservation",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:qloo:retro_themed",
+     "name": "Retro themed",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:retro_vietnamese",
+     "name": "Retro vietnamese",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:casual_dining",
+     "name": "Casual dining",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:setting:qloo:city_center",
+     "name": "City center",
+     "family": "setting"
+    },
+    {
+     "id": "urn:tag:interests:qloo:coffee_culture",
+     "name": "Coffee culture",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:cuisine:qloo:vietnamese",
+     "name": "Vietnamese",
+     "family": "cuisine"
+    },
+    {
+     "id": "urn:tag:interests:qloo:social_gathering",
+     "name": "Social gathering",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:cuisine:qloo:cafe_fare",
+     "name": "Cafe fare",
+     "family": "cuisine"
+    },
+    {
+     "id": "urn:tag:decor:qloo:rustic",
+     "name": "Rustic",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:interests:qloo:local_heritage",
+     "name": "Local heritage",
+     "family": "interests"
+    },
+    {
+     "id": "urn:tag:ambience:place:large_group",
+     "name": "Large group",
+     "family": "ambience"
+    },
+    {
+     "id": "urn:tag:decor:qloo:themed",
+     "name": "Themed",
+     "family": "decor"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:soursop_desserts",
+     "name": "Soursop desserts",
+     "family": "menu_highlight"
+    },
+    {
+     "id": "urn:tag:offerings:place:coffee",
+     "name": "Coffee",
+     "family": "offerings"
+    },
+    {
+     "id": "urn:tag:menu_highlight:qloo:iced_roasted_ginger_tea_with_cream",
+     "name": "Iced roasted ginger tea with cream",
+     "family": "menu_highlight"
+    }
+   ],
+   "allTags": [
+    "Authentic",
+    "Corner shop",
+    "Casual",
+    "Cocktails",
+    "Full bar",
+    "Restaurant",
+    "Midday",
+    "Historic",
+    "Social",
+    "Bilingual staff",
+    "Place",
+    "Destination",
+    "Active street life",
+    "Price level",
+    "Bustling",
+    "Traditional vietnamese che",
+    "Catering",
+    "Walkable",
+    "Dining drinking",
+    "Drive through",
+    "People watching",
+    "Breakfast",
+    "Charming",
+    "Pickup",
+    "Locals",
+    "Moderate",
+    "Onsite services",
+    "30 34",
+    "Late night",
+    "Cultural",
+    "Wi fi",
+    "Table service",
+    "Central",
+    "Unique",
+    "Parking",
+    "Credit cards",
+    "Free parking lot",
+    "Beer",
+    "Debit cards",
+    "Coffee and tea",
+    "Urban",
+    "Delivery",
+    "Nfc mobile payments",
+    "Coffee shop",
+    "Takeout",
+    "Cozy",
+    "Coconut coffee",
+    "Outdoor seating",
+    "Multi level seating",
+    "Drive thru",
+    "Nostalgic",
+    "18 24",
+    "Dine in",
+    "Pham ngu lao",
+    "Young adults",
+    "Morning",
+    "Convenience stop",
+    "Afternoon",
+    "Tourists",
+    "Spirits",
+    "Traditional",
+    "Vintage",
+    "₫1 to ₫100000",
+    "Relaxing",
+    "Seating",
+    "Historic preservation",
+    "Retro themed",
+    "Evening",
+    "No contact delivery",
+    "Streetscape",
+    "Retro vietnamese",
+    "Casual dining",
+    "City center",
+    "Coffee culture",
+    "Vegan",
+    "Vietnamese",
+    "Social gathering",
+    "Cafe fare",
+    "Foodies",
+    "District 1",
+    "Rustic",
+    "Local heritage",
+    "Large group",
+    "Themed",
+    "Dessert",
+    "City view",
+    "Soursop desserts",
+    "Social community",
+    "Restroom",
+    "25 29",
+    "Coffee",
+    "Regulars",
+    "Iced roasted ginger tea with cream"
+   ],
+   "rank": 7,
    "tied": true,
    "cityRank": null,
    "lift": null,
@@ -2826,7 +3035,7 @@
    "ref": "P10"
   }
  ],
- "peerCount": 16,
+ "peerCount": 14,
  "allPlaces": [
   {
    "id": "8FCA4701-8A40-46C3-AAE4-9A695FDD7B75",
@@ -3153,7 +3362,7 @@
    "cityRank": 49,
    "lift": 48,
    "pool": "all",
-   "ref": "P11"
+   "ref": "P1"
   },
   {
    "id": "A76EBF77-1473-484B-AABB-5D6FEB66E558",
@@ -3330,7 +3539,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P1"
+   "ref": "P11"
   },
   {
    "id": "813AA407-A148-41E8-B00D-0FD472B75865",
@@ -5304,7 +5513,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P3"
+   "ref": "P16"
   },
   {
    "id": "122E4C7B-48F2-4FB4-84DE-D53BABE86395",
@@ -5555,7 +5764,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P16"
+   "ref": "P17"
   },
   {
    "id": "C6C75F80-C6A7-4D0B-B6F8-04DD026B477D",
@@ -5914,7 +6123,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P17"
+   "ref": "P18"
   },
   {
    "id": "174C9653-D956-4259-BCCF-CDA0F34F94A6",
@@ -6289,7 +6498,7 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P18"
+   "ref": "P19"
   },
   {
    "id": "985A7D52-F4A8-48AC-9D48-F93FEC722108",
@@ -6619,14 +6828,14 @@
    "cityRank": null,
    "lift": null,
    "pool": "all",
-   "ref": "P19"
+   "ref": "P20"
   }
  ],
  "poolSizes": {
   "market": 50,
   "city": 50,
-  "peers": 16,
-  "peersCity": 44
+  "peers": 14,
+  "peersCity": 43
  },
  "profile": [
   {
@@ -6641,10 +6850,10 @@
    "score": 3.3811668803033874,
    "derived": true,
    "places": [
-    "P1",
+    "P11",
     "P13",
-    "P16",
-    "P19"
+    "P17",
+    "P20"
    ],
    "ref": "T1"
   },
@@ -6661,9 +6870,9 @@
    "derived": true,
    "places": [
     "P2",
-    "P3",
-    "P20",
-    "P21"
+    "P16",
+    "P21",
+    "P22"
    ],
    "ref": "T2"
   },
@@ -6681,8 +6890,8 @@
    "places": [
     "P12",
     "P13",
-    "P3",
-    "P22"
+    "P16",
+    "P23"
    ],
    "ref": "T3"
   },
@@ -6718,9 +6927,9 @@
    "derived": true,
    "places": [
     "P12",
-    "P22",
-    "P7",
-    "P23"
+    "P23",
+    "P6",
+    "P24"
    ],
    "ref": "T5"
   },
@@ -6739,7 +6948,7 @@
     "P12",
     "P2",
     "P14",
-    "P16"
+    "P17"
    ],
    "ref": "T6"
   },
@@ -6758,7 +6967,7 @@
     "P2",
     "P13",
     "P14",
-    "P17"
+    "P18"
    ],
    "ref": "T7"
   },
@@ -6784,30 +6993,30 @@
  ],
  "audience": {
   "age": {
-   "24_and_younger": 0.009666666666666664,
-   "25_to_29": 0.11066666666666668,
-   "30_to_34": 0.017333333333333326,
-   "35_to_44": -0.1445,
-   "45_to_54": -0.2075,
-   "55_and_older": -0.06466666666666666
+   "24_and_younger": 0.011166666666666665,
+   "25_to_29": 0.08466666666666667,
+   "30_to_34": 0.0585,
+   "35_to_44": -0.18,
+   "45_to_54": -0.2776666666666667,
+   "55_and_older": -0.030666666666666672
   },
   "gender": {
-   "male": 0.0010000000000000009,
-   "female": -0.0010000000000000009
+   "male": 0.2356666666666667,
+   "female": -0.2356666666666667
   },
-  "summary": "skews 25–29, balanced by gender",
+  "summary": "skews 25–29, leans male",
   "places": 6,
   "source": {
    "endpoint": "/v2/insights",
    "params": {
     "filter.type": "urn:demographics",
     "signal.interests.entities": [
-     "A76EBF77-1473-484B-AABB-5D6FEB66E558",
+     "8FCA4701-8A40-46C3-AAE4-9A695FDD7B75",
      "FCDF524E-8DAF-4087-89D4-90156B167C63",
-     "719DB07D-93F9-4415-AD3C-9F0BF0E382D2",
      "2048936C-97D9-445A-A7CD-BAFE9F218AC2",
      "53E66004-6F65-49F4-9A2E-35E4C3702A6B",
-     "29948C61-43D6-42EB-A8B0-818C2338ECF6"
+     "29948C61-43D6-42EB-A8B0-818C2338ECF6",
+     "3A2ABE84-841E-482D-928F-E92FEA02537D"
     ]
    }
   }
@@ -6857,6 +7066,7 @@
      "Bright",
      "Dance-Pop"
     ],
+    "musicTags": 9,
     "rank": 2,
     "localRank": null,
     "ref": "C1"
@@ -6911,6 +7121,7 @@
      "Self-Reflection",
      "R&B"
     ],
+    "musicTags": 8,
     "rank": 3,
     "localRank": null,
     "ref": "C2"
@@ -6969,6 +7180,7 @@
      "Self-Reflection",
      "R&B"
     ],
+    "musicTags": 12,
     "rank": 4,
     "localRank": null,
     "ref": "C3"
@@ -7018,6 +7230,7 @@
      "Light",
      "Accessible"
     ],
+    "musicTags": 10,
     "rank": 6,
     "localRank": null,
     "ref": "C4"
@@ -7068,6 +7281,7 @@
      "Accessible",
      "Dance-Pop"
     ],
+    "musicTags": 10,
     "rank": 7,
     "localRank": null,
     "ref": "C5"
@@ -7117,6 +7331,7 @@
      "Polished",
      "Dance-Pop"
     ],
+    "musicTags": 10,
     "rank": 8,
     "localRank": null,
     "ref": "C6"
@@ -7214,6 +7429,7 @@
      "Insecure",
      "Teenager"
     ],
+    "musicTags": 0,
     "rank": 3,
     "localRank": null,
     "ref": "C7"
@@ -7298,6 +7514,7 @@
      "Heist",
      "Emotionally engaged"
     ],
+    "musicTags": 0,
     "rank": 11,
     "localRank": null,
     "ref": "C8"
@@ -7381,6 +7598,7 @@
      "Determined",
      "Identity"
     ],
+    "musicTags": 0,
     "rank": 19,
     "localRank": null,
     "ref": "C9"
@@ -7459,6 +7677,7 @@
      "Redemption",
      "Socially conscious"
     ],
+    "musicTags": 0,
     "rank": 21,
     "localRank": null,
     "ref": "C10"
@@ -7763,6 +7982,7 @@
      "Brutality",
      "Brave"
     ],
+    "musicTags": 0,
     "rank": 22,
     "localRank": null,
     "ref": "C11"
@@ -7950,6 +8170,7 @@
      "Shounen",
      "Regeneration"
     ],
+    "musicTags": 0,
     "rank": 24,
     "localRank": null,
     "ref": "C12"
@@ -7977,7 +8198,7 @@
    "cityCount": 0,
    "cityTotal": 50,
    "examples": [
-    "P4"
+    "P3"
    ]
   },
   {
@@ -7986,21 +8207,19 @@
    "ref": "I2",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:amenity:place:rooftop_terrace",
-    "name": "Rooftop Terrace"
+    "id": "urn:tag:service_type:qloo:rooftop_seating",
+    "name": "Rooftop Seating"
    },
    "domain": "places",
    "rank": 3,
    "of": 4,
-   "verdict": "too-few",
-   "ratio": 0.33333333333333337,
-   "marketCount": 1,
+   "verdict": "untested",
+   "ratio": null,
+   "marketCount": 0,
    "marketTotal": 50,
-   "cityCount": 3,
+   "cityCount": 0,
    "cityTotal": 50,
-   "examples": [
-    "P24"
-   ]
+   "examples": []
   },
   {
    "idea": "vinyl records",
@@ -8008,8 +8227,8 @@
    "ref": "I3",
    "via": {
     "kind": "tag",
-    "id": "urn:tag:decor:qloo:vinyl_record_themed",
-    "name": "Vinyl Record Themed"
+    "id": "urn:tag:decor:qloo:vinyl_and_lp_records_decor",
+    "name": "Vinyl and LP Records Decor"
    },
    "domain": "places",
    "rank": 4,
@@ -8042,111 +8261,54 @@
    "cityTotal": 50,
    "examples": [
     "P2",
-    "P6"
+    "P5"
    ]
   }
  ],
  "brief": {
-  "headline": "Tokyo residents prefer simple, cozy, no‑frills Vietnamese cafés that serve spirits and accommodate groups.",
-  "summary": "The places most favoured by people living in Tokyo in Ho Chi Minh City are characterised by no‑frills, cozy, simple décor, a strong spirits offering, Asian/Vietnamese cuisine and suitability for large groups. The audience of these favourites skews to 25‑29 years old with balanced gender. Music and TV preferences of Tokyo residents do not overlap with the current top HCMC lists.",
+  "headline": "Khách Tokyo thích đồ uống có cồn và món ăn phong cách Á.",
+  "summary": "Các lieu chung được người Tokyo ưa thích thường có mức độ xuất hiện cao hơn về đồ uống có cồn và ẩm thực Á. Không gian ấm áp, đơn giản và không cầu kỳ cũng chỉ xuất hiện trong danh sách yêu thích của họ.",
   "actions": [
    {
-    "title": "Adopt a no‑frills, simple, cozy décor",
-    "detail": "Focus on minimal furnishings, neutral colours and a relaxed atmosphere to match the dominant ambience preferences.",
-    "refs": [
-     "T1",
-     "T2",
-     "T3"
-    ]
-   },
-   {
-    "title": "Feature Vietnamese spirits and craft cocktails prominently",
-    "detail": "Highlight local rice wines, infused spirits and cocktail options on the menu to capture the strong spirits signal.",
+    "title": "Tăng cường đồ uống có cồn",
+    "detail": "Thêm các loại cocktail, rượu vang hoặc bia vào menu vì đồ uống có cồn xuất hiện 11 lần nhiều hơn trong những nơi người Tokyo ưa thích so với trung bình thành phố.",
     "refs": [
      "T4"
     ]
    },
    {
-    "title": "Design layout for large groups with shared tables",
-    "detail": "Provide communal seating or flexible table arrangements that can accommodate parties of four or more.",
+    "title": "Đánh dấu ẩm thực Á và Việt Nam",
+    "detail": "Nhấn mạnh các món ăn phong cách Á, đặc biệt là ẩm thực Việt Nam, vì chúng chiếm tỉ lệ 8 lần và 4,5 lần nhiều hơn tương ứng trong danh sách yêu thích.",
     "refs": [
-     "T7"
+     "T6",
+     "T8"
     ]
    },
    {
-    "title": "Maintain a street‑level presence to attract passersby",
-    "detail": "Ensure the café is visible from the sidewalk with clear signage and an inviting entrance.",
+    "title": "Tạo không gian ấm áp, đơn giản và không cầu kỳ",
+    "detail": "Thiết kế nội thất ấm áp, trang trí đơn giản và giữ phong cách không frills để phù hợp với sở thích độc quyền của khách Tokyo.",
     "refs": [
+     "T2",
+     "T3",
+     "T1"
+    ]
+   },
+   {
+    "title": "Khuyến khích nhóm lớn và vị trí đường phố",
+    "detail": "Sắp xếp chỗ ngồi cho nhóm lớn và đặt quán ở mức đường phố để tận dụng sự ưa chuộng 3,9 lần và xuất hiện riêng biệt của những yếu tố này.",
+    "refs": [
+     "T7",
      "T5"
     ]
    }
   ],
-  "partners": [
-   {
-    "ref": "P1",
-    "why": "Bánh Mì Như Lan ranks second among Tokyo‑favoured spots and offers quick, tasty bites that complement a café menu."
-   },
-   {
-    "ref": "P2",
-    "why": "Saigon Coffee Roastery is fourth in the Tokyo favourites and shares a coffee focus, enabling cross‑promotion or bean sourcing."
-   },
-   {
-    "ref": "P3",
-    "why": "Charm Bakery Vietnam ranks third and provides bakery items that can expand the café’s pastry selection."
-   },
-   {
-    "ref": "P4",
-    "why": "Dalaland Coffee is fourth and known for a lively, casual vibe suitable for joint events or happy‑hour collaborations."
-   }
-  ],
-  "playlist": [
-   {
-    "ref": "C1",
-    "why": "小嶋陽菜 is a top‑ranked J‑pop idol in Tokyo, appealing to the core 25‑29 demographic."
-   },
-   {
-    "ref": "C2",
-    "why": "Utada (宇多田ヒカル) ranks highly in Tokyo and has broad recognition across age groups."
-   },
-   {
-    "ref": "C3",
-    "why": "宇多田ヒカル (same artist, different spelling) reinforces the strong Tokyo preference for her music."
-   },
-   {
-    "ref": "C4",
-    "why": "深田恭子 is a popular actress whose music ties into Tokyo’s entertainment scene."
-   },
-   {
-    "ref": "C5",
-    "why": "香取慎吾 ranks seventh and brings a familiar variety‑show entertainer appeal."
-   },
-   {
-    "ref": "C6",
-    "why": "佐々木希 ranks eighth and adds a fresh, contemporary J‑pop flavour."
-   }
-  ],
-  "ideas": [
-   {
-    "ref": "I1",
-    "note": "Matcha latte appears in only 1/50 of Tokyo‑favoured places (too‑few); consider a low‑cost trial if interested."
-   },
-   {
-    "ref": "I2",
-    "note": "Rooftop seating appears in only 1/50 of favourites (too‑few); not a primary focus, but a cheap pilot could test interest."
-   },
-   {
-    "ref": "I3",
-    "note": "Vinyl record theming has zero favourites and zero city‑wide presence (untested); avoid leading with this concept."
-   },
-   {
-    "ref": "I4",
-    "note": "Pour‑over coffee appears in 2/50 favourites (too‑few); a modest trial may be warranted before wider rollout."
-   }
-  ],
+  "partners": [],
+  "playlist": [],
+  "ideas": [],
   "caveats": [
-   "The data shows correlation, not causation, between décor/tags and preference.",
-   "It does not reveal price sensitivity or willingness to pay for the featured attributes.",
-   "It does not indicate actual visit frequency or seasonal variation in tastes."
+   "Dữ liệu không cho biết mối quan hệ nhân quả giữa các thuộc tính và quyết định đến quán của khách Tokyo.",
+   "Thông tin dựa trên các địa điểm được đo lường trong một khoảng thời gian nhất định và có thể thay đổi theo xu hướng.",
+   "Không thể xác nhận rằng tất cả khách Tokyo có cùng sở thích; kết quả chỉ phản ánh xu hướng tổng thể."
   ],
   "dropped": []
  },
@@ -8180,7 +8342,7 @@
     "allRank": null
    },
    {
-    "name": "The Little Owl Cafe",
+    "name": "The Bean & Leaf",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8189,7 +8351,7 @@
     "allRank": null
    },
    {
-    "name": "Cafe Giảng",
+    "name": "Kong Café",
     "qlooName": null,
     "inQloo": false,
     "marketSignal": false,
@@ -8210,67 +8372,471 @@
     "localRank": null
    },
    {
+    "name": "Perfume",
+    "qlooRank": null,
+    "localRank": null
+   },
+   {
     "name": "Official Hige Dandism",
     "qlooRank": null,
     "localRank": null
    },
    {
-    "name": "YUI",
-    "qlooRank": null,
-    "localRank": null
-   },
-   {
-    "name": "Tatsuro Yamashita",
+    "name": "Kenshi Yonezu",
     "qlooRank": null,
     "localRank": null
    }
   ],
-  "advice": "To attract more visitors from Tokyo, create a welcoming atmosphere that feels familiar yet distinctively Vietnamese—offer a bilingual menu with clear Japanese translations, incorporate minimalist Japanese design elements, and play a curated playlist of contemporary J‑pop and city‑pop hits. Partner with local travel agencies and promote your cafe on platforms popular in Japan such as LINE and Instagram, highlighting any special events like matcha tastings or latte art workshops. Consistently delivering high‑quality coffee and attentive service will encourage word‑of‑mouth recommendations among the Japanese expat and tourist community.",
+  "advice": "To draw more visitors from Tokyo, highlight Japanese‑friendly touches such as bilingual menus, staff who can greet guests in Japanese, and occasional matcha or sakura‑themed specials. Partner with Japanese travel blogs or Instagram influencers to showcase your space, and consider hosting small cultural events like tea‑ceremony demonstrations or J‑pop listening nights. Finally, ensure reliable high‑speed Wi‑Fi and power outlets so remote‑working guests from Japan can stay productive while enjoying your coffee.",
   "poolSizes": {
-   "peers": 16,
+   "peers": 14,
    "all": 50,
    "artists": 50
   }
  },
  "ledger": {
+  "C1": {
+   "ref": "C1",
+   "kind": "artist",
+   "item": {
+    "id": "8E6AF5C9-1520-455C-A7C3-F5C638CE60E6",
+    "name": "小嶋陽菜",
+    "kind": "artist",
+    "disambiguation": "小嶋陽菜",
+    "popularity": 0.6147133803878392,
+    "affinity": 0.9999936180919192,
+    "allTags": [
+     "Upbeat",
+     "Popular",
+     "Idol Pop",
+     "J -pop",
+     "Dedicated",
+     "Dreams",
+     "Vocals",
+     "Idol",
+     "Engaging",
+     "Dance Pop",
+     "Perseverance",
+     "Loyal",
+     "Youth",
+     "Pop",
+     "Versatile",
+     "Energetic",
+     "Charming",
+     "Youthful",
+     "Electropop",
+     "J-Pop",
+     "Charismatic",
+     "Catchy",
+     "Japanese",
+     "Morning Musume",
+     "Ayumi Hamasaki",
+     "Friendship",
+     "Bubblegum Pop",
+     "J-POP",
+     "Love",
+     "3",
+     "Polished",
+     "Bright",
+     "Dance-Pop"
+    ],
+    "musicTags": 9,
+    "rank": 2,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C2": {
+   "ref": "C2",
+   "kind": "artist",
+   "item": {
+    "id": "695EE5C5-38C0-4EA0-A125-841B2125402C",
+    "name": "Utada",
+    "kind": "artist",
+    "disambiguation": "Utada",
+    "popularity": 0.9781340725740387,
+    "affinity": 0.9999804286750361,
+    "allTags": [
+     "Emotive",
+     "Loyal",
+     "Mezzo-Soprano",
+     "Versatile",
+     "Janet Jackson",
+     "Pop",
+     "Self Reflection",
+     "Dance",
+     "Growth",
+     "Electronic Pop",
+     "Dedicated",
+     "Smooth",
+     "Melodic",
+     "Dynamic",
+     "Expressive",
+     "Stevie Wonder",
+     "J-Pop",
+     "Synth-Driven",
+     "J-POP",
+     "Vocals",
+     "Mariah Carey",
+     "2",
+     "Keyboard",
+     "Contemporary R&B",
+     "Heartbreak",
+     "Michael Jackson",
+     "R & B",
+     "Diverse",
+     "Introspective",
+     "Intimate",
+     "Electronic",
+     "Identity",
+     "Soulful Balladry",
+     "Love",
+     "Sophisticated",
+     "Innovative",
+     "Soul",
+     "Passionate",
+     "Piano",
+     "Self-Reflection",
+     "R&B"
+    ],
+    "musicTags": 8,
+    "rank": 3,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C3": {
+   "ref": "C3",
+   "kind": "artist",
+   "item": {
+    "id": "AC3BC2C6-402D-439D-86EB-FCECCF649CD9",
+    "name": "宇多田ヒカル",
+    "kind": "artist",
+    "disambiguation": "宇多田ヒカル",
+    "popularity": 0.9965167869243523,
+    "affinity": 0.9999804286750361,
+    "allTags": [
+     "J-Pop",
+     "Vocals",
+     "Melodic",
+     "Electropop",
+     "Stevie Wonder",
+     "Alto",
+     "Dance",
+     "Urban Pop",
+     "Soulful",
+     "R & B",
+     "Love",
+     "Electronic",
+     "Contemporary R&B",
+     "Mariah Carey",
+     "Identity",
+     "Smooth",
+     "Passionate",
+     "Expressive",
+     "Loyal",
+     "Pop",
+     "Catchy",
+     "Versatile",
+     "Keyboard",
+     "Michael Jackson",
+     "Emotive",
+     "Intimate",
+     "Growth",
+     "Jpop",
+     "Dynamic",
+     "J-POP",
+     "Dedicated",
+     "J -pop",
+     "Innovative",
+     "Heartbreak",
+     "Self Reflection",
+     "Soul",
+     "Diverse",
+     "Japanese",
+     "Influential",
+     "Piano",
+     "Japanese Electronic",
+     "Janet Jackson",
+     "2",
+     "Self-Reflection",
+     "R&B"
+    ],
+    "musicTags": 12,
+    "rank": 4,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C4": {
+   "ref": "C4",
+   "kind": "artist",
+   "item": {
+    "id": "E451D8AE-769F-4859-B200-7740A6E3319B",
+    "name": "深田恭子",
+    "kind": "artist",
+    "disambiguation": "深田恭子",
+    "popularity": 0.8067422946608209,
+    "affinity": 0.9999672390692125,
+    "allTags": [
+     "Expressive",
+     "Engaging",
+     "J-Pop Idol",
+     "Seiko Matsuda",
+     "Japanese Ballad",
+     "Japanese Idol Music",
+     "Vocals",
+     "Dedicated",
+     "Heartbreak",
+     "Energetic",
+     "Popular",
+     "Light Pop",
+     "Melodic Pop",
+     "Versatile",
+     "Catchy",
+     "Supportive",
+     "Youthful Pop",
+     "Pop",
+     "3",
+     "Charming",
+     "J-Pop",
+     "Actress",
+     "Japanese Pop",
+     "Youthful",
+     "Melodic",
+     "Idol Pop",
+     "J-POP",
+     "Youth",
+     "Dreams",
+     "J -pop",
+     "Love",
+     "Talented",
+     "Japanese",
+     "Akina Nakamori",
+     "Light",
+     "Accessible"
+    ],
+    "musicTags": 10,
+    "rank": 6,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C5": {
+   "ref": "C5",
+   "kind": "artist",
+   "item": {
+    "id": "2A99382A-7E18-4833-8B70-945FB81884FA",
+    "name": "香取慎吾",
+    "kind": "artist",
+    "disambiguation": "香取慎吾",
+    "popularity": 0.5663514407984849,
+    "affinity": 0.9999604314567987,
+    "allTags": [
+     "Pop Rock",
+     "J-Pop",
+     "Passionate",
+     "Melodic",
+     "Energetic",
+     "Dance Pop",
+     "Friendship",
+     "J-POP",
+     "Charismatic",
+     "Versatile",
+     "Vocals",
+     "2",
+     "Pop",
+     "Loyal",
+     "Expressive",
+     "Rock",
+     "Dance",
+     "Life",
+     "Dedicated",
+     "Japanese",
+     "Dynamic",
+     "Japanese Pop Icons",
+     "Supportive",
+     "J -pop",
+     "Hope",
+     "Love",
+     "Michael Jackson",
+     "Japanese Idol Music",
+     "Catchy",
+     "Madonna",
+     "Contemporary Pop",
+     "Engaging",
+     "Creative",
+     "Idol Pop",
+     "Pop-oriented",
+     "Accessible",
+     "Dance-Pop"
+    ],
+    "musicTags": 10,
+    "rank": 7,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
+  "C6": {
+   "ref": "C6",
+   "kind": "artist",
+   "item": {
+    "id": "64F73B70-9BB4-4769-8F24-25722508E83B",
+    "name": "佐々木希",
+    "kind": "artist",
+    "disambiguation": "佐々木希",
+    "popularity": 0.6218076008100191,
+    "affinity": 0.9999540492744502,
+    "allTags": [
+     "J-Pop",
+     "Love",
+     "Vocals",
+     "Elegant",
+     "Talented",
+     "Life",
+     "Dance Pop",
+     "Popular",
+     "Japanese Pop",
+     "Dedicated",
+     "Namie Amuro",
+     "Japanese",
+     "Passionate",
+     "Contemporary R&B",
+     "Charismatic",
+     "3",
+     "J-POP",
+     "Melodic",
+     "Upbeat",
+     "Graceful",
+     "Emotions",
+     "Pop",
+     "Ayumi Hamasaki",
+     "J -pop",
+     "Synthpop",
+     "Jpop",
+     "Engaging",
+     "Catchy",
+     "Energetic",
+     "Loyal",
+     "Electropop",
+     "Versatile",
+     "Actor",
+     "Emotional",
+     "Polished",
+     "Dance-Pop"
+    ],
+    "musicTags": 10,
+    "rank": 8,
+    "localRank": null
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:artist",
+     "signal.location.query": "Tokyo",
+     "take": 50
+    },
+    "cached": false
+   }
+  },
   "P1": {
    "ref": "P1",
    "kind": "place",
    "item": {
-    "id": "A76EBF77-1473-484B-AABB-5D6FEB66E558",
-    "name": "Bánh Mì Như Lan",
+    "id": "8FCA4701-8A40-46C3-AAE4-9A695FDD7B75",
+    "name": "Maison Marou Flagship Saigon",
     "kind": "place",
-    "genre": "restaurant:bakery",
-    "address": "68 Hàm Nghi Sài Gòn Hồ Chí Minh 700000 Vietnam",
-    "neighborhood": "Khu phố 7",
-    "priceLevel": 1,
-    "rating": 3.799999952316284,
-    "summary": "Saigon bakery-restaurant famed for roasted pork bánh mì, offering a wide range of Vietnamese breads, pastries and prepared meals.",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQUHAE-8qQBE4_7jrnPsSKzWVkn8q-K0jop3xp0GN5UOC2JhDKT3P2gdzr0R35P8RjIOa2ACHxFrv15_5C-E5ioH4VqTUIBwvPc8gNx9lMSrMndwsV8MQSsaWxcftzaNMPCRo=w1900-h1900-k-no",
-    "lat": 10.771116899999999,
-    "lon": 106.704177,
-    "popularity": 0.7048481836305547,
-    "affinity": 0.9950621601963269,
+    "genre": "restaurant:chocolate_cafe",
+    "address": "167-169 Đ. Calmette Bến Thành Hồ Chí Minh Vietnam",
+    "neighborhood": "Khu phố 9",
+    "priceLevel": null,
+    "rating": 4.599999904632568,
+    "summary": "Flagship bean-to-bar chocolaterie and café in District 1 offering artisan chocolates, pastries, coffee, and tasting classes.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldnmmlwCNw-h56nO_E5eCaG810SHtOrAE4BiXyf8SlBJRtwyHEqcgSXxzEoM1T6edWOpRbBnl8vDskVaqO9kVc6LuqfjpvGOn14D9BLXUZnw7yFU5FA0B7W9nMp7-jlRyjT1Cn=w1900-h1900-k-no",
+    "lat": 10.769494,
+    "lon": 106.69782099999999,
+    "popularity": 0.9919475532307295,
+    "affinity": 0.9973920848116216,
     "tags": [
      {
-      "id": "urn:tag:ambience:qloo:no_frills",
-      "name": "No frills",
-      "family": "ambience"
+      "id": "urn:tag:cuisine:qloo:french",
+      "name": "French",
+      "family": "cuisine"
      },
      {
-      "id": "urn:tag:interests:qloo:prepared_meal_shopping",
-      "name": "Prepared meal shopping",
+      "id": "urn:tag:setting:qloo:artisan_factory_shop",
+      "name": "Artisan factory shop",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:baking",
+      "name": "Baking",
       "family": "interests"
      },
      {
-      "id": "urn:tag:decor:qloo:utilitarian_market_style",
-      "name": "Utilitarian market style",
-      "family": "decor"
+      "id": "urn:tag:menu_highlight:qloo:pain_au_chocolat",
+      "name": "Pain au chocolat",
+      "family": "menu_highlight"
      },
      {
-      "id": "urn:tag:setting:qloo:street_corner",
-      "name": "Street corner",
-      "family": "setting"
+      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
+      "name": "Specialty non alcoholic",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:interests:qloo:food_photography",
+      "name": "Food photography",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:chocolate",
+      "name": "Chocolate",
+      "family": "cuisine"
      },
      {
       "id": "urn:tag:ambience:qloo:lively",
@@ -8278,38 +8844,33 @@
       "family": "ambience"
      },
      {
-      "id": "urn:tag:setting:qloo:commercial",
-      "name": "Commercial",
+      "id": "urn:tag:ambience:qloo:stylish",
+      "name": "Stylish",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:mint_chocolate",
+      "name": "Mint chocolate",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
       "family": "setting"
      },
      {
-      "id": "urn:tag:offerings:place:coffee",
-      "name": "Coffee",
-      "family": "offerings"
+      "id": "urn:tag:menu_highlight:qloo:chocolate_brownie",
+      "name": "Chocolate brownie",
+      "family": "menu_highlight"
      },
      {
-      "id": "urn:tag:interests:qloo:local_culinary_history",
-      "name": "Local culinary history",
-      "family": "interests"
+      "id": "urn:tag:ambience:qloo:artistic",
+      "name": "Artistic",
+      "family": "ambience"
      },
      {
-      "id": "urn:tag:decor:qloo:traditional",
-      "name": "Traditional",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:interests:qloo:quick_service_dining",
-      "name": "Quick service dining",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:decor:qloo:functional",
-      "name": "Functional",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:bustling",
-      "name": "Bustling",
+      "id": "urn:tag:ambience:qloo:fragrant",
+      "name": "Fragrant",
       "family": "ambience"
      },
      {
@@ -8318,14 +8879,59 @@
       "family": "ambience"
      },
      {
-      "id": "urn:tag:ambience:qloo:efficient",
-      "name": "Efficient",
+      "id": "urn:tag:decor:qloo:chic",
+      "name": "Chic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:signature_bold_hot_chocolate",
+      "name": "Signature bold hot chocolate",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:tiramisu",
+      "name": "Tiramisu",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:elegant",
+      "name": "Elegant",
       "family": "ambience"
      },
      {
-      "id": "urn:tag:interests:qloo:street_food_culture",
-      "name": "Street food culture",
+      "id": "urn:tag:beverage_offering:qloo:soft_drinks",
+      "name": "Soft drinks",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:interests:qloo:gift_shopping",
+      "name": "Gift shopping",
       "family": "interests"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:chocolate_tart",
+      "name": "Chocolate tart",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:single_origin_chocolate_bars",
+      "name": "Single origin chocolate bars",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:social",
+      "name": "Social",
+      "family": "ambience"
      },
      {
       "id": "urn:tag:setting:qloo:city_center",
@@ -8333,78 +8939,168 @@
       "family": "setting"
      },
      {
-      "id": "urn:tag:interests:qloo:traditional_baking",
-      "name": "Traditional baking",
+      "id": "urn:tag:interests:qloo:specialty_coffee",
+      "name": "Specialty coffee",
       "family": "interests"
      },
      {
-      "id": "urn:tag:setting:qloo:urban",
-      "name": "Urban",
+      "id": "urn:tag:ambience:qloo:chocolaty",
+      "name": "Chocolaty",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:specialty_dish:place:pastries",
+      "name": "Pastries",
+      "family": "specialty_dish"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:industrial_artisan",
+      "name": "Industrial artisan",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_arts",
+      "name": "Culinary arts",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:desserts",
+      "name": "Desserts",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:chocolate_mousse",
+      "name": "Chocolate mousse",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:salted_caramel_bonbon",
+      "name": "Salted caramel bonbon",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:setting:qloo:commercial",
+      "name": "Commercial",
       "family": "setting"
      },
      {
-      "id": "urn:tag:ambience:qloo:convenient",
-      "name": "Convenient",
-      "family": "ambience"
+      "id": "urn:tag:menu_highlight:qloo:eclair",
+      "name": "Eclair",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:cheesecake",
+      "name": "Cheesecake",
+      "family": "menu_highlight"
      }
     ],
     "allTags": [
-     "No frills",
-     "Souvenir shopping",
-     "Retail section",
-     "Evening",
-     "Authentic",
-     "Bakery",
-     "Restaurant",
-     "Prepared meal shopping",
-     "Utilitarian market style",
-     "Street corner",
-     "Lively",
-     "Commercial",
-     "Takeout",
-     "Coffee",
+     "30 34",
+     "Dairy free",
      "Delivery",
-     "Onsite services",
-     "Takeout food purchase",
-     "Central",
-     "Free parking lot",
-     "Local culinary history",
-     "Traditional",
-     "Convenient",
-     "Quick service dining",
-     "In store shopping",
-     "Functional",
-     "Dining drinking",
-     "Bustling",
-     "Casual",
-     "Outdoor seating",
-     "Efficient",
-     "Walkable",
-     "Street food culture",
-     "City center",
-     "Convenience stop",
-     "Shopping",
-     "Saigon river",
-     "Moderately expensive",
-     "Afternoon",
-     "Midday",
-     "Dine in",
-     "Price level",
-     "Takeout service",
-     "Street view",
-     "Ben thanh market",
-     "Deli counter",
-     "₫1 to ₫100000",
-     "Traditional baking",
-     "Urban",
-     "Breakfast",
-     "Free street parking",
-     "Place",
-     "Nguyen hue walking street",
-     "Morning",
-     "Busy commercial district",
+     "Moderate",
      "Destination",
-     "Quick visit"
+     "Downtown",
+     "French",
+     "Artisan factory shop",
+     "Baking",
+     "Counter service",
+     "Place",
+     "Pain au chocolat",
+     "Pickup",
+     "Halal",
+     "Specialty non alcoholic",
+     "Food photography",
+     "Welcoming",
+     "Foodies",
+     "Dessert enthusiasts",
+     "Evening",
+     "Chocolate",
+     "Pastry workshops",
+     "Restaurant",
+     "Special occasion",
+     "Lively",
+     "Open kitchen",
+     "Stylish",
+     "Tourists",
+     "Culture arts",
+     "Mint chocolate",
+     "Urban",
+     "Chocolate brownie",
+     "Chocolate shop",
+     "Central",
+     "Takeout",
+     "Artistic",
+     "Locals",
+     "Fragrant",
+     "Dining drinking",
+     "Morning",
+     "Casual",
+     "Chic",
+     "Modern",
+     "Seating area",
+     "Chocolate artisan",
+     "Restroom",
+     "25 29",
+     "Signature bold hot chocolate",
+     "Impulse visit",
+     "Trendy",
+     "Tiramisu",
+     "Elegant",
+     "Vegetarian",
+     "Gift shop",
+     "Soft drinks",
+     "Chocolate cafe",
+     "Wheelchair accessible entrance",
+     "Groups of friends",
+     "Coffee and tea",
+     "Gluten free",
+     "Education learning",
+     "Gift shopping",
+     "Chocolate tasting",
+     "Walkable",
+     "Chocolate tart",
+     "Single origin chocolate bars",
+     "Nut free",
+     "Social",
+     "City center",
+     "Wheelchair accessible parking lot",
+     "Specialty coffee",
+     "Vegan",
+     "Chocolaty",
+     "Shopping",
+     "Ben thanh market",
+     "Pastries",
+     "Dine in",
+     "Bustling",
+     "Midday",
+     "Open kitchen view",
+     "Artisanal",
+     "Comfortable",
+     "Wheelchair accessible seating",
+     "Cafe",
+     "Free wi fi",
+     "Industrial artisan",
+     "Culinary arts",
+     "Identifies as women owned",
+     "Cooking classes",
+     "Desserts",
+     "Chocolate mousse",
+     "Couples",
+     "18 24",
+     "Lgbtq+ friendly",
+     "Afternoon",
+     "Salted caramel bonbon",
+     "Gourmet",
+     "Commercial",
+     "Eclair",
+     "Cheesecake",
+     "Air conditioning"
     ],
     "rank": 1,
     "tied": false,
@@ -8426,7 +9122,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P2": {
@@ -8846,318 +9542,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P3": {
    "ref": "P3",
-   "kind": "place",
-   "item": {
-    "id": "719DB07D-93F9-4415-AD3C-9F0BF0E382D2",
-    "name": "Charm Bakery Vietnam",
-    "kind": "place",
-    "genre": "restaurant:bakery",
-    "address": "10 Lê Thị Riêng Bến Thành Hồ Chí Minh 700000 Vietnam",
-    "neighborhood": "Khu phố 4",
-    "priceLevel": 1,
-    "rating": 4.800000190734863,
-    "summary": "Women-owned bakery-café in central Ho Chi Minh City offering coffee, dine-in, takeout, drive-through, and delivery; LGBTQ+ friendly.",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhNYNlIvMOv8nAmk7Ycd_VxT1ykKPq1iROPxeg0bUS8xH11WG3ACc0R8u2BemPPlVY8-ugheO49RAn-nHA3lMXByJzrR9Ac9sX7ZRXyw0TFiUkIQzL6-D3G3PJp2WKlVyZPioU5w=w1900-h1900-k-no",
-    "lat": 10.7715038,
-    "lon": 106.6926822,
-    "popularity": 0.4524044603081385,
-    "affinity": 0.9915486339571752,
-    "tags": [
-     {
-      "id": "urn:tag:menu_highlight:qloo:vegetarian_banh_mi",
-      "name": "Vegetarian banh mi",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:interests:qloo:culinary_travel",
-      "name": "Culinary travel",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:avocado_smoothie",
-      "name": "Avocado smoothie",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:roast_pork_banh_mi",
-      "name": "Roast pork banh mi",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:casual",
-      "name": "Casual",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:sustainable_dining",
-      "name": "Sustainable dining",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:relaxing",
-      "name": "Relaxing",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:offerings:place:coffee",
-      "name": "Coffee",
-      "family": "offerings"
-     },
-     {
-      "id": "urn:tag:setting:qloo:commercial",
-      "name": "Commercial",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:special_charm_banh_mi",
-      "name": "Special charm banh mi",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:mango_smoothie",
-      "name": "Mango smoothie",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:interests:qloo:street_food_exploration",
-      "name": "Street food exploration",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:decor:qloo:simple",
-      "name": "Simple",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:banh_mi",
-      "name": "Banh mi",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:clean",
-      "name": "Clean",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:iced_coffee",
-      "name": "Iced coffee",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:comfortable",
-      "name": "Comfortable",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:handmade_craft",
-      "name": "Handmade craft",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:setting:qloo:urban",
-      "name": "Urban",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:setting:qloo:bakery_cafe",
-      "name": "Bakery cafe",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:smoothies",
-      "name": "Smoothies",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:setting:qloo:city_center",
-      "name": "City center",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:charming",
-      "name": "Charming",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:decor:qloo:minimalist",
-      "name": "Minimalist",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:vietnamese",
-      "name": "Vietnamese",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:decor:qloo:modern",
-      "name": "Modern",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:positive",
-      "name": "Positive",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-      "name": "Coffee and tea",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:fusion",
-      "name": "Fusion",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:pate_banh_mi",
-      "name": "Pate banh mi",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:decor:qloo:cozy",
-      "name": "Cozy",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:intimate",
-      "name": "Intimate",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:welcoming",
-      "name": "Welcoming",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:fresh_juices",
-      "name": "Fresh juices",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:interests:qloo:local_culture",
-      "name": "Local culture",
-      "family": "interests"
-     }
-    ],
-    "allTags": [
-     "Young professionals",
-     "Dining drinking",
-     "Vegetarian banh mi",
-     "Bui vien street",
-     "Takeout",
-     "Casual",
-     "Culinary travel",
-     "Solo diners",
-     "Avocado smoothie",
-     "Roast pork banh mi",
-     "Sustainable dining",
-     "Relaxing",
-     "Wifi",
-     "Restroom",
-     "In store pickup",
-     "Onsite services",
-     "Air conditioning",
-     "Allergy friendly",
-     "Delivery",
-     "Quick bites",
-     "Coffee",
-     "Commercial",
-     "30 34",
-     "Tourists",
-     "Cafe",
-     "Evening",
-     "Special charm banh mi",
-     "Mango smoothie",
-     "Street food exploration",
-     "Simple",
-     "Banh mi",
-     "Convenience stop",
-     "Clean",
-     "Pickup",
-     "Iced coffee",
-     "Place",
-     "Authentic",
-     "Wi fi",
-     "Afternoon",
-     "Comfortable",
-     "Handmade craft",
-     "Locals",
-     "Convenient",
-     "Central",
-     "Moderate",
-     "Quick visit",
-     "₫1 to ₫100000",
-     "Urban",
-     "Bakery cafe",
-     "Midday",
-     "Smoothies",
-     "Dine in",
-     "Tourist hub",
-     "City center",
-     "Charming",
-     "Minimalist",
-     "Morning",
-     "Pham ngu lao",
-     "Drive thru",
-     "Gender neutral restroom",
-     "Destination",
-     "Bustling",
-     "Vietnamese",
-     "Modern",
-     "Cash only",
-     "Restaurant",
-     "Positive",
-     "Coffee and tea",
-     "18 24",
-     "Fusion",
-     "Walkable",
-     "Bakery",
-     "Pate banh mi",
-     "Breakfast",
-     "Traditional",
-     "Cozy",
-     "Identifies as women owned",
-     "Street view",
-     "25 29",
-     "Intimate",
-     "Foodies",
-     "Lgbtq+ friendly",
-     "Restrooms",
-     "Welcoming",
-     "Fresh juices",
-     "Vegetarian",
-     "Local culture"
-    ],
-    "rank": 3,
-    "tied": false,
-    "cityRank": null,
-    "lift": null,
-    "pool": "peers"
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:place",
-     "filter.location.query": "Ho Chi Minh City",
-     "filter.tags": [
-      "urn:tag:genre:place:restaurant:coffee_shop",
-      "urn:tag:genre:place:cafe",
-      "urn:tag:category:place:coffee_shop"
-     ],
-     "operator.filter.tags": "union",
-     "take": 50,
-     "signal.location.query": "Tokyo"
-    },
-    "cached": true
-   }
-  },
-  "P4": {
-   "ref": "P4",
    "kind": "place",
    "item": {
     "id": "2048936C-97D9-445A-A7CD-BAFE9F218AC2",
@@ -9554,7 +9943,7 @@
      "18 24",
      "Wine"
     ],
-    "rank": 4,
+    "rank": 3,
     "tied": false,
     "cityRank": null,
     "lift": null,
@@ -9574,11 +9963,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P5": {
-   "ref": "P5",
+  "P4": {
+   "ref": "P4",
    "kind": "place",
    "item": {
     "id": "53E66004-6F65-49F4-9A2E-35E4C3702A6B",
@@ -9882,7 +10271,7 @@
      "Large group",
      "Garden view"
     ],
-    "rank": 5,
+    "rank": 4,
     "tied": true,
     "cityRank": null,
     "lift": null,
@@ -9902,11 +10291,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P6": {
-   "ref": "P6",
+  "P5": {
+   "ref": "P5",
    "kind": "place",
    "item": {
     "id": "29948C61-43D6-42EB-A8B0-818C2338ECF6",
@@ -10210,7 +10599,7 @@
      "Artisanal",
      "Signature coffee blends"
     ],
-    "rank": 5,
+    "rank": 4,
     "tied": true,
     "cityRank": null,
     "lift": null,
@@ -10230,11 +10619,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P7": {
-   "ref": "P7",
+  "P6": {
+   "ref": "P6",
    "kind": "place",
    "item": {
     "id": "3A2ABE84-841E-482D-928F-E92FEA02537D",
@@ -10434,9 +10823,9 @@
      "Dogs allowed outside",
      "18 24"
     ],
-    "rank": 5,
+    "rank": 4,
     "tied": true,
-    "cityRank": 36,
+    "cityRank": 35,
     "lift": 31,
     "pool": "peers"
    },
@@ -10454,247 +10843,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P8": {
-   "ref": "P8",
-   "kind": "place",
-   "item": {
-    "id": "A94EB95D-5463-4E1F-B20A-62FF1E9DE1E4",
-    "name": "Bơ by Butterman",
-    "kind": "place",
-    "genre": "restaurant:bakery",
-    "address": "67 Lê Thị Riêng Bến Thành Hồ Chí Minh Vietnam",
-    "neighborhood": "Khu phố 1",
-    "priceLevel": 1,
-    "rating": 4.699999809265137,
-    "summary": "Bakery-café offering butter-forward pastries and coffee in central Ho Chi Minh City’s District 1.",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkGco516TQWngo0DnifaLlBHo5MLMszgKFTTDpl5fhsVSFCjncgNncC1O5DLnGuLtJ3u8ccegLfCa4weQxJO5pViBA-63u7V0HZDEAHHaGRv1eFOf_5jmzrKRlSQPEVeFpniCdqQKRqa_6=w1900-h1900-k-no",
-    "lat": 10.7711063,
-    "lon": 106.69110289999999,
-    "popularity": 0.35626375087710305,
-    "affinity": 0.9876724494690619,
-    "tags": [
-     {
-      "id": "urn:tag:cuisine:qloo:bakery",
-      "name": "Bakery",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:offerings:place:coffee",
-      "name": "Coffee",
-      "family": "offerings"
-     },
-     {
-      "id": "urn:tag:interests:qloo:cafe_culture",
-      "name": "Cafe culture",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
-      "name": "Coffee and tea",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:decor:qloo:modern",
-      "name": "Modern",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:pastries",
-      "name": "Pastries",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:interests:qloo:artisanal_baking",
-      "name": "Artisanal baking",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:interests:qloo:pastry_arts",
-      "name": "Pastry arts",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:clean",
-      "name": "Clean",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:decor:qloo:simple",
-      "name": "Simple",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:marshmallows",
-      "name": "Marshmallows",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:casual",
-      "name": "Casual",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:setting:qloo:commercial",
-      "name": "Commercial",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:interests:qloo:gourmet_desserts",
-      "name": "Gourmet desserts",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:setting:qloo:city_center",
-      "name": "City center",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:setting:qloo:urban",
-      "name": "Urban",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:decor:qloo:minimalist",
-      "name": "Minimalist",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:interests:qloo:specialty_coffee",
-      "name": "Specialty coffee",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:desserts",
-      "name": "Desserts",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:comfortable",
-      "name": "Comfortable",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:setting:qloo:bakery_cafe",
-      "name": "Bakery cafe",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:butter_pastries",
-      "name": "Butter pastries",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:offerings:place:go_for_just_dessert",
-      "name": "Go for just dessert",
-      "family": "offerings"
-     }
-    ],
-    "allTags": [
-     "Bakery",
-     "Coffee",
-     "In store shopping",
-     "Cafe",
-     "Takeout",
-     "Trendy",
-     "Shopping",
-     "Drive thru",
-     "Independence palace",
-     "Takeout counter",
-     "Free parking lot",
-     "Price level",
-     "Chocolate cafe",
-     "Morning",
-     "Moderate",
-     "Cafe culture",
-     "Coffee and tea",
-     "Modern",
-     "Restaurant",
-     "Locals",
-     "Delivery service",
-     "Cake shop",
-     "Chocolate shop",
-     "Pastries",
-     "Moderately expensive",
-     "In store pickup",
-     "Candy store",
-     "Onsite services",
-     "₫1 to ₫100000",
-     "War remnants museum",
-     "Artisanal baking",
-     "Japanese confectionery shop",
-     "Pastry arts",
-     "Pickup",
-     "Place",
-     "Nfc mobile payments",
-     "Restroom",
-     "Street view",
-     "Clean",
-     "Bustling",
-     "Simple",
-     "Ben thanh market",
-     "District one core",
-     "Casual",
-     "Sweets and dessert buffet",
-     "Ice cream shop",
-     "Delivery",
-     "Dine in",
-     "Dining drinking",
-     "Marshmallows",
-     "Destination",
-     "Convenience stop",
-     "Cupcake shop",
-     "25 29",
-     "Commercial",
-     "Credit cards",
-     "Young adults",
-     "18 24",
-     "Gourmet desserts",
-     "City center",
-     "Central",
-     "Urban",
-     "Bakery shopping",
-     "Walkable",
-     "Afternoon",
-     "Indoor seating",
-     "Minimalist",
-     "Foodies",
-     "Specialty coffee",
-     "Desserts",
-     "Comfortable",
-     "Bakery cafe",
-     "30 34",
-     "Butter pastries",
-     "Go for just dessert",
-     "Quick visit"
-    ],
-    "rank": 5,
-    "tied": true,
-    "cityRank": null,
-    "lift": null,
-    "pool": "peers"
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:place",
-     "filter.location.query": "Ho Chi Minh City",
-     "filter.tags": [
-      "urn:tag:genre:place:restaurant:coffee_shop",
-      "urn:tag:genre:place:cafe",
-      "urn:tag:category:place:coffee_shop"
-     ],
-     "operator.filter.tags": "union",
-     "take": 50,
-     "signal.location.query": "Tokyo"
-    },
-    "cached": true
-   }
-  },
-  "P9": {
-   "ref": "P9",
+  "P7": {
+   "ref": "P7",
    "kind": "place",
    "item": {
     "id": "A41F638A-FC88-449B-8CD1-BD4BCD50E37B",
@@ -10920,10 +11073,10 @@
      "Routine visit",
      "Parking lot"
     ],
-    "rank": 9,
+    "rank": 7,
     "tied": true,
     "cityRank": 23,
-    "lift": 14,
+    "lift": 16,
     "pool": "peers"
    },
    "source": {
@@ -10940,11 +11093,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P10": {
-   "ref": "P10",
+  "P8": {
+   "ref": "P8",
    "kind": "place",
    "item": {
     "id": "C15DFDF2-3F17-498B-951A-BE529A3759E2",
@@ -11207,7 +11360,7 @@
      "Su van hanh street",
      "Full bar"
     ],
-    "rank": 9,
+    "rank": 7,
     "tied": true,
     "cityRank": null,
     "lift": null,
@@ -11227,56 +11380,46 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P11": {
-   "ref": "P11",
+  "P9": {
+   "ref": "P9",
    "kind": "place",
    "item": {
-    "id": "8FCA4701-8A40-46C3-AAE4-9A695FDD7B75",
-    "name": "Maison Marou Flagship Saigon",
+    "id": "0A0C95B4-AC09-4B4A-810E-A61ACD2AC08A",
+    "name": "Cheo Leo Cafe",
     "kind": "place",
-    "genre": "restaurant:chocolate_cafe",
-    "address": "167-169 Đ. Calmette Bến Thành Hồ Chí Minh Vietnam",
-    "neighborhood": "Khu phố 9",
-    "priceLevel": null,
-    "rating": 4.599999904632568,
-    "summary": "Flagship bean-to-bar chocolaterie and café in District 1 offering artisan chocolates, pastries, coffee, and tasting classes.",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWldnmmlwCNw-h56nO_E5eCaG810SHtOrAE4BiXyf8SlBJRtwyHEqcgSXxzEoM1T6edWOpRbBnl8vDskVaqO9kVc6LuqfjpvGOn14D9BLXUZnw7yFU5FA0B7W9nMp7-jlRyjT1Cn=w1900-h1900-k-no",
-    "lat": 10.769494,
-    "lon": 106.69782099999999,
-    "popularity": 0.9919475532307295,
-    "affinity": 0.9973920848116216,
+    "genre": "restaurant:cafe",
+    "address": "109/ 36 Đ. Nguyễn Thiện Thuật Khu phố 8 Bàn Cờ Hồ Chí Minh 70000, Vietnam",
+    "neighborhood": "Ward 2",
+    "priceLevel": 1,
+    "rating": 4.400000095367432,
+    "summary": "Cozy inexpensive cafe in Ho Chi Minh's District 3 offering coffee, alcohol, outdoor seating and an LGBTQ+ friendly atmosphere.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWko88SoRviHFUpgFaWhoUGd4WyDAUhn7cRLM14QVNCkMQUe278vwayBA8kN529nUnkZb6MuhWUvI0KhXas5FC6ghK0eLqGrbeIsbgWdFzLOkE1H2Nm29stUduWuHZPcftFYp9dqZJ42QBRV=w1900-h1900-k-no",
+    "lat": 10.766997,
+    "lon": 106.67985329999999,
+    "popularity": 0.8470843033006562,
+    "affinity": 0.982165113445143,
     "tags": [
      {
-      "id": "urn:tag:cuisine:qloo:french",
-      "name": "French",
+      "id": "urn:tag:ambience:qloo:rustic",
+      "name": "Rustic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:vintage",
+      "name": "Vintage",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese_coffee",
+      "name": "Vietnamese coffee",
       "family": "cuisine"
      },
      {
-      "id": "urn:tag:setting:qloo:artisan_factory_shop",
-      "name": "Artisan factory shop",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:interests:qloo:baking",
-      "name": "Baking",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:pain_au_chocolat",
-      "name": "Pain au chocolat",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:beverage_offering:qloo:specialty_non_alcoholic",
-      "name": "Specialty non alcoholic",
-      "family": "beverage_offering"
-     },
-     {
-      "id": "urn:tag:interests:qloo:food_photography",
-      "name": "Food photography",
+      "id": "urn:tag:interests:qloo:slow_living",
+      "name": "Slow living",
       "family": "interests"
      },
      {
@@ -11285,43 +11428,38 @@
       "family": "ambience"
      },
      {
-      "id": "urn:tag:cuisine:qloo:chocolate",
-      "name": "Chocolate",
-      "family": "cuisine"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:lively",
-      "name": "Lively",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:stylish",
-      "name": "Stylish",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:specialty_dish:place:mint_chocolate",
-      "name": "Mint chocolate",
-      "family": "specialty_dish"
-     },
-     {
       "id": "urn:tag:setting:qloo:urban",
       "name": "Urban",
       "family": "setting"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:chocolate_brownie",
-      "name": "Chocolate brownie",
-      "family": "menu_highlight"
+      "id": "urn:tag:decor:qloo:historic",
+      "name": "Historic",
+      "family": "decor"
      },
      {
-      "id": "urn:tag:ambience:qloo:artistic",
-      "name": "Artistic",
+      "id": "urn:tag:offerings:place:hot_tea",
+      "name": "Hot tea",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:interests:qloo:cultural_heritage",
+      "name": "Cultural heritage",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:place:large_group",
+      "name": "Large group",
       "family": "ambience"
      },
      {
-      "id": "urn:tag:ambience:qloo:fragrant",
-      "name": "Fragrant",
+      "id": "urn:tag:interests:qloo:coffee_culture",
+      "name": "Coffee culture",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:authentic",
+      "name": "Authentic",
       "family": "ambience"
      },
      {
@@ -11330,33 +11468,282 @@
       "family": "ambience"
      },
      {
-      "id": "urn:tag:decor:qloo:chic",
-      "name": "Chic",
+      "id": "urn:tag:decor:qloo:classic",
+      "name": "Classic",
       "family": "decor"
      },
      {
-      "id": "urn:tag:decor:qloo:modern",
-      "name": "Modern",
-      "family": "decor"
+      "id": "urn:tag:offerings:place:ok_to_order_just_drinks",
+      "name": "Ok to order just drinks",
+      "family": "offerings"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:signature_bold_hot_chocolate",
-      "name": "Signature bold hot chocolate",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:menu_highlight:qloo:tiramisu",
-      "name": "Tiramisu",
-      "family": "menu_highlight"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:elegant",
-      "name": "Elegant",
+      "id": "urn:tag:ambience:qloo:cozy",
+      "name": "Cozy",
       "family": "ambience"
      },
      {
-      "id": "urn:tag:beverage_offering:qloo:soft_drinks",
-      "name": "Soft drinks",
+      "id": "urn:tag:menu_highlight:qloo:iced_black_coffee",
+      "name": "Iced black coffee",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:offerings:place:alcohol",
+      "name": "Alcohol",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:beer",
+      "name": "Beer",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:nostalgic",
+      "name": "Nostalgic",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:setting:qloo:historic_alleyway",
+      "name": "Historic alleyway",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:iced_coffee_with_condensed_milk",
+      "name": "Iced coffee with condensed milk",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:photography",
+      "name": "Photography",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:coffee_with_lime_juice",
+      "name": "Coffee with lime juice",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional_vietnamese_shop_house",
+      "name": "Traditional vietnamese shop house",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_history",
+      "name": "Local history",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:spirits",
+      "name": "Spirits",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:social",
+      "name": "Social",
+      "family": "ambience"
+     }
+    ],
+    "allTags": [
+     "Locals",
+     "Wheelchair accessible entrance",
+     "Rustic",
+     "Street view",
+     "Vintage",
+     "Vietnamese coffee",
+     "Seating",
+     "Slow living",
+     "18 24",
+     "Outdoor seating",
+     "Welcoming",
+     "Urban",
+     "Residential",
+     "Historic",
+     "Hot tea",
+     "Cultural heritage",
+     "Cafe",
+     "Table service",
+     "Coffee shop",
+     "Wheelchair accessible seating",
+     "Large group",
+     "Accepts reservations",
+     "30 34",
+     "Quiet",
+     "Restroom",
+     "Price level",
+     "Coffee culture",
+     "Traditional",
+     "Authentic",
+     "Dine in",
+     "Cash only",
+     "25 29",
+     "Casual",
+     "Classic",
+     "Culture arts",
+     "Moderate",
+     "Ok to order just drinks",
+     "Wi fi",
+     "Cozy",
+     "Independence palace",
+     "Takeout",
+     "Lgbtq+ friendly",
+     "Iced black coffee",
+     "Central",
+     "Free street parking",
+     "Charming",
+     "₫1 to ₫100000",
+     "Alcohol",
+     "Coffee",
+     "Beer",
+     "Walkable",
+     "Nostalgic",
+     "Lgbtq+",
+     "Historic alleyway",
+     "Iced coffee with condensed milk",
+     "Destination",
+     "Foodies",
+     "War remnants museum",
+     "Place",
+     "History enthusiasts",
+     "Restaurant",
+     "Good for kids",
+     "Coffee making demonstrations",
+     "Photography",
+     "City center",
+     "Afternoon",
+     "Onsite services",
+     "Coffee with lime juice",
+     "Coffee and tea",
+     "Traditional vietnamese shop house",
+     "Local history",
+     "Bar onsite",
+     "Traditional brewing equipment",
+     "Spirits",
+     "Social",
+     "Dining drinking",
+     "Tao dan park",
+     "Tourists",
+     "Morning"
+    ],
+    "rank": 7,
+    "tied": true,
+    "cityRank": 40,
+    "lift": 33,
+    "pool": "peers"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Ho Chi Minh City",
+     "filter.tags": [
+      "urn:tag:genre:place:restaurant:coffee_shop",
+      "urn:tag:genre:place:cafe",
+      "urn:tag:category:place:coffee_shop"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": false
+   }
+  },
+  "P10": {
+   "ref": "P10",
+   "kind": "place",
+   "item": {
+    "id": "CE0DEAD1-984D-4EE7-8C5A-1D04BC7E436B",
+    "name": "Cong Cafe",
+    "kind": "place",
+    "genre": "restaurant:coffee_shop",
+    "address": "136 Sương Nguyệt Anh Bến Thành Hồ Chí Minh 71000 Vietnam",
+    "neighborhood": "Khu phố 1",
+    "priceLevel": 1,
+    "rating": 4.400000095367432,
+    "summary": "Retro Vietnamese-themed cafe offering coffee, cocktails, beer and late-night small plates in central District 1.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl78TqePG2vPcYbQxQP_WLKn1NIok5oTNFF1xzH2Q4PNaCw0e9Y0z9P78Iwo7Wqo6eKducUdRoFnUbTwiaUNjwJYaQ9mCJhdgNHb3TADmKp5HfcZo-PHJIoeREtB9G2ye-zF7O_=w1900-h1900-k-no",
+    "lat": 10.7707708,
+    "lon": 106.68791089999999,
+    "popularity": 0.4406701308754761,
+    "affinity": 0.982165113445143,
+    "tags": [
+     {
+      "id": "urn:tag:setting:qloo:corner_shop",
+      "name": "Corner shop",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:cocktails",
+      "name": "Cocktails",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:full_bar",
+      "name": "Full bar",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:decor:qloo:historic",
+      "name": "Historic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:social",
+      "name": "Social",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:casual",
+      "name": "Casual",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:traditional_vietnamese_che",
+      "name": "Traditional vietnamese che",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:authentic",
+      "name": "Authentic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:cultural",
+      "name": "Cultural",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:unique",
+      "name": "Unique",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:beer",
+      "name": "Beer",
       "family": "beverage_offering"
      },
      {
@@ -11365,24 +11752,59 @@
       "family": "beverage_offering"
      },
      {
-      "id": "urn:tag:interests:qloo:gift_shopping",
-      "name": "Gift shopping",
-      "family": "interests"
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
      },
      {
-      "id": "urn:tag:specialty_dish:place:chocolate_tart",
-      "name": "Chocolate tart",
-      "family": "specialty_dish"
+      "id": "urn:tag:decor:qloo:cozy",
+      "name": "Cozy",
+      "family": "decor"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:single_origin_chocolate_bars",
-      "name": "Single origin chocolate bars",
+      "id": "urn:tag:menu_highlight:qloo:coconut_coffee",
+      "name": "Coconut coffee",
       "family": "menu_highlight"
      },
      {
-      "id": "urn:tag:ambience:qloo:social",
-      "name": "Social",
+      "id": "urn:tag:ambience:qloo:nostalgic",
+      "name": "Nostalgic",
       "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:spirits",
+      "name": "Spirits",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:decor:qloo:vintage",
+      "name": "Vintage",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:historic_preservation",
+      "name": "Historic preservation",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:retro_themed",
+      "name": "Retro themed",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:retro_vietnamese",
+      "name": "Retro vietnamese",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:casual_dining",
+      "name": "Casual dining",
+      "family": "interests"
      },
      {
       "id": "urn:tag:setting:qloo:city_center",
@@ -11390,49 +11812,222 @@
       "family": "setting"
      },
      {
-      "id": "urn:tag:interests:qloo:specialty_coffee",
-      "name": "Specialty coffee",
+      "id": "urn:tag:interests:qloo:coffee_culture",
+      "name": "Coffee culture",
       "family": "interests"
      },
      {
-      "id": "urn:tag:ambience:qloo:chocolaty",
-      "name": "Chocolaty",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:specialty_dish:place:pastries",
-      "name": "Pastries",
-      "family": "specialty_dish"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:comfortable",
-      "name": "Comfortable",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:decor:qloo:industrial_artisan",
-      "name": "Industrial artisan",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:interests:qloo:culinary_arts",
-      "name": "Culinary arts",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:cuisine:qloo:desserts",
-      "name": "Desserts",
+      "id": "urn:tag:cuisine:qloo:vietnamese",
+      "name": "Vietnamese",
       "family": "cuisine"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:chocolate_mousse",
-      "name": "Chocolate mousse",
+      "id": "urn:tag:interests:qloo:social_gathering",
+      "name": "Social gathering",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:cafe_fare",
+      "name": "Cafe fare",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:decor:qloo:rustic",
+      "name": "Rustic",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_heritage",
+      "name": "Local heritage",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:place:large_group",
+      "name": "Large group",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:themed",
+      "name": "Themed",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:soursop_desserts",
+      "name": "Soursop desserts",
       "family": "menu_highlight"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:salted_caramel_bonbon",
-      "name": "Salted caramel bonbon",
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:iced_roasted_ginger_tea_with_cream",
+      "name": "Iced roasted ginger tea with cream",
       "family": "menu_highlight"
+     }
+    ],
+    "allTags": [
+     "Authentic",
+     "Corner shop",
+     "Casual",
+     "Cocktails",
+     "Full bar",
+     "Restaurant",
+     "Midday",
+     "Historic",
+     "Social",
+     "Bilingual staff",
+     "Place",
+     "Destination",
+     "Active street life",
+     "Price level",
+     "Bustling",
+     "Traditional vietnamese che",
+     "Catering",
+     "Walkable",
+     "Dining drinking",
+     "Drive through",
+     "People watching",
+     "Breakfast",
+     "Charming",
+     "Pickup",
+     "Locals",
+     "Moderate",
+     "Onsite services",
+     "30 34",
+     "Late night",
+     "Cultural",
+     "Wi fi",
+     "Table service",
+     "Central",
+     "Unique",
+     "Parking",
+     "Credit cards",
+     "Free parking lot",
+     "Beer",
+     "Debit cards",
+     "Coffee and tea",
+     "Urban",
+     "Delivery",
+     "Nfc mobile payments",
+     "Coffee shop",
+     "Takeout",
+     "Cozy",
+     "Coconut coffee",
+     "Outdoor seating",
+     "Multi level seating",
+     "Drive thru",
+     "Nostalgic",
+     "18 24",
+     "Dine in",
+     "Pham ngu lao",
+     "Young adults",
+     "Morning",
+     "Convenience stop",
+     "Afternoon",
+     "Tourists",
+     "Spirits",
+     "Traditional",
+     "Vintage",
+     "₫1 to ₫100000",
+     "Relaxing",
+     "Seating",
+     "Historic preservation",
+     "Retro themed",
+     "Evening",
+     "No contact delivery",
+     "Streetscape",
+     "Retro vietnamese",
+     "Casual dining",
+     "City center",
+     "Coffee culture",
+     "Vegan",
+     "Vietnamese",
+     "Social gathering",
+     "Cafe fare",
+     "Foodies",
+     "District 1",
+     "Rustic",
+     "Local heritage",
+     "Large group",
+     "Themed",
+     "Dessert",
+     "City view",
+     "Soursop desserts",
+     "Social community",
+     "Restroom",
+     "25 29",
+     "Coffee",
+     "Regulars",
+     "Iced roasted ginger tea with cream"
+    ],
+    "rank": 7,
+    "tied": true,
+    "cityRank": null,
+    "lift": null,
+    "pool": "peers"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Ho Chi Minh City",
+     "filter.tags": [
+      "urn:tag:genre:place:restaurant:coffee_shop",
+      "urn:tag:genre:place:cafe",
+      "urn:tag:category:place:coffee_shop"
+     ],
+     "operator.filter.tags": "union",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": false
+   }
+  },
+  "P11": {
+   "ref": "P11",
+   "kind": "place",
+   "item": {
+    "id": "A76EBF77-1473-484B-AABB-5D6FEB66E558",
+    "name": "Bánh Mì Như Lan",
+    "kind": "place",
+    "genre": "restaurant:bakery",
+    "address": "68 Hàm Nghi Sài Gòn Hồ Chí Minh 700000 Vietnam",
+    "neighborhood": "Khu phố 7",
+    "priceLevel": 1,
+    "rating": 3.799999952316284,
+    "summary": "Saigon bakery-restaurant famed for roasted pork bánh mì, offering a wide range of Vietnamese breads, pastries and prepared meals.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnQUHAE-8qQBE4_7jrnPsSKzWVkn8q-K0jop3xp0GN5UOC2JhDKT3P2gdzr0R35P8RjIOa2ACHxFrv15_5C-E5ioH4VqTUIBwvPc8gNx9lMSrMndwsV8MQSsaWxcftzaNMPCRo=w1900-h1900-k-no",
+    "lat": 10.771116899999999,
+    "lon": 106.704177,
+    "popularity": 0.7048481836305547,
+    "affinity": 0.9950621601963269,
+    "tags": [
+     {
+      "id": "urn:tag:ambience:qloo:no_frills",
+      "name": "No frills",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:prepared_meal_shopping",
+      "name": "Prepared meal shopping",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:utilitarian_market_style",
+      "name": "Utilitarian market style",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:setting:qloo:street_corner",
+      "name": "Street corner",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:lively",
+      "name": "Lively",
+      "family": "ambience"
      },
      {
       "id": "urn:tag:setting:qloo:commercial",
@@ -11440,123 +12035,133 @@
       "family": "setting"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:eclair",
-      "name": "Eclair",
-      "family": "menu_highlight"
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
      },
      {
-      "id": "urn:tag:menu_highlight:qloo:cheesecake",
-      "name": "Cheesecake",
-      "family": "menu_highlight"
+      "id": "urn:tag:interests:qloo:local_culinary_history",
+      "name": "Local culinary history",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:traditional",
+      "name": "Traditional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:interests:qloo:quick_service_dining",
+      "name": "Quick service dining",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:functional",
+      "name": "Functional",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:bustling",
+      "name": "Bustling",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:casual",
+      "name": "Casual",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:efficient",
+      "name": "Efficient",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:street_food_culture",
+      "name": "Street food culture",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:interests:qloo:traditional_baking",
+      "name": "Traditional baking",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:convenient",
+      "name": "Convenient",
+      "family": "ambience"
      }
     ],
     "allTags": [
-     "30 34",
-     "Dairy free",
-     "Delivery",
-     "Moderate",
-     "Destination",
-     "Downtown",
-     "French",
-     "Artisan factory shop",
-     "Baking",
-     "Counter service",
-     "Place",
-     "Pain au chocolat",
-     "Pickup",
-     "Halal",
-     "Specialty non alcoholic",
-     "Food photography",
-     "Welcoming",
-     "Foodies",
-     "Dessert enthusiasts",
+     "No frills",
+     "Souvenir shopping",
+     "Retail section",
      "Evening",
-     "Chocolate",
-     "Pastry workshops",
+     "Authentic",
+     "Bakery",
      "Restaurant",
-     "Special occasion",
+     "Prepared meal shopping",
+     "Utilitarian market style",
+     "Street corner",
      "Lively",
-     "Open kitchen",
-     "Stylish",
-     "Tourists",
-     "Culture arts",
-     "Mint chocolate",
-     "Urban",
-     "Chocolate brownie",
-     "Chocolate shop",
-     "Central",
-     "Takeout",
-     "Artistic",
-     "Locals",
-     "Fragrant",
-     "Dining drinking",
-     "Morning",
-     "Casual",
-     "Chic",
-     "Modern",
-     "Seating area",
-     "Chocolate artisan",
-     "Restroom",
-     "25 29",
-     "Signature bold hot chocolate",
-     "Impulse visit",
-     "Trendy",
-     "Tiramisu",
-     "Elegant",
-     "Vegetarian",
-     "Gift shop",
-     "Soft drinks",
-     "Chocolate cafe",
-     "Wheelchair accessible entrance",
-     "Groups of friends",
-     "Coffee and tea",
-     "Gluten free",
-     "Education learning",
-     "Gift shopping",
-     "Chocolate tasting",
-     "Walkable",
-     "Chocolate tart",
-     "Single origin chocolate bars",
-     "Nut free",
-     "Social",
-     "City center",
-     "Wheelchair accessible parking lot",
-     "Specialty coffee",
-     "Vegan",
-     "Chocolaty",
-     "Shopping",
-     "Ben thanh market",
-     "Pastries",
-     "Dine in",
-     "Bustling",
-     "Midday",
-     "Open kitchen view",
-     "Artisanal",
-     "Comfortable",
-     "Wheelchair accessible seating",
-     "Cafe",
-     "Free wi fi",
-     "Industrial artisan",
-     "Culinary arts",
-     "Identifies as women owned",
-     "Cooking classes",
-     "Desserts",
-     "Chocolate mousse",
-     "Couples",
-     "18 24",
-     "Lgbtq+ friendly",
-     "Afternoon",
-     "Salted caramel bonbon",
-     "Gourmet",
      "Commercial",
-     "Eclair",
-     "Cheesecake",
-     "Air conditioning"
+     "Takeout",
+     "Coffee",
+     "Delivery",
+     "Onsite services",
+     "Takeout food purchase",
+     "Central",
+     "Free parking lot",
+     "Local culinary history",
+     "Traditional",
+     "Convenient",
+     "Quick service dining",
+     "In store shopping",
+     "Functional",
+     "Dining drinking",
+     "Bustling",
+     "Casual",
+     "Outdoor seating",
+     "Efficient",
+     "Walkable",
+     "Street food culture",
+     "City center",
+     "Convenience stop",
+     "Shopping",
+     "Saigon river",
+     "Moderately expensive",
+     "Afternoon",
+     "Midday",
+     "Dine in",
+     "Price level",
+     "Takeout service",
+     "Street view",
+     "Ben thanh market",
+     "Deli counter",
+     "₫1 to ₫100000",
+     "Traditional baking",
+     "Urban",
+     "Breakfast",
+     "Free street parking",
+     "Place",
+     "Nguyen hue walking street",
+     "Morning",
+     "Busy commercial district",
+     "Destination",
+     "Quick visit"
     ],
-    "rank": 1,
+    "rank": 2,
     "tied": false,
-    "cityRank": 49,
-    "lift": 48,
+    "cityRank": null,
+    "lift": null,
     "pool": "all"
    },
    "source": {
@@ -11567,7 +12172,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P12": {
@@ -11822,7 +12427,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P13": {
@@ -12300,7 +12905,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P14": {
@@ -12637,7 +13242,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P15": {
@@ -12904,11 +13509,312 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "P16": {
    "ref": "P16",
+   "kind": "place",
+   "item": {
+    "id": "719DB07D-93F9-4415-AD3C-9F0BF0E382D2",
+    "name": "Charm Bakery Vietnam",
+    "kind": "place",
+    "genre": "restaurant:bakery",
+    "address": "10 Lê Thị Riêng Bến Thành Hồ Chí Minh 700000 Vietnam",
+    "neighborhood": "Khu phố 4",
+    "priceLevel": 1,
+    "rating": 4.800000190734863,
+    "summary": "Women-owned bakery-café in central Ho Chi Minh City offering coffee, dine-in, takeout, drive-through, and delivery; LGBTQ+ friendly.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnhNYNlIvMOv8nAmk7Ycd_VxT1ykKPq1iROPxeg0bUS8xH11WG3ACc0R8u2BemPPlVY8-ugheO49RAn-nHA3lMXByJzrR9Ac9sX7ZRXyw0TFiUkIQzL6-D3G3PJp2WKlVyZPioU5w=w1900-h1900-k-no",
+    "lat": 10.7715038,
+    "lon": 106.6926822,
+    "popularity": 0.4524044603081385,
+    "affinity": 0.9915486339571752,
+    "tags": [
+     {
+      "id": "urn:tag:menu_highlight:qloo:vegetarian_banh_mi",
+      "name": "Vegetarian banh mi",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:culinary_travel",
+      "name": "Culinary travel",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:avocado_smoothie",
+      "name": "Avocado smoothie",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:roast_pork_banh_mi",
+      "name": "Roast pork banh mi",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:casual",
+      "name": "Casual",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:sustainable_dining",
+      "name": "Sustainable dining",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:relaxing",
+      "name": "Relaxing",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:offerings:place:coffee",
+      "name": "Coffee",
+      "family": "offerings"
+     },
+     {
+      "id": "urn:tag:setting:qloo:commercial",
+      "name": "Commercial",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:special_charm_banh_mi",
+      "name": "Special charm banh mi",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:mango_smoothie",
+      "name": "Mango smoothie",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:interests:qloo:street_food_exploration",
+      "name": "Street food exploration",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:decor:qloo:simple",
+      "name": "Simple",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:banh_mi",
+      "name": "Banh mi",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:clean",
+      "name": "Clean",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:iced_coffee",
+      "name": "Iced coffee",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:comfortable",
+      "name": "Comfortable",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:interests:qloo:handmade_craft",
+      "name": "Handmade craft",
+      "family": "interests"
+     },
+     {
+      "id": "urn:tag:setting:qloo:urban",
+      "name": "Urban",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:setting:qloo:bakery_cafe",
+      "name": "Bakery cafe",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:smoothies",
+      "name": "Smoothies",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:setting:qloo:city_center",
+      "name": "City center",
+      "family": "setting"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:charming",
+      "name": "Charming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:decor:qloo:minimalist",
+      "name": "Minimalist",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:vietnamese",
+      "name": "Vietnamese",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:decor:qloo:modern",
+      "name": "Modern",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:positive",
+      "name": "Positive",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:coffee_and_tea",
+      "name": "Coffee and tea",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:cuisine:qloo:fusion",
+      "name": "Fusion",
+      "family": "cuisine"
+     },
+     {
+      "id": "urn:tag:menu_highlight:qloo:pate_banh_mi",
+      "name": "Pate banh mi",
+      "family": "menu_highlight"
+     },
+     {
+      "id": "urn:tag:decor:qloo:cozy",
+      "name": "Cozy",
+      "family": "decor"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:intimate",
+      "name": "Intimate",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:ambience:qloo:welcoming",
+      "name": "Welcoming",
+      "family": "ambience"
+     },
+     {
+      "id": "urn:tag:beverage_offering:qloo:fresh_juices",
+      "name": "Fresh juices",
+      "family": "beverage_offering"
+     },
+     {
+      "id": "urn:tag:interests:qloo:local_culture",
+      "name": "Local culture",
+      "family": "interests"
+     }
+    ],
+    "allTags": [
+     "Young professionals",
+     "Dining drinking",
+     "Vegetarian banh mi",
+     "Bui vien street",
+     "Takeout",
+     "Casual",
+     "Culinary travel",
+     "Solo diners",
+     "Avocado smoothie",
+     "Roast pork banh mi",
+     "Sustainable dining",
+     "Relaxing",
+     "Wifi",
+     "Restroom",
+     "In store pickup",
+     "Onsite services",
+     "Air conditioning",
+     "Allergy friendly",
+     "Delivery",
+     "Quick bites",
+     "Coffee",
+     "Commercial",
+     "30 34",
+     "Tourists",
+     "Cafe",
+     "Evening",
+     "Special charm banh mi",
+     "Mango smoothie",
+     "Street food exploration",
+     "Simple",
+     "Banh mi",
+     "Convenience stop",
+     "Clean",
+     "Pickup",
+     "Iced coffee",
+     "Place",
+     "Authentic",
+     "Wi fi",
+     "Afternoon",
+     "Comfortable",
+     "Handmade craft",
+     "Locals",
+     "Convenient",
+     "Central",
+     "Moderate",
+     "Quick visit",
+     "₫1 to ₫100000",
+     "Urban",
+     "Bakery cafe",
+     "Midday",
+     "Smoothies",
+     "Dine in",
+     "Tourist hub",
+     "City center",
+     "Charming",
+     "Minimalist",
+     "Morning",
+     "Pham ngu lao",
+     "Drive thru",
+     "Gender neutral restroom",
+     "Destination",
+     "Bustling",
+     "Vietnamese",
+     "Modern",
+     "Cash only",
+     "Restaurant",
+     "Positive",
+     "Coffee and tea",
+     "18 24",
+     "Fusion",
+     "Walkable",
+     "Bakery",
+     "Pate banh mi",
+     "Breakfast",
+     "Traditional",
+     "Cozy",
+     "Identifies as women owned",
+     "Street view",
+     "25 29",
+     "Intimate",
+     "Foodies",
+     "Lgbtq+ friendly",
+     "Restrooms",
+     "Welcoming",
+     "Fresh juices",
+     "Vegetarian",
+     "Local culture"
+    ],
+    "rank": 6,
+    "tied": true,
+    "cityRank": null,
+    "lift": null,
+    "pool": "all"
+   },
+   "source": {
+    "endpoint": "/v2/insights",
+    "params": {
+     "filter.type": "urn:entity:place",
+     "filter.location.query": "Ho Chi Minh City",
+     "take": 50,
+     "signal.location.query": "Tokyo"
+    },
+    "cached": false
+   }
+  },
+  "P17": {
+   "ref": "P17",
    "kind": "place",
    "item": {
     "id": "122E4C7B-48F2-4FB4-84DE-D53BABE86395",
@@ -13168,11 +14074,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P17": {
-   "ref": "P17",
+  "P18": {
+   "ref": "P18",
    "kind": "place",
    "item": {
     "id": "C6C75F80-C6A7-4D0B-B6F8-04DD026B477D",
@@ -13540,11 +14446,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P18": {
-   "ref": "P18",
+  "P19": {
+   "ref": "P19",
    "kind": "place",
    "item": {
     "id": "174C9653-D956-4259-BCCF-CDA0F34F94A6",
@@ -13928,11 +14834,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P19": {
-   "ref": "P19",
+  "P20": {
+   "ref": "P20",
    "kind": "place",
    "item": {
     "id": "985A7D52-F4A8-48AC-9D48-F93FEC722108",
@@ -14271,385 +15177,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
-   }
-  },
-  "C1": {
-   "ref": "C1",
-   "kind": "artist",
-   "item": {
-    "id": "8E6AF5C9-1520-455C-A7C3-F5C638CE60E6",
-    "name": "小嶋陽菜",
-    "kind": "artist",
-    "disambiguation": "小嶋陽菜",
-    "popularity": 0.6147133803878392,
-    "affinity": 0.9999936180919192,
-    "allTags": [
-     "Upbeat",
-     "Popular",
-     "Idol Pop",
-     "J -pop",
-     "Dedicated",
-     "Dreams",
-     "Vocals",
-     "Idol",
-     "Engaging",
-     "Dance Pop",
-     "Perseverance",
-     "Loyal",
-     "Youth",
-     "Pop",
-     "Versatile",
-     "Energetic",
-     "Charming",
-     "Youthful",
-     "Electropop",
-     "J-Pop",
-     "Charismatic",
-     "Catchy",
-     "Japanese",
-     "Morning Musume",
-     "Ayumi Hamasaki",
-     "Friendship",
-     "Bubblegum Pop",
-     "J-POP",
-     "Love",
-     "3",
-     "Polished",
-     "Bright",
-     "Dance-Pop"
-    ],
-    "rank": 2,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C2": {
-   "ref": "C2",
-   "kind": "artist",
-   "item": {
-    "id": "695EE5C5-38C0-4EA0-A125-841B2125402C",
-    "name": "Utada",
-    "kind": "artist",
-    "disambiguation": "Utada",
-    "popularity": 0.9781340725740387,
-    "affinity": 0.9999804286750361,
-    "allTags": [
-     "Emotive",
-     "Loyal",
-     "Mezzo-Soprano",
-     "Versatile",
-     "Janet Jackson",
-     "Pop",
-     "Self Reflection",
-     "Dance",
-     "Growth",
-     "Electronic Pop",
-     "Dedicated",
-     "Smooth",
-     "Melodic",
-     "Dynamic",
-     "Expressive",
-     "Stevie Wonder",
-     "J-Pop",
-     "Synth-Driven",
-     "J-POP",
-     "Vocals",
-     "Mariah Carey",
-     "2",
-     "Keyboard",
-     "Contemporary R&B",
-     "Heartbreak",
-     "Michael Jackson",
-     "R & B",
-     "Diverse",
-     "Introspective",
-     "Intimate",
-     "Electronic",
-     "Identity",
-     "Soulful Balladry",
-     "Love",
-     "Sophisticated",
-     "Innovative",
-     "Soul",
-     "Passionate",
-     "Piano",
-     "Self-Reflection",
-     "R&B"
-    ],
-    "rank": 3,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C3": {
-   "ref": "C3",
-   "kind": "artist",
-   "item": {
-    "id": "AC3BC2C6-402D-439D-86EB-FCECCF649CD9",
-    "name": "宇多田ヒカル",
-    "kind": "artist",
-    "disambiguation": "宇多田ヒカル",
-    "popularity": 0.9965167869243523,
-    "affinity": 0.9999804286750361,
-    "allTags": [
-     "J-Pop",
-     "Vocals",
-     "Melodic",
-     "Electropop",
-     "Stevie Wonder",
-     "Alto",
-     "Dance",
-     "Urban Pop",
-     "Soulful",
-     "R & B",
-     "Love",
-     "Electronic",
-     "Contemporary R&B",
-     "Mariah Carey",
-     "Identity",
-     "Smooth",
-     "Passionate",
-     "Expressive",
-     "Loyal",
-     "Pop",
-     "Catchy",
-     "Versatile",
-     "Keyboard",
-     "Michael Jackson",
-     "Emotive",
-     "Intimate",
-     "Growth",
-     "Jpop",
-     "Dynamic",
-     "J-POP",
-     "Dedicated",
-     "J -pop",
-     "Innovative",
-     "Heartbreak",
-     "Self Reflection",
-     "Soul",
-     "Diverse",
-     "Japanese",
-     "Influential",
-     "Piano",
-     "Japanese Electronic",
-     "Janet Jackson",
-     "2",
-     "Self-Reflection",
-     "R&B"
-    ],
-    "rank": 4,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C4": {
-   "ref": "C4",
-   "kind": "artist",
-   "item": {
-    "id": "E451D8AE-769F-4859-B200-7740A6E3319B",
-    "name": "深田恭子",
-    "kind": "artist",
-    "disambiguation": "深田恭子",
-    "popularity": 0.8067422946608209,
-    "affinity": 0.9999672390692125,
-    "allTags": [
-     "Expressive",
-     "Engaging",
-     "J-Pop Idol",
-     "Seiko Matsuda",
-     "Japanese Ballad",
-     "Japanese Idol Music",
-     "Vocals",
-     "Dedicated",
-     "Heartbreak",
-     "Energetic",
-     "Popular",
-     "Light Pop",
-     "Melodic Pop",
-     "Versatile",
-     "Catchy",
-     "Supportive",
-     "Youthful Pop",
-     "Pop",
-     "3",
-     "Charming",
-     "J-Pop",
-     "Actress",
-     "Japanese Pop",
-     "Youthful",
-     "Melodic",
-     "Idol Pop",
-     "J-POP",
-     "Youth",
-     "Dreams",
-     "J -pop",
-     "Love",
-     "Talented",
-     "Japanese",
-     "Akina Nakamori",
-     "Light",
-     "Accessible"
-    ],
-    "rank": 6,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C5": {
-   "ref": "C5",
-   "kind": "artist",
-   "item": {
-    "id": "2A99382A-7E18-4833-8B70-945FB81884FA",
-    "name": "香取慎吾",
-    "kind": "artist",
-    "disambiguation": "香取慎吾",
-    "popularity": 0.5663514407984849,
-    "affinity": 0.9999604314567987,
-    "allTags": [
-     "Pop Rock",
-     "J-Pop",
-     "Passionate",
-     "Melodic",
-     "Energetic",
-     "Dance Pop",
-     "Friendship",
-     "J-POP",
-     "Charismatic",
-     "Versatile",
-     "Vocals",
-     "2",
-     "Pop",
-     "Loyal",
-     "Expressive",
-     "Rock",
-     "Dance",
-     "Life",
-     "Dedicated",
-     "Japanese",
-     "Dynamic",
-     "Japanese Pop Icons",
-     "Supportive",
-     "J -pop",
-     "Hope",
-     "Love",
-     "Michael Jackson",
-     "Japanese Idol Music",
-     "Catchy",
-     "Madonna",
-     "Contemporary Pop",
-     "Engaging",
-     "Creative",
-     "Idol Pop",
-     "Pop-oriented",
-     "Accessible",
-     "Dance-Pop"
-    ],
-    "rank": 7,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
-   }
-  },
-  "C6": {
-   "ref": "C6",
-   "kind": "artist",
-   "item": {
-    "id": "64F73B70-9BB4-4769-8F24-25722508E83B",
-    "name": "佐々木希",
-    "kind": "artist",
-    "disambiguation": "佐々木希",
-    "popularity": 0.6218076008100191,
-    "affinity": 0.9999540492744502,
-    "allTags": [
-     "J-Pop",
-     "Love",
-     "Vocals",
-     "Elegant",
-     "Talented",
-     "Life",
-     "Dance Pop",
-     "Popular",
-     "Japanese Pop",
-     "Dedicated",
-     "Namie Amuro",
-     "Japanese",
-     "Passionate",
-     "Contemporary R&B",
-     "Charismatic",
-     "3",
-     "J-POP",
-     "Melodic",
-     "Upbeat",
-     "Graceful",
-     "Emotions",
-     "Pop",
-     "Ayumi Hamasaki",
-     "J -pop",
-     "Synthpop",
-     "Jpop",
-     "Engaging",
-     "Catchy",
-     "Energetic",
-     "Loyal",
-     "Electropop",
-     "Versatile",
-     "Actor",
-     "Emotional",
-     "Polished",
-     "Dance-Pop"
-    ],
-    "rank": 8,
-    "localRank": null
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:artist",
-     "signal.location.query": "Tokyo",
-     "take": 50
-    },
-    "cached": true
+    "cached": false
    }
   },
   "C7": {
@@ -14743,6 +15271,7 @@
      "Insecure",
      "Teenager"
     ],
+    "musicTags": 0,
     "rank": 3,
     "localRank": null
    },
@@ -14753,7 +15282,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C8": {
@@ -14839,6 +15368,7 @@
      "Heist",
      "Emotionally engaged"
     ],
+    "musicTags": 0,
     "rank": 11,
     "localRank": null
    },
@@ -14849,7 +15379,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C9": {
@@ -14934,6 +15464,7 @@
      "Determined",
      "Identity"
     ],
+    "musicTags": 0,
     "rank": 19,
     "localRank": null
    },
@@ -14944,7 +15475,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C10": {
@@ -15024,6 +15555,7 @@
      "Redemption",
      "Socially conscious"
     ],
+    "musicTags": 0,
     "rank": 21,
     "localRank": null
    },
@@ -15034,7 +15566,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C11": {
@@ -15340,6 +15872,7 @@
      "Brutality",
      "Brave"
     ],
+    "musicTags": 0,
     "rank": 22,
     "localRank": null
    },
@@ -15350,7 +15883,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "C12": {
@@ -15539,6 +16072,7 @@
      "Shounen",
      "Regeneration"
     ],
+    "musicTags": 0,
     "rank": 24,
     "localRank": null
    },
@@ -15549,7 +16083,7 @@
      "signal.location.query": "Tokyo",
      "take": 50
     },
-    "cached": true
+    "cached": false
    }
   },
   "T1": {
@@ -15567,10 +16101,10 @@
     "score": 3.3811668803033874,
     "derived": true,
     "places": [
-     "P1",
+     "P11",
      "P13",
-     "P16",
-     "P19"
+     "P17",
+     "P20"
     ],
     "ref": "T1"
    },
@@ -15579,8 +16113,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P20": {
-   "ref": "P20",
+  "P21": {
+   "ref": "P21",
    "kind": "place",
    "item": {
     "id": "9F048C51-2C53-4AF4-A6D3-8BC171A84E68",
@@ -15918,11 +16452,11 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
-  "P21": {
-   "ref": "P21",
+  "P22": {
+   "ref": "P22",
    "kind": "place",
    "item": {
     "id": "D74D3388-0AD1-4EE5-878A-1332523F7CC3",
@@ -16320,7 +16854,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "T2": {
@@ -16339,9 +16873,9 @@
     "derived": true,
     "places": [
      "P2",
-     "P3",
-     "P20",
-     "P21"
+     "P16",
+     "P21",
+     "P22"
     ],
     "ref": "T2"
    },
@@ -16350,8 +16884,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P22": {
-   "ref": "P22",
+  "P23": {
+   "ref": "P23",
    "kind": "place",
    "item": {
     "id": "4E922581-7841-4B71-A312-D24FB604B1D2",
@@ -16656,7 +17190,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "T3": {
@@ -16676,8 +17210,8 @@
     "places": [
      "P12",
      "P13",
-     "P3",
-     "P22"
+     "P16",
+     "P23"
     ],
     "ref": "T3"
    },
@@ -16713,8 +17247,8 @@
     "rule": "share of the market's favourite places carrying the tag vs share of the city's top places"
    }
   },
-  "P23": {
-   "ref": "P23",
+  "P24": {
+   "ref": "P24",
    "kind": "place",
    "item": {
     "id": "CA35C060-E643-4A74-91D7-97F9363E2FA8",
@@ -16951,7 +17485,7 @@
      "take": 50,
      "signal.location.query": "Tokyo"
     },
-    "cached": true
+    "cached": false
    }
   },
   "T5": {
@@ -16970,9 +17504,9 @@
     "derived": true,
     "places": [
      "P12",
-     "P22",
-     "P7",
-     "P23"
+     "P23",
+     "P6",
+     "P24"
     ],
     "ref": "T5"
    },
@@ -16999,7 +17533,7 @@
      "P12",
      "P2",
      "P14",
-     "P16"
+     "P17"
     ],
     "ref": "T6"
    },
@@ -17026,7 +17560,7 @@
      "P2",
      "P13",
      "P14",
-     "P17"
+     "P18"
     ],
     "ref": "T7"
    },
@@ -17077,7 +17611,7 @@
     "ratio": null,
     "verdict": "too-few",
     "examples": [
-     "P4"
+     "P3"
     ],
     "ref": "I1"
    },
@@ -17086,211 +17620,21 @@
     "rule": "share of the market's favourites carrying the tag vs share of the city's top list"
    }
   },
-  "P24": {
-   "ref": "P24",
-   "kind": "place",
-   "item": {
-    "id": "D6B795F8-F7D7-46A0-A4E3-148D9729DE53",
-    "name": "The Spring Hotel",
-    "kind": "place",
-    "genre": "hotel",
-    "address": "44-46 Lê Thánh Tôn Bến Nghé Quận 1 Hồ Chí Minh 700000, Vietnam",
-    "neighborhood": "Khu phố 2",
-    "priceLevel": null,
-    "rating": 3.799999952316284,
-    "summary": "Casual hotel in central Ho Chi Minh City with traditional decor, rooftop terrace, and city views near major landmarks.",
-    "image": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGwXlplcrqAVH1qyw9ygtbutMnMfSVSJYCHjBHkI0zpRNo0Au3rizawi1e1D7S3DauEQMhJ9ST2zOQrjfa68kgKeYUrC7fvZPPRM1om_FDGN9eR0AYRBek6GC4Xbvi9_e3b5zmrbW2dGJetL093bf3La-Ml-6WOa8rD4vTRhTmWqi-KevfbXRnEYg=w1900-h1900-k-no",
-    "lat": 10.7789972,
-    "lon": 106.7030973,
-    "popularity": 0.7676738354170218,
-    "affinity": 0.982165113445143,
-    "tags": [
-     {
-      "id": "urn:tag:ambience:qloo:no_frills",
-      "name": "No frills",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:welcoming",
-      "name": "Welcoming",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:classic",
-      "name": "Classic",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:budget_friendly",
-      "name": "Budget friendly",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:urban_sightseeing",
-      "name": "Urban sightseeing",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:setting:qloo:urban_core",
-      "name": "Urban core",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:decor:qloo:dated",
-      "name": "Dated",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:interests:qloo:street_food_exploration",
-      "name": "Street food exploration",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:decor:qloo:traditional",
-      "name": "Traditional",
-      "family": "decor"
-     },
-     {
-      "id": "urn:tag:setting:qloo:city_center",
-      "name": "City center",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:convenient",
-      "name": "Convenient",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:interests:qloo:business_travel",
-      "name": "Business travel",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:interests:qloo:budget_travel",
-      "name": "Budget travel",
-      "family": "interests"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:functional",
-      "name": "Functional",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:ambience:qloo:casual",
-      "name": "Casual",
-      "family": "ambience"
-     },
-     {
-      "id": "urn:tag:setting:qloo:historic",
-      "name": "Historic",
-      "family": "setting"
-     },
-     {
-      "id": "urn:tag:interests:qloo:local_culture",
-      "name": "Local culture",
-      "family": "interests"
-     }
-    ],
-    "allTags": [
-     "Air conditioned",
-     "Walkable",
-     "Dining drinking",
-     "Room service",
-     "Lgbtq+ friendly",
-     "No frills",
-     "Wi fi",
-     "Welcoming",
-     "Bathtub",
-     "Free wi fi",
-     "Classic",
-     "Breakfast available",
-     "Sightseeing",
-     "Ben thanh market",
-     "Parking",
-     "Lounge",
-     "Budget friendly",
-     "Urban sightseeing",
-     "Free parking",
-     "Central",
-     "Saigon central post office",
-     "High accessibility",
-     "Urban core",
-     "Nguyen hue boulevard",
-     "Dated",
-     "Convenience stop",
-     "Daily housekeeping",
-     "Notre dame cathedral",
-     "Street food exploration",
-     "Front desk 247",
-     "Saigon opera house",
-     "Three star",
-     "Bustling",
-     "Traditional",
-     "City view",
-     "Airport shuttle",
-     "Flat screen tv",
-     "City center",
-     "Commercial",
-     "Tours",
-     "Restaurant",
-     "Terrace",
-     "Hotel",
-     "Urban exploration",
-     "Convenient",
-     "Place",
-     "Shopping",
-     "All day",
-     "Hotel class",
-     "Historic",
-     "Mini fridge",
-     "Kid friendly",
-     "Business travel",
-     "Smoke free",
-     "Budget travel",
-     "Air conditioning",
-     "Towels",
-     "Standard",
-     "Free breakfast",
-     "Suite",
-     "Functional",
-     "Destination",
-     "Safe",
-     "Casual",
-     "Bar",
-     "Laundry service",
-     "Rooftop terrace",
-     "Local culture"
-    ],
-    "pool": "all"
-   },
-   "source": {
-    "endpoint": "/v2/insights",
-    "params": {
-     "filter.type": "urn:entity:place",
-     "filter.location.query": "Ho Chi Minh City",
-     "take": 50,
-     "signal.location.query": "Tokyo"
-    },
-    "cached": true
-   }
-  },
   "I2": {
    "ref": "I2",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:amenity:place:rooftop_terrace",
-    "name": "Rooftop Terrace",
+    "id": "urn:tag:service_type:qloo:rooftop_seating",
+    "name": "Rooftop Seating",
     "idea": "rooftop seating",
     "domain": "places",
-    "marketCount": 1,
+    "marketCount": 0,
     "marketTotal": 50,
-    "cityCount": 3,
+    "cityCount": 0,
     "cityTotal": 50,
-    "ratio": 0.33333333333333337,
-    "verdict": "too-few",
-    "examples": [
-     "P24"
-    ],
+    "ratio": null,
+    "verdict": "untested",
+    "examples": [],
     "ref": "I2"
    },
    "source": {
@@ -17302,8 +17646,8 @@
    "ref": "I3",
    "kind": "idea",
    "item": {
-    "id": "urn:tag:decor:qloo:vinyl_record_themed",
-    "name": "Vinyl Record Themed",
+    "id": "urn:tag:decor:qloo:vinyl_and_lp_records_decor",
+    "name": "Vinyl and LP Records Decor",
     "idea": "vinyl records",
     "domain": "places",
     "marketCount": 0,
@@ -17336,7 +17680,7 @@
     "verdict": "too-few",
     "examples": [
      "P2",
-     "P6"
+     "P5"
     ],
     "ref": "I4"
    },
@@ -17769,7 +18113,7 @@
      "signal.location.query": "Tokyo",
      "take": 1
     },
-    "cached": true
+    "cached": false
    }
   }
  },
@@ -17787,103 +18131,109 @@
    "detail": null
   },
   {
-   "ms": 26,
+   "ms": 3500,
    "phase": "qloo",
-   "label": "16 cafés and 50 places with a Tokyo signal; 8 tags stand out; 0 shared artists",
+   "label": "14 cafés and 50 places with a Tokyo signal; 8 tags stand out; 0 shared artists",
    "detail": null
   },
   {
-   "ms": 27,
+   "ms": 3813,
    "phase": "qloo",
    "label": "Audience of the top favourites (Qloo demographics)",
-   "detail": "skews 25–29, balanced by gender"
+   "detail": "skews 25–29, leans male"
   },
   {
-   "ms": 27,
+   "ms": 3814,
    "phase": "agent",
    "label": "Map 4 owner ideas to Qloo tags and score them",
    "detail": null
   },
   {
-   "ms": 1219,
+   "ms": 5476,
    "phase": "agent",
    "label": "Look up Qloo tags for “matcha latte”",
    "detail": "Matcha Latte, Matcha Latte And Cheesecake, Matchalatte, Matcha Latte And Yuzu Ginger Mint Tea"
   },
   {
-   "ms": 2332,
+   "ms": 6693,
    "phase": "agent",
    "label": "Look up Qloo tags for “rooftop seating”",
    "detail": "Rooftop Seating, Wheelchair accessible seating, Seating, Outdoor seating"
   },
   {
-   "ms": 3581,
+   "ms": 8013,
    "phase": "agent",
    "label": "Look up Qloo tags for “vinyl records”",
    "detail": "Vinyl and LP Records Decor, Vinyl sign shop, Records storage facility, Office Of Vital Records"
   },
   {
-   "ms": 6271,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “pour-over coffee”",
-   "detail": "Pour Over Coffee, Pourover Coffee, Pour Over Coffee Of The Day, Pour Over Coffee Espresso Tea"
-  },
-  {
-   "ms": 7898,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “rooftop”",
-   "detail": "Rooftop, Rooftop Terrace, Rooftop Pool, Rooftop Bar"
-  },
-  {
-   "ms": 12151,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “vinyl record”",
-   "detail": "Vinyl Record Themed, Vinyl Record Decor, Vinyl Record Events, Vinyl Record Menu Covers"
-  },
-  {
-   "ms": 14435,
-   "phase": "agent",
-   "label": "Look up Qloo tags for “record”",
-   "detail": "Record, Recording studio, Record Producer, Records storage facility"
-  },
-  {
-   "ms": 16649,
+   "ms": 9534,
    "phase": "agent",
    "label": "Look up Qloo tags for “vinyl”",
    "detail": "Vinyl sign shop, Vinyl Flooring, Vinyl Record Themed, Vinyl DJ Nights"
   },
   {
-   "ms": 20197,
+   "ms": 11828,
    "phase": "agent",
-   "label": "Score 4 ideas against the two lists",
-   "detail": "matcha latte → Matcha Latte: 1/50 vs 0/50 (too-few); pour-over coffee → Pour Over Coffee: 2/50 vs 1/50 (too-few); rooftop seating → Rooftop Terrace: 1/50 vs 3/50 (too-few); vinyl records → Vinyl Record Themed: 0/50 vs 0/50 (untested)"
+   "label": "Look up Qloo tags for “record store”",
+   "detail": "Record store, Record Stores, In-store shopping, In-store pickup"
   },
   {
-   "ms": 23536,
+   "ms": 13933,
    "phase": "agent",
-   "label": "Look up Qloo tags for “record player”",
-   "detail": "Recorder Player, Association Football Player, Basketball Player, American Football Player"
+   "label": "Look up Qloo tags for “music”",
+   "detail": "Music, Musical, Musician"
   },
   {
-   "ms": 23536,
+   "ms": 15365,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “outdoor seating”",
+   "detail": "Outdoor seating, Outdoor Seating Area, Outdoor Seating View, Outdoor Seating with Water Features"
+  },
+  {
+   "ms": 17290,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “pour over coffee”",
+   "detail": "Pour Over Coffee, Pourover Coffee, Pour Over Coffee Of The Day, Pour Over Coffee Espresso Tea"
+  },
+  {
+   "ms": 19256,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “record”",
+   "detail": "Record, Recording studio, Record Producer, Records storage facility"
+  },
+  {
+   "ms": 21128,
+   "phase": "agent",
+   "label": "Look up Qloo tags for “vinyl music”",
+   "detail": "Vinyl Music Listening, Vinyl Music Atmosphere, Vinyl Music Theme, Vinyl Music Hall"
+  },
+  {
+   "ms": 21168,
+   "phase": "agent",
+   "label": "Score 4 remaining ideas with the closest tags found",
+   "detail": "matcha latte → Matcha Latte: 1/50 vs 0/50 (too-few); pour-over coffee → Pour Over Coffee: 2/50 vs 1/50 (too-few); rooftop seating → Rooftop Seating: 0/50 vs 0/50 (untested); vinyl records → Vinyl and LP Records Decor: 0/50 vs 0/50 (untested)"
+  },
+  {
+   "ms": 21169,
    "phase": "model",
    "label": "Write the brief from the fact sheet",
    "detail": null
   },
   {
-   "ms": 23536,
+   "ms": 21169,
    "phase": "model",
    "label": "Ask the model the same question with no data, then look its picks up in Qloo",
    "detail": null
   },
   {
-   "ms": 36281,
+   "ms": 41963,
    "phase": "done",
    "label": "Brief ready (nemotron (nvidia/nemotron-3-super-120b-a12b))",
    "detail": null
   }
  ],
  "engine": "nemotron (nvidia/nemotron-3-super-120b-a12b)",
- "facts": "Business: Cafe in Ho Chi Minh City, Vietnam. Visitor market: people living in Tokyo, Japan.\n\ncafés in Ho Chi Minh City with a measurable Tokyo signal (16 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Ho Chi Minh City's top cafés without that signal:\nP1 Bánh Mì Như Lan (Khu phố 7) — market rank 1, city rank not in the top list — tags: No frills, Prepared meal shopping, Utilitarian market style, Street corner, Lively, Commercial\nP2 Saigon Coffee Roastery (Vo Thi Sau Ward) — market rank 2, city rank not in the top list — tags: Industrial, Vietnamese iced coffee, Late night food, Historic, Quiet, Vietnamese cafe\nP3 Charm Bakery Vietnam (Khu phố 4) — market rank 3, city rank not in the top list — tags: Vegetarian banh mi, Culinary travel, Avocado smoothie, Roast pork banh mi, Casual, Sustainable dining\nP4 Dalaland Coffee (Thao Dien Ward) — market rank 4, city rank not in the top list — tags: Lively, American, Large group, Happy hour food, Casual socializing, Coffee\nP5 Highlands Coffee (An Loi Dong Ward) — market rank =5, city rank not in the top list — tags: Jogging, Welcoming, Late night food, Happy hour, Happy hour food, Modern\nP6 Lacàph Coffee Bar (Khu phố 5) — market rank =5, city rank not in the top list — tags: Wine, Unique, Cultural exploration, Relaxing, Craft cocktails, Happy hour food\nP7 ABOUT LIFE COFFEE BREWERS HCM (Vo Thi Sau Ward) — market rank =5, city rank 36 — tags: Cafe culture, Coffee and tea, Street level, Flat white, Minimalist, Food photography\nP8 Bơ by Butterman (Khu phố 1) — market rank =5, city rank not in the top list — tags: Bakery, Coffee, Cafe culture, Coffee and tea, Modern, Pastries\nP9 Caztus Ice Blended (Pham Ngu Lao Ward) — market rank =9, city rank 23 — tags: Cozy, Coffee culture, Vintage inspired, Beverage crafting, Casual, Coffee and tea\nP10 ITune Coffee (Ward 13) — market rank =9, city rank not in the top list — tags: Themed, Mindfulness, Classic, Productivity, Zen inspired, Buddhism\n\nAll kinds of places in Ho Chi Minh City favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP11 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 1, city rank 49\nP1 Bánh Mì Như Lan (bakery, Khu phố 7) — market rank 2, city rank not in top 50\nP12 Hủ Tiếu Nam Vang Quỳnh (noodle shop, Nguyen Cu Trinh Ward) — market rank 3, city rank not in top 50\nP2 Saigon Coffee Roastery (cafe, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP13 Phở Hòa Pasteur (pho, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP14 Cơm Niêu Sài Gòn (vietnamese, Vo Thi Sau Ward) — market rank =6, city rank not in top 50\nP15 Hoi An Sense - Vietnamese Restaurant (vietnamese, Da Kao Ward) — market rank =6, city rank not in top 50\nP3 Charm Bakery Vietnam (bakery, Khu phố 4) — market rank =6, city rank not in top 50\nP16 Hủ Tiếu Mì Cật (noodle shop, Khu phố 6) — market rank =6, city rank not in top 50\nP17 Bánh Xèo 46A (vietnamese, Tan Dinh Ward) — market rank =10, city rank not in top 50\nP18 Vietnam House Restaurant (vietnamese, Khu phố 5) — market rank =10, city rank not in top 50\nP19 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank =10, city rank not in top 50\n\nTags clearly more common among the places people in Tokyo favour in Ho Chi Minh City than among the city's top places:\nT1 \"No frills\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P1, P13, P16, P19\nT2 \"Cozy\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P2, P3, P20, P21\nT3 \"Simple\" (decor) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P13, P3, P22\nT4 \"Spirits\" (beverage_offering) — 22/50 of their favourites vs 2/50 city-wide, 11.0× as common — e.g. P2, P13, P14, P15\nT5 \"Street level\" (setting) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P22, P7, P23\nT6 \"Asian\" (cuisine) — 16/50 of their favourites vs 2/50 city-wide, 8.0× as common — e.g. P12, P2, P14, P16\nT7 \"Large group\" (ambience) — 31/50 of their favourites vs 8/50 city-wide, 3.9× as common — e.g. P2, P13, P14, P17\nT8 \"Vietnamese\" (cuisine) — 27/50 of their favourites vs 6/50 city-wide, 4.5× as common — e.g. P12, P13, P14, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, balanced by gender\n\nMusic loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"matcha latte\" → tag \"Matcha Latte\" (places): 1/50 of their favourites vs 0/50 city-wide — verdict too-few — e.g. P4\nI2 \"rooftop seating\" → tag \"Rooftop Terrace\" (places): 1/50 of their favourites vs 3/50 city-wide — verdict too-few — e.g. P24\nI3 \"vinyl records\" → tag \"Vinyl Record Themed\" (places): 0/50 of their favourites vs 0/50 city-wide — verdict untested\nI4 \"pour-over coffee\" → tag \"Pour Over Coffee\" (places): 2/50 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2, P6",
- "generatedAt": "2026-10-06T11:22:42.448Z"
+ "facts": "Business: Cafe in Ho Chi Minh City, Vietnam. Visitor market: people living in Tokyo, Japan.\n\ncafés in Ho Chi Minh City with a measurable Tokyo signal (14 found), ranked by the taste of people in Tokyo; \"city rank\" is the rank among Ho Chi Minh City's top cafés without that signal:\nP1 Maison Marou Flagship Saigon (Khu phố 9) — market rank 1, city rank not in the top list — tags: French, Artisan factory shop, Baking, Pain au chocolat, Specialty non alcoholic, Food photography\nP2 Saigon Coffee Roastery (Vo Thi Sau Ward) — market rank 2, city rank not in the top list — tags: Industrial, Vietnamese iced coffee, Late night food, Historic, Quiet, Vietnamese cafe\nP3 Dalaland Coffee (Thao Dien Ward) — market rank 3, city rank not in the top list — tags: Lively, American, Large group, Happy hour food, Casual socializing, Coffee\nP4 Highlands Coffee (An Loi Dong Ward) — market rank =4, city rank not in the top list — tags: Jogging, Welcoming, Late night food, Happy hour, Happy hour food, Modern\nP5 Lacàph Coffee Bar (Khu phố 5) — market rank =4, city rank not in the top list — tags: Wine, Unique, Cultural exploration, Relaxing, Craft cocktails, Happy hour food\nP6 ABOUT LIFE COFFEE BREWERS HCM (Vo Thi Sau Ward) — market rank =4, city rank 35 — tags: Cafe culture, Coffee and tea, Street level, Flat white, Minimalist, Food photography\nP7 Caztus Ice Blended (Pham Ngu Lao Ward) — market rank =7, city rank 23 — tags: Cozy, Coffee culture, Vintage inspired, Beverage crafting, Casual, Coffee and tea\nP8 ITune Coffee (Ward 13) — market rank =7, city rank not in the top list — tags: Themed, Mindfulness, Classic, Productivity, Zen inspired, Buddhism\nP9 Cheo Leo Cafe (Ward 2) — market rank =7, city rank 40 — tags: Rustic, Vintage, Vietnamese coffee, Slow living, Welcoming, Urban\nP10 Cong Cafe (Khu phố 1) — market rank =7, city rank not in the top list — tags: Corner shop, Cocktails, Full bar, Historic, Social, Casual\n\nAll kinds of places in Ho Chi Minh City favoured by people in Tokyo (hotels, restaurants, attractions), with their city-wide rank:\nP1 Maison Marou Flagship Saigon (chocolate cafe, Khu phố 9) — market rank 1, city rank 49\nP11 Bánh Mì Như Lan (bakery, Khu phố 7) — market rank 2, city rank not in top 50\nP12 Hủ Tiếu Nam Vang Quỳnh (noodle shop, Nguyen Cu Trinh Ward) — market rank 3, city rank not in top 50\nP2 Saigon Coffee Roastery (cafe, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP13 Phở Hòa Pasteur (pho, Vo Thi Sau Ward) — market rank =4, city rank not in top 50\nP14 Cơm Niêu Sài Gòn (vietnamese, Vo Thi Sau Ward) — market rank =6, city rank not in top 50\nP15 Hoi An Sense - Vietnamese Restaurant (vietnamese, Da Kao Ward) — market rank =6, city rank not in top 50\nP16 Charm Bakery Vietnam (bakery, Khu phố 4) — market rank =6, city rank not in top 50\nP17 Hủ Tiếu Mì Cật (noodle shop, Khu phố 6) — market rank =6, city rank not in top 50\nP18 Bánh Xèo 46A (vietnamese, Tan Dinh Ward) — market rank =10, city rank not in top 50\nP19 Vietnam House Restaurant (vietnamese, Khu phố 5) — market rank =10, city rank not in top 50\nP20 Bánh Mì Hồng Hoa (sandwich shop, Ben Thanh Ward) — market rank =10, city rank not in top 50\n\nTags clearly more common among the places people in Tokyo favour in Ho Chi Minh City than among the city's top places:\nT1 \"No frills\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P11, P13, P17, P20\nT2 \"Cozy\" (ambience) — 11/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P2, P16, P21, P22\nT3 \"Simple\" (decor) — 8/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P13, P16, P23\nT4 \"Spirits\" (beverage_offering) — 22/50 of their favourites vs 2/50 city-wide, 11.0× as common — e.g. P2, P13, P14, P15\nT5 \"Street level\" (setting) — 5/50 of their favourites vs 0/50 city-wide, only among their favourites — e.g. P12, P23, P6, P24\nT6 \"Asian\" (cuisine) — 16/50 of their favourites vs 2/50 city-wide, 8.0× as common — e.g. P12, P2, P14, P17\nT7 \"Large group\" (ambience) — 31/50 of their favourites vs 8/50 city-wide, 3.9× as common — e.g. P2, P13, P14, P18\nT8 \"Vietnamese\" (cuisine) — 27/50 of their favourites vs 6/50 city-wide, 4.5× as common — e.g. P12, P13, P14, P15\n\nAudience of the top favourites (Qloo demographics of each place's audience overall, not only Tokyo): skews 25–29, leans male\n\nMusic loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nMusic loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC1 小嶋陽菜 — Tokyo rank 2\nC2 Utada — Tokyo rank 3\nC3 宇多田ヒカル — Tokyo rank 4\nC4 深田恭子 — Tokyo rank 6\nC5 香取慎吾 — Tokyo rank 7\nC6 佐々木希 — Tokyo rank 8\n\nTV loved by people in Tokyo that people in Ho Chi Minh City also love (bridge):\n(none in both top lists)\nTV loved in Tokyo but not in Ho Chi Minh City's top list (distinct):\nC7 Dragon Sakura — Tokyo rank 3\nC8 The Confidence Man JP — Tokyo rank 11\nC9 From Today, It's My Turn — Tokyo rank 19\nC10 Mr. Hiiragi's Homeroom — Tokyo rank 21\nC11 Demon Slayer: Kimetsu no Yaiba — Tokyo rank 22\nC12 Attack on Titan — Tokyo rank 24\n\nOwner ideas, scored against the same lists. Verdicts: over-represented = clearly more common among the market's favourites (a real signal); common = about as common as city-wide (not a differentiator); under-represented = less common among their favourites; absent-from-favourites = offered in the city but by none of their favourites; too-few = under 3 favourites carry it, too few to tell; untested = nothing in either list carries it.\nI1 \"matcha latte\" → tag \"Matcha Latte\" (places): 1/50 of their favourites vs 0/50 city-wide — verdict too-few — e.g. P3\nI2 \"rooftop seating\" → tag \"Rooftop Seating\" (places): 0/50 of their favourites vs 0/50 city-wide — verdict untested\nI3 \"vinyl records\" → tag \"Vinyl and LP Records Decor\" (places): 0/50 of their favourites vs 0/50 city-wide — verdict untested\nI4 \"pour-over coffee\" → tag \"Pour Over Coffee\" (places): 2/50 of their favourites vs 1/50 city-wide — verdict too-few — e.g. P2, P5",
+ "generatedAt": "2026-10-06T12:03:29.744Z"
 }
